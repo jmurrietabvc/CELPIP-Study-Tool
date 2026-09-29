@@ -313,7 +313,7 @@
             
             isReviewMode = false;
             renderExamUI();
-            startTimer();
+            if (!isListening) startTimer();
         }
 
         function renderExamUI() {

@@ -316,7 +316,7 @@ const listeningData = [{"title": "CLB 11-12 Listening Part 5: Listening to a Dis
             
             isReviewMode = false;
             renderExamUI();
-            startTimer();
+            if (!isListening) startTimer();
         }
 
         function renderExamUI() {
