@@ -226,5 +226,62 @@
       }
     ],
     "audioUrl": "audio_3.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 4: Listening to a News Item",
+    "transcript": "Good evening. In our top story tonight, a groundbreaking study published in the Journal of Theoretical Physics has sent shockwaves through the astronomical community. A coalition of astrophysicists from the European Space Agency claims to have detected definitive gravitational anomalies on the periphery of the Kuiper Belt. These microscopic orbital perturbations, measured by the recently deployed Argus Telescope, cannot be accounted for by the gravitational pull of Neptune or any known celestial body in our solar system.\n\nDr. Aris Thorne, the lead researcher on the project, posits that these anomalies are the gravitational footprint of a primordial black hole, roughly the mass of a grapefruit, captured by the sun's orbit billions of years ago. This radical hypothesis directly challenges the prevailing 'Planet Nine' theory, which suggests the anomalies are caused by an undiscovered, Neptune-sized ice giant.\n\nIf Dr. Thorne's hypothesis is corroborated, it would force a paradigm shift in our understanding of planetary formation and the distribution of dark matter within our local cosmic neighborhood. However, skeptics within the scientific community argue that the Argus Telescope's calibration algorithms are notoriously sensitive to solar radiation interference, suggesting the 'anomalies' may be nothing more than instrumental artifacts. The European Space Agency plans to conduct a secondary sweep of the sector using deep-infrared sensors next quarter to verify the findings.",
+    "questions": [
+      {
+        "text": "What is the primary subject of the news report?",
+        "options": [
+          "The discovery of a new ice giant named Planet Nine.",
+          "A malfunction in the Argus Telescope's calibration algorithms.",
+          "The detection of unexplained gravitational anomalies in the solar system.",
+          "The launch of a new European Space Agency telescope."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What does Dr. Thorne believe is causing the orbital perturbations?",
+        "options": [
+          "The gravitational pull of Neptune.",
+          "An undiscovered, Neptune-sized ice giant.",
+          "A primordial black hole roughly the mass of a grapefruit.",
+          "Solar radiation interference."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "How does Dr. Thorne's hypothesis conflict with the prevailing scientific theory?",
+        "options": [
+          "It suggests that Neptune does not exist.",
+          "It attributes the anomalies to a black hole rather than an undiscovered planet.",
+          "It claims that the Argus Telescope is malfunctioning.",
+          "It argues that dark matter is not present in our solar system."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What do skeptics argue might be the actual cause of the detected anomalies?",
+        "options": [
+          "The gravitational pull of an ice giant.",
+          "Instrumental errors caused by solar radiation.",
+          "A flaw in the Journal of Theoretical Physics' peer-review process.",
+          "The presence of a primordial black hole."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What is the European Space Agency's planned next step?",
+        "options": [
+          "To recalibrate the Argus Telescope using solar radiation.",
+          "To publish a retraction in the Journal of Theoretical Physics.",
+          "To launch a mission to the Kuiper Belt to retrieve the black hole.",
+          "To use deep-infrared sensors to verify the data in the coming months."
+        ],
+        "correctAnswerIndex": 3
+      }
+    ],
+    "audioUrl": "audio_4.mp3"
   }
 ]

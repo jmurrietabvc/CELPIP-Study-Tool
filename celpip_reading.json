@@ -354,5 +354,61 @@
         "correctAnswerIndex": 2
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 2: Reading to Apply a Diagram",
+    "passage": "SUBJECT: Diagram Analysis - Project 'Ouroboros'\n\n[DIAGRAM: INFRASTRUCTURE COST-BENEFIT MATRIX]\n| Vendor | Implementation Time | Upfront Capital ($) | 5-Year Maintenance | Encryption Standard |\n|--------|---------------------|---------------------|--------------------|---------------------|\n| Apex   | 14 Months           | 2.4 Million         | 15% / year         | AES-256             |\n| Zenith | 6 Months            | 4.1 Million         | 5% / year          | Quantum-Resistant   |\n| Nexus  | 24 Months           | 1.2 Million         | 25% / year         | AES-128             |\n\nTo the Board of Directors,\n\nAs requested, I have compiled the cost-benefit matrix for the overhaul of our cybersecurity infrastructure, codenamed Project Ouroboros. Given the recent string of state-sponsored cyber intrusions targeting our sector, the urgency of this upgrade cannot be overstated. \n\nWhile the Nexus bid is ostensibly the most appealing from a purely fiscal standpoint regarding upfront capital, their projected implementation timeline is glacially slow. By the time their system is operational, their encryption standards will already be deprecated by emerging industry regulations. \n\nApex presents a moderate compromise, but their exorbitant annual maintenance fees will ultimately eclipse the initial savings within a four-year window. Therefore, despite the substantial initial financial hemorrhage, I strongly advocate for the Zenith proposal. Their rapid deployment capability and forward-looking quantum-resistant architecture provide the only viable safeguard against the sophisticated cryptographic threats we anticipate in the next decade.\n\nRegards,\nMarcus Thorne\nChief Information Security Officer",
+    "questions": [
+      {
+        "text": "According to the matrix, which vendor has the lowest upfront capital cost?",
+        "options": [
+          "Apex",
+          "Zenith",
+          "Nexus",
+          "Ouroboros"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Why does Marcus Thorne reject the Nexus proposal?",
+        "options": [
+          "It lacks an encryption standard entirely.",
+          "The maintenance costs are too low to be reliable.",
+          "The implementation timeline is unacceptably long.",
+          "It requires a 4.1 million dollar upfront investment."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What is the primary flaw of the Apex proposal according to the email?",
+        "options": [
+          "It uses deprecated AES-128 encryption.",
+          "The long-term maintenance costs are prohibitively expensive.",
+          "It will take two years to implement.",
+          "It is vulnerable to state-sponsored cyber intrusions."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Why does Thorne recommend Zenith despite its high initial cost?",
+        "options": [
+          "It has the lowest annual maintenance fee.",
+          "It is the only vendor that uses AES-256 encryption.",
+          "It offers rapid deployment and future-proof encryption.",
+          "It was specifically requested by the Board of Directors."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What is the underlying motivation for Project Ouroboros?",
+        "options": [
+          "To reduce the company's overall IT maintenance budget.",
+          "To transition to a new email server provider.",
+          "To protect the company against imminent, advanced cyber threats.",
+          "To evaluate the financial stability of three different vendors."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
   }
 ]
