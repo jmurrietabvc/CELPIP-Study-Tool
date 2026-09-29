@@ -4,11 +4,15 @@ import asyncio
 import time
 import subprocess
 import random
+import sys
 from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 import edge_tts
 import re
+
+# Force unbuffered output so we can see print statements in the log
+sys.stdout.reconfigure(line_buffering=True)
 
 load_dotenv()
 api_key = os.getenv("GEMINI_API_KEY")
@@ -19,37 +23,38 @@ VOICES = ['en-CA-LiamNeural', 'en-CA-ClaraNeural', 'en-US-ChristopherNeural', 'e
 MODEL_NAME = 'gemini-2.5-flash' 
 TOTAL_TESTS = 63 
 
-# Focused strictly on the user's requested domains, elevated to CLB 12 complexity
+# Everyday Canadian topics that appear in CELPIP
 TOPICS = [
     # Educación
-    "Pedagogical paradigms and neurodevelopment in early childhood education",
-    "The socioeconomic impacts of decentralized digital learning platforms",
-    "Cognitive load theory in modern curriculum design",
+    "Registering a child for public school and discussing curriculum",
+    "Applying for a university scholarship and navigating the admissions portal",
+    "A dispute with a professor about a graded assignment",
     
     # Transporte
-    "Urban logistics and the physics of magnetic levitation (Maglev) transit",
-    "Supply chain bottlenecks in global maritime shipping regulations",
-    "The infrastructure challenges of transitioning to autonomous electric fleets",
+    "Complaining to the city about a new toll bridge",
+    "Discussing the lack of bike lanes in a downtown neighborhood",
+    "A conversation with a mechanic about a surprisingly expensive car repair",
+    "Navigating public transit delays during a snowstorm",
     
-    # Historia
-    "The socio-political collapse of the late Bronze Age civilizations",
-    "Historiography of the Industrial Revolution's impact on agrarian societies",
-    "Economic shifts during the Renaissance and the rise of modern banking",
+    # Historia / Municipal
+    "A debate at a city council meeting about preserving an old historical building",
+    "A local museum's new exhibit on early Canadian settlers",
+    "Discussing the legacy of a former mayor who changed the city's zoning laws",
     
-    # Naturaleza
-    "Symbiotic mycelial networks and resource sharing in old-growth forests",
-    "The cascading ecological effects of apex predator removal in marine biomes",
-    "Epigenetic adaptation of flora in extreme drought conditions",
+    # Naturaleza / Medio Ambiente
+    "A community initiative to clean up a local park and plant trees",
+    "Discussing a new city bylaw about mandatory composting and recycling",
+    "A news report on bears wandering into suburban neighborhoods",
     
-    # Leyes
-    "Jurisdictional ambiguities in international cybercrime and data sovereignty",
-    "The ethical implications of copyrighting artificially generated intellectual property",
-    "Antitrust laws and the regulation of modern digital monopolies",
+    # Leyes / Vida Cívica
+    "A dispute with a landlord over returning a security deposit",
+    "Discussing a new noise bylaw that affects local businesses",
+    "Receiving a parking ticket and trying to appeal it at city hall",
     
-    # Tecnología
-    "Quantum entanglement applications in secure telecommunications",
-    "Algorithmic bias and ethical considerations in predictive policing software",
-    "The integration of brain-computer interfaces in neuro-prosthetics"
+    # Tecnología / Trabajo
+    "A conversation with IT support about a broken office laptop",
+    "Discussing the implementation of a new work-from-home policy",
+    "A news item about a local tech startup bringing jobs to the city"
 ]
 
 def load_data(filename, default):
@@ -118,35 +123,42 @@ def generate_content_with_retry(prompt):
                 config=types.GenerateContentConfig(response_mime_type="application/json")
             )
             time.sleep(6) 
-            return json.loads(response.text)
+            try:
+                # Validate JSON
+                parsed = json.loads(response.text)
+                return parsed
+            except Exception as json_e:
+                print(f"JSON Parsing Error on attempt {attempt+1}: {json_e}")
+                time.sleep(5)
+                continue
         except Exception as e:
-            print(f"Error calling API: {e}")
+            print(f"API Error calling Gemini (attempt {attempt+1}): {e}")
             time.sleep(20)
+    print("FAILED to generate valid content after 3 retries.")
     return None
 
 async def generate_single_reading_test(part_num):
     topic = random.choice(TOPICS)
     print(f"Generating Reading Part {part_num} on {topic}...")
     prompt = f"""
-    You are an expert CELPIP examiner crafting a test that guarantees NO REPETITION and MAXIMUM CLB 12 difficulty.
-    Generate an extreme CLB 12 difficulty Reading Practice Test for Part {part_num}.
-    The core topic MUST be strictly about: {topic}. 
-    Use highly advanced C2-level academic vocabulary, complex syntax, and deeply inferential questions.
+    You are an expert CELPIP examiner. Generate a CLB 12 difficulty Reading Practice Test for Part {part_num}.
+    The topic must be about everyday Canadian life: "{topic}". 
+    Do NOT use extreme sci-fi or overly obscure science topics. Make it highly realistic to the actual CELPIP exam, but use complex vocabulary (CLB 10-12 level) and nuanced inferential questions.
     
-    If Part 1: "Reading Correspondence" (A highly technical or formal email thread).
+    If Part 1: "Reading Correspondence" (An email).
     If Part 2: "Reading to Apply a Diagram" (Include an ASCII table diagram in the passage, and an email discussing it).
-    If Part 3: "Reading for Information" (An encyclopedic, dense text).
-    If Part 4: "Reading for Viewpoints" (An op-ed with two heavily contrasting academic viewpoints).
+    If Part 3: "Reading for Information" (An informative article).
+    If Part 4: "Reading for Viewpoints" (An article with two contrasting opinions).
     
     Output exactly in this JSON format:
     {{
-      "title": "CLB 12 Reading: Part {part_num} - {topic}",
-      "passage": "[The complex text, use \\n for newlines]",
+      "title": "CLB 12 Reading: Part {part_num} - Everyday Topic",
+      "passage": "[The text, use \\n for newlines]",
       "questions": [
         {{ "text": "[Question]", "options": ["[A]", "[B]", "[C]", "[D]"], "correctAnswerIndex": 0 }}
       ]
     }}
-    Include 5 extremely difficult questions.
+    Include 5 difficult questions.
     """
     return generate_content_with_retry(prompt)
 
@@ -154,27 +166,26 @@ async def generate_single_listening_test(part_num, global_index):
     topic = random.choice(TOPICS)
     print(f"Generating Listening Part {part_num} on {topic}...")
     prompt = f"""
-    You are an expert CELPIP examiner crafting a test that guarantees NO REPETITION and MAXIMUM CLB 12 difficulty.
-    Generate an extreme CLB 12 difficulty Listening Practice Test for Part {part_num}.
-    The core topic MUST be strictly about: {topic}.
-    Use highly advanced C2-level spoken vocabulary, nuanced arguments, and distractors.
+    You are an expert CELPIP examiner. Generate a CLB 12 difficulty Listening Practice Test for Part {part_num}.
+    The topic must be about everyday Canadian life: "{topic}".
+    Make it highly realistic to the actual CELPIP exam, but use complex vocabulary (CLB 10-12 level) and nuanced arguments.
     
-    If Part 1: "Listening to Problem Solving" (A high-stakes professional dialogue).
-    If Part 2: "Listening to a Daily Life Conversation" (An extremely dense logistical dialogue).
-    If Part 3: "Listening for Information" (An expert lecture).
-    If Part 4: "Listening to a News Item" (A rapid-fire, complex news broadcast).
-    If Part 5: "Listening to a Discussion" (3 experts arguing about the topic, prefix with names like 'John:', 'Sarah:', 'Mark:').
-    If Part 6: "Listening to Viewpoints" (A deep socio-economic analysis).
+    If Part 1: "Listening to Problem Solving" (A dialogue between two people).
+    If Part 2: "Listening to a Daily Life Conversation" (A dialogue between two people).
+    If Part 3: "Listening for Information" (A presentation or dialogue).
+    If Part 4: "Listening to a News Item" (A single news anchor).
+    If Part 5: "Listening to a Discussion" (3 people arguing, prefix with names like 'John:', 'Sarah:', 'Mark:').
+    If Part 6: "Listening to Viewpoints" (A single speaker).
     
     Output exactly in this JSON format:
     {{
-      "title": "CLB 12 Listening: Part {part_num} - {topic}",
+      "title": "CLB 12 Listening: Part {part_num} - Everyday Topic",
       "transcript": "[If multiple speakers, strictly prefix with 'Name: ', e.g. 'John: Hello.\\nSarah: Hi.']",
       "questions": [
         {{ "text": "[Question]", "options": ["[A]", "[B]", "[C]", "[D]"], "correctAnswerIndex": 0 }}
       ]
     }}
-    Include 5 extremely difficult questions.
+    Include 5 difficult questions.
     """
     test_json = generate_content_with_retry(prompt)
     if test_json and 'transcript' in test_json:
@@ -186,7 +197,7 @@ async def generate_single_listening_test(part_num, global_index):
 async def main():
     rData = load_data('celpip_reading.json', [])
     lData = load_data('celpip_listening.json', [])
-    print(f"Starting Quality Factory for {TOTAL_TESTS} tests on requested topics.")
+    print(f"Starting Realistic Factory for {TOTAL_TESTS} tests on standard CELPIP topics.")
     
     for i in range(TOTAL_TESTS):
         r_part = (len(rData) % 4) + 1
@@ -204,10 +215,10 @@ async def main():
             
         update_js(rData, lData)
         
-        if (i + 1) % 2 == 0:
-            print("Committing batch to GitHub...")
+        if (i + 1) % 1 == 0: # Push every single successful iteration now just to be safe
+            print("Committing to GitHub...")
             subprocess.run(['git', 'add', '.'], check=False)
-            subprocess.run(['git', 'commit', '-m', f'Auto-generate targeted batch {i+1} of {TOTAL_TESTS}'], check=False)
+            subprocess.run(['git', 'commit', '-m', f'Auto-generate realistic batch {i+1} of {TOTAL_TESTS}'], check=False)
             subprocess.run(['git', 'push'], check=False)
             
         print(f"Progress: {i+1} / {TOTAL_TESTS} completed.")

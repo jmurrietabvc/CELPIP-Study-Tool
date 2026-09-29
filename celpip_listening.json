@@ -54,11 +54,11 @@
         "correctAnswerIndex": 2
       }
     ],
-    "audioUrl": "audio_0.mp3"
+    "audioUrl": "audio/audio_0.mp3"
   },
   {
     "title": "CLB 11-12 Listening Part 6: Listening to Viewpoints",
-    "transcript": "Welcome to 'Modern Horizons'. Today we examine the controversial rise of bio-metric tracking in the workplace. Over the last three years, corporate adoption of wearable technology\u2014specifically smartwatches that monitor employees' heart rates, sleep patterns, and stress levels\u2014has skyrocketed. \n\nProponents of this technology, predominantly corporate wellness officers, argue that these devices are revolutionizing occupational health. By tracking physiological data, companies can proactively identify burnout, enforce mandatory break times when stress markers spike, and tailor wellness programs to individual needs. They argue that a healthier workforce translates directly to lower insurance premiums and higher productivity. \n\nHowever, privacy advocates are raising severe ethical alarms. They argue that biological data is inherently intimate and should never be commodified by an employer. Critics point out that while participation is technically 'voluntary', employees who opt out often face subtle discrimination or miss out on financial health incentives. Furthermore, there is a looming fear of 'predictive termination'\u2014the idea that an algorithm might flag an employee's deteriorating health metrics, leading a company to quietly terminate them before they require expensive medical leave. As legislation lags behind technology, the battle over who owns our biological data in the workplace is just beginning.",
+    "transcript": "Welcome to 'Modern Horizons'. Today we examine the controversial rise of bio-metric tracking in the workplace. Over the last three years, corporate adoption of wearable technology—specifically smartwatches that monitor employees' heart rates, sleep patterns, and stress levels—has skyrocketed. \n\nProponents of this technology, predominantly corporate wellness officers, argue that these devices are revolutionizing occupational health. By tracking physiological data, companies can proactively identify burnout, enforce mandatory break times when stress markers spike, and tailor wellness programs to individual needs. They argue that a healthier workforce translates directly to lower insurance premiums and higher productivity. \n\nHowever, privacy advocates are raising severe ethical alarms. They argue that biological data is inherently intimate and should never be commodified by an employer. Critics point out that while participation is technically 'voluntary', employees who opt out often face subtle discrimination or miss out on financial health incentives. Furthermore, there is a looming fear of 'predictive termination'—the idea that an algorithm might flag an employee's deteriorating health metrics, leading a company to quietly terminate them before they require expensive medical leave. As legislation lags behind technology, the battle over who owns our biological data in the workplace is just beginning.",
     "questions": [
       {
         "text": "What is the main subject of the report?",
@@ -111,7 +111,7 @@
         "correctAnswerIndex": 3
       }
     ],
-    "audioUrl": "audio_1.mp3"
+    "audioUrl": "audio/audio_1.mp3"
   },
   {
     "title": "CLB 11-12 Listening Part 5: Listening to a Discussion (Urban Dev)",
@@ -168,7 +168,7 @@
         "correctAnswerIndex": 1
       }
     ],
-    "audioUrl": "audio_2.mp3"
+    "audioUrl": "audio/audio_2.mp3"
   },
   {
     "title": "CLB 12 Listening: Listening to a Discussion (Linguistic Relativity)",
@@ -225,7 +225,7 @@
         "correctAnswerIndex": 2
       }
     ],
-    "audioUrl": "audio_3.mp3"
+    "audioUrl": "audio/audio_3.mp3"
   },
   {
     "title": "CLB 12 Listening: Part 4: Listening to a News Item",
@@ -282,6 +282,6 @@
         "correctAnswerIndex": 3
       }
     ],
-    "audioUrl": "audio_4.mp3"
+    "audioUrl": "audio/audio_4.mp3"
   }
 ]
