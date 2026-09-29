@@ -3,6 +3,7 @@ import json
 import asyncio
 import time
 import subprocess
+import random
 from dotenv import load_dotenv
 from google import genai
 from google.genai import types
@@ -15,11 +16,25 @@ api_key = os.getenv("GEMINI_API_KEY")
 client = genai.Client(api_key=api_key)
 VOICES = ['en-CA-LiamNeural', 'en-CA-ClaraNeural', 'en-US-ChristopherNeural', 'en-US-EricNeural', 'en-US-MichelleNeural', 'en-GB-RyanNeural']
 
-# We will use flash to save tokens and avoid quota limits quickly
+# Using Flash for generous quotas, but enforcing high quality via complex prompts
 MODEL_NAME = 'gemini-2.5-flash' 
+TOTAL_TESTS = 63 # 3 tests/day for 3 weeks
 
-# The user wants 150 tests. We will generate them in batches and push to git periodically.
-TOTAL_TESTS = 150
+TOPICS = [
+    "Quantum Cryptography and Network Security", "The ethics of AI in autonomous weaponry",
+    "Neuroplasticity and cognitive behavioral therapy", "Macro-economic shifts in post-industrial societies",
+    "Gene editing via CRISPR-Cas9 in agricultural yields", "The philosophical implications of determinism vs free will",
+    "Urban planning for climate resilience in coastal cities", "Advanced metallurgy and aerospace engineering",
+    "The socio-economic impacts of universal basic income", "Bacteriophage therapy as an alternative to antibiotics",
+    "Evolutionary biology and the punctuated equilibrium theory", "International maritime law regarding deep-sea mining",
+    "The psychological effects of prolonged isolation in space travel", "Cryptocurrency regulation and decentralized finance",
+    "Linguistic relativity and cognitive perception", "Sustainable architecture and passive cooling systems",
+    "The role of epigenetics in hereditary diseases", "Geopolitics of rare earth element supply chains",
+    "Astrophysics: dark matter distribution in spiral galaxies", "The history and impact of the Byzantine legal code",
+    "Cognitive dissonance in modern political polarization", "Epidemiology of zoonotic disease spillovers",
+    "The physics of high-temperature superconductivity", "Sociological analysis of gig economy labor markets",
+    "Restoration ecology in heavily deforested biomes"
+]
 
 def load_data(filename, default):
     if os.path.exists(filename):
@@ -40,7 +55,6 @@ async def generate_listening_audio(transcript, index):
     segments = []
     speaker_map = {}
     voice_idx = 0
-    
     os.makedirs('audio', exist_ok=True)
     
     for i, line in enumerate(lines):
@@ -70,8 +84,7 @@ async def generate_listening_audio(transcript, index):
                 f.write(f"file '{os.path.basename(seg)}'\n")
                 
         out_file = f"audio/audio_{index}.mp3"
-        if os.path.exists(out_file):
-            os.remove(out_file)
+        if os.path.exists(out_file): os.remove(out_file)
         subprocess.run(['ffmpeg', '-f', 'concat', '-safe', '0', '-i', list_file, '-c', 'copy', out_file], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         
         for seg in segments: os.remove(seg)
@@ -86,63 +99,69 @@ def generate_content_with_retry(prompt):
             response = client.models.generate_content(
                 model=MODEL_NAME,
                 contents=prompt,
-                config=types.GenerateContentConfig(
-                    response_mime_type="application/json",
-                )
+                config=types.GenerateContentConfig(response_mime_type="application/json")
             )
-            time.sleep(5) # Respect 15 RPM free tier
+            time.sleep(6) # Safe delay for RPM limits
             return json.loads(response.text)
         except Exception as e:
-            print(f"Error calling API (attempt {attempt+1}): {e}")
-            time.sleep(15) # Wait longer on error
+            print(f"Error calling API: {e}")
+            time.sleep(20)
     return None
 
 async def generate_single_reading_test(part_num):
-    print(f"Generating Reading Part {part_num}...")
+    topic = random.choice(TOPICS)
+    print(f"Generating Reading Part {part_num} on {topic}...")
     prompt = f"""
-    You are an expert CELPIP examiner. Generate an extreme CLB 12 difficulty Reading Practice Test for Part {part_num}.
-    If Part 1: "Reading Correspondence".
-    If Part 2: "Reading to Apply a Diagram" (use an ASCII table for the diagram).
-    If Part 3: "Reading for Information".
-    If Part 4: "Reading for Viewpoints".
+    You are an expert CELPIP examiner crafting a test that guarantees NO REPETITION and MAXIMUM CLB 12 difficulty.
+    Generate an extreme CLB 12 difficulty Reading Practice Test for Part {part_num}.
+    The core topic MUST be strictly about: {topic}. 
+    Use highly advanced C2-level academic vocabulary, complex syntax, and deeply inferential questions.
+    
+    If Part 1: "Reading Correspondence" (A highly technical or formal email thread).
+    If Part 2: "Reading to Apply a Diagram" (Include an ASCII table diagram in the passage, and an email discussing it).
+    If Part 3: "Reading for Information" (An encyclopedic, dense text).
+    If Part 4: "Reading for Viewpoints" (An op-ed with two heavily contrasting academic viewpoints).
     
     Output exactly in this JSON format:
     {{
-      "title": "CLB 12 Reading: Part {part_num}: [Name of part]",
-      "passage": "[The extremely complex text, use \\n for newlines]",
+      "title": "CLB 12 Reading: Part {part_num} - {topic}",
+      "passage": "[The complex text, use \\n for newlines]",
       "questions": [
         {{ "text": "[Question]", "options": ["[A]", "[B]", "[C]", "[D]"], "correctAnswerIndex": 0 }}
       ]
     }}
-    Make sure to include 5 questions.
+    Include 5 extremely difficult questions.
     """
     return generate_content_with_retry(prompt)
 
 async def generate_single_listening_test(part_num, global_index):
-    print(f"Generating Listening Part {part_num}...")
+    topic = random.choice(TOPICS)
+    print(f"Generating Listening Part {part_num} on {topic}...")
     prompt = f"""
-    You are an expert CELPIP examiner. Generate an extreme CLB 12 difficulty Listening Practice Test for Part {part_num}.
-    If Part 1: "Listening to Problem Solving" (Dialogue).
-    If Part 2: "Listening to a Daily Life Conversation" (Dialogue).
-    If Part 3: "Listening for Information" (Dialogue or single speaker).
-    If Part 4: "Listening to a News Item" (Single speaker).
-    If Part 5: "Listening to a Discussion" (3 speakers).
-    If Part 6: "Listening to Viewpoints" (Single speaker).
+    You are an expert CELPIP examiner crafting a test that guarantees NO REPETITION and MAXIMUM CLB 12 difficulty.
+    Generate an extreme CLB 12 difficulty Listening Practice Test for Part {part_num}.
+    The core topic MUST be strictly about: {topic}.
+    Use highly advanced C2-level spoken vocabulary, nuanced arguments, and distractors.
+    
+    If Part 1: "Listening to Problem Solving" (A high-stakes professional dialogue).
+    If Part 2: "Listening to a Daily Life Conversation" (An extremely dense logistical dialogue).
+    If Part 3: "Listening for Information" (An expert lecture).
+    If Part 4: "Listening to a News Item" (A rapid-fire, complex news broadcast).
+    If Part 5: "Listening to a Discussion" (3 experts arguing about the topic, prefix with names like 'John:', 'Sarah:', 'Mark:').
+    If Part 6: "Listening to Viewpoints" (A deep socio-economic analysis).
     
     Output exactly in this JSON format:
     {{
-      "title": "CLB 12 Listening: Part {part_num}: [Name of part]",
-      "transcript": "[If multiple speakers, prefix with 'Name: ', e.g. 'John: Hello.\\nSarah: Hi.']",
+      "title": "CLB 12 Listening: Part {part_num} - {topic}",
+      "transcript": "[If multiple speakers, strictly prefix with 'Name: ', e.g. 'John: Hello.\\nSarah: Hi.']",
       "questions": [
         {{ "text": "[Question]", "options": ["[A]", "[B]", "[C]", "[D]"], "correctAnswerIndex": 0 }}
       ]
     }}
-    Make sure to include 5 questions.
+    Include 5 extremely difficult questions.
     """
     test_json = generate_content_with_retry(prompt)
     if test_json and 'transcript' in test_json:
-        # Generate the MP3
-        print(f"Generating audio for Listening Part {part_num}...")
         audio_url = await generate_listening_audio(test_json['transcript'], global_index)
         if audio_url:
             test_json['audioUrl'] = audio_url
@@ -151,25 +170,17 @@ async def generate_single_listening_test(part_num, global_index):
 async def main():
     rData = load_data('celpip_reading.json', [])
     lData = load_data('celpip_listening.json', [])
+    print(f"Starting Quality Factory for {TOTAL_TESTS} tests.")
     
-    start_r = len(rData)
-    start_l = len(lData)
-    
-    print(f"Starting factory. Currently have {start_r} Reading and {start_l} Listening tests.")
-    
-    # Generate in small batches and push to git
     for i in range(TOTAL_TESTS):
-        # We will cycle through Reading parts 1-4 and Listening parts 1-6
         r_part = (len(rData) % 4) + 1
         l_part = (len(lData) % 6) + 1
         
-        # 1. Generate one Reading test
         r_test = await generate_single_reading_test(r_part)
         if r_test:
             rData.append(r_test)
             save_data('celpip_reading.json', rData)
             
-        # 2. Generate one Listening test
         l_test = await generate_single_listening_test(l_part, len(lData))
         if l_test:
             lData.append(l_test)
@@ -177,14 +188,13 @@ async def main():
             
         update_js(rData, lData)
         
-        # Commit every 5 tests to save progress on Github
-        if (i + 1) % 5 == 0:
+        if (i + 1) % 3 == 0:
             print("Committing batch to GitHub...")
             subprocess.run(['git', 'add', '.'], check=False)
-            subprocess.run(['git', 'commit', '-m', f'Auto-generate batch {i+1} of 150'], check=False)
+            subprocess.run(['git', 'commit', '-m', f'Auto-generate high-quality batch {i+1} of {TOTAL_TESTS}'], check=False)
             subprocess.run(['git', 'push'], check=False)
             
-        print(f"Progress: {i+1} / 150 completed.")
+        print(f"Progress: {i+1} / {TOTAL_TESTS} completed.")
 
 if __name__ == "__main__":
     asyncio.run(main())
