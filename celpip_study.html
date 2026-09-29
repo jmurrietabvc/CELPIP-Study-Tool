@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CELPIP Practice Simulator</title>
+    <style>
+        :root {
+            --celpip-blue: #003366;
+            --celpip-light-blue: #f0f4f8;
+            --celpip-gray: #e5e5e5;
+            --celpip-dark-gray: #333333;
+            --celpip-button: #005bb5;
+            --celpip-button-hover: #004488;
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: var(--celpip-gray);
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        /* HEADER */
+        header {
+            background-color: var(--celpip-blue);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            z-index: 10;
+        }
+
+        .header-left { display: flex; align-items: center; gap: 15px; }
+        .header-title { font-size: 20px; letter-spacing: 1px; }
+        .timer-container {
+            display: flex;
+            align-items: center;
+            background-color: white;
+            color: var(--celpip-blue);
+            padding: 5px 15px;
+            border-radius: 4px;
+            font-size: 18px;
+            font-weight: bold;
+            border: 2px solid #ccc;
+        }
+
+        /* SUBHEADER */
+        .subheader {
+            background-color: white;
+            padding: 10px 20px;
+            border-bottom: 2px solid #ccc;
+            font-size: 18px;
+            font-weight: bold;
+            color: var(--celpip-dark-gray);
+        }
+
+        /* MAIN CONTENT AREA */
+        main {
+            flex: 1;
+            display: flex;
+            padding: 15px;
+            gap: 15px;
+            overflow: hidden;
+        }
+
+        /* SPLIT PANELS */
+        .panel {
+            background-color: white;
+            border: 1px solid #ccc;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            overflow-y: auto;
+            padding: 20px;
+            flex: 1;
+        }
+        
+        .passage-panel {
+            border-top: 4px solid var(--celpip-blue);
+            font-size: 16px;
+            line-height: 1.6;
+            color: #222;
+            white-space: pre-wrap;
+        }
+
+        .questions-panel {
+            border-top: 4px solid #4caf50; /* distinct color for questions */
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        /* QUESTION STYLES */
+        .question-block {
+            margin-bottom: 20px;
+        }
+        
+        .q-text {
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+
+        .options-container {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .option-label {
+            display: flex;
+            align-items: center;
+            padding: 8px 12px;
+            background: var(--celpip-light-blue);
+            border: 1px solid #cce0ff;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.2s;
+            font-size: 15px;
+        }
+        .option-label:hover { background: #d9e8fa; }
+        .option-label input { margin-right: 12px; transform: scale(1.2); }
+
+        /* AUDIO PLAYER */
+        .audio-container {
+            background: var(--celpip-light-blue);
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            border: 1px solid #cce0ff;
+            margin-bottom: 20px;
+        }
+        
+        .audio-btn {
+            background: var(--celpip-button);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .audio-btn:hover { background: var(--celpip-button-hover); }
+
+        /* FOOTER */
+        footer {
+            background-color: white;
+            padding: 15px 20px;
+            border-top: 2px solid #ccc;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .btn-next {
+            background-color: var(--celpip-button);
+            color: white;
+            border: none;
+            padding: 10px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        .btn-next:hover { background-color: var(--celpip-button-hover); }
+
+        /* OVERLAYS (Home / Score) */
+        .overlay {
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: var(--celpip-gray);
+            z-index: 100;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .overlay-card {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            text-align: center;
+            max-width: 600px;
+        }
+        .overlay-card h2 { color: var(--celpip-blue); margin-top: 0; }
+        .overlay-card select { padding: 10px; font-size: 16px; width: 100%; margin: 20px 0; }
+
+        /* Full page listening layout */
+        .full-panel { flex: none; width: 100%; max-width: 800px; margin: 0 auto; }
+
+        /* Grading colors */
+        .correct-ans { background: #d4edda !important; border-color: #28a745 !important; }
+        .wrong-ans { background: #f8d7da !important; border-color: #dc3545 !important; }
+
+    </style>
+</head>
+<body>
+
+    <!-- START SCREEN -->
+    <div id="start-screen" class="overlay">
+        <div class="overlay-card">
+            <h2>CELPIP-General Practice Test</h2>
+            <p>Select a test below to begin your simulated session.</p>
+            <select id="test-selector">
+                <!-- Populated by JS -->
+            </select>
+            <button class="btn-next" onclick="startTest()">START TEST</button>
+        </div>
+    </div>
+
+    <!-- SCORE SCREEN -->
+    <div id="score-screen" class="overlay" style="display: none;">
+        <div class="overlay-card">
+            <h2>Test Completed</h2>
+            <h1 id="final-score" style="font-size: 48px; color: var(--celpip-blue); margin: 20px 0;">0/0</h1>
+            <p>Review your answers below, or return to the main menu.</p>
+            <div style="display:flex; gap:10px; justify-content:center; margin-top: 20px;">
+                <button class="btn-next" style="background:#6c757d;" onclick="showReview()">Review Answers</button>
+                <button class="btn-next" onclick="returnToMenu()">Main Menu</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN EXAM UI -->
+    <header>
+        <div class="header-left">
+            <div class="header-title">CELPIP-General</div>
+        </div>
+        <div class="timer-container">
+            Time Remaining: <span id="timer-display" style="margin-left: 8px;">10:00</span>
+        </div>
+    </header>
+
+    <div class="subheader" id="exam-title">
+        Reading Part 1: Reading Correspondence
+    </div>
+
+    <main id="exam-content">
+        <!-- Split layout for Reading, Single layout for Listening -->
+        <div id="left-panel" class="panel passage-panel"></div>
+        <div id="right-panel" class="panel questions-panel"></div>
+    </main>
+
+    <footer>
+        <button id="btn-next-action" class="btn-next" onclick="submitTest()">NEXT</button>
+    </footer>
+
+    <!-- Data Injection -->
+    <script src="celpip_data.js"></script>
+
+    <script>
+        let currentTest = null;
+        let isListening = false;
+        let timerInterval = null;
+        let timeLeft = 0;
+        let ttsUtterance = null;
+        let isReviewMode = false;
+
+        // Initialize Menu
+        window.onload = function() {
+            const selector = document.getElementById('test-selector');
+            if (typeof readingData !== 'undefined') {
+                const optGroup = document.createElement('optgroup');
+                optGroup.label = "Reading Tests";
+                readingData.forEach((t, i) => {
+                    const opt = document.createElement('option');
+                    opt.value = `reading_${i}`;
+                    opt.text = t.title || `Reading Test ${i+1}`;
+                    optGroup.appendChild(opt);
+                });
+                selector.appendChild(optGroup);
+            }
+            if (typeof listeningData !== 'undefined') {
+                const optGroup = document.createElement('optgroup');
+                optGroup.label = "Listening Tests";
+                listeningData.forEach((t, i) => {
+                    const opt = document.createElement('option');
+                    opt.value = `listening_${i}`;
+                    opt.text = t.title || `Listening Test ${i+1}`;
+                    optGroup.appendChild(opt);
+                });
+                selector.appendChild(optGroup);
+            }
+        };
+
+        function startTest() {
+            const val = document.getElementById('test-selector').value;
+            const [type, index] = val.split('_');
+            
+            if (type === 'reading') {
+                currentTest = readingData[index];
+                isListening = false;
+                timeLeft = 10 * 60; // 10 mins for reading
+            } else {
+                currentTest = listeningData[index];
+                isListening = true;
+                timeLeft = 5 * 60; // 5 mins for listening questions (usually distinct, but we simplify)
+            }
+
+            document.getElementById('start-screen').style.display = 'none';
+            document.getElementById('score-screen').style.display = 'none';
+            document.getElementById('exam-title').innerText = currentTest.title || "CELPIP Practice";
+            
+            isReviewMode = false;
+            renderExamUI();
+            startTimer();
+        }
+
+        function renderExamUI() {
+            const leftPanel = document.getElementById('left-panel');
+            const rightPanel = document.getElementById('right-panel');
+            
+            leftPanel.innerHTML = '';
+            rightPanel.innerHTML = '';
+            leftPanel.style.display = 'block';
+
+            if (isListening) {
+                // Listening Mode: Full width for questions, Audio on top
+                leftPanel.style.display = 'none'; // hide passage panel
+                rightPanel.classList.add('full-panel');
+                
+                // Add audio simulator or YouTube Player
+                const audioDiv = document.createElement('div');
+                audioDiv.className = 'audio-container';
+                
+                if (currentTest.youtubeId) {
+                    audioDiv.innerHTML = `
+                        <p style="margin-top:0; color:var(--celpip-blue); font-weight:bold;">Listen to the official audio. You will hear the audio only once.</p>
+                        <iframe width="100%" height="250" src="https://www.youtube.com/embed/${currentTest.youtubeId}?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="border-radius: 8px;"></iframe>
+                    `;
+                } else if (currentTest.audioUrl) {
+                    audioDiv.innerHTML = `
+                        <p style="margin-top:0; color:var(--celpip-blue); font-weight:bold;">Listen to the audio. You will hear the audio only once.</p>
+                        <audio controls style="width: 100%; outline: none;" controlsList="nodownload"><source src="${currentTest.audioUrl}" type="audio/mpeg"></audio>
+                    `;
+                } else {
+                    audioDiv.innerHTML = `
+                        <p style="margin-top:0; color:var(--celpip-blue); font-weight:bold;">Listen to the audio. You will hear the audio only once.</p>
+                        <button class="audio-btn" id="tts-btn" onclick="playAudio(this)">▶ PLAY AUDIO</button>
+                    `;
+                }
+                rightPanel.appendChild(audioDiv);
+            } else {
+                // Reading Mode: Split pane
+                rightPanel.classList.remove('full-panel');
+                leftPanel.innerText = currentTest.passage || "";
+            }
+
+            // Render Questions
+            const qContainer = document.createElement('div');
+            (currentTest.questions || []).forEach((q, qIndex) => {
+                const qBlock = document.createElement('div');
+                qBlock.className = 'question-block';
+                qBlock.innerHTML = `<div class="q-text">${qIndex + 1}. ${q.text}</div>`;
+                
+                const optsDiv = document.createElement('div');
+                optsDiv.className = 'options-container';
+                
+                (q.options || []).forEach((opt, oIndex) => {
+                    optsDiv.innerHTML += `
+                        <label class="option-label" id="label-${qIndex}-${oIndex}">
+                            <input type="radio" name="q-${qIndex}" value="${oIndex}">
+                            <span>${opt}</span>
+                        </label>
+                    `;
+                });
+                
+                qBlock.appendChild(optsDiv);
+                qContainer.appendChild(qBlock);
+            });
+            rightPanel.appendChild(qContainer);
+
+            document.getElementById('btn-next-action').innerText = "NEXT";
+            document.getElementById('btn-next-action').onclick = submitTest;
+        }
+
+        function playAudio(btn) {
+            if (ttsUtterance) window.speechSynthesis.cancel();
+            
+            // Clean up the transcript tags like "[Three people: ...]" and speaker names "Lin:" for better speech flow
+            let spokenText = currentTest.transcript || "Audio not available.";
+            spokenText = spokenText.replace(/\[.*?\]/g, ''); // Remove bracketed text
+            spokenText = spokenText.replace(/^[A-Za-z]+:/gm, ''); // Remove speaker labels at start of lines
+
+            ttsUtterance = new SpeechSynthesisUtterance(spokenText);
+            ttsUtterance.lang = 'en-CA';
+            ttsUtterance.rate = 1.15; // Speed it up to sound more natural and less robotic
+            ttsUtterance.pitch = 1.0;
+
+            // Try to find the best available voice in the user's browser (Microsoft Natural voices are excellent)
+            const voices = window.speechSynthesis.getVoices();
+            let bestVoice = voices.find(v => (v.name.includes('Natural') || v.name.includes('Online')) && v.lang.includes('en'));
+            if (!bestVoice) bestVoice = voices.find(v => v.lang === 'en-CA');
+            if (!bestVoice) bestVoice = voices.find(v => v.lang.includes('en-US'));
+            if (bestVoice) ttsUtterance.voice = bestVoice;
+
+            window.speechSynthesis.speak(ttsUtterance);
+            
+            btn.innerText = "🔊 PLAYING...";
+            btn.style.background = "var(--celpip-dark-gray)";
+            btn.disabled = true;
+
+            ttsUtterance.onend = () => {
+                btn.innerText = "AUDIO FINISHED";
+            };
+        }
+
+        function startTimer() {
+            clearInterval(timerInterval);
+            updateTimerDisplay();
+            timerInterval = setInterval(() => {
+                timeLeft--;
+                updateTimerDisplay();
+                if (timeLeft <= 0) {
+                    clearInterval(timerInterval);
+                    submitTest();
+                }
+            }, 1000);
+        }
+
+        function updateTimerDisplay() {
+            const m = Math.floor(timeLeft / 60).toString().padStart(2, '0');
+            const s = (timeLeft % 60).toString().padStart(2, '0');
+            const display = document.getElementById('timer-display');
+            display.innerText = `${m}:${s}`;
+            if (timeLeft < 60) {
+                display.style.color = "red";
+            } else {
+                display.style.color = "var(--celpip-blue)";
+            }
+        }
+
+        function submitTest() {
+            clearInterval(timerInterval);
+            if (ttsUtterance) window.speechSynthesis.cancel();
+
+            let score = 0;
+            const total = currentTest.questions.length;
+
+            (currentTest.questions || []).forEach((q, qIndex) => {
+                const radios = document.getElementsByName(`q-${qIndex}`);
+                let selected = -1;
+                radios.forEach(r => { if (r.checked) selected = parseInt(r.value); });
+                
+                if (selected === q.correctAnswerIndex) {
+                    score++;
+                }
+            });
+
+            document.getElementById('final-score').innerText = `${score} / ${total}`;
+            document.getElementById('score-screen').style.display = 'flex';
+        }
+
+        function showReview() {
+            document.getElementById('score-screen').style.display = 'none';
+            isReviewMode = true;
+            
+            // Re-render answers with colors
+            (currentTest.questions || []).forEach((q, qIndex) => {
+                const radios = document.getElementsByName(`q-${qIndex}`);
+                let selected = -1;
+                radios.forEach(r => {
+                    r.disabled = true; // disable changes
+                    if (r.checked) selected = parseInt(r.value);
+                });
+                
+                // Colorize
+                (q.options || []).forEach((opt, oIndex) => {
+                    const label = document.getElementById(`label-${qIndex}-${oIndex}`);
+                    
+                    if (oIndex === q.correctAnswerIndex && q.correctAnswerIndex !== -1) {
+                        label.classList.add('correct-ans');
+                    } else if (oIndex === selected && selected !== q.correctAnswerIndex) {
+                        label.classList.add('wrong-ans');
+                    }
+                });
+            });
+
+            document.getElementById('btn-next-action').innerText = "END REVIEW";
+            document.getElementById('btn-next-action').onclick = returnToMenu;
+        }
+
+        function returnToMenu() {
+            document.getElementById('start-screen').style.display = 'flex';
+            document.getElementById('score-screen').style.display = 'none';
+        }
+    </script>
+</body>
+</html>

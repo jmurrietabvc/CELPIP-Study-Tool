@@ -1,0 +1,477 @@
+[
+  {
+    "tag": "A",
+    "className": "group/skill mb-1.5 inline-flex w-fit items-center gap-1.5 rounded-full px-2.5 py-1 border border-border bg-white text-text-secondary transition-colors hover:border-gold-300 hover:bg-gray-50 hover:text-gold-700",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "className": "group/skill mb-1.5 inline-flex w-fit items-center gap-1.5 rounded-full px-2.5 py-1 border border-border bg-white text-text-secondary transition-colors hover:border-gold-300 hover:bg-gray-50 hover:text-gold-700",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "className": "group/skill mb-1.5 inline-flex w-fit items-center gap-1.5 rounded-full px-2.5 py-1 border border-border bg-white text-text-secondary transition-colors hover:border-gold-300 hover:bg-gray-50 hover:text-gold-700",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "className": "group/skill mb-1.5 inline-flex w-fit items-center gap-1.5 rounded-full px-2.5 py-1 border border-border bg-white text-text-secondary transition-colors hover:border-gold-300 hover:bg-gray-50 hover:text-gold-700",
+    "text": ""
+  },
+  {
+    "tag": "SPAN",
+    "className": "rounded-full border border-border bg-bg-card px-2 py-0.5 text-[10px] font-bold uppercase tracking-[0.06em] text-text-secondary",
+    "text": ""
+  },
+  {
+    "tag": "P",
+    "className": "mt-0.5 truncate text-[12px] text-text-secondary",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "className": "group/skill mb-1.5 inline-flex w-fit items-center gap-1.5 rounded-full px-2.5 py-1 border border-border bg-white text-text-secondary transition-colors hover:border-gold-300 hover:bg-gray-50 hover:text-gold-700",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "className": "group/skill mb-1.5 inline-flex w-fit items-center gap-1.5 rounded-full px-2.5 py-1 border border-border bg-white text-text-secondary transition-colors hover:border-gold-300 hover:bg-gray-50 hover:text-gold-700",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "className": "group/skill mb-1.5 inline-flex w-fit items-center gap-1.5 rounded-full px-2.5 py-1 border border-border bg-white text-text-secondary transition-colors hover:border-gold-300 hover:bg-gray-50 hover:text-gold-700",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "className": "group/skill mb-1.5 inline-flex w-fit items-center gap-1.5 rounded-full px-2.5 py-1 border border-border bg-white text-text-secondary transition-colors hover:border-gold-300 hover:bg-gray-50 hover:text-gold-700",
+    "text": ""
+  },
+  {
+    "tag": "BUTTON",
+    "className": "inline-flex h-9 items-center rounded-full bg-text-primary px-4 text-[13px] font-bold text-white transition-colors hover:bg-black",
+    "text": "Sign in"
+  },
+  {
+    "tag": "BUTTON",
+    "className": "inline-flex h-9 shrink-0 items-center rounded-full bg-[#F5B400] px-4 text-[13px] font-bold text-[#2a1d00] transition-[filter] duration-75 hover:brightness-[1.04]",
+    "text": "Go Premium"
+  },
+  {
+    "tag": "BUTTON",
+    "className": "inline-flex h-9 shrink-0 items-center rounded-full bg-[#F5B400] px-4 text-[13px] font-bold text-[#2a1d00] transition-[filter] duration-75 hover:brightness-[1.04]",
+    "text": "Go Premium"
+  },
+  {
+    "tag": "BUTTON",
+    "className": "flex h-9 w-9 items-center justify-center rounded-full border border-border bg-white text-text-secondary transition-colors hover:text-text-primary xl:hidden",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "className": "group flex items-center gap-2.5 rounded-xl px-3 py-2.5 text-[13px] font-medium text-text-secondary transition-colors hover:bg-bg-muted hover:text-text-primary",
+    "text": "2\nReading to Apply a Diagram"
+  },
+  {
+    "tag": "A",
+    "className": "group flex items-center gap-2.5 rounded-xl px-3 py-2.5 text-[13px] font-medium text-text-secondary transition-colors hover:bg-bg-muted hover:text-text-primary",
+    "text": "3\nReading for Information"
+  },
+  {
+    "tag": "A",
+    "className": "group flex items-center gap-2.5 rounded-xl px-3 py-2.5 text-[13px] font-medium text-text-secondary transition-colors hover:bg-bg-muted hover:text-text-primary",
+    "text": "4\nReading for Viewpoints"
+  },
+  {
+    "tag": "A",
+    "className": "inline-flex items-center gap-2 text-sm text-text-secondary transition-colors hover:text-text-primary lg:hidden",
+    "text": "Back to all reading parts"
+  },
+  {
+    "tag": "P",
+    "className": "text-base text-text-secondary",
+    "text": "Read a short message and its reply, then answer comprehension questions and complete the reply. Pick a set, work through it in the real exam format, and get an instant auto-score with your estimated level for this part."
+  },
+  {
+    "tag": "P",
+    "className": "text-sm text-text-secondary",
+    "text": "Learn the approach first: try a free correspondence example with answers, or choose a practice set below."
+  },
+  {
+    "tag": "BUTTON",
+    "className": "w-full shrink-0 whitespace-nowrap rounded-lg bg-gold-400 px-4 py-2 text-sm font-semibold text-text-primary transition-opacity hover:opacity-90 sm:w-auto",
+    "text": "Go Premium"
+  },
+  {
+    "tag": "SPAN",
+    "className": "flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-[12px] font-semibold tabular-nums transition-colors bg-gray-100 text-text-secondary group-hover:bg-gray-100 group-hover:text-gold-700",
+    "text": "3"
+  },
+  {
+    "tag": "SPAN",
+    "className": "flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-[12px] font-semibold tabular-nums transition-colors bg-gray-100 text-text-secondary group-hover:bg-gray-100 group-hover:text-gold-700",
+    "text": "4"
+  },
+  {
+    "tag": "SPAN",
+    "className": "flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-[12px] font-semibold tabular-nums transition-colors bg-gray-100 text-text-secondary group-hover:bg-gray-100 group-hover:text-gold-700",
+    "text": "5"
+  },
+  {
+    "tag": "SPAN",
+    "className": "flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-[12px] font-semibold tabular-nums transition-colors bg-gray-100 text-text-secondary group-hover:bg-gray-100 group-hover:text-gold-700",
+    "text": "6"
+  },
+  {
+    "tag": "SPAN",
+    "className": "flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-[12px] font-semibold tabular-nums transition-colors bg-gray-100 text-text-secondary group-hover:bg-gray-100 group-hover:text-gold-700",
+    "text": "7"
+  },
+  {
+    "tag": "SPAN",
+    "className": "flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-[12px] font-semibold tabular-nums transition-colors bg-gray-100 text-text-secondary group-hover:bg-gray-100 group-hover:text-gold-700",
+    "text": "8"
+  },
+  {
+    "tag": "SPAN",
+    "className": "flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-[12px] font-semibold tabular-nums transition-colors bg-gray-100 text-text-secondary group-hover:bg-gray-100 group-hover:text-gold-700",
+    "text": "9"
+  },
+  {
+    "tag": "SPAN",
+    "className": "flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-[12px] font-semibold tabular-nums transition-colors bg-gray-100 text-text-secondary group-hover:bg-gray-100 group-hover:text-gold-700",
+    "text": "10"
+  },
+  {
+    "tag": "SPAN",
+    "className": "flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-[12px] font-semibold tabular-nums transition-colors bg-gray-100 text-text-secondary group-hover:bg-gray-100 group-hover:text-gold-700",
+    "text": "11"
+  },
+  {
+    "tag": "SPAN",
+    "className": "flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-[12px] font-semibold tabular-nums transition-colors bg-gray-100 text-text-secondary group-hover:bg-gray-100 group-hover:text-gold-700",
+    "text": "12"
+  },
+  {
+    "tag": "SPAN",
+    "className": "flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-[12px] font-semibold tabular-nums transition-colors bg-gray-100 text-text-secondary group-hover:bg-gray-100 group-hover:text-gold-700",
+    "text": "13"
+  },
+  {
+    "tag": "SPAN",
+    "className": "flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-[12px] font-semibold tabular-nums transition-colors bg-gray-100 text-text-secondary group-hover:bg-gray-100 group-hover:text-gold-700",
+    "text": "14"
+  },
+  {
+    "tag": "SPAN",
+    "className": "flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-[12px] font-semibold tabular-nums transition-colors bg-gray-100 text-text-secondary group-hover:bg-gray-100 group-hover:text-gold-700",
+    "text": "15"
+  },
+  {
+    "tag": "P",
+    "className": "text-base leading-relaxed text-text-secondary",
+    "text": "Reading Correspondence tests how well you understand a message and its reply. Try this original CELPIP Reading Part 1 practice test as an untimed learning exercise. Read the email and answer six comprehension questions. Then choose words for five blanks in the reply. All 11 answers include explanations. This example is free to read without an account and is separate from our scored practice sets."
+  },
+  {
+    "tag": "H3",
+    "className": "t-h3",
+    "text": "How to approach Reading Part 1"
+  },
+  {
+    "tag": "OL",
+    "className": "list-decimal space-y-3 pl-6 text-text-secondary",
+    "text": "Start with the relationship and purpose. Who is writing, who will reply, and what decision or action does the writer need? A polite opening alone does not tell you the purpose.\nTrack changes carefully. Mark the original arrangement and the new one separately. Words such as instead, still and only often decide which detail answers a question.\nProve each comprehension answer with the message. The correct choice may paraphrase a sentence; an option that repeats a word can still change its meaning.\nFor the reply, use both messages. Read each completed sentence aloud in your head. Check the facts, the grammar and the writer’s tone before choosing."
+  },
+  {
+    "tag": "H3",
+    "className": "t-h3",
+    "text": "Email: a change to the bicycle repair workshop"
+  },
+  {
+    "tag": "P",
+    "className": "leading-relaxed text-text-secondary",
+    "text": "Subject: Saturday workshop — new meeting point"
+  },
+  {
+    "tag": "P",
+    "className": "leading-relaxed text-text-secondary",
+    "text": "Hi Maya,"
+  },
+  {
+    "tag": "P",
+    "className": "leading-relaxed text-text-secondary",
+    "text": "Thanks for offering to help at our bicycle repair workshop this Saturday. I had planned to hold it in the courtyard behind the community centre, but the forecast now shows steady rain. We have booked the centre’s ground-floor activity room instead. The workshop will still run from 10 a.m. to noon. Please arrive at 9:30 so we can lay protective mats under the repair stands before the participants come in."
+  },
+  {
+    "tag": "P",
+    "className": "leading-relaxed text-text-secondary",
+    "text": "We have twelve registrations, one for each bicycle workstation in the room. Registration is now closed, so please do not invite additional participants. Two people have asked whether they can bring children. I told them that each registered participant may bring one child, provided the child stays beside them. This exception does not create places for more bicycles. We are keeping the session small so everyone has time to practise."
+  },
+  {
+    "tag": "P",
+    "className": "leading-relaxed text-text-secondary",
+    "text": "The centre has a set of basic tools we can borrow, so you do not need to bring your own. However, its pump does not fit every tyre valve. Could you bring the small pump you used at our last event? We will cover punctures and brake checks, but we will not work on electric bicycles because neither of us has training in their electrical systems. Please remind anyone who asks that this is a learning session, not a full repair service."
+  },
+  {
+    "tag": "P",
+    "className": "leading-relaxed text-text-secondary",
+    "text": "I have already emailed the participants about the room change. Could you put a sign at the courtyard gate when you arrive? People who miss the email may still head there. Use the side entrance to bring in your bicycle; the main doors will be locked until 10. Let me know by Thursday evening whether you can still help. If the earlier arrival is a problem, I can ask Leo to set up with me."
+  },
+  {
+    "tag": "P",
+    "className": "leading-relaxed text-text-secondary",
+    "text": "Thanks again, Priya"
+  },
+  {
+    "tag": "H3",
+    "className": "t-h3",
+    "text": "Maya’s reply: choose an option for blanks 7–11"
+  },
+  {
+    "tag": "P",
+    "className": "leading-relaxed text-text-secondary",
+    "text": "Hi Priya,"
+  },
+  {
+    "tag": "P",
+    "className": "leading-relaxed text-text-secondary",
+    "text": "Thanks for the update. Moving the workshop indoors sounds [7] given the weather forecast. I can still help, but my bus does not arrive until 9:45. Please ask Leo to [8] before I get there."
+  },
+  {
+    "tag": "P",
+    "className": "leading-relaxed text-text-secondary",
+    "text": "I will bring my pump, but I will leave my basic tools at home because we can [9]. I will use the side entrance and put up the sign to [10]. My neighbour asked whether you could fix her electric bicycle; I will explain that it is [11]."
+  },
+  {
+    "tag": "P",
+    "className": "leading-relaxed text-text-secondary",
+    "text": "See you on Saturday, Maya"
+  },
+  {
+    "tag": "H3",
+    "className": "t-h3",
+    "text": "Questions and answer explanations"
+  },
+  {
+    "tag": "P",
+    "className": "text-sm leading-relaxed text-text-secondary",
+    "text": "Choose an answer before opening its explanation. For blanks, insert the complete option into the message. This learning exercise does not calculate an official CELPIP score."
+  },
+  {
+    "tag": "H4",
+    "className": "font-semibold",
+    "text": "1. Why is Priya writing to Maya?"
+  },
+  {
+    "tag": "OL",
+    "className": "list-[upper-alpha] space-y-2 pl-7 text-text-secondary",
+    "text": "To cancel Saturday’s workshop.\nTo explain changed arrangements and confirm Maya’s help.\nTo ask Maya to lead an electrical repair class.\nTo invite Maya to register as a participant."
+  },
+  {
+    "tag": "P",
+    "className": "mt-3 leading-relaxed text-text-secondary",
+    "text": ""
+  },
+  {
+    "tag": "H4",
+    "className": "font-semibold",
+    "text": "2. Which part of the original plan stays the same?"
+  },
+  {
+    "tag": "OL",
+    "className": "list-[upper-alpha] space-y-2 pl-7 text-text-secondary",
+    "text": "The location in the courtyard.\nThe maximum number of registrations remaining available.\nThe workshop’s 10 a.m. start.\nThe use of the main entrance before setup."
+  },
+  {
+    "tag": "P",
+    "className": "mt-3 leading-relaxed text-text-secondary",
+    "text": ""
+  },
+  {
+    "tag": "H4",
+    "className": "font-semibold",
+    "text": "3. What does Priya allow registered participants to do?"
+  },
+  {
+    "tag": "OL",
+    "className": "list-[upper-alpha] space-y-2 pl-7 text-text-secondary",
+    "text": "Bring one child who stays beside them.\nInvite another adult to repair a bicycle.\nRegister an extra bicycle on arrival.\nLeave children at a separate supervised activity."
+  },
+  {
+    "tag": "P",
+    "className": "mt-3 leading-relaxed text-text-secondary",
+    "text": ""
+  },
+  {
+    "tag": "H4",
+    "className": "font-semibold",
+    "text": "4. Why does Priya ask Maya to bring her pump?"
+  },
+  {
+    "tag": "OL",
+    "className": "list-[upper-alpha] space-y-2 pl-7 text-text-secondary",
+    "text": "The centre has no tools at all.\nMaya is expected to give it to the centre permanently.\nThe pump is needed to repair electrical systems.\nThe centre’s pump is not suitable for every tyre valve."
+  },
+  {
+    "tag": "P",
+    "className": "mt-3 leading-relaxed text-text-secondary",
+    "text": ""
+  },
+  {
+    "tag": "H4",
+    "className": "font-semibold",
+    "text": "5. What is the purpose of the sign at the courtyard gate?"
+  },
+  {
+    "tag": "OL",
+    "className": "list-[upper-alpha] space-y-2 pl-7 text-text-secondary",
+    "text": "To announce that registration has reopened.\nTo direct participants who have not seen the email to the new room.\nTo tell volunteers that the workshop starts at 9:30.\nTo advertise a full bicycle repair service."
+  },
+  {
+    "tag": "P",
+    "className": "mt-3 leading-relaxed text-text-secondary",
+    "text": ""
+  },
+  {
+    "tag": "H4",
+    "className": "font-semibold",
+    "text": "6. What does Priya’s offer to ask Leo show?"
+  },
+  {
+    "tag": "OL",
+    "className": "list-[upper-alpha] space-y-2 pl-7 text-text-secondary",
+    "text": "She no longer wants Maya to attend.\nShe plans to postpone the workshop if Maya is late.\nShe can arrange different setup help if Maya cannot arrive early.\nShe expects Leo to repair electric bicycles."
+  },
+  {
+    "tag": "P",
+    "className": "mt-3 leading-relaxed text-text-secondary",
+    "text": ""
+  },
+  {
+    "tag": "H4",
+    "className": "font-semibold",
+    "text": "7. Choose the best option for blank 7."
+  },
+  {
+    "tag": "OL",
+    "className": "list-[upper-alpha] space-y-2 pl-7 text-text-secondary",
+    "text": "sensible\nunnecessary\nimpossible\ndisappointing because of the sunshine"
+  },
+  {
+    "tag": "P",
+    "className": "mt-3 leading-relaxed text-text-secondary",
+    "text": ""
+  },
+  {
+    "tag": "H4",
+    "className": "font-semibold",
+    "text": "8. Choose the best option for blank 8."
+  },
+  {
+    "tag": "OL",
+    "className": "list-[upper-alpha] space-y-2 pl-7 text-text-secondary",
+    "text": "cancel the registrations\nlock the side entrance\nchange the workshop to 9:45\nhelp with the setup"
+  },
+  {
+    "tag": "P",
+    "className": "mt-3 leading-relaxed text-text-secondary",
+    "text": ""
+  },
+  {
+    "tag": "H4",
+    "className": "font-semibold",
+    "text": "9. Choose the best option for blank 9."
+  },
+  {
+    "tag": "OL",
+    "className": "list-[upper-alpha] space-y-2 pl-7 text-text-secondary",
+    "text": "ask each child to supply them\nborrow the centre’s set\nbuy them from Leo\nrepair bicycles without any"
+  },
+  {
+    "tag": "P",
+    "className": "mt-3 leading-relaxed text-text-secondary",
+    "text": ""
+  },
+  {
+    "tag": "H4",
+    "className": "font-semibold",
+    "text": "10. Choose the best option for blank 10."
+  },
+  {
+    "tag": "OL",
+    "className": "list-[upper-alpha] space-y-2 pl-7 text-text-secondary",
+    "text": "invite more people to join\nkeep all children outside\nhelp people find the new location\ntell everyone to return on Thursday"
+  },
+  {
+    "tag": "P",
+    "className": "mt-3 leading-relaxed text-text-secondary",
+    "text": ""
+  },
+  {
+    "tag": "H4",
+    "className": "font-semibold",
+    "text": "11. Choose the best option for blank 11."
+  },
+  {
+    "tag": "OL",
+    "className": "list-[upper-alpha] space-y-2 pl-7 text-text-secondary",
+    "text": "outside the scope of this workshop\nthe main topic of the session\nwelcome if she arrives before 9:30\nincluded as a full repair service"
+  },
+  {
+    "tag": "P",
+    "className": "mt-3 leading-relaxed text-text-secondary",
+    "text": ""
+  },
+  {
+    "tag": "H3",
+    "className": "t-h3",
+    "text": "Turn your mistakes into a reading strategy"
+  },
+  {
+    "tag": "P",
+    "className": "leading-relaxed text-text-secondary",
+    "text": "Sort mistakes into changed details, permissions, purpose and reply context. For example, volunteers are asked to arrive at 9:30. Maya’s bus arrives at 9:45. The workshop starts at 10 a.m. All three times are real details, but only one answers question 2. For each reply blank, point to the fact in Priya’s email that makes the choice fit. Getting 11 out of 11 here does not establish an official CELPIP level. It shows how you handled this one untimed example."
+  },
+  {
+    "tag": "P",
+    "className": "leading-relaxed text-text-secondary",
+    "text": "Keep a short error log: your choice, the correct choice, the sentence or table cell that proves it, and the trap you missed. Then try a fresh question set to practise the same skill without relying on memory."
+  },
+  {
+    "tag": "H3",
+    "className": "t-h3",
+    "text": "What should you practise next?"
+  },
+  {
+    "tag": "P",
+    "className": "leading-relaxed text-text-secondary",
+    "text": "Use the free CELPIP Reading course for guided lessons, or download the free four-skill prep pack for printable practice. When you are ready to work under a clock, take a full CELPIP Reading practice test."
+  },
+  {
+    "tag": "P",
+    "className": "text-sm leading-relaxed text-text-secondary",
+    "text": "The official CELPIP test-format guide lists eleven questions for Reading Correspondence. These are our original teaching examples, not official test materials. The official guide is the source for current format details."
+  },
+  {
+    "tag": "P",
+    "className": "mt-1 text-[13px] text-text-secondary",
+    "text": "Sit all four parts back to back under one exam clock, or sign in free to save your results and track your estimated level across devices."
+  },
+  {
+    "tag": "BUTTON",
+    "className": "inline-flex items-center justify-center gap-2 font-display font-semibold cursor-pointer border-2 border-transparent box-border transition-[transform,box-shadow,filter] duration-75 active:translate-y-[3px] select-none whitespace-nowrap disabled:opacity-50 disabled:pointer-events-none bg-[#F5B400] text-[#2a1d00] shadow-[0_5px_0_0_#c08c00] hover:brightness-[1.04] active:shadow-[0_2px_0_0_#c08c00] px-5 py-3 text-[15px] rounded-2xl ",
+    "text": "Sign up free"
+  },
+  {
+    "tag": "P",
+    "className": "text-sm text-text-secondary",
+    "text": "Want the full experience? Take a complete CELPIP Reading practice test."
+  },
+  {
+    "tag": "BUTTON",
+    "className": "inline-flex items-center justify-center gap-2 font-display font-semibold cursor-pointer border-2 border-transparent box-border transition-[transform,box-shadow,filter] duration-75 active:translate-y-[3px] select-none whitespace-nowrap disabled:opacity-50 disabled:pointer-events-none bg-[#F5B400] text-[#2a1d00] shadow-[0_5px_0_0_#c08c00] hover:brightness-[1.04] active:shadow-[0_2px_0_0_#c08c00] px-5 py-3 text-[15px] rounded-2xl ",
+    "text": "Sign up free"
+  }
+]

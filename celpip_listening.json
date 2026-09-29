@@ -1,0 +1,230 @@
+[
+  {
+    "title": "CLB 11-12 Listening Part 5: Listening to a Discussion",
+    "transcript": "[Three people are talking: David, Sarah, and Mark. They are discussing a new city policy on urban parking.]\n\nDavid: Did you guys see the city council's new proposal? They want to completely eliminate free street parking in the downtown core starting next year. I think it's going to devastate small businesses.\n\nSarah: Actually, David, I read the full report. The goal isn't to hurt businesses; it's to reduce traffic congestion and encourage public transit use. By charging for parking, they estimate a twenty percent drop in idle cars circling for spots.\n\nMark: I get the environmental angle, Sarah, but David has a point. Not everyone has reliable access to the subway. What about the suburban commuters? If parking costs twenty dollars a day, they're just going to shop at the big box stores in the suburbs instead of coming downtown.\n\nDavid: Exactly, Mark. The local commerce association is already petitioning against it. They suggested a compromise: free parking for the first two hours, and then a steep hourly rate after that. It keeps the turnover high for shoppers but penalizes people who park there all day for work.\n\nSarah: That compromise sounds reasonable in theory, but enforcement is a nightmare. The city would have to hire double the amount of meter attendants just to track who has been there for two hours. The administrative costs would completely wipe out any revenue generated from the fines.\n\nMark: Well, they could use automated license plate scanners on the enforcement vehicles. Several European cities do that successfully. But my main concern is still equity. A flat parking fee disproportionately affects lower-income retail workers who have to drive because the late-night bus routes were cut last year.\n\nSarah: That's a valid concern, Mark. Maybe the revenue from the parking meters could be specifically earmarked to reinstate those late-night bus routes?\n\nDavid: If they guarantee the funds go to transit improvements, I might support it. But historically, this city just absorbs new fees into the general budget.",
+    "questions": [
+      {
+        "text": "What is the primary topic of the discussion?",
+        "options": [
+          "The expansion of suburban big box stores.",
+          "A proposal to eliminate free street parking downtown.",
+          "The lack of late-night public transportation.",
+          "A petition to hire more meter attendants."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Why does Sarah support the city council's initial proposal?",
+        "options": [
+          "She believes it will generate revenue for the general budget.",
+          "She wants to penalize people who park all day for work.",
+          "She thinks it will reduce traffic congestion and idle cars.",
+          "She believes it will force people to move downtown."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What compromise did the local commerce association suggest?",
+        "options": [
+          "Using automated license plate scanners.",
+          "Reinstating late-night bus routes.",
+          "Free parking for the first two hours.",
+          "Providing free transit passes to retail workers."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What is Sarah's main objection to the suggested compromise?",
+        "options": [
+          "It would disproportionately affect lower-income workers.",
+          "The administrative and enforcement costs would be too high.",
+          "It wouldn't reduce the number of cars circling for spots.",
+          "Suburban commuters would still prefer big box stores."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Under what condition would David consider supporting the parking fees?",
+        "options": [
+          "If the fee is capped at twenty dollars a day.",
+          "If automated scanners are used for enforcement.",
+          "If the revenue is specifically used to improve public transit.",
+          "If retail workers are exempt from paying the fees."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "audioUrl": "audio_0.mp3"
+  },
+  {
+    "title": "CLB 11-12 Listening Part 6: Listening to Viewpoints",
+    "transcript": "Welcome to 'Modern Horizons'. Today we examine the controversial rise of bio-metric tracking in the workplace. Over the last three years, corporate adoption of wearable technology\u2014specifically smartwatches that monitor employees' heart rates, sleep patterns, and stress levels\u2014has skyrocketed. \n\nProponents of this technology, predominantly corporate wellness officers, argue that these devices are revolutionizing occupational health. By tracking physiological data, companies can proactively identify burnout, enforce mandatory break times when stress markers spike, and tailor wellness programs to individual needs. They argue that a healthier workforce translates directly to lower insurance premiums and higher productivity. \n\nHowever, privacy advocates are raising severe ethical alarms. They argue that biological data is inherently intimate and should never be commodified by an employer. Critics point out that while participation is technically 'voluntary', employees who opt out often face subtle discrimination or miss out on financial health incentives. Furthermore, there is a looming fear of 'predictive termination'\u2014the idea that an algorithm might flag an employee's deteriorating health metrics, leading a company to quietly terminate them before they require expensive medical leave. As legislation lags behind technology, the battle over who owns our biological data in the workplace is just beginning.",
+    "questions": [
+      {
+        "text": "What is the main subject of the report?",
+        "options": [
+          "The increasing cost of corporate health insurance.",
+          "The legal process for terminating employees on medical leave.",
+          "The ethical debate surrounding bio-metric tracking at work.",
+          "The development of new smartwatch technologies."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "According to corporate wellness officers, how does tracking physiological data benefit employees?",
+        "options": [
+          "It prevents employers from predicting medical leaves.",
+          "It allows companies to proactively identify and prevent burnout.",
+          "It completely eliminates the need for occupational health insurance.",
+          "It ensures that all employees receive the same financial bonuses."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What is the meaning of 'predictive termination' as described in the report?",
+        "options": [
+          "Firing employees who refuse to participate in wellness programs.",
+          "Using algorithms to predict which employees will quit.",
+          "Firing an employee based on health metrics before they become expensive.",
+          "Terminating an insurance policy due to high premiums."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Why do privacy advocates argue that the programs are not truly 'voluntary'?",
+        "options": [
+          "Because the law mandates participation in all corporate wellness programs.",
+          "Because employees who opt out may face subtle discrimination or lose incentives.",
+          "Because the smartwatches cannot be physically removed during work hours.",
+          "Because employers legally own the biological data once the device is worn."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What is implied about the current state of legislation regarding this issue?",
+        "options": [
+          "It is currently stricter than privacy advocates want.",
+          "It is moving faster than the technology itself.",
+          "It has successfully banned the use of wearable tech in offices.",
+          "It has not yet caught up to address these new privacy concerns."
+        ],
+        "correctAnswerIndex": 3
+      }
+    ],
+    "audioUrl": "audio_1.mp3"
+  },
+  {
+    "title": "CLB 11-12 Listening Part 5: Listening to a Discussion (Urban Dev)",
+    "transcript": "[Three people: Mayor Lin, Architect Davis, and Citizen Representative Chen]\n\nLin: Let's discuss the proposed waterfront redevelopment. The developers want to build three luxury high-rises, which would generate millions in property taxes for the city.\n\nChen: Mayor Lin, the community is entirely against this. That waterfront is the last stretch of public green space in the district. If you let them build luxury condos, you're effectively privatizing the view and pushing out the working-class families who have lived here for decades.\n\nDavis: Mr. Chen, I understand the gentrification concerns, but the current green space is severely unmaintained and unsafe at night. Our architectural proposal includes a mandated public boardwalk along the water and a commercial plaza on the ground floors. We aren't closing off the water; we're revitalizing it.\n\nChen: A commercial plaza filled with expensive boutique cafes doesn't serve the local community, Davis. It caters to the wealthy people buying the condos. What the district actually needs is an upgraded community center and a modernized public park.\n\nLin: We don't have the municipal budget to upgrade that park ourselves, Chen. The city is facing a massive deficit. The developers have offered to fully fund the construction of a new community center nearby, but only if we approve the high-rises. It's a trade-off.\n\nChen: It's blackmail. They know the city is broke, so they're buying the zoning rights. If you approve this, you set a precedent that public land is for sale to the highest bidder.\n\nDavis: It's not public land for sale, it's a public-private partnership. The developers take on the financial risk, and the city gets a new community center and increased tax revenue without raising income taxes on the residents.\n\nLin: Exactly. If we reject this proposal, the waterfront remains a derelict safety hazard for the next ten years. I believe the long-term economic benefits outweigh the immediate disruption.",
+    "questions": [
+      {
+        "text": "What is the main conflict of the discussion?",
+        "options": [
+          "Whether to raise municipal income taxes.",
+          "Whether to allow luxury condos on the waterfront.",
+          "How to fund a new public boardwalk.",
+          "Who should design the new community center."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Why does Mayor Lin support the developers' proposal?",
+        "options": [
+          "Because the city doesn't have the money to fix the park itself.",
+          "Because he wants to privatize the entire waterfront.",
+          "Because the local residents voted for it.",
+          "Because it will lower property taxes for working-class families."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "What does the architect, Davis, claim the developers will include for the public?",
+        "options": [
+          "Free apartments for working-class families.",
+          "A mandated public boardwalk and commercial plaza.",
+          "A reduction in city income taxes.",
+          "A completely private, gated community."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does Chen describe the developers' offer to build a community center?",
+        "options": [
+          "As a generous public-private partnership.",
+          "As a necessary compromise for the city.",
+          "As blackmail to buy zoning rights.",
+          "As a solution to the safety hazards."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What does Mayor Lin predict will happen if they reject the proposal?",
+        "options": [
+          "The city will raise income taxes immediately.",
+          "The waterfront will remain unsafe and abandoned.",
+          "The developers will build the community center anyway.",
+          "Working-class families will move out of the district."
+        ],
+        "correctAnswerIndex": 1
+      }
+    ],
+    "audioUrl": "audio_2.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Listening to a Discussion (Linguistic Relativity)",
+    "transcript": "[A high-level academic panel featuring Dr. Chen, Dr. Albers, and Dr. Rossi]\n\nChen: The resurgence of the Sapir-Whorf hypothesis in modern cognitive science is, frankly, troubling. Dr. Albers, your recent paper posits that the syntactical structure of a language dictates the temporal perception of its speakers. While elegant, it borders on linguistic determinism, a concept we abandoned in the 1990s.\n\nAlbers: I wouldn't call it determinism, Dr. Chen, but rather 'cognitive facilitation.' When a language, like Aymara, spatially represents the past as being in front of the speaker and the future behind them, it unequivocally alters how they process chronological data. My fMRI studies show distinct neural pathways activating when Aymara speakers perform timeline tasks, completely divergent from English speakers.\n\nRossi: If I may interject, Dr. Albers' neuro-imaging data is compelling, but the methodology is flawed. Correlation is not causation. Are they processing time differently because of the language syntax, or did the cultural perception of time necessitate the evolution of that specific syntax? It's a classic chicken-and-egg scenario.\n\nAlbers: Dr. Rossi, the causal direction was addressed in my control group study involving bilingual individuals. When prompted in English, their spatial-temporal mapping aligned with standard Western models. When prompted in Aymara, it immediately flipped. The linguistic framing dictated the cognitive response in real-time.\n\nChen: Even if we accept the bilingual shift, that merely proves that language provides a temporary cognitive framework, a 'lens,' if you will. It does not prove that language permanently constrains the fundamental capacity to understand abstract concepts. A monolingual English speaker can comprehend the Aymara concept of time perfectly well once it is explained to them.\n\nRossi: Precisely. The bedrock of human cognition is universal. Language is simply the interface. To suggest that our vocabulary limits our ontological reality is to severely underestimate the neuroplasticity of the human brain.",
+    "questions": [
+      {
+        "text": "What is Dr. Chen's primary criticism of Dr. Albers' recent paper?",
+        "options": [
+          "It uses outdated neuro-imaging technology.",
+          "It promotes an extreme theory of linguistic determinism.",
+          "It ignores the grammar of the Aymara language.",
+          "It focuses too heavily on bilingual individuals."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does the Aymara language conceptualize time, according to Dr. Albers?",
+        "options": [
+          "The past is behind and the future is in front.",
+          "Time is cyclical rather than linear.",
+          "The past is in front and the future is behind.",
+          "Time is conceptualized as moving vertically."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What flaw does Dr. Rossi point out in Dr. Albers' research methodology?",
+        "options": [
+          "The sample size of the control group was too small.",
+          "The study confused cultural evolution with linguistic causation.",
+          "The bilingual subjects were not perfectly fluent in both languages.",
+          "The fMRI data was misinterpreted by the software."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How did Dr. Albers attempt to prove that language dictates the cognitive response?",
+        "options": [
+          "By teaching monolingual speakers a new language in a lab setting.",
+          "By showing that bilingual speakers changed their temporal mapping based on the language of the prompt.",
+          "By proving that English speakers cannot understand Aymara concepts.",
+          "By measuring the neuroplasticity of the participants' brains."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What conclusion do Dr. Chen and Dr. Rossi ultimately agree upon?",
+        "options": [
+          "Language permanently constrains human thought.",
+          "The Sapir-Whorf hypothesis is entirely correct.",
+          "Human cognitive capacity is universal and not strictly limited by language.",
+          "Bilingual individuals have higher neuroplasticity than monolinguals."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "audioUrl": "audio_3.mp3"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "title": "CLB 10-12 Reading Practice (Demo)",
+    "passage": "As global populations increasingly shift towards urban centers, city planners are faced with the monumental task of retrofitting aging infrastructure to handle the influx. A primary concern is the integration of sustainable transit options that minimize carbon footprints while offering equitable access to all socioeconomic groups. In many metropolises, traditional subway systems are being augmented by surface-level light rail and extensive bicycle networks, though these transitions are rarely without friction. Critics argue that dedicated transit lanes exacerbate congestion for private vehicles, while proponents highlight long-term efficiency and public health benefits. Finding a balanced implementation strategy remains the core challenge for modern urban governance.",
+    "questions": [
+      {
+        "text": "What is the primary concern for city planners mentioned in the passage?",
+        "options": [
+          "Designing more private vehicle lanes",
+          "Integrating sustainable transit options",
+          "Reducing the population in urban centers",
+          "Replacing subway systems entirely"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Why do critics argue against dedicated transit lanes?",
+        "options": [
+          "They are too expensive to build.",
+          "They cause an increase in surface-level pollution.",
+          "They exacerbate congestion for private vehicles.",
+          "They do not provide equitable access to all groups."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  }
+]

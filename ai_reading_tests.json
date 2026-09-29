@@ -1,0 +1,104 @@
+[
+  {
+    "title": "CLB 11-12 Reading Part 3: Reading for Information",
+    "passage": "A\nThe recent shift towards decentralized remote work has profoundly altered the urban landscape. Historically, centralized business districts functioned as the economic engines of metropolitan areas, drawing millions of commuters daily. This concentration of human capital fueled a micro-economy of service industries, from local cafes to mass transit systems. However, as organizations transition to permanent distributed models, these downtown cores face unprecedented vacancy rates. Urban planners are now forced to reimagine these spaces, proposing the conversion of commercial high-rises into mixed-use residential zoning to mitigate the financial hemorrhaging of city centers.\n\nB\nIn contrast to the economic challenges faced by downtown areas, suburban and rural communities are experiencing a renaissance. The decoupling of geography from employment has empowered professionals to seek lower living costs and higher quality of life outside metropolitan hubs. This migration has stimulated local economies in previously stagnant regions, driving up property values and incentivizing the development of high-speed broadband infrastructure. Nevertheless, this sudden influx is not without friction; long-term residents often express concern over gentrification, rising property taxes, and the erosion of local cultural identities as remote workers inadvertently drive up the cost of living.\n\nC\nEnvironmental analysts present a nuanced perspective on the ecological impact of this demographic shift. Initially, the drastic reduction in daily commutes led to a celebrated decrease in greenhouse gas emissions and urban air pollution. Yet, subsequent data indicates that these gains may be offset by increased residential energy consumption and the inefficiencies of decentralized logistics. The proliferation of e-commerce deliveries to dispersed populations generates a larger carbon footprint per capita than centralized urban distribution. Consequently, the long-term environmental benefits of remote work remain heavily contested among climate scientists.\n\nD\nFrom a sociological standpoint, the psychological toll of prolonged remote work is becoming increasingly apparent. While employees frequently cite improved work-life balance and autonomy as primary benefits, occupational psychologists report surging rates of professional isolation and burnout. The dissolution of boundaries between domestic and professional spaces often results in extended working hours and an inability to digitally disconnect. Furthermore, the absence of spontaneous, in-person interactions stifles organic collaboration and impedes the informal mentorship networks critical for career advancement among junior staff.",
+    "questions": [
+      {
+        "text": "Which paragraph discusses the negative impact of remote work on local housing markets?",
+        "options": ["A", "B", "C", "D"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which paragraph highlights the potential environmental drawbacks of home deliveries?",
+        "options": ["A", "B", "C", "D"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which paragraph addresses the struggles of integrating new employees without face-to-face contact?",
+        "options": ["A", "B", "C", "D"],
+        "correctAnswerIndex": 3
+      },
+      {
+        "text": "Which paragraph mentions a proposed architectural solution to empty office buildings?",
+        "options": ["A", "B", "C", "D"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "The phrase \"decoupling of geography from employment\" in Paragraph B implies that:",
+        "options": [
+          "Employees are no longer allowed to work in urban centers.",
+          "Location is no longer a strict requirement for holding a job.",
+          "Companies are moving their headquarters to rural areas.",
+          "Professionals prefer to work in the transportation sector."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "According to the passage, the initial environmental benefit of remote work was:",
+        "options": [
+          "A decrease in residential energy consumption.",
+          "An increase in high-speed broadband usage.",
+          "A reduction in commuter-related emissions.",
+          "The optimization of decentralized logistics."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "title": "CLB 11-12 Reading Part 4: Reading for Viewpoints",
+    "passage": "The debate over the implementation of Universal Basic Income (UBI) has gained significant traction in recent years, particularly in response to the growing threat of automation displacing traditional labor markets. Proponents of UBI, such as economist Dr. Aris Thorne, argue that providing a guaranteed, unconditional stipend to all citizens is essential for preventing mass poverty in an AI-driven future. Thorne contends that UBI empowers individuals to pursue education, entrepreneurial ventures, or caregiving without the paralyzing fear of financial ruin. He dismisses concerns about inflation, arguing that the stipend simply redistributes existing wealth rather than creating new money, and suggests that the ensuing economic stability would drastically reduce public spending on healthcare and crime prevention.\n\nConversely, critics like Dr. Evelyn Vance view UBI as a fundamentally flawed concept that threatens macroeconomic stability. Vance asserts that decoupling income from productivity disincentivizes labor participation, potentially leading to critical workforce shortages in essential industries. Furthermore, she argues that funding a national UBI program would require exorbitant tax hikes, suffocating corporate investment and driving businesses to offshore locations. Vance proposes an alternative approach: targeted social safety nets and subsidized retraining programs specifically designed to transition displaced workers into emerging technological sectors, which she claims is a more fiscally responsible method of addressing automation.\n\n[Comment Section]\n\nUser_99: I completely agree with Dr. Thorne. The reality is that AI isn't just taking factory jobs anymore; it's replacing accountants, coders, and writers. We can't retrain everyone when the machines are learning faster than we are. UBI is the only logical safety net.\n\nFiscalRealist: Vance has the right idea. Giving out free money historically leads to hyperinflation. Look at what happened with the stimulus checks during the pandemic. We need to invest in education, not handouts.\n\nFutureThinker: Both miss the point. UBI is necessary, but it shouldn't be a fixed amount. It should fluctuate based on the cost of living and the rate of automation in specific regions. A one-size-fits-all approach will fail.",
+    "questions": [
+      {
+        "text": "Dr. Thorne believes that UBI will reduce government spending on:",
+        "options": [
+          "Education and entrepreneurial ventures.",
+          "Healthcare and crime prevention.",
+          "Corporate investments and offshoring.",
+          "Subsidized retraining programs."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Dr. Vance argues that implementing UBI would result in:",
+        "options": [
+          "A massive increase in technological innovation.",
+          "A reduction in the inflation rate.",
+          "Severe workforce shortages in essential industries.",
+          "The elimination of offshore corporate tax havens."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "How do Dr. Thorne and Dr. Vance differ on the issue of automation?",
+        "options": [
+          "Thorne believes it will cause poverty, while Vance believes it will create more jobs.",
+          "Thorne advocates for unconditional financial support, whereas Vance prefers targeted retraining.",
+          "Thorne thinks AI will replace all jobs, while Vance thinks only manual labor is at risk.",
+          "Thorne suggests taxing AI companies, while Vance suggests funding them."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which commenter explicitly supports Dr. Vance's viewpoint?",
+        "options": [
+          "User_99",
+          "FiscalRealist",
+          "FutureThinker",
+          "None of the above"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "User_99 implies that Dr. Vance's proposed solution is:",
+        "options": [
+          "Too expensive to implement.",
+          "Ineffective because AI is advancing too rapidly.",
+          "The only logical safety net.",
+          "Likely to cause hyperinflation."
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  }
+]

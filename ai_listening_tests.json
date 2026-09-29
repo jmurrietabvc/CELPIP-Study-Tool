@@ -1,0 +1,114 @@
+[
+  {
+    "title": "CLB 11-12 Listening Part 5: Listening to a Discussion",
+    "transcript": "[Three people are talking: David, Sarah, and Mark. They are discussing a new city policy on urban parking.]\n\nDavid: Did you guys see the city council's new proposal? They want to completely eliminate free street parking in the downtown core starting next year. I think it's going to devastate small businesses.\n\nSarah: Actually, David, I read the full report. The goal isn't to hurt businesses; it's to reduce traffic congestion and encourage public transit use. By charging for parking, they estimate a twenty percent drop in idle cars circling for spots.\n\nMark: I get the environmental angle, Sarah, but David has a point. Not everyone has reliable access to the subway. What about the suburban commuters? If parking costs twenty dollars a day, they're just going to shop at the big box stores in the suburbs instead of coming downtown.\n\nDavid: Exactly, Mark. The local commerce association is already petitioning against it. They suggested a compromise: free parking for the first two hours, and then a steep hourly rate after that. It keeps the turnover high for shoppers but penalizes people who park there all day for work.\n\nSarah: That compromise sounds reasonable in theory, but enforcement is a nightmare. The city would have to hire double the amount of meter attendants just to track who has been there for two hours. The administrative costs would completely wipe out any revenue generated from the fines.\n\nMark: Well, they could use automated license plate scanners on the enforcement vehicles. Several European cities do that successfully. But my main concern is still equity. A flat parking fee disproportionately affects lower-income retail workers who have to drive because the late-night bus routes were cut last year.\n\nSarah: That's a valid concern, Mark. Maybe the revenue from the parking meters could be specifically earmarked to reinstate those late-night bus routes?\n\nDavid: If they guarantee the funds go to transit improvements, I might support it. But historically, this city just absorbs new fees into the general budget.",
+    "questions": [
+      {
+        "text": "What is the primary topic of the discussion?",
+        "options": [
+          "The expansion of suburban big box stores.",
+          "A proposal to eliminate free street parking downtown.",
+          "The lack of late-night public transportation.",
+          "A petition to hire more meter attendants."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Why does Sarah support the city council's initial proposal?",
+        "options": [
+          "She believes it will generate revenue for the general budget.",
+          "She wants to penalize people who park all day for work.",
+          "She thinks it will reduce traffic congestion and idle cars.",
+          "She believes it will force people to move downtown."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What compromise did the local commerce association suggest?",
+        "options": [
+          "Using automated license plate scanners.",
+          "Reinstating late-night bus routes.",
+          "Free parking for the first two hours.",
+          "Providing free transit passes to retail workers."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What is Sarah's main objection to the suggested compromise?",
+        "options": [
+          "It would disproportionately affect lower-income workers.",
+          "The administrative and enforcement costs would be too high.",
+          "It wouldn't reduce the number of cars circling for spots.",
+          "Suburban commuters would still prefer big box stores."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Under what condition would David consider supporting the parking fees?",
+        "options": [
+          "If the fee is capped at twenty dollars a day.",
+          "If automated scanners are used for enforcement.",
+          "If the revenue is specifically used to improve public transit.",
+          "If retail workers are exempt from paying the fees."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "title": "CLB 11-12 Listening Part 6: Listening to Viewpoints",
+    "transcript": "Welcome to 'Modern Horizons'. Today we examine the controversial rise of bio-metric tracking in the workplace. Over the last three years, corporate adoption of wearable technology—specifically smartwatches that monitor employees' heart rates, sleep patterns, and stress levels—has skyrocketed. \n\nProponents of this technology, predominantly corporate wellness officers, argue that these devices are revolutionizing occupational health. By tracking physiological data, companies can proactively identify burnout, enforce mandatory break times when stress markers spike, and tailor wellness programs to individual needs. They argue that a healthier workforce translates directly to lower insurance premiums and higher productivity. \n\nHowever, privacy advocates are raising severe ethical alarms. They argue that biological data is inherently intimate and should never be commodified by an employer. Critics point out that while participation is technically 'voluntary', employees who opt out often face subtle discrimination or miss out on financial health incentives. Furthermore, there is a looming fear of 'predictive termination'—the idea that an algorithm might flag an employee's deteriorating health metrics, leading a company to quietly terminate them before they require expensive medical leave. As legislation lags behind technology, the battle over who owns our biological data in the workplace is just beginning.",
+    "questions": [
+      {
+        "text": "What is the main subject of the report?",
+        "options": [
+          "The increasing cost of corporate health insurance.",
+          "The legal process for terminating employees on medical leave.",
+          "The ethical debate surrounding bio-metric tracking at work.",
+          "The development of new smartwatch technologies."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "According to corporate wellness officers, how does tracking physiological data benefit employees?",
+        "options": [
+          "It prevents employers from predicting medical leaves.",
+          "It allows companies to proactively identify and prevent burnout.",
+          "It completely eliminates the need for occupational health insurance.",
+          "It ensures that all employees receive the same financial bonuses."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What is the meaning of 'predictive termination' as described in the report?",
+        "options": [
+          "Firing employees who refuse to participate in wellness programs.",
+          "Using algorithms to predict which employees will quit.",
+          "Firing an employee based on health metrics before they become expensive.",
+          "Terminating an insurance policy due to high premiums."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Why do privacy advocates argue that the programs are not truly 'voluntary'?",
+        "options": [
+          "Because the law mandates participation in all corporate wellness programs.",
+          "Because employees who opt out may face subtle discrimination or lose incentives.",
+          "Because the smartwatches cannot be physically removed during work hours.",
+          "Because employers legally own the biological data once the device is worn."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What is implied about the current state of legislation regarding this issue?",
+        "options": [
+          "It is currently stricter than privacy advocates want.",
+          "It is moving faster than the technology itself.",
+          "It has successfully banned the use of wearable tech in offices.",
+          "It has not yet caught up to address these new privacy concerns."
+        ],
+        "correctAnswerIndex": 3
+      }
+    ]
+  }
+]

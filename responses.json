@@ -1,0 +1,10 @@
+[
+  {
+    "url": "https://clerk.practicecelpip.ca/v1/environment?__clerk_api_version=2026-05-12&_clerk_js_version=6.35.0",
+    "text": "{\"auth_config\":{\"object\":\"auth_config\",\"id\":\"aac_3FZvj48GwaIQTdmbpzMONkpn9Yg\",\"first_name\":\"off\",\"last_name\":\"off\",\"email_address\":\"on\",\"phone_number\":\"off\",\"username\":\"off\",\"password\":\"off\",\"identification_requirements\":[[\"email_address\",\"oauth_apple\",\"oauth_google\",\"oauth_token_apple\"],[]],\"identification_strategies\":[\"email_address\",\"oauth_apple\",\"oauth_google\"],\"first_factors\":[\"email_code\",\"google_one_tap\",\"oauth_apple\",\"oauth_google\",\"oauth_token_apple\",\"ticket\"],\"second_factors\":[],\"email"
+  },
+  {
+    "url": "https://clerk.practicecelpip.ca/v1/client?__clerk_api_version=2026-05-12&_clerk_js_version=6.35.0",
+    "text": "{\"response\":{\"object\":\"client\",\"id\":\"client_3K1112PAqIVVyEsCGsd4tjCkR1W\",\"sessions\":[],\"sign_in\":null,\"sign_up\":null,\"last_active_session_id\":null,\"last_authentication_strategy\":null,\"cookie_expires_at\":1791314841711,\"captcha_bypass\":false,\"created_at\":1790710041711,\"updated_at\":1790710041711},\"client\":null}"
+  }
+]
