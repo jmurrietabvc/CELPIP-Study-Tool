@@ -16,24 +16,40 @@ api_key = os.getenv("GEMINI_API_KEY")
 client = genai.Client(api_key=api_key)
 VOICES = ['en-CA-LiamNeural', 'en-CA-ClaraNeural', 'en-US-ChristopherNeural', 'en-US-EricNeural', 'en-US-MichelleNeural', 'en-GB-RyanNeural']
 
-# Using Flash for generous quotas, but enforcing high quality via complex prompts
 MODEL_NAME = 'gemini-2.5-flash' 
-TOTAL_TESTS = 63 # 3 tests/day for 3 weeks
+TOTAL_TESTS = 63 
 
+# Focused strictly on the user's requested domains, elevated to CLB 12 complexity
 TOPICS = [
-    "Quantum Cryptography and Network Security", "The ethics of AI in autonomous weaponry",
-    "Neuroplasticity and cognitive behavioral therapy", "Macro-economic shifts in post-industrial societies",
-    "Gene editing via CRISPR-Cas9 in agricultural yields", "The philosophical implications of determinism vs free will",
-    "Urban planning for climate resilience in coastal cities", "Advanced metallurgy and aerospace engineering",
-    "The socio-economic impacts of universal basic income", "Bacteriophage therapy as an alternative to antibiotics",
-    "Evolutionary biology and the punctuated equilibrium theory", "International maritime law regarding deep-sea mining",
-    "The psychological effects of prolonged isolation in space travel", "Cryptocurrency regulation and decentralized finance",
-    "Linguistic relativity and cognitive perception", "Sustainable architecture and passive cooling systems",
-    "The role of epigenetics in hereditary diseases", "Geopolitics of rare earth element supply chains",
-    "Astrophysics: dark matter distribution in spiral galaxies", "The history and impact of the Byzantine legal code",
-    "Cognitive dissonance in modern political polarization", "Epidemiology of zoonotic disease spillovers",
-    "The physics of high-temperature superconductivity", "Sociological analysis of gig economy labor markets",
-    "Restoration ecology in heavily deforested biomes"
+    # Educación
+    "Pedagogical paradigms and neurodevelopment in early childhood education",
+    "The socioeconomic impacts of decentralized digital learning platforms",
+    "Cognitive load theory in modern curriculum design",
+    
+    # Transporte
+    "Urban logistics and the physics of magnetic levitation (Maglev) transit",
+    "Supply chain bottlenecks in global maritime shipping regulations",
+    "The infrastructure challenges of transitioning to autonomous electric fleets",
+    
+    # Historia
+    "The socio-political collapse of the late Bronze Age civilizations",
+    "Historiography of the Industrial Revolution's impact on agrarian societies",
+    "Economic shifts during the Renaissance and the rise of modern banking",
+    
+    # Naturaleza
+    "Symbiotic mycelial networks and resource sharing in old-growth forests",
+    "The cascading ecological effects of apex predator removal in marine biomes",
+    "Epigenetic adaptation of flora in extreme drought conditions",
+    
+    # Leyes
+    "Jurisdictional ambiguities in international cybercrime and data sovereignty",
+    "The ethical implications of copyrighting artificially generated intellectual property",
+    "Antitrust laws and the regulation of modern digital monopolies",
+    
+    # Tecnología
+    "Quantum entanglement applications in secure telecommunications",
+    "Algorithmic bias and ethical considerations in predictive policing software",
+    "The integration of brain-computer interfaces in neuro-prosthetics"
 ]
 
 def load_data(filename, default):
@@ -101,7 +117,7 @@ def generate_content_with_retry(prompt):
                 contents=prompt,
                 config=types.GenerateContentConfig(response_mime_type="application/json")
             )
-            time.sleep(6) # Safe delay for RPM limits
+            time.sleep(6) 
             return json.loads(response.text)
         except Exception as e:
             print(f"Error calling API: {e}")
@@ -170,7 +186,7 @@ async def generate_single_listening_test(part_num, global_index):
 async def main():
     rData = load_data('celpip_reading.json', [])
     lData = load_data('celpip_listening.json', [])
-    print(f"Starting Quality Factory for {TOTAL_TESTS} tests.")
+    print(f"Starting Quality Factory for {TOTAL_TESTS} tests on requested topics.")
     
     for i in range(TOTAL_TESTS):
         r_part = (len(rData) % 4) + 1
@@ -188,10 +204,10 @@ async def main():
             
         update_js(rData, lData)
         
-        if (i + 1) % 3 == 0:
+        if (i + 1) % 2 == 0:
             print("Committing batch to GitHub...")
             subprocess.run(['git', 'add', '.'], check=False)
-            subprocess.run(['git', 'commit', '-m', f'Auto-generate high-quality batch {i+1} of {TOTAL_TESTS}'], check=False)
+            subprocess.run(['git', 'commit', '-m', f'Auto-generate targeted batch {i+1} of {TOTAL_TESTS}'], check=False)
             subprocess.run(['git', 'push'], check=False)
             
         print(f"Progress: {i+1} / {TOTAL_TESTS} completed.")
