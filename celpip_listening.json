@@ -1976,5 +1976,62 @@
       }
     ],
     "audioUrl": "audio/audio_33.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 5 - Everyday Topic",
+    "transcript": "Liam: Thank you both for meeting me to discuss the contentious municipal proposal regarding the implementation of arterial bike lanes on King Street. As residents of this downtown precinct, our collective mobilization is imperative. The current infrastructure is manifestly archaic and utterly inimical to active transportation.\n\nChloe: While I concur that our transit paradigm requires recalibration, Liam, we must analyze the logistical externalities. Eradicating vehicular arterial lanes to accommodate cyclists will precipitate catastrophic gridlock, particularly during peak operational hours. Local commerce relies unequivocally on accessible vehicular freight and patron parking; mitigating that will economically eviscerate our storefronts.\n\nNoah: With all due respect, Chloe, your perspective is myopic and predicated on an outdated twentieth-century mobility model. The empirical data from progressive municipalities unequivocally demonstrates that pedestrianized and cyclized corridors engender a vibrant, localized micro-economy. Patrons loiter longer and expend more capital when disencumbered from vehicular tumult. Furthermore, the externalities of particulate pollution are egregious; our air quality is deteriorating exponentially.\n\nLiam: Noah articulates the core imperative precisely. The municipal council's reticence is symptomatic of systemic inertia rather than rigorous urban planning. However, Chloe's apprehension regarding small business viability warrants a nuanced mitigation strategy\u2014perhaps advocating for concurrent loading zone designations on adjacent side streets. We cannot simply dismiss vehicular dependency; we must strategically decommission it.\n\nChloe: That compromise is ostensibly pragmatic, Liam, but execute it practically. The topography of our side streets precludes heavy commercial ingress. If we catalyze a wholesale modal shift prematurely, without robust feeder transit networks, we disenfranchise elderly constituents and logistical couriers alike. We are engineering a utopian abstraction disconnected from municipal reality.\n\nNoah: That is a specious dichotomy, Chloe. A comprehensive urban matrix does not materialize ex nihilo; it necessitates decisive infrastructural disruption. If we perpetually defer sustainable transit initiatives under the guise of temporal inconvenience, we become culpable in the protracted stagnation of our civic landscape. The paradigm must shift.\n\nLiam: Indeed. Then our collective deputation to the city council must synthesize these tensions: demanding expedited infrastructural investment in cycling vectors, coupled with mandatory, subsidised logistical hubs for local commerce to palliate the transition.",
+    "questions": [
+      {
+        "text": "What is Liam's primary stance on the current downtown transportation infrastructure?",
+        "options": [
+          "It is fundamentally obsolete and hostile to active modes of transit.",
+          "It requires minor cosmetic adjustments to optimize vehicular flow.",
+          "It is exceptionally progressive and serves as a model for other Canadian cities.",
+          "It successfully balances the competing needs of cyclists and motorists."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "According to Chloe, what would be the immediate consequence of implementing the proposed bike lanes?",
+        "options": [
+          "A renaissance of independent downtown retail commerce",
+          "Severe traffic congestion and economic detriment to local storefronts",
+          "An immediate reduction in municipal air pollution levels",
+          "A seamless transition from vehicular dependency to active mobility"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does Noah counter Chloe's economic concerns regarding local businesses?",
+        "options": [
+          "By arguing that vehicular parking is entirely unnecessary for modern commerce",
+          "By asserting that pedestrians and cyclists ultimately spend more money in localized economies",
+          "By suggesting that the government should financially compensate struggling retailers",
+          "By dismissing the economic viability of downtown storefronts altogether"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What specific compromise does Liam propose to address Chloe's logistical apprehensions?",
+        "options": [
+          "Abandoning the bike lane project entirely in favor of road expansion",
+          "Banning all commercial delivery vehicles from the downtown core",
+          "Designating concurrent loading zones on adjacent side streets",
+          "Constructing subterranean freight tunnels beneath King Street"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What will be the primary objective of the speakers' upcoming deputation to the city council?",
+        "options": [
+          "To demand an immediate halt to all municipal infrastructure spending",
+          "To present a unified front advocating solely for the eradication of cars",
+          "To synthesize their divergent views by demanding accelerated cycling infrastructure alongside transitional support for commerce",
+          "To petition for the complete pedestrianization of the entire metropolitan area"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "audioUrl": "audio/audio_34.mp3"
   }
 ]
