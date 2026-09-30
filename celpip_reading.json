@@ -2648,5 +2648,61 @@
         "correctAnswerIndex": 2
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 2 - Everyday Topic",
+    "passage": "MEMORANDUM\n\nTO: Municipal Infractions Appeals Tribunal\nFROM: Arthur Pendelton\nDATE: October 24, 2023\nSUBJECT: Notice of Formal Dispute for Citation #98423-B\n\nDear Adjudication Committee,\n\nI am writing to formally contest Parking Infraction Notice #98423-B, issued to my vehicle on October 18 at 08:14 hours while parked in Zone 4B of the municipal lot adjacent to Victoria Park. The citation alleges a violation of Bylaw 72-C, subsection 4 (failure to display a valid parking permit during restricted enforcement hours). I contend that this ticket was issued erroneously, stemming from a systemic failure in the city's digital meter integration and ambiguous signage regarding the morning grace period.\n\nAs detailed in the municipal parking matrix below, Zone 4B underwent a scheduled transition to digital-only enforcement effective October 1. However, the transitional signage posted at the main pedestrian entry point remains contradictory, displaying conflicting timeframes for morning enforcement initiation. Furthermore, I attempted to utilize the municipal parking application (ParkCity v4.2) at 08:05, but the system experienced a localized outage, corroborating the service interruption notice subsequently published on the city's IT status page.\n\nMUNICIPAL PARKING ZONE MATRIX & ENFORCEMENT PROTOCOLS\n+---------+-------------------+--------------------+------------------------+--------------------------+\n| Zone ID | Enforcement Hours | Digital App Code   | Morning Grace Period   | Signage Status           |\n+---------+-------------------+--------------------+------------------------+--------------------------+\n| Zone 1A | 07:00 - 19:00     | MTR-101            | 10 Minutes (07:00-07:10)| Fully Updated            |\n| Zone 2B | 08:00 - 18:00     | MTR-202            | 15 Minutes (08:00-08:15)| Fully Updated            |\n| Zone 3C | 08:30 - 17:30     | MTR-303            | None                   | Pending Replacement      |\n| Zone 4B | 08:00 - 18:00     | MTR-404            | 15 Minutes (08:00-08:15)| Contradictory/Ambiguous  |\n| Zone 5E | 09:00 - 17:00     | MTR-505            | 30 Minutes (09:00-09:30)| Fully Updated            |\n+---------+-------------------+--------------------+------------------------+--------------------------+\n\nGiven that my vehicle was ticketed at 08:14, which falls squarely within the codified 15-minute morning grace period for Zone 4B, and compounded by the acknowledged software outage during my payment attempt, I request the immediate nullification of Citation #98423-B. I have attached screenshots of the application error log and a photograph of the ambiguous signage for your perusal.\n\nSincerely,\nArthur Pendelton",
+    "questions": [
+      {
+        "text": "Based on the memorandum and the accompanying matrix, what is the primary justification Arthur uses to contest Citation #98423-B?",
+        "options": [
+          "The parking meter was physically broken and refused cash payments.",
+          "The citation was issued during the codified morning grace period for his specific zone.",
+          "He possesses a permanent municipal exemption permit for Zone 4B.",
+          "The enforcement officers failed to display their official identification badges."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "According to the matrix, what is the status of the signage in the zone where Arthur's vehicle was ticketed?",
+        "options": [
+          "Fully updated to reflect digital-only rules",
+          "Pending replacement due to recent vandalism",
+          "Contradictory and ambiguous",
+          "Removed entirely by municipal authorities"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "If Arthur had parked in Zone 3C at 08:31 under the same circumstances (attempting to use the app during a system outage), why would his argument regarding the grace period fail?",
+        "options": [
+          "Zone 3C enforces regulations starting at 07:00.",
+          "Zone 3C does not offer a morning grace period.",
+          "Zone 3C requires physical paper permits exclusively.",
+          "The digital app code for Zone 3C is invalid."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What secondary piece of evidence does Arthur provide to corroborate his claim of mitigating circumstances?",
+        "options": [
+          "A sworn affidavit from a nearby pedestrian",
+          "A receipt from a local coffee shop showing his arrival time",
+          "Documentation of a localized service interruption on the city's IT status page",
+          "A previous warning letter issued by the same enforcement officer"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which of the following zones shares the exact same enforcement hours and morning grace period duration as Zone 4B?",
+        "options": [
+          "Zone 1A",
+          "Zone 2B",
+          "Zone 3C",
+          "Zone 5E"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
   }
 ]

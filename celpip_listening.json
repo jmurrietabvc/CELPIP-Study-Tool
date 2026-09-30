@@ -2549,5 +2549,62 @@
       }
     ],
     "audioUrl": "audio/audio_42.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 2 - Everyday Topic",
+    "transcript": "Elena: Marcus, do you have a moment to finalize the logistics for the Riverside Park revitalization initiative this coming Saturday? We\u2019ve encountered a few unforeseen bottlenecks regarding the arborist\u2019s recommendations and municipal permit stipulations.\n\nMarcus: Absolutely, Elena. I was just reviewing the updated municipal guidelines. Specifically, the parks department stipulated that we cannot use heavy machinery near the old oak grove to avoid compacting the root systems. That means all our volunteer labor will have to rely on manual transport for the mulch and saplings.\n\nElena: That\u2019s precisely what I anticipated. While manual transport is undeniably more arduous, we can mitigate fatigue by establishing a relay station halfway from the staging area. My primary concern, however, hinges on volunteer turnout. With the fluctuating weather forecasts predicting intermittent precipitation, attrition rates might spike significantly.\n\nMarcus: True, but we implemented that robust contingency communication protocol last month. If the weather deteriorates, we can pivot instantly to the secondary indoor component\u2014repairing and painting the perimeter benches in the community pavilion\u2014while rescheduling the arboreal phase for the following weekend.\n\nElena: That\u2019s a pragmatic fallback, though it complicates the equipment rental timeline. We\u2019ve already secured the augers and heavy-duty spades for Saturday morning. Returning them and rebooking would incur a supplementary administrative fee from the municipal depot.\n\nMarcus: I spoke with the depot manager yesterday, and given our longstanding partnership with the city\u2019s green infrastructure grants, he agreed to waive any restocking penalties if we provide 48 hours' notice. So, if we make the definitive call by Thursday evening, we won\u2019t absorb any financial penalty.\n\nElena: That is an immense relief. Let's monitor the meteorological models closely until Thursday noon. In the interim, I will notify the section leaders to ensure they emphasize waterproof outerwear in their final briefing emails to the volunteer cohort.",
+    "questions": [
+      {
+        "text": "What is the primary constraint imposed by the municipal parks department regarding the park revitalization?",
+        "options": [
+          "[A] Volunteers are prohibited from planting saplings near the old oak grove.",
+          "[B] Heavy machinery cannot be used near the old oak grove to prevent root compaction.",
+          "[C] All mulching materials must be stored exclusively inside the community pavilion.",
+          "[D] The entire event must be postponed if precipitation is forecasted."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How do Elena and Marcus plan to address the logistical challenge of manual transport?",
+        "options": [
+          "[A] By hiring professional laborers to handle the heavy lifting",
+          "[B] By rescheduling the event for the following weekend",
+          "[C] By establishing a relay station halfway from the staging area",
+          "[D] By utilizing municipal maintenance vehicles for the heavy loads"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What secondary indoor activity is planned if the weather deteriorates significantly?",
+        "options": [
+          "[A] Repairing and painting the perimeter benches in the community pavilion",
+          "[B] Sorting and cataloging donated gardening tools indoors",
+          "[C] Conducting an educational seminar on municipal green infrastructure",
+          "[D] Assembling prefabricated storage sheds for the park equipment"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "What potential financial issue regarding equipment rentals did Elena raise?",
+        "options": [
+          "[A] The rental rates for augers and spades were higher than initially budgeted.",
+          "[B] The municipal depot might close before they can pick up the tools on Friday.",
+          "[C] Returning and rebooking the equipment would incur a supplementary administrative fee.",
+          "[D] The equipment suppliers require a non-refundable deposit upfront."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What condition must be met to avoid any financial penalty from the municipal equipment depot?",
+        "options": [
+          "[A] They must complete the project regardless of weather conditions.",
+          "[B] They must provide 48 hours' notice by Thursday evening.",
+          "[C] They must purchase a municipal green infrastructure permit.",
+          "[D] They must secure double the usual number of volunteers."
+        ],
+        "correctAnswerIndex": 1
+      }
+    ],
+    "audioUrl": "audio/audio_43.mp3"
   }
 ]
