@@ -1520,5 +1520,62 @@
       }
     ],
     "audioUrl": "audio/audio_25.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 3 - Everyday Topic",
+    "transcript": "Good morning, commuters. As we find ourselves in the grip of a relentless meteorological onslaught, with over thirty centimeters of cumulative snowfall paralyzing the Greater Toronto Area, I want to provide a comprehensive briefing on the current systemic failures and contingency protocols across our municipal transit infrastructure. \n\nPresently, the subway lines are experiencing catastrophic cascading delays. The root cause is not merely frozen switch points, as transit authorities would have you believe, but rather a profound structural vulnerability in the third-rail de-icing mechanisms that were ostensibly upgraded last autumn. This technological failure has resulted in train bunching, where multiple units are stranded in subterranean bottlenecks, severely exacerbating overcrowding on platform levels. Furthermore, surface routes\u2014specifically the rapid transit bus corridors\u2014are grappling with impassable arterial roadways. Municipal snowplow deployment has been haphazard at best, impeded by abandoned vehicles and an insufficient fleet capacity to manage the sheer volume of precipitation. \n\nFor those compelled to travel, transferring between modes of transport is a hazardous endeavor. Shuttle buses, designated to bridge the gap where LRT lines are severed, are subject to the same gridlock plaguing vehicular traffic, rendering their arrival times entirely conjectural. Commuters are strongly advised to consult the open-data API trackers rather than the static station displays, which are currently suffering from a telemetry lag of up to forty-five minutes. \n\nIn summation, while the transit commission is ostensibly mobilizing auxiliary personnel to facilitate crowd control and disseminate misinformation\u2014err, I mean, real-time updates\u2014the prudent course of action is to eschew non-essential travel entirely. If your professional obligations are not deemed critical infrastructure, telecommuting remains the only viable strategy to circumvent this infrastructural paralysis.",
+    "questions": [
+      {
+        "text": "According to the speaker, what is the primary underlying cause of the current subway delays?",
+        "options": [
+          "Unprecedented passenger volume overwhelming platform capacity",
+          "A structural failure in the recently upgraded third-rail de-icing systems",
+          "Widespread municipal snowplow negligence on arterial roadways",
+          "Abandoned vehicles obstructing surface-level rapid transit bus corridors"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What does the speaker imply about the deployment of municipal snowplows?",
+        "options": [
+          "It has been systematically organized to prioritize transit corridors.",
+          "It is entirely adequate for the volume of precipitation.",
+          "It has been haphazard and hindered by external obstacles.",
+          "It successfully prevented the gridlock affecting shuttle buses."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Why does the speaker advise against relying on static station displays?",
+        "options": [
+          "They are intentionally misleading to deter commuters.",
+          "They are experiencing a telemetry lag of up to forty-five minutes.",
+          "They are only functional for surface-level bus routes.",
+          "They have been completely deactivated due to power surges."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What does the speaker suggest about the shuttle buses deployed to bridge severed LRT lines?",
+        "options": [
+          "They offer a seamless and reliable alternative to the subway.",
+          "Their arrival times are strictly regulated by open-data APIs.",
+          "They are equally immobilized by the vehicular gridlock.",
+          "They have been canceled indefinitely due to mechanical failures."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What is the speaker's ultimate recommendation for listeners?",
+        "options": [
+          "Venture out only if they use open-data API trackers.",
+          "Utilize auxiliary transit personnel for crowd navigation.",
+          "Avoid non-essential travel and opt for telecommuting if possible.",
+          "Transfer immediately from subway lines to rapid transit buses."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "audioUrl": "audio/audio_26.mp3"
   }
 ]

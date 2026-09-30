@@ -1656,5 +1656,61 @@
         "correctAnswerIndex": 1
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 1 - Everyday Topic",
+    "passage": "Subject: Unmitigated Transit Debacle on the Millennium Line / Commuter Advisory\n\nDear Transit Advocacy Group,\n\nI am writing to formally register a grievance regarding the catastrophic operational paralysis experienced on the Millennium Line during yesterday's unheralded blizzard. As a resident who staunchly champions sustainable urban mobility, I find it profoundly disheartening that the municipal transit authority remains perpetually ill-equipped for routine meteorological eventualities inherent to Canadian winters.\n\nMy ordeal commenced at 7:30 AM at the Burquitlam station. Initially, digital signage reassured commuters that trains were operating on a 'minor weather-induced delay.' However, this euphemistic characterization rapidly devolved into a farce. For upwards of ninety minutes, hundreds of shivering commuters were subjected to an informational vacuum, punctuated only by perfunctory automated announcements that offered no substantive updates regarding the purported pneumatic switch freezing or the stalled articulated buses substituting for the route.\n\nWhen a westbound train finally materialized, it was egregiously overcrowded, rendering boarding a physical impossibility for the majority on the platform. More egregious, however, was the palpable absence of transit personnel to orchestrate crowd control or disseminate logistical contingencies. Passengers were left to prognosticate their own transit futures based on disparate rumors circulating via social media platforms.\n\nTo compound this systemic failure, upon finally securing an alternative bus route hours later, I discovered that the integrated contactless fare gates had malfunctioned system-wide due to moisture accumulation, forcing patrons to pay duplicate fares or risk being summarily ejected into the sub-zero tempest. This predatory imposition during a public emergency is unconscionable.\n\nI implore the transit authority to conduct a rigorous post-mortem of yesterday's debacle, prioritizing infrastructural hardening\u2014specifically heated third-rail technologies and redundant communication channels\u2014over cosmetic station upgrades. Taxpayers and daily commuters deserve a transit grid imbued with operational resilience, not perpetual vulnerability.\n\nSincerely,\n\nJulian Vance",
+    "questions": [
+      {
+        "text": "How does Julian Vance characterize the transit authority's initial description of the delays?",
+        "options": [
+          "[A] An accurate and transparent assessment of a severe meteorological crisis.",
+          "[B] A misleading and understated euphemism that quickly proved absurd.",
+          "[C] A well-intentioned warning that successfully managed commuter expectations.",
+          "[D] A technical malfunction of the digital signage system."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What can be inferred about the communication strategy of the transit authority during the incident?",
+        "options": [
+          "[A] It relied heavily on real-time updates provided by on-site personnel.",
+          "[B] It effectively utilized social media platforms to coordinate crowd control.",
+          "[C] It was characterized by an information vacuum and uninformative automated messages.",
+          "[D] It successfully prepared commuters for the impending pneumatic switch failures."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "According to the email, what secondary issue exacerbated the commuters' financial and physical distress?",
+        "options": [
+          "[A] The sudden cancellation of all westbound bus routes.",
+          "[B] The malfunctioning of contactless fare gates leading to duplicate charges.",
+          "[C] The exorbitant cost of substitute transportation arranged by private companies.",
+          "[D] The refusal of transit drivers to allow freezing passengers onto the buses."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What primary recommendation does Julian Vance advocate for in his concluding remarks?",
+        "options": [
+          "[A] Reallocating funds toward infrastructural hardening rather than aesthetic improvements.",
+          "[B] Replacing the entire fleet of articulated buses with weather-resistant models.",
+          "[C] Dismissing the transit personnel responsible for the crowd control failures.",
+          "[D] Offering full fare refunds to all commuters affected by winter storms."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "Which of the following best describes Julian Vance's overall tone and perspective throughout the correspondence?",
+        "options": [
+          "[A] Indifferent and resigned to the inevitable flaws of public infrastructure.",
+          "[B] Sympathetic and understanding of the unprecedented challenges faced by transit workers.",
+          "[C] Optimistic and praising of the municipal government's long-term environmental goals.",
+          "[D] Indignant and demanding accountability for systemic operational failures."
+        ],
+        "correctAnswerIndex": 3
+      }
+    ]
   }
 ]
