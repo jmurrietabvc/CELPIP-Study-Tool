@@ -2984,5 +2984,61 @@
         "correctAnswerIndex": 1
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 4 - Everyday Topic",
+    "passage": "Debate: The Retention and Return of Residential Security Deposits in Ontario\n\n[Perspective A: Arthur Pendelton, Property Management Executive]\nThe Residential Tenancies Act (RTA) in Ontario has long been a subject of contention regarding the regulation of last month's rent deposits and key deposits. While tenant advocacy groups frequently decry the strictures placed on landlords, a pragmatic examination reveals that current statutory frameworks insufficiently safeguard property owners against exorbitant remediation costs. Landlords are routinely hamstrung by the rigid timelines stipulated for the return of deposits, often before the full scope of infrastructural degradation or clandestine property damage can be ascertained by certified contractors. When a tenant vacates a premise, what may appear to be superficial wear upon a cursory inspection frequently masks deeper, insidious issues\u2014ranging from compromised subflooring due to unmitigated moisture to HVAC system strain resulting from unauthorized modifications. To assert that landlords act in bad faith when withholding portions of a deposit is a reductive mischaracterization of fiduciary prudence. Property owners are not arbiters of punitive measures; rather, they are custodians of capital assets operating within an increasingly volatile economic milieu. Allowing for an extended, discretionary assessment window\u2014commensurate with the complex logistics of modern property management\u2014would mitigate adversarial litigation at the Landlord and Tenant Board (LTB) and foster a more equitable balance of accountability.\n\n[Perspective B: Dr. Elena Vance, Housing Rights Legal Clinic Director]\nThe persistent encroachment upon tenant financial security via the arbitrary retention of deposits constitutes an egregious subversion of residential tenancy protections. Pendelton\u2019s lamentations regarding property wear obfuscate the fundamental power asymmetry inherent in the landlord-tenant dynamic. The statutory framework explicitly dictates that security deposits\u2014where legally applicable\u2014or rent deposits cannot be unilaterally converted into slush funds for routine unit refurbishment. Landlords frequently conflate normal depreciation with actionable tenant liability, leveraging the bureaucratic labyrinth of the LTB to exhaust the resolve and financial resources of departing occupants. To advocate for extended retention periods is to endorse systemic liquidity deprivation for individuals who require those precise funds to secure subsequent housing. The burden of proof must remain unequivocally on the lessor to substantiate any deductions with contemporaneous, verifiable invoices from licensed professionals, rather than speculative estimates or inflated self-performed repairs. Rather than extending discretionary windows which inevitably invite administrative overreach, the regulatory apparatus should institute automatic, punitive financial penalties for landlords who fail to disburse undisputed funds within the statutory timeframe. Justice in housing is inextricably linked to the prompt restitution of a tenant's capital.",
+    "questions": [
+      {
+        "text": "What is Arthur Pendelton's primary contention regarding the current statutory timelines for returning deposits?",
+        "options": [
+          "[A] They are intentionally prolonged to discourage tenants from pursuing legal recourse at the LTB.",
+          "[B] They preclude property owners from accurately assessing hidden or complex structural damages before disbursement.",
+          "[C] They unfairly penalize landlords who choose to perform their own unit refurbishments.",
+          "[D] They create an unnecessary financial burden by forcing landlords to hire certified contractors prematurely."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "According to Dr. Elena Vance, how do landlords frequently exploit the administrative process regarding tenant deposits?",
+        "options": [
+          "[A] By collaborating with the Landlord and Tenant Board to bypass statutory deposit caps.",
+          "[B] By weaponizing the complexity of the LTB to wear down the financial and psychological resilience of former tenants.",
+          "[C] By utilizing speculative estimates from unlicensed contractors to justify inflated repair costs.",
+          "[D] By converting rent deposits into general maintenance funds for unoccupied units."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which of the following best characterizes the contrasting economic philosophies of the two authors regarding property custodianship?",
+        "options": [
+          "[A] Pendelton views landlords as prudent custodians of capital assets requiring risk mitigation, whereas Vance views them as power-holders inflicting liquidity deprivation.",
+          "[B] Pendelton advocates for strict deregulation of the rental market, while Vance champions absolute state control over property valuations.",
+          "[C] Pendelton prioritizes immediate tenant relocation support, whereas Vance focuses exclusively on long-term structural depreciation.",
+          "[D] Pendelton regards housing as a fluid commercial enterprise, while Vance defines it strictly as a non-profit social service."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "In the context of Perspective A, what does the phrase 'fiduciary prudence' imply about the actions of landlords?",
+        "options": [
+          "[A] They are obligated to maximize short-term rental yields above all other considerations.",
+          "[B] They act with necessary financial caution and responsibility to protect their investments.",
+          "[C] They are legally mandated to act as unbiased mediators between tenants and contractors.",
+          "[D] They exercise excessive caution that ultimately borders on predatory financial withholding."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How do the authors fundamentally disagree on where the evidentiary burden should lie during a dispute over property degradation?",
+        "options": [
+          "[A] Pendelton believes the burden should shift to the tenant to prove normal wear and tear, while Vance argues landlords need no proof for routine refurbishments.",
+          "[B] Pendelton argues for an extended discretionary window for assessment without immediate invoices, whereas Vance insists on contemporaneous, verifiable invoices from the lessor.",
+          "[C] Pendelton asserts that the LTB should shoulder the investigative burden, while Vance contends that third-party arbitrators must decide.",
+          "[D] Pendelton maintains that landlords should rely on automatic penalty structures, while Vance calls for self-performed repair logs."
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
   }
 ]

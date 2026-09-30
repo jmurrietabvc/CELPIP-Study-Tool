@@ -2891,5 +2891,62 @@
       }
     ],
     "audioUrl": "audio/audio_48.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 2 - Everyday Topic",
+    "transcript": "Arthur: Emily, have you had a chance to digest the city council's commemorative report on former Mayor Harrison? They seem exceedingly eager to canonize him for his overhaul of the municipal zoning bylaws back in 2008.\n\nEmily: Canonize might be a slight exaggeration, Arthur, but you cannot realistically dispute the paradigm shift he engineered. Before his tenure, urban sprawl was unchecked, and our downtown core was economically asphyxiating. His density-driven intensification strategy fundamentally revitalized our urban topography.\n\nArthur: Revitalized or destabilized? Let us not gloss over the gentrification vortex he unleashed. By unilaterally upzoning traditional residential neighborhoods to accommodate high-density mixed-use complexes, he precipitated an unprecedented escalation in property valuations. Long-standing communities were fractured, and legacy businesses were systematically priced out under the weight of surging commercial rents.\n\nEmily: That is a remarkably myopic interpretation, Arthur. Cities are dynamic ecosystems; stagnation is the prelude to obsolescence. Harrison recognized that preserving antiquated zoning paradigms was a luxury we could ill afford if we wanted to cultivate a sustainable, transit-oriented metropolis. The intensification directives catalyzed our current multi-modal transportation network and curbed the ecological degradation associated with endless peripheral expansion.\n\nArthur: Sustainable? That is rich, considering the infrastructural deficit he bequeathed to his successors. The sheer velocity of development outpaced our municipal capacity. We are currently grappling with chronic traffic congestion, overburdened stormwater management systems, and a profound dearth of genuinely affordable housing, despite his so-called inclusionary zoning mandates.\n\nEmily: Those infrastructural strains are the growing pains of a burgeoning cosmopolitan hub, not an indictment of forward-thinking urban planning. Harrison possessed the political fortitude to enact contentious, long-term structural reforms while lesser politicians pandered to NIMBYist sensibilities. One must evaluate his legacy through the lens of generational foresight, not transient administrative grievances.\n\nArthur: Foresight is a convenient euphemism for ideological obstinacy. If his policies alienated the working class and exacerbated socioeconomic stratification, then his legacy is fundamentally pyrrhic. A city cannot pride itself on architectural vibrancy when its foundational demographic is economically exiled to the outer rings.",
+    "questions": [
+      {
+        "text": "What is Arthur's primary critique of former Mayor Harrison's zoning reforms?",
+        "options": [
+          "[A] They failed to attract new commercial enterprises to the downtown core.",
+          "[B] They triggered severe gentrification, property price surges, and community displacement.",
+          "[C] They were excessively cautious and maintained outdated suburban boundaries.",
+          "[D] They prioritized rural expansion over urban development."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does Emily characterize the pre-Harrison urban planning state of the city?",
+        "options": [
+          "[A] A period of sustainable and eco-friendly growth",
+          "[B] A flourishing era of affordable housing and strong community ties",
+          "[C] An era of unchecked urban sprawl and economic asphyxiation in the core",
+          "[D] A time of optimal balance between residential and commercial zones"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "According to Emily, what was the primary justification for Harrison's density-driven intensification strategy?",
+        "options": [
+          "[A] To appease developers looking for lucrative high-rise projects",
+          "[B] To prevent obsolescence and foster a transit-oriented metropolis",
+          "[C] To reduce the municipal tax burden on wealthy landowners",
+          "[D] To eliminate all single-family detached housing within the region"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What does Arthur argue is the consequence of the rapid development spurred by Harrison's policies?",
+        "options": [
+          "[A] A severe infrastructural deficit, including traffic congestion and stormwater strain",
+          "[B] An overabundance of vacant commercial properties and declining land values",
+          "[C] The immediate resolution of all municipal transit challenges",
+          "[D] A harmonious balance between population growth and civic services"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "Which statement best captures the underlying philosophical disagreement between Arthur and Emily?",
+        "options": [
+          "[A] Arthur values short-term economic gains, whereas Emily focuses on long-term ecological preservation.",
+          "[B] Arthur prioritizes socioeconomic equity and stability, whereas Emily champions progressive, long-range urban transformation despite immediate friction.",
+          "[C] Arthur believes mayors should have absolute power, whereas Emily advocates for decentralized municipal governance.",
+          "[D] Arthur thinks the city should remain rural, whereas Emily wants it to become an industrial manufacturing center."
+        ],
+        "correctAnswerIndex": 1
+      }
+    ],
+    "audioUrl": "audio/audio_49.mp3"
   }
 ]
