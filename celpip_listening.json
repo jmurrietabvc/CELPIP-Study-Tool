@@ -1748,5 +1748,62 @@
       }
     ],
     "audioUrl": "audio/audio_29.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 1 - Everyday Topic",
+    "transcript": "Elena: Marcus, do you have a moment? I\u2019m scrutinizing the municipality's newly promulgated acoustic bylaws, and I\u2019m genuinely apprehensive about how draconian the decibel thresholds are for commercial zones, particularly for our patio service.\nMarcus: Oh, you\u2019re referring to Bylaw 402-B? I read the preliminary abstract yesterday. Admittedly, the municipal council has been inundated with residential grievances regarding nocturnal ambient noise, so some legislative recalibration was inevitable.\nElena: I appreciate the necessity of civic placating, but capping ambient patio noise at 55 decibels after 9 PM is utterly untenable for a bistro operating in a vibrant cultural district. It essentially mandates pre-emptive containment that will stifle our patronage and eviscerate our revenue streams.\nMarcus: That\u2019s a rather catastrophic extrapolation, Elena, though I concede the threshold is exceptionally stringent. Have you perused the variance application protocols? The municipality has instituted a provisional acoustic exemption clause for establishments willing to install directional baffling.\nElena: Directional baffling? Marcus, the capital expenditure required to retrofit our historical facade with architectural acoustic dampening is prohibitive, especially post-pandemic. Furthermore, it fundamentally alters the ambience we\u2019ve cultivated for a decade. It feels like an egregious regulatory overreach.\nMarcus: Well, the crux of the contention lies in the enforcement mechanism. The bylaws stipulate instantaneous infractions upon receipt of a third-party complaint, circumventing the traditional grace period for mediation. That's the real procedural vulnerability we need to contest.\nElena: Precisely. The lack of due process in their infraction protocol is legally precarious. I propose we coalesce with the Downtown Business Association immediately to mount a concerted opposition before the council ratifies the permanent enforcement guidelines next Tuesday.\nMarcus: Count me in. I\u2019ll draft an exhaustive memorandum highlighting the disproportionate economic repercussions on independent purveyors, and you can spearhead the legal argument regarding the ambiguous decibel-monitoring methodologies.",
+    "questions": [
+      {
+        "text": "What is Elena's primary concern regarding the newly promulgated acoustic bylaws?",
+        "options": [
+          "[A] The municipal council failed to consult local residents before drafting the legislation.",
+          "[B] The decibel limits for commercial patios are impractically strict and threaten business viability.",
+          "[C] The provisional acoustic exemption clauses are entirely unavailable to historical establishments.",
+          "[D] The Downtown Business Association has refused to support their campaign against the council."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does Marcus initially characterize the municipality's motivations for introducing Bylaw 402-B?",
+        "options": [
+          "[A] As an inevitable legislative response to persistent residential complaints about ambient noise",
+          "[B] As a deliberate attempt to redirect commercial revenue toward suburban developments",
+          "[C] As a revenue-generating strategy through aggressive infraction enforcement",
+          "[D] As an urgent environmental initiative to curb urban wildlife disruption"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "What objection does Elena raise regarding the proposed provisional acoustic exemption clause?",
+        "options": [
+          "[A] It requires municipal permits that take over a year to process.",
+          "[B] It mandates the complete cessation of outdoor patio service after 9 PM.",
+          "[C] It entails prohibitive capital expenditures and compromises the establishment's ambience.",
+          "[D] It is exclusively applicable to newly constructed establishments, excluding theirs."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "According to Marcus, what constitutes the most legally vulnerable aspect of the new legislation?",
+        "options": [
+          "[A] The arbitrary measurement of decibels using uncalibrated equipment",
+          "[B] The immediate issuance of infractions upon complaint without a mediation grace period",
+          "[C] The discriminatory application of the rules between historical and modern buildings",
+          "[D] The absence of any provision for administrative appeals"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What actionable strategy do Elena and Marcus agree upon by the end of their conversation?",
+        "options": [
+          "[A] To permanently close the patio and transition exclusively to indoor dining",
+          "[B] To file a formal lawsuit against individual council members for economic damages",
+          "[C] To collaborate with the Downtown Business Association to challenge the enforcement guidelines",
+          "[D] To independently install acoustic baffling while lobbying for a tax credit"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "audioUrl": "audio/audio_30.mp3"
   }
 ]

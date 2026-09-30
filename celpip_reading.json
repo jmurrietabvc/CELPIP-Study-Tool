@@ -1880,5 +1880,61 @@
         "correctAnswerIndex": 1
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 1 - Everyday Topic",
+    "passage": "From: Arthur Pendelton <a.pendelton@metroexec.net>\nTo: Municipal Parking Infractions Bureau <disputes@ottawa-infractions.gov>\nDate: October 24, 2023\nSubject: Formal Dispute regarding Parking Infraction Notice #984321 - License Plate: BYZX-882\n\nTo Whom It May Concern,\n\nI am writing to formally contest Parking Infraction Notice #984321, issued on October 21, 2023, at approximately 14:15 on Wellington Street. The ticket cites infraction code 44B: 'Parking within three meters of a fire hydrant.' While I acknowledge the physical proximity of my vehicle to the hydrant, I contend that the enforcement action was fundamentally unjust due to extenuating circumstances governed by municipal statute exemption clause 12(4).\n\nUpon returning to my vehicle, I discovered the citation affixed to the windshield. However, photographic evidence taken concurrently\u2014which I have attached to this correspondence\u2014clearly establishes that the municipal snow-clearing signage installed along that specific urban corridor was obscured by dense, overgrown deciduous foliage from a contiguous municipal property. This visual obstruction completely precluded any reasonable motorist from discerning the temporary parking restrictions currently in effect.\n\nFurthermore, Section 8 of the Municipal Traffic Act explicitly stipulates that enforcement is contingent upon unobstructed signage visibility. The ambiguity created by the city's failure to maintain municipal landscaping effectively vitiates the validity of this citation. Consequently, I request the immediate rescission of the fine and the expungement of this infraction from my driving record.\n\nSincerely,\n\nArthur Pendelton",
+    "questions": [
+      {
+        "text": "What is Arthur Pendelton's primary objective in writing this email?",
+        "options": [
+          "To report a city maintenance failure regarding overgrown trees.",
+          "To contest a parking ticket by citing visual obstruction of signage caused by municipal neglect.",
+          "To request a reduction in the monetary penalty associated with Infraction Notice #984321.",
+          "To dispute the exact distance measured between his vehicle and the fire hydrant."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which of the following best describes the argument Arthur makes regarding municipal statute exemption clause 12(4) and Section 8?",
+        "options": [
+          "He claims that fire hydrant distances are exempted during autumn months.",
+          "He argues that lack of clear signage due to city negligence invalidates the enforcement.",
+          "He asserts that temporary parking restrictions override permanent fire hydrant bylaws.",
+          "He believes that deciduous foliage grants immunity from all downtown parking fees."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What can be inferred about the city's responsibility in this matter based on the text?",
+        "options": [
+          "The city is solely responsible for clearing snow, not maintaining roadside trees.",
+          "The city must ensure that parking restriction signage is clearly visible and unobstructed.",
+          "The city is exempt from liability if foliage growth occurs naturally during seasonal changes.",
+          "The city has already acknowledged its failure to maintain the landscaping on Wellington Street."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What does the word 'vitiates' most likely mean as used in the third paragraph?",
+        "options": [
+          "Validates and reinforces",
+          "Complicates and delays",
+          "Invalidates and impairs",
+          "Supplements and supports"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which piece of evidence does Arthur rely on to substantiate his claim?",
+        "options": [
+          "A sworn affidavit from a pedestrian who witnessed the ticketing.",
+          "Photographic proof showing that municipal foliage blocked the view of the parking signs.",
+          "A maintenance log proving the city failed to trim the trees on Wellington Street.",
+          "Past legal precedents regarding parking infractions near fire hydrants."
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
   }
 ]
