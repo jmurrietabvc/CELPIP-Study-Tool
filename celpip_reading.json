@@ -3152,5 +3152,61 @@
         "correctAnswerIndex": 3
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 3 - Everyday Topic",
+    "passage": "Navigating the complexities of residential tenancy legislation in Canada often culminates in contentious disputes regarding the restitution of security deposits upon lease termination. Under the provincial Residential Tenancies Act, landlords are statutorily obligated to return a tenant's security deposit, inclusive of accrued interest, within a stipulated timeframe\u2014typically fifteen days post-vacating\u2014unless explicit written consent is furnished by the tenant to deduct specific, itemized remedial costs. Despite these unambiguous legal strictures, a pervasive systemic issue persists wherein landlords unilaterally withhold funds under the nebulous guise of 'ordinary wear and tear' or inflated remediation estimates.\n\nFrom a jurisprudential standpoint, 'ordinary wear and tear' denotes the inevitable deterioration of a residential premises resulting from natural aging, latent structural defects, and normal habitation without negligence, carelessness, or abuse. Conversely, actionable tenant damage encompasses structural or aesthetic alterations, negligence-induced deterioration, and infractions that exceed the threshold of reasonable utilization. Landlords frequently conflate these two categories, attempting to leverage the tenant\u2019s deposit to subsidize capital improvements or deferred maintenance that remain the landlord\u2019s fiscal responsibility. When a landlord retains a deposit without adhering to statutory dispute resolution protocols\u2014such as filing an expedited claim with the provincial tenancy branch within the mandated window\u2014they forfeit their legal standing to retain the funds and may be subjected to punitive financial penalties, sometimes equivalent to double the withheld amount.\n\nMitigating such adversarial scenarios necessitates proactive documentation and rigorous adherence to procedural protocols. Tenants are strongly advised to execute exhaustive, timestamped ingress and egress inspections, corroborated by high-resolution photographic evidence and signed condition inspection reports. Furthermore, formal communication channels must be maintained in written formats to establish an irrefutable audit trail. If a landlord fails to remit the deposit within the statutory deadline, the aggrieved tenant should issue a formal Demand Letter citing specific sections of the provincial Residential Tenancies Act before escalating the matter to arbitration. Ultimately, while the legislative framework provides robust consumer protection, the onus rests heavily upon the tenant to navigate the administrative machinery with meticulous vigilance to ensure equitable financial restitution.",
+    "questions": [
+      {
+        "text": "According to the passage, what is the primary legal consequence when a landlord retains a security deposit past the statutory deadline without following proper dispute resolution protocols?",
+        "options": [
+          "[A] The landlord is legally permitted to deduct itemized remedial costs for ordinary wear and tear.",
+          "[B] The landlord forfeits their legal standing to retain the funds and may face punitive financial penalties.",
+          "[C] The tenant must file an expedited claim with the provincial tenancy branch to authorize the withholding.",
+          "[D] The lease agreement is retroactively extended to cover the duration of the financial dispute."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does the author distinguish between 'ordinary wear and tear' and 'actionable tenant damage'?",
+        "options": [
+          "[A] Ordinary wear and tear involves natural deterioration from habitation, whereas actionable damage stems from negligence or abuse exceeding reasonable utilization.",
+          "[B] Ordinary wear and tear is fully deductible from the security deposit, while actionable damage requires a separate civil lawsuit.",
+          "[C] Actionable damage is defined as deferred maintenance that remains the landlord\u2019s fiscal responsibility.",
+          "[D] Ordinary wear and tear requires high-resolution photographic evidence, whereas actionable damage does not."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "Which of the following best characterizes landlords' typical motivation for improperly withholding security deposits, as implied in the text?",
+        "options": [
+          "[A] To offset the administrative costs associated with expedited tenancy branch claims",
+          "[B] To penalize tenants for terminating lease agreements prematurely",
+          "[C] To subsidize capital improvements and deferred maintenance using tenant funds",
+          "[D] To comply with ambiguous legal strictures regarding structural defects"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What is implied regarding the burden of proof in securing the return of a wrongfully withheld security deposit?",
+        "options": [
+          "[A] The provincial tenancy branch automatically investigates and penalizes non-compliant landlords without tenant intervention.",
+          "[B] Landlords bear the sole responsibility of proving that the deposit was returned with accrued interest.",
+          "[C] The legislative framework inherently protects consumers, rendering proactive documentation unnecessary.",
+          "[D] Tenants must actively navigate administrative machinery and maintain rigorous documentation to ensure restitution."
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "text": "Which procedural step does the author recommend taking immediately after a landlord misses the statutory deadline to remit the deposit?",
+        "options": [
+          "[A] Executing exhaustive egress inspections with timestamped photographs",
+          "[B] Issuing a formal Demand Letter citing specific sections of the Residential Tenancies Act",
+          "[C] Subsidizing the landlord's remediation estimates to avoid arbitration",
+          "[D] Furnishing explicit written consent to deduct itemized remedial costs"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
   }
 ]

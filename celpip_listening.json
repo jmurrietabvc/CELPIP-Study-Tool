@@ -3062,5 +3062,62 @@
       }
     ],
     "audioUrl": "audio/audio_51.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 5 - Everyday Topic",
+    "transcript": "Elena: Thanks for meeting me at the municipal pavilion to hash out the logistics for the upcoming Riverside Park revitalization initiative. As you both know, we are spearheading an undertaking that involves not only removing accumulated detritus and invasive species but also executing a comprehensive afforestation strategy. However, the municipal constraints on our budget are becoming increasingly draconian, and I am growing apprehensive about our ability to procure mature saplings without compromising our contingency funds.\nMarcus: I share your financial apprehensions, Elena, but I think you are underestimating the efficacy of grassroots mobilization. Instead of purchasing mature nursery stock, which admittedly incurs exorbitant expenditures, we should pivot toward community-propagated whips and rely on municipal horticultural grants. Furthermore, the civic engagement we\u2019ve witnessed thus far is unprecedented; if we leverage local nurseries through corporate social responsibility partnerships, we can offset a substantial portion of the fiscal deficit without relying exclusively on city coffers.\nChloe: While I appreciate the optimism regarding corporate sponsorship, Marcus, we must not overlook the logistical imponderables. The soil composition near the eastern embankment is severely compacted and laden with clay, rendering it largely impervious to amateur planting methods. If we deploy undertrained volunteers to execute the afforestation phase without professional soil aeration, our mortality rate for the saplings will skyrocket, rendering the entire endeavor a performative exercise rather than an ecologically sound intervention.\nElena: Chloe raises a salient point regarding soil morphology. We cannot afford a high attrition rate, especially given the optics of a failed municipal greening project. Yet, completely sidelining the volunteers in favor of contracted landscapers defeats the ethos of a community-led initiative. Perhaps we can institute a hybrid framework: mandate a rigorous training module supervised by certified arborists for the volunteers, while allocating our scant fiscal reserves specifically toward heavy machinery for soil remediation.\nMarcus: That compromise strikes the requisite balance between ecological pragmatism and civic empowerment. However, we need to finalize the timeline before the municipal council's subcommittee convenes on Thursday. If we present a bifurcated strategy\u2014where volunteers manage the detritus extraction and light herbaceous planting, while specialists oversee the arboricultural heavy lifting\u2014we mitigate the council's liability concerns while securing their tacit endorsement.",
+    "questions": [
+      {
+        "text": "What is Elena's primary concern regarding the park revitalization project?",
+        "options": [
+          "[A] The lack of community enthusiasm for grassroots mobilization",
+          "[B] Municipal budget constraints jeopardizing the procurement of mature trees",
+          "[C] The imminent rejection of the proposal by the municipal council",
+          "[D] The logistical nightmare of organizing waste disposal"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does Marcus propose to circumvent the fiscal deficit?",
+        "options": [
+          "[A] By exclusively hiring professional landscape contractors to reduce long-term costs",
+          "[B] By abandoning the afforestation strategy and focusing solely on park cleanup",
+          "[C] By utilizing community-propagated whips and securing corporate partnerships",
+          "[D] By requesting an immediate tripling of the municipal subsidy"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What specific challenge does Chloe highlight regarding the eastern embankment?",
+        "options": [
+          "[A] The soil is severely compacted and clay-laden, risking high sapling mortality",
+          "[B] The area is heavily contaminated with toxic industrial waste",
+          "[C] Local residents have expressed vehement opposition to planting trees there",
+          "[D] The terrain is too steep for volunteers to access safely"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "What hybrid framework do the speakers ultimately agree upon?",
+        "options": [
+          "[A] Volunteers will handle all aspects of the project under strict municipal supervision",
+          "[B] Professional landscapers will do all the work while volunteers simply observe",
+          "[C] Volunteers manage detritus and light planting with arborist oversight, while specialists handle heavy soil remediation",
+          "[D] The project will be postponed until the municipal council increases funding"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What is the immediate next step required before Thursday?",
+        "options": [
+          "[A] Submitting a formal petition to the mayor's office",
+          "[B] Finalizing the timeline and presenting the bifurcated strategy to the council's subcommittee",
+          "[C] Distributing flyers to local residents to recruit more unskilled volunteers",
+          "[D] Purchasing heavy machinery for the soil aeration process"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ],
+    "audioUrl": "audio/audio_52.mp3"
   }
 ]
