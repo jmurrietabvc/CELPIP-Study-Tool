@@ -189,7 +189,7 @@
   },
   {
     "title": "CLB 11-12 Reading Part 1: Reading Correspondence (Corporate)",
-    "passage": "Dear Management Team,\n\nI am writing to formally present the findings from our Q3 internal audit regarding the mandatory 'Return to Office' (RTO) policy implemented last January. As you are aware, the directive required all non-essential staff to be physically present at the downtown headquarters for a minimum of three days a week. The intention, as outlined by the CEO, was to foster spontaneous collaboration and revitalize our corporate culture.\n\nUnfortunately, the data indicates a starkly different reality. Our internal metrics show a 14% decline in overall departmental productivity compared to the fully remote model we utilized last year. The primary driver of this decline appears to be the 'context switching' forced upon employees in the open-plan office. According to the anonymous employee surveys we conducted, 78% of staff report that the constant noise and interruptions make deep, focused work nearly impossible. \n\nFurthermore, our HR attrition data is alarming. Since the RTO policy was enforced, voluntary turnover has spiked by 22%, with the majority of departing employees citing the reinstatement of their daily commute as the primary reason for leaving. Most concerning is that we are disproportionately losing our senior software architects—the very talent we can least afford to replace in the current competitive market.\n\nWhile I understand the Executive Board's desire to justify the 10-year commercial lease on the building, forcing attendance is actively harming our output. I strongly recommend that we immediately pivot to a 'hub-and-spoke' model. This would allow teams to use the headquarters strictly for scheduled, collaborative workshops once a month, while permitting them to execute their daily tasks remotely. \n\nI have attached the full statistical breakdown to this email. I kindly request that this issue be added to the agenda for next Tuesday's strategic planning session.\n\nSincerely,\nElena Rostova\nDirector of Operations",
+    "passage": "Dear Management Team,\n\nI am writing to formally present the findings from our Q3 internal audit regarding the mandatory 'Return to Office' (RTO) policy implemented last January. As you are aware, the directive required all non-essential staff to be physically present at the downtown headquarters for a minimum of three days a week. The intention, as outlined by the CEO, was to foster spontaneous collaboration and revitalize our corporate culture.\n\nUnfortunately, the data indicates a starkly different reality. Our internal metrics show a 14% decline in overall departmental productivity compared to the fully remote model we utilized last year. The primary driver of this decline appears to be the 'context switching' forced upon employees in the open-plan office. According to the anonymous employee surveys we conducted, 78% of staff report that the constant noise and interruptions make deep, focused work nearly impossible. \n\nFurthermore, our HR attrition data is alarming. Since the RTO policy was enforced, voluntary turnover has spiked by 22%, with the majority of departing employees citing the reinstatement of their daily commute as the primary reason for leaving. Most concerning is that we are disproportionately losing our senior software architects\u2014the very talent we can least afford to replace in the current competitive market.\n\nWhile I understand the Executive Board's desire to justify the 10-year commercial lease on the building, forcing attendance is actively harming our output. I strongly recommend that we immediately pivot to a 'hub-and-spoke' model. This would allow teams to use the headquarters strictly for scheduled, collaborative workshops once a month, while permitting them to execute their daily tasks remotely. \n\nI have attached the full statistical breakdown to this email. I kindly request that this issue be added to the agenda for next Tuesday's strategic planning session.\n\nSincerely,\nElena Rostova\nDirector of Operations",
     "questions": [
       {
         "text": "What was the CEO's original reason for implementing the RTO policy?",
@@ -230,6 +230,230 @@
           "The company is hiring faster than competitors."
         ],
         "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 1 - Everyday Topic",
+    "passage": "Subject: My bureaucratic saga at City Hall\n\nHi Julian,\n\nI hope your portfolio defense went off without a hitch this morning! I am writing to you still decompressing from what can only be described as a Kafkaesque morning down at City Hall, courtesy of our municipality\u2019s notoriously ambiguous curb-space regulations.\n\nAs you might recall from our dinner on Thursday, I had left my sedan tucked along the curb of Maplecrest Avenue, precisely three metres downstream of that newly commissioned municipal EV-charging station. The physical signage adjacent to my vehicle ostensibly permitted two-hour parking between 09:00 and 18:00, outside of designated snow-clearing operations. Nonetheless, upon returning from the bistro, I was greeted by an infraction notice under Bylaw 410-B: \"Impeding dedicated micro-mobility infrastructure.\" Evidently, the city hastily stenciled an inconspicuous neon silhouette onto the asphalt two weeks ago to delineate an e-scooter corral, which had since been almost completely obliterated by road salt and vehicular abrasion.\n\nRather than capitulate and pay the early-resolution tariff of sixty dollars, I opted on principle to request an administrative review in person before a municipal screening officer. In hindsight, my righteous indignation blinded me to the harrowing logistics involved. I arrived at the screening center promptly at 08:30, only to discover that the digital queue system had glitched, forcing dozens of appellants into an ad-hoc, contentious line outside Room 204. By the time I appeared before Officer Vance, he appeared utterly jaded, greeting my meticulously cross-referenced photographic evidence with barely concealed apathy.\n\nHis opening gambit was that ignorance of municipal gazettes does not constitute an affirmative defense; however, I parried by invoking Section 12 of the Municipal Act, which obligates the transportation authority to maintain legible ground demarcations where vertical signage is otherwise silent or absent. The turning point arrived when I produced municipal work-order logs\u2014obtained via the city's open-data portal late last night\u2014proving that a crew had formally flagged that very corral for repainting forty-eight hours prior to my citation. Faced with irrefutable proof that the infrastructure division itself deemed the pavement markings non-compliant, he relented and rescinded the penalty, albeit without uttering a single syllable of apology.\n\nWhile I emerged victorious from a financial standpoint, the three hours squandered navigating civil inertia have left me feeling that it was entirely a Pyrrhic victory. Let this be a cautionary tale for your commute tomorrow; make sure you scrutinize the pavement thoroughly if you park anywhere near the civic center.\n\nLet\u2019s catch up over coffee this weekend\u2014my treat, courtesy of the sixty dollars I spared!\n\nBest,\nDevon",
+    "questions": [
+      {
+        "text": "What prompted Devon to challenge the municipal parking citation instead of paying it?",
+        "options": [
+          "A refusal to concede fault given that the regulatory pavement markings were largely illegible.",
+          "An official confirmation from parking enforcement that vertical signage always supercedes road stencils.",
+          "A desire to avoid a severe penalty point deduction on his provincial driver's licence.",
+          "The assurance from a fellow bistro patron that Officer Vance regularly rescinds micro-mobility fines."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "The tone of Devon's account regarding the administrative screening process can best be described as:",
+        "options": [
+          "Jubilant and deeply appreciative of the hearing officer's procedural fairness.",
+          "Disillusioned with bureaucratic inefficiencies despite obtaining a favorable outcome.",
+          "Vindictive toward the municipal workers who failed to maintain the road stencils.",
+          "Anxious about potential repercussions from the city transportation authority."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which piece of evidence proved pivotal in persuading Officer Vance to overturn the citation?",
+        "options": [
+          "Photographs showing that the vehicle was parked clear of the adjacent EV-charging terminal.",
+          "Eyewitness testimony from other appellants waiting in line outside Room 204.",
+          "An internal municipal maintenance record corroborating that the pavement stencil was defective.",
+          "A formal letter of apology issued by the supervisor of the city's roadworks department."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What does Devon imply by characterizing the outcome as a 'Pyrrhic victory'?",
+        "options": [
+          "The legal fees incurred during the administrative appeal exceeded the sixty-dollar fine.",
+          "The municipal citation was dismissed, but his vehicle was damaged during the dispute.",
+          "The monetary relief achieved was disproportionate to the time and frustration expended.",
+          "The screening officer agreed to rescind the ticket only on condition of future compliance."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Based on the correspondence, what practical advice does Devon impart to Julian?",
+        "options": [
+          "To utilize the open-data portal whenever scheduling a portfolio defense near City Hall.",
+          "To exercise extreme vigilance regarding ambiguous ground markings when parking near civic facilities.",
+          "To avoid paying discounted early-resolution fines because city tribunals are easily persuaded.",
+          "To seek immediate in-person screening rather than contesting citations through digital platforms."
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 2 - Everyday Topic",
+    "passage": "From: Sarah Jenkins <s.jenkins@metrovillage.edu>\nTo: David Thorne <dthorne@northwind.ca>\nSubject: Inquiries Regarding District Registration Pathways and Pedagogical Frameworks\nDate: October 24, 2023\n\nDear Mr. Thorne,\n\nThank you for reaching out to the Maple Ridge School District administration regarding the integration of your daughter, Clara, into our public education system. Navigating the administrative tiers and understanding our multifaceted curriculum can indeed seem labyrinthine, particularly given the recent systemic overhaul of our educational delivery models.\n\nTo help you ascertain the most judicious placement and administrative pathway for Clara, I have outlined the core educational phases alongside their corresponding structural criteria in the matrix below. Please review this carefully in tandem with your residency documentation before our scheduled consultation.\n\n+----------------------+----------------------+----------------------+------------------------------------------+\n| Educational Phase    | Age Parameters       | Primary Pedagogical Focus| Mandatory Administrative Prerequisites   |\n+----------------------+----------------------+----------------------+------------------------------------------+\n| Tier I: Foundational | 6 - 8 years          | Socio-emotional      | Proof of local residency, immunization   |\n|                      |                      | development, literacy| records, birth certificate               |\n+----------------------+----------------------+----------------------+------------------------------------------+\n| Tier II: Intermediate| 9 - 11 years         | Analytical reasoning,| Previous transcripts, standardized       |\n|                      |                      | cross-curricular     | baseline diagnostics, proof of domicile  |\n+----------------------+----------------------+----------------------+------------------------------------------+\n| Tier III: Advanced   | 12 - 14 years        | Specialized inquiry, | Academic portfolio, language proficiency |\n|                      |                      | vocational aptitude  | assessment, residency verification       |\n+----------------------+----------------------+----------------------+------------------------------------------+\n\nAs Clara is currently turning ten next month, she falls squarely within the Tier II parameters. Kindly ensure that her previous transcripts and baseline diagnostics are uploaded to our secure portal prior to our meeting. Should you have any inquiries regarding the nuances of our analytical reasoning framework, do not hesitate to contact my office.\n\nWarm regards,\n\nSarah Jenkins\nDirector of Admissions, Maple Ridge School District",
+    "questions": [
+      {
+        "text": "Based on the provided email and diagram, what is the primary administrative prerequisite unique to Tier II compared to Tier I?",
+        "options": [
+          "Birth certificate and immunization records",
+          "Standardized baseline diagnostics and previous transcripts",
+          "Language proficiency assessment and academic portfolio",
+          "Proof of local residency and domicile verification"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "If David Thorne's daughter is turning ten next month, which educational phase and pedagogical focus apply to her according to the matrix?",
+        "options": [
+          "Tier I: Foundational - Socio-emotional development and literacy",
+          "Tier III: Advanced - Specialized inquiry and vocational aptitude",
+          "Tier II: Intermediate - Analytical reasoning and cross-curricular focus",
+          "Tier II: Advanced - Socio-emotional development and specialized inquiry"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which inference can be accurately drawn regarding the Maple Ridge School District's administrative and educational posture?",
+        "options": [
+          "The district has recently experienced structural modifications to its educational delivery models.",
+          "The district exclusively evaluates students through language proficiency assessments regardless of age.",
+          "Parents are discouraged from reviewing residency documentation prior to the consultation.",
+          "Tier III students undergo identical diagnostic evaluations as Tier I students."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "What action is explicitly demanded of David Thorne prior to the scheduled consultation with Ms. Jenkins?",
+        "options": [
+          "To finalize Clara's enrollment directly through the vocational aptitude program",
+          "To upload Clara's previous transcripts and baseline diagnostics to the secure portal",
+          "To submit a formal petition modifying the Tier II age parameters",
+          "To deliver physical copies of Clara's birth certificate directly to the Director's residence"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which of the following best characterizes the tone and lexical register of Sarah Jenkins' correspondence?",
+        "options": [
+          "Casual and colloquial, aiming to simplify complex administrative policies",
+          "Acrimonious and dismissive regarding the district's recent systemic overhauls",
+          "Highly formal, erudite, and structured to guide an outsider through bureaucratic complexities",
+          "Ambiguous and evasive regarding the mandatory prerequisites for school registration"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 3 - Everyday Topic",
+    "passage": "Urban revitalization initiatives in metropolitan Canadian cores have increasingly prioritized multi-modal transit frameworks, yet the structural recalibration of downtown districts frequently remains contentious. A prominent friction point in contemporary municipal discourse is the pervasive deficit of dedicated cycling infrastructure within legacy commercial neighborhoods. While municipal master plans routinely espouse the virtues of active transportation, the implementation phase is frequently stymied by historical urban configurations, entrenched vehicular hegemony, and the logistical labyrinth of subterranean utility corridors.\n\nAt the epicenter of this civic debate is the historic Downtown Commercial Quarter, a dense amalgamation of nineteenth-century edifices and high-traffic arterial thoroughfares. Proponents of rapid infrastructural intervention argue that the absence of protected bike lanes perpetuates a hazardous environment, effectively disenfranchising cyclists and discouraging modal shift away from private automobiles. Furthermore, urban economists contend that pedestrianized and cyclable zones catalyze local commerce by engendering vibrant streetscapes that invite lingering and serendipitous patronage, contrasting sharply with the transient nature of vehicular traffic.\n\nConversely, municipal engineers and downtown business associations often highlight formidable logistical impediments. Retrofitting protected bicycle lanes within existing rights-of-way invariably necessitates the eradication of contiguous curbside parking and, in narrower segments, the amputation of an entire vehicular travel lane. Business proprietors voice vehement apprehension regarding the diminution of logistical access vital for freight delivery, service vehicles, and patron accessibility, particularly for mobility-impaired demographics. Additionally, the subterranean matrix beneath the asphalt\u2014comprising aging water mains, electrical grids, and pneumatic transit systems\u2014represents a financial and structural quagmire. Excavating these corridors to relocate utilities in conjunction with surface-level lane demarcation escalates municipal expenditures to fiscally prohibitive thresholds.\n\nAs cities grapple with climate resilience mandates and net-zero carbon targets, the imperative to overhaul urban mobility corridors intensifies. Resolving the gridlock between active transportation advocacy and infrastructural pragmatism demands innovative cross-jurisdictional synthesis, nuanced traffic modeling, and progressive compromise that transcends polarized municipal politics.",
+    "questions": [
+      {
+        "text": "According to the passage, what is the primary catalyst for friction regarding downtown bike lanes?",
+        "options": [
+          "A fundamental ideological disagreement over the health benefits of cycling versus driving.",
+          "The juxtaposition of municipal rhetoric promoting active transport against the reality of inadequate infrastructure in legacy neighborhoods.",
+          "The complete refusal of downtown business associations to acknowledge climate change mandates.",
+          "An unprecedented surge in cycling accidents attributed specifically to subterranean utility construction."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How do urban economists perceive the integration of cyclable zones in commercial districts?",
+        "options": [
+          "As a financial liability that inevitably reduces the property values of nineteenth-century edifices.",
+          "As a superficial aesthetic modification with negligible impact on commercial patronage.",
+          "As a catalyst for local commerce that fosters engaging streetscapes and encourages lingering patronage.",
+          "As a primary contributor to the logistical paralysis of freight delivery services."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What does the passage imply about the subterranean infrastructure of the Downtown Commercial Quarter?",
+        "options": [
+          "It was recently modernized to accommodate both pneumatic transit and modern bicycle lanes.",
+          "It poses a significant financial and structural impediment to surface-level infrastructural overhauls.",
+          "It is completely devoid of electrical grids and water mains, simplifying excavation processes.",
+          "It serves as the primary alternative route for vehicular traffic when curbside parking is removed."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which of the following is NOT cited as a legitimate concern held by business proprietors?",
+        "options": [
+          "The potential loss of curbside parking impacting customer accessibility.",
+          "The restriction of vital access points required for freight and service deliveries.",
+          "The disproportionate economic burden placed on mobility-impaired demographics.",
+          "The immediate reallocation of municipal tax revenues directly to suburban transit projects."
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "text": "What overarching conclusion does the author draw regarding the resolution of this municipal gridlock?",
+        "options": [
+          "Municipalities must prioritize active transportation advocacy regardless of fiscal and structural consequences.",
+          "Downtown commercial districts should be entirely closed to vehicular traffic to expedite net-zero targets.",
+          "A successful resolution necessitates innovative cross-jurisdictional synthesis and progressive compromise.",
+          "The debate will inevitably remain deadlocked until historical urban configurations are completely demolished."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 4 - Everyday Topic",
+    "passage": "MUNICIPAL PARKING ENFORCEMENT: A SYSTEMIC IMPASSE OR JUSTIFIED DETERRENT?\n\n[Perspective A: Municipal Authority & Fiscal Stewardship]\nParking infractions and the subsequent adjudication processes are fundamental pillars of municipal governance, ensuring urban mobility and equitable access to public thoroughfares. Critics who decry the issuance of parking penalties often overlook the overarching logistical nightmare of congestion management. When a motorist receives a ticket for overstaying a designated window or obstructing a loading zone, it is rarely an arbitrary act of predatory revenue generation; rather, it is a calibrated intervention to maintain traffic flow. The administrative monetary penalty (AMP) system established at City Hall provides a transparent, quasi-judicial avenue for dispute resolution. However, appellants frequently conflate extenuating personal circumstances with statutory exemptions. A malfunctioning municipal pay station or inclement weather does not inherently absolve a driver of their due diligence obligations, which include verifying signage and utilizing secondary digital payment modalities. Upholding these penalties without undue leniency safeguards the integrity of municipal bylaws, ensuring that civic infrastructure remains functional for the tax-paying populace at large.\n\n[Perspective B: Citizen Advocacy & Administrative Redress]\nConversely, the current apparatus governing municipal parking appeals at City Hall functions less as a nuanced justice system and more as an impassuried bureaucratic labyrinth designed to exhaust the civic engagement of everyday residents. Motorists navigating the appeal protocols frequently encounter Kafkaesque hurdles, where substantiated claims of faulty signage or erroneous ticketing are dismissed through boilerplate rejections. The presumption of municipal infallibility undermines public trust, transforming the dispute mechanism into a rubber-stamping exercise for automated enforcement errors. Furthermore, when citizens present photographic evidence of obscured regulatory placards or digital transaction receipts proving timely payment, hearing officers routinely prioritize procedural strictures over substantive equity. Reform is urgently required to instill genuine impartiality, such as independent third-party oversight and burden-of-proof shifts that compel the municipality to corroborate the unimpeachability of its ticketing devices before penalizing conscientious drivers.",
+    "questions": [
+      {
+        "text": "According to Perspective A, what is the primary motivation behind the issuance of parking penalties?",
+        "options": [
+          "To maximize municipal revenues through predatory enforcement tactics",
+          "To maintain urban mobility and regulate traffic flow through calibrated interventions",
+          "To punish motorists who fail to utilize secondary digital payment modalities",
+          "To offset the operational costs of maintaining antiquated parking meters"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does Perspective B characterize the current municipal parking appeal process at City Hall?",
+        "options": [
+          "As a transparent, quasi-judicial avenue ensuring equitable dispute resolution",
+          "As an efficient mechanism that swiftly processes substantiated claims of faulty signage",
+          "As a bureaucratic labyrinth that exhausts civic engagement and presumes municipal infallibility",
+          "As an independent third-party oversight body that prioritizes substantive equity over procedure"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "In the context of Perspective A, what is implied regarding appellants who cite inclement weather or equipment malfunction?",
+        "options": [
+          "They are fulfilling their statutory exemptions under municipal bylaws.",
+          "They are unfairly targeted by automated enforcement errors.",
+          "They are neglecting their due diligence obligations to verify parking conditions.",
+          "They are entitled to an automatic dismissal of their monetary penalties."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which of the following reforms is explicitly advocated by Perspective B?",
+        "options": [
+          "The total abolition of automated parking enforcement systems",
+          "Independent third-party oversight and a shift in the burden of proof",
+          "Stricter adherence to procedural strictures by hearing officers",
+          "Higher monetary fines to deter frivolous appeals by motorists"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which statement best captures the fundamental ideological divergence between the two perspectives?",
+        "options": [
+          "Perspective A views penalties as essential for civic infrastructure, whereas Perspective B views the appeal system as an unfair, rigid apparatus lacking genuine impartiality.",
+          "Perspective A prioritizes digital payment methods, whereas Perspective B focuses exclusively on physical parking permits.",
+          "Perspective B argues that parking enforcement generates no revenue, while Perspective A claims it is entirely self-funding.",
+          "Perspective A advocates for citizen-led advocacy groups, whereas Perspective B defends municipal bureaucratic autonomy."
+        ],
+        "correctAnswerIndex": 0
       }
     ]
   }

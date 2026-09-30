@@ -20,7 +20,7 @@ api_key = os.getenv("GEMINI_API_KEY")
 client = genai.Client(api_key=api_key)
 VOICES = ['en-CA-LiamNeural', 'en-CA-ClaraNeural', 'en-US-ChristopherNeural', 'en-US-EricNeural', 'en-US-MichelleNeural', 'en-GB-RyanNeural']
 
-MODEL_NAME = 'gemini-3.8-flash' 
+MODEL_NAME = 'gemini-flash-lite-latest' 
 TOTAL_TESTS = 63 
 
 # Everyday Canadian topics that appear in CELPIP
@@ -114,7 +114,7 @@ async def generate_listening_audio(transcript, index):
     return None
 
 def generate_content_with_retry(prompt):
-    max_retries = 3
+    max_retries = 15
     for attempt in range(max_retries):
         try:
             response = client.models.generate_content(
@@ -133,7 +133,7 @@ def generate_content_with_retry(prompt):
                 continue
         except Exception as e:
             print(f"API Error calling Gemini (attempt {attempt+1}): {e}")
-            time.sleep(20)
+            time.sleep(60)
     print("FAILED to generate valid content after 3 retries.")
     return None
 

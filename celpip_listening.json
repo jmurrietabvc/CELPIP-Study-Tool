@@ -58,7 +58,7 @@
   },
   {
     "title": "CLB 11-12 Listening Part 6: Listening to Viewpoints",
-    "transcript": "Welcome to 'Modern Horizons'. Today we examine the controversial rise of bio-metric tracking in the workplace. Over the last three years, corporate adoption of wearable technology—specifically smartwatches that monitor employees' heart rates, sleep patterns, and stress levels—has skyrocketed. \n\nProponents of this technology, predominantly corporate wellness officers, argue that these devices are revolutionizing occupational health. By tracking physiological data, companies can proactively identify burnout, enforce mandatory break times when stress markers spike, and tailor wellness programs to individual needs. They argue that a healthier workforce translates directly to lower insurance premiums and higher productivity. \n\nHowever, privacy advocates are raising severe ethical alarms. They argue that biological data is inherently intimate and should never be commodified by an employer. Critics point out that while participation is technically 'voluntary', employees who opt out often face subtle discrimination or miss out on financial health incentives. Furthermore, there is a looming fear of 'predictive termination'—the idea that an algorithm might flag an employee's deteriorating health metrics, leading a company to quietly terminate them before they require expensive medical leave. As legislation lags behind technology, the battle over who owns our biological data in the workplace is just beginning.",
+    "transcript": "Welcome to 'Modern Horizons'. Today we examine the controversial rise of bio-metric tracking in the workplace. Over the last three years, corporate adoption of wearable technology\u2014specifically smartwatches that monitor employees' heart rates, sleep patterns, and stress levels\u2014has skyrocketed. \n\nProponents of this technology, predominantly corporate wellness officers, argue that these devices are revolutionizing occupational health. By tracking physiological data, companies can proactively identify burnout, enforce mandatory break times when stress markers spike, and tailor wellness programs to individual needs. They argue that a healthier workforce translates directly to lower insurance premiums and higher productivity. \n\nHowever, privacy advocates are raising severe ethical alarms. They argue that biological data is inherently intimate and should never be commodified by an employer. Critics point out that while participation is technically 'voluntary', employees who opt out often face subtle discrimination or miss out on financial health incentives. Furthermore, there is a looming fear of 'predictive termination'\u2014the idea that an algorithm might flag an employee's deteriorating health metrics, leading a company to quietly terminate them before they require expensive medical leave. As legislation lags behind technology, the battle over who owns our biological data in the workplace is just beginning.",
     "questions": [
       {
         "text": "What is the main subject of the report?",
@@ -169,5 +169,176 @@
       }
     ],
     "audioUrl": "audio/audio_2.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 4 - Everyday Topic",
+    "transcript": "Good evening, and welcome to Metro News at Six. I'm your host, Arthur Pendelton. Tonight, our top story focuses on the contentious municipal bylaw amendment taking effect next month, which mandates rigorous composting and recycling protocols for all residential zones across the municipality. While city council heralds this legislative shift as an indispensable stride toward our zero-waste trajectory, public reception has been markedly polarized. Proponents emphasize the alarming velocity at which our regional landfills are reaching saturation, arguing that stringent organic diversion is not merely environmentally prudent, but an economic imperative to circumvent exorbitant landfill expansion levies. Conversely, a vocal coalition of homeowners and property managers has raised vehement grievances regarding the logistical feasibility and the intrusive nature of the enforcement mechanisms. Critics point out that the multi-tier sorting mandates impose an undue administrative burden on elderly residents and multi-family dwelling complexes, where communal bin oversight remains notoriously difficult. Furthermore, the municipal waste management division has confirmed that non-compliance will incur graduated financial penalties, escalating from stern warnings to substantial municipal fines. As the implementation date looms, town hall has announced a series of virtual town-hall sessions slated for this coming week, ostensibly designed to assuage public apprehension and distribute specialized sorting receptacles. Whether these conciliatory measures will sufficiently pacify the populace or merely exacerbate the bureaucratic friction remains to be seen. We will continue to monitor this unfolding story and provide comprehensive coverage as developments warrant.",
+    "questions": [
+      {
+        "text": "According to the news report, what is the primary motivation cited by city council for implementing the new bylaw?",
+        "options": [
+          "Generating additional municipal revenue through penalty enforcement",
+          "Mitigating the rapid depletion of regional landfill capacity",
+          "Standardizing waste collection protocols across multi-family dwellings",
+          "Complying with federal mandates on zero-waste initiatives"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How has the public generally responded to the municipality's new waste management directive?",
+        "options": [
+          "With overwhelming enthusiasm and proactive community organizing",
+          "With widespread apathy and negligible public engagement",
+          "With pronounced polarization and significant vocal opposition",
+          "With immediate legal challenges filed by property management associations"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What specific concern do critics raise regarding multi-family dwelling complexes?",
+        "options": [
+          "The prohibitive cost of purchasing specialized sorting receptacles",
+          "The logistical challenge of maintaining oversight on communal bins",
+          "The inadequacy of municipal truck collection schedules",
+          "The potential health hazards associated with prolonged organic waste storage"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What consequence will residents face for failing to adhere to the newly instituted sorting protocols?",
+        "options": [
+          "Immediate confiscation of household waste bins",
+          "Mandatory attendance at municipal environmental seminars",
+          "Graduated financial penalties ranging from warnings to substantial fines",
+          "Exclusion from future municipal waste collection services"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What is the stated purpose of the upcoming virtual town-hall sessions announced by the municipality?",
+        "options": [
+          "To debate potential amendments to the proposed legislation",
+          "To alleviate public apprehension and distribute sorting receptacles",
+          "To train property managers in communal bin enforcement",
+          "To debate the financial feasibility of landfill expansion"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ],
+    "audioUrl": "audio/audio_3.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 5 - Everyday Topic",
+    "transcript": "Elena: Thanks for carving out the time, David and Michael. We need to finalize our stance on the revised hybrid work model before presenting it to the executive committee next Tuesday. The HR directive suggests a mandatory three-day in-office minimum, but I\u2019m concerned about the rigid enforcement and potential friction it might precipitate among our senior developers.\n\nDavid: Frankly, Elena, I think HR\u2019s baseline is a pragmatic compromise. We\u2019ve seen a perceptible erosion in cross-departmental synergy over the past year. While our output metrics remain superficially robust, the serendipitous innovation born from impromptu hallway interactions has dwindled to near zero. A blanket three-day mandate establishes a much-needed structural anchor.\n\nMichael: I must vehemently dissent, David. Imposing an arbitrary geographical tether disregards the nuanced autonomy our teams have successfully exercised. The top-tier talent we fought tooth and nail to retain during the tech boom values flexibility as a non-negotiable tenet of their employment. If we retrograde into a mandatory physical presence policy without empirical justification, we are courting an attrition crisis, particularly among our vanguard engineers who have relocated to Victoria and Calgary.\n\nElena: Michael raises a salient point regarding retention, David, yet I also recognize your apprehension about cultural fragmentation. Perhaps the solution isn't a binary mandate, but rather a localized, results-oriented framework where squad leads dictate cadence based on project lifecycles rather than corporate fiat?\n\nDavid: That sounds appealing in theory, Elena, but in practice, it devolves into a logistical labyrinth. If Squad A is in on Tuesday and Thursday, while Squad B is in on Wednesday and Friday, conference room allocation becomes a nightmare, and client-facing units won't know who is physically accessible. Furthermore, equity becomes an issue; operational staff whose roles necessitate physical presence will inevitably harbor resentment toward knowledge workers enjoying amorphous schedules.\n\nMichael: With respect, David, operational equity isn't solved by dragging knowledge workers back into cubicles out of spite; it's addressed by compensating operational staff appropriately. Moreover, the argument about conference room logistics is administrative minutiae masquerading as a strategic roadblock. We can easily implement hot-desking software and core collaboration hours. My concern is that a draconian three-day rule signals a profound deficit of trust from the C-suite.\n\nElena: Trust is precisely the fulcrum of this debate. If we frame the policy around 'intentional collocation' rather than mandatory attendance, we might appease both factions. Squads would be required to convene physically once a week exclusively for strategic synthesis, leaving the remaining days entirely discretionary.\n\nDavid: Once a week strikes me as anemic, Elena. It reduces the office to a glorified drop-in center, failing to justify the exorbitant commercial lease expenditures we are currently hemorrhaging in downtown Toronto. However, if we institute a bi-weekly anchor model\u2014say, six days per month, self-scheduled by the team\u2014perhaps we bridge the chasm between Michael's fixation on radical autonomy and my insistence on tangible cultural cohesion.\n\nMichael: Six days per month, entirely self-scheduled, is a concession I can reluctantly countenance, provided it's codified that this is a floor, not a ceiling that creepingly expands. But we must explicitly state that failure to meet this quota triggers a dialogue, not a punitive HR reprimand.\n\nElena: Agreed. I will draft the addendum incorporating the self-scheduled six-day monthly anchor and circulate it for your final vetting by tomorrow noon.",
+    "questions": [
+      {
+        "text": "What primary concern does Elena express regarding the HR directive?",
+        "options": [
+          "[A] It will cause financial strain due to downtown Toronto commercial leases.",
+          "[B] Strict enforcement might cause friction and pushback among senior developers.",
+          "[C] It fails to address the grievances of operational staff regarding equity.",
+          "[D] It lacks the empirical data required by the executive committee."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "According to David, what has been the consequence of the current work arrangement?",
+        "options": [
+          "[A] A noticeable decline in quantitative output metrics across all departments.",
+          "[B] An unmanageable increase in hot-desking logistical errors.",
+          "[C] An erosion of cross-departmental synergy and spontaneous innovation.",
+          "[D] Widespread resentment from operational staff toward knowledge workers."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What is Michael's primary apprehension regarding a mandatory physical presence policy?",
+        "options": [
+          "[A] It will trigger an attrition crisis among top-tier talent who value autonomy.",
+          "[B] It will make conference room allocation a logistical labyrinth.",
+          "[C] It will render downtown commercial lease expenditures entirely unjustifiable.",
+          "[D] It will disproportionately affect engineers who live in Toronto."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "Why does David initially reject Elena's suggestion of a localized, results-oriented framework?",
+        "options": [
+          "[A] It does not go far enough to satisfy the demands of the C-suite.",
+          "[B] It would create administrative chaos regarding room booking and exacerbate equity issues with operational staff.",
+          "[C] It would force senior developers to relocate back to downtown Toronto.",
+          "[D] It relies too heavily on unproven hot-desking software."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What final compromise do the participants agree upon?",
+        "options": [
+          "[A] A strict mandatory three-day in-office minimum enforced by HR.",
+          "[B] Complete autonomy for squad leads with zero in-office requirements.",
+          "[C] A weekly collocation day focused entirely on administrative tasks.",
+          "[D] A self-scheduled anchor model requiring six days per month, serving as a baseline."
+        ],
+        "correctAnswerIndex": 3
+      }
+    ],
+    "audioUrl": "audio/audio_4.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 6 - Everyday Topic",
+    "transcript": "Welcome, parents and guardians, to this informational seminar regarding the registration process for our provincial public school system, paired with an exhaustive overview of our updated K-12 curriculum. Navigating the bureaucratic labyrinth of school boards can often seem daunting, particularly for families transitioning from disparate educational paradigms, whether interprovincially or internationally. Our primary objective today is to demystify the administrative prerequisites for enrollment while concurrently elucidating the pedagogical philosophy underpinning our modern academic framework.\n\nFirst, let us address the mechanics of registration. While the digitalization of our intake systems has ostensibly streamlined the process, prospective residents frequently stumble over documentation verification. Beyond the standard proofs of residency\u2014such as municipal utility assessments or property deeds\u2014and chronological verification via birth certificates or passports, we require comprehensive immunization records compliant with regional public health mandates. Moreover, for families whose primary language of instruction at home is not English or French, we do not merely subject students to arbitrary linguistic aptitude tests; rather, we conduct a holistic developmental assessment to ascertain whether supplemental English Language Learning (ELL) support is warranted. This ensures that integration is neither abrasive nor marginalizing, but rather scaffolding-driven and empathetic.\n\nTransitioning to the curriculum itself, our school board has recently migrated away from rote memorization and compartmentalized subjects toward an interdisciplinary, competency-based model. We now prioritize critical media literacy, computational thinking, and socio-emotional resilience from the primary grades onward. Critics often argue that this progressive departure from foundational disciplines dilutes academic rigor. However, empirical longitudinal data suggests that fostering metacognition\u2014teaching students how to learn, rather than merely what to think\u2014yields far superior cognitive agility in a rapidly mutating global economy. For instance, mathematics is no longer taught as an isolated set of algorithmic abstractions, but is inextricably linked with environmental sciences and data ethics.\n\nFurthermore, our secondary curriculum introduces specialized pathways, ranging from the International Baccalaureate and Advanced Placement tracks to robust cooperative education and skilled trades apprenticeships. We firmly reject the antiquated dichotomy that artificially elevates academic university-bound streams above vocational pursuits. Every student possesses a distinct cognitive blueprint, and our mandate is to cultivate excellence across the entire spectrum of human capability. As you complete your registration packets today, I encourage you to view this not merely as an administrative hurdle, but as the foundational stone in a collaborative partnership dedicated to intellectual emancipation and civic stewardship.",
+    "questions": [
+      {
+        "text": "According to the speaker, what is a common pitfall parents encounter during the school registration process?",
+        "options": [
+          "Failing to complete the digital intake forms prior to the strict municipal deadlines.",
+          "Stumbling over the meticulous verification requirements for necessary documentation.",
+          "Inconsistencies found within the municipal utility assessments and property deeds.",
+          "Misinterpreting the regional public health mandates regarding chronological verification."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does the school board handle children from homes where English or French is not the primary language?",
+        "options": [
+          "They administer an arbitrary linguistic aptitude test to determine grade placement.",
+          "They enforce an immediate immersion program to accelerate linguistic assimilation.",
+          "They conduct a holistic developmental assessment to see if ELL support is necessary.",
+          "They exempt those students from standardized testing during their initial academic year."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What is the primary rationale behind the school board's transition to a competency-based model?",
+        "options": [
+          "It drastically reduces the administrative costs associated with compartmentalized subjects.",
+          "It satisfies the demands of critics who argue rote memorization is obsolete.",
+          "It fosters cognitive agility and metacognition for a rapidly changing global economy.",
+          "It aligns local educational standards directly with international university requirements."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "How does the speaker respond to critics who claim the new curriculum dilutes academic rigor?",
+        "options": [
+          "By citing empirical longitudinal data showing superior cognitive outcomes through metacognition.",
+          "By dismissing their concerns as an adherence to an antiquated educational paradigm.",
+          "By explaining that traditional foundational disciplines are still taught in isolation.",
+          "By promising to reintroduce rote memorization for primary mathematics education."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "What is the speaker's stance regarding academic university-bound streams versus vocational pursuits?",
+        "options": [
+          "University-bound streams should be prioritized for students with superior cognitive blueprints.",
+          "The distinction between them is an antiquated dichotomy that the school board rejects.",
+          "Cooperative education and apprenticeships should eventually replace traditional academic tracks.",
+          "Both pathways require identical investments in computational thinking and environmental science."
+        ],
+        "correctAnswerIndex": 1
+      }
+    ],
+    "audioUrl": "audio/audio_5.mp3"
   }
 ]
