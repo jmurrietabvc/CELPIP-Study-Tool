@@ -1992,5 +1992,61 @@
         "correctAnswerIndex": 1
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 3 - Everyday Topic",
+    "passage": "Navigating the labyrinthine digital infrastructure of contemporary Canadian higher education portals often engenders profound consternation among prospective scholarship applicants. As universities increasingly automate their merit-based disbursement frameworks, applicants must interface with multifaceted application gateways that demand meticulous attention to granular procedural mandates. The process typically commences with the establishment of a secure institutional profile, wherein candidates must upload academic transcripts, comprehensive curriculum vitae, and bespoke statements of intent. However, the ostensible simplicity of these digital touchpoints belies the stringent backend validation algorithms employed by admissions committees.\n\nCrucially, the verification of academic credentials is no longer a cursory administrative review. Modern portals utilize optical character recognition (OCR) synchronized with national credential repositories to cross-reference cumulative grade point averages (CGPA) down to the hundredth decimal place. Consequently, minor discrepancies between self-reported metrics and official institutional records routinely trigger automated application freezes. Furthermore, applicants must navigate the labyrinth of reference solicitation. The portal's automated dispatch system issues cryptographic links to designated referees; however, if a referee fails to encrypt or properly format their institutional letterhead, the system\u2019s parsing engine may reject the document outright, often without generating an explicit diagnostic error message for the applicant.\n\nBeyond technical compliance, the rhetorical demands of the scholarship essays embedded within these portals require a sophisticated calibration of tone. Adjudication panels are inundated with hyperbolic narratives; thus, successful candidates must eschew ungrounded superlatives in favor of demonstrative, evidence-backed expositions of civic leadership and academic resilience. The portal's character limits function as rigorous stylistic constraints, forcing applicants to condense multifaceted extracurricular portfolios into rigidly demarcated text boxes. Ultimately, mastering the admissions portal is less an exercise in academic merit than a preliminary stress test of an applicant's administrative acumen and technological dexterity under duress.",
+    "questions": [
+      {
+        "text": "According to the passage, what is a primary consequence of the automated backend validation algorithms used by modern university portals?",
+        "options": [
+          "[A] They expedite the scholarship disbursement process by bypassing manual administrative reviews.",
+          "[B] They can abruptly suspend an application if there is a minor variance in self-reported data.",
+          "[C] They automatically generate detailed diagnostic error reports for rejected referee documents.",
+          "[D] They utilize optical character recognition to rewrite incorrectly formatted student essays."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What does the author imply regarding the reference solicitation process within the portal?",
+        "options": [
+          "[A] Referees are given considerable leeway regarding the formatting of their letterheads.",
+          "[B] The system is prone to silently discarding recommendation letters that fail technical formatting standards.",
+          "[C] Referees must manually upload documents to the applicant's profile rather than using cryptographic links.",
+          "[D] Automated dispatch systems frequently send duplicate reference requests to overburdened referees."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How should prospective scholarship applicants approach the composition of their essays, according to the passage?",
+        "options": [
+          "[A] By employing grandiose superlatives to maximize emotional resonance with the panel.",
+          "[B] By focusing exclusively on academic grades rather than extracurricular achievements.",
+          "[C] By providing concise, evidence-based accounts of their leadership and resilience.",
+          "[D] By utilizing external word processors to bypass the portal's rigid character limitations."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "In the context of the passage, what does the phrase 'ostensible simplicity' most nearly mean?",
+        "options": [
+          "[A] Deceptive ease",
+          "[B] Guaranteed transparency",
+          "[C] Inherent flawfulness",
+          "[D] Superficial beauty"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "Which of the following best summarizes the author's overarching perspective on contemporary university scholarship portals?",
+        "options": [
+          "[A] They are transparent, highly efficient mechanisms that democratize access to higher education funding.",
+          "[B] They serve as an unnecessary bureaucratic hurdle that discourages underprivileged applicants.",
+          "[C] They demand a high level of technical and administrative precision that acts as an initial litmus test for candidates.",
+          "[D] They prioritize subjective rhetorical style over objective academic metrics during the initial screening phase."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
   }
 ]

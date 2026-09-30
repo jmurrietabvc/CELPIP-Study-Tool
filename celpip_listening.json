@@ -1862,5 +1862,62 @@
       }
     ],
     "audioUrl": "audio/audio_31.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 3 - Everyday Topic",
+    "transcript": "Good evening, tenants and prospective renters. Tonight, we are hosting an informational session regarding residential tenancies in British Columbia, specifically focusing on the contentious issue of security deposit retentions and the legal recourse available under the Residential Tenancy Act. \n\nNavigating the labyrinth of tenant-landlord disputes can be profoundly exasperating, particularly when a landlord arbitrarily withholds a damage deposit under the dubious guise of 'extraordinary wear and tear.' Under Section 38 of the Act, a landlord is legally obligated, within fifteen days of the tenancy ending and the forwarding address being provided in writing, to either return the deposit in full or file a claim against it with the Residential Tenancy Branch. Failure to adhere strictly to this statutory timeline typically results in the adjudicator ordering the landlord to pay the tenant double the monetary amount of the original deposit. \n\nHowever, landlords frequently attempt to circumvent this by weaponizing ambiguity within the condition inspection report. If a tenant fails to participate in the move-out inspection\u2014provided the landlord has offered two legitimate opportunities in the prescribed statutory form\u2014the tenant forfeits their right to the return of the deposit. Conversely, if the landlord neglects to complete the report in accordance with the regulations, their right to claim against the deposit is extinguished. \n\nAnother frequent point of contention revolves around pre-existing damage versus tenant-induced degradation. A landlord cannot legally amortize the cost of replacing antiquated carpets or repainting walls that have merely suffered normal depreciation over a multi-year tenancy onto the departing occupant. The onus of proof rests squarely on the landlord to substantiate any monetary claims with contemporaneous receipts, professional assessments, and photographic evidence predating the tenancy. \n\nShould a landlord prove recalcitrant, the tenant's primary remedy is not protracted adversarial negotiation, but rather the formal initiation of dispute resolution proceedings. While this incurs a nominal administrative filing fee, the overarching objective is to compel compliance through legally binding orders enforceable by the provincial court. We strongly advise all participants to meticulously document every interaction, preserve all digital correspondence, and never rely on verbal assurances when vacating a residential premise.",
+    "questions": [
+      {
+        "text": "According to the speaker, what is the primary legal consequence if a landlord fails to return the security deposit or file a claim within the statutory 15-day window?",
+        "options": [
+          "The landlord is penalized with an administrative fine payable exclusively to the Residential Tenancy Branch.",
+          "The tenant is legally entitled to receive double the original amount of the security deposit.",
+          "The tenancy agreement is retroactively extended under the original terms.",
+          "The landlord's right to own residential rental properties in the province is temporarily suspended."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Under what specific circumstance does a tenant forfeit their right to the return of their security deposit?",
+        "options": [
+          "If they fail to provide a forwarding address via certified mail.",
+          "If they refuse to pay the final month's utility surcharge.",
+          "If they do not participate in the move-out inspection after being offered two legitimate opportunities in the prescribed format.",
+          "If they terminate the lease agreement prior to the completion of a fixed-term contract."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What restriction does the speaker mention regarding a landlord's ability to charge departing tenants for property updates?",
+        "options": [
+          "Landlords cannot legally pass on the replacement costs of items that have suffered normal depreciation over a multi-year tenancy.",
+          "Landlords are prohibited from deducting funds for repairs unless the municipal inspector has issued a formal citation.",
+          "Landlords must secure a unanimous vote from the strata council before retaining any funds for exterior maintenance.",
+          "Landlords are restricted from using deposit funds for any upgrades exceeding twenty percent of the total rent."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "Who bears the legal onus of proof when substantiating claims for property damage during a dispute?",
+        "options": [
+          "The Residential Tenancy Branch adjudicator assigned to the case",
+          "The departing tenant, by providing independent contractor evaluations",
+          "The landlord, by providing receipts, professional assessments, and prior photographic evidence",
+          "The municipal housing authority through mandatory annual property audits"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What overarching recommendation does the speaker offer to tenants dealing with a recalcitrant landlord?",
+        "options": [
+          "Engage in immediate physical withholding of subsequent rental payments until compliance is achieved.",
+          "Initiate formal dispute resolution proceedings rather than relying on protracted adversarial negotiations.",
+          "Seek immediate mediation through local law enforcement agencies.",
+          "Vacate the premises immediately without providing a forwarding address to avoid further conflict."
+        ],
+        "correctAnswerIndex": 1
+      }
+    ],
+    "audioUrl": "audio/audio_32.mp3"
   }
 ]
