@@ -2777,5 +2777,62 @@
       }
     ],
     "audioUrl": "audio/audio_46.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 6 - Everyday Topic",
+    "transcript": "Welcome, residents and environmental stakeholders, to this municipal town hall briefing regarding the overarching revitalization initiative for Strathcona Park. As you are acutely aware, the metropolitan canopy has faced unprecedented ecological stress over the preceding triennium. Our upcoming community stewardship weekend is not merely a superficial arboricultural exercise; rather, it represents a meticulously orchestrated socio-ecological intervention designed to remediate local soil degradation, re-establish indigenous biodiversity, and foster collective civic accountability. Critics have occasionally posited that volunteer-driven initiatives lack the rigorous horticultural oversight required for long-term canopy maturation. However, I want to preemptively assuage those apprehensions. We have partnered intimately with municipal arborists and urban ecologists to curate a localized flora inventory\u2014predominantly comprising sugar maples, paper birches, and eastern white pines\u2014specifically chosen for their resilience against fluctuating hydrological regimes and urban heat island effects. Furthermore, we are employing an innovative mycorrhizal inoculation technique during the subterranean root placement phase to exponentially enhance nutrient uptake and drought tolerance. Beyond the empirical environmental metrics, this endeavor serves as a vital psychological nexus for our increasingly fractured urban demographic. By actively dismantling the physical barriers of neglect that have plagued the northern acreage of the park, we are concurrently constructing robust interpersonal connective tissue among neighbors. Volunteering your Saturday morning transcends the rudimentary act of sapling cultivation; it constitutes a profound reclamation of our communal commons, demanding a paradigm shift from passive tenancy to active stewardship. I implore you to transcend the cynicism of modern urban life, divest yourselves of ephemeral digital distractions, and commit unequivocally to this terrestrial rehabilitation.",
+    "questions": [
+      {
+        "text": "According to the speaker, what is the primary purpose of the upcoming community stewardship weekend?",
+        "options": [
+          "[A] To conduct a superficial beautification of the park for a municipal inspection",
+          "[B] To execute a socio-ecological intervention addressing soil degradation and biodiversity",
+          "[C] To fulfill a mandatory provincial quota for urban canopy expansion",
+          "[D] To test an experimental commercial fertilizer on indigenous flora"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does the speaker respond to critics who doubt the effectiveness of volunteer-driven initiatives?",
+        "options": [
+          "[A] By dismissing their concerns as uninformed and counterproductive",
+          "[B] By admitting that volunteers lack the necessary skills for long-term maturation",
+          "[C] By highlighting partnerships with arborists and the use of a curated flora inventory",
+          "[D] By reducing the scope of the project to minimize potential errors"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What specific botanical technique is being utilized during the root placement phase?",
+        "options": [
+          "[A] Mycorrhizal inoculation to enhance nutrient uptake and drought resistance",
+          "[B] Hydroponic nutrient infusion for accelerated vertical growth",
+          "[C] Genetic splicing to increase resistance to local pests",
+          "[D] Chemical growth hormone application to stimulate early foliage"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "Beyond environmental metrics, what secondary benefit does the speaker attribute to this endeavor?",
+        "options": [
+          "[A] It will significantly reduce municipal maintenance expenditures",
+          "[B] It serves as a psychological nexus to build interpersonal connections among residents",
+          "[C] It provides a platform for local politicians to campaign",
+          "[D] It guarantees an increase in surrounding real estate valuations"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What ultimate psychological shift does the speaker implore the audience to make?",
+        "options": [
+          "[A] From prioritizing economic growth to focusing on wildlife conservation",
+          "[B] From viewing the park as a recreational space to treating it as a commercial venture",
+          "[C] From passive urban tenancy to active civic and ecological stewardship",
+          "[D] From relying on municipal intervention to completely privatizing park maintenance"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "audioUrl": "audio/audio_47.mp3"
   }
 ]

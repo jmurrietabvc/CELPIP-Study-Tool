@@ -2872,5 +2872,61 @@
         "correctAnswerIndex": 2
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 2 - Applying for a University Scholarship and Navigating the Admissions Portal",
+    "passage": "MEMORANDUM\nTo: Prospective Vanier University Entrance Scholars\nFrom: Office of Undergraduate Admissions and Financial Aid\nSubject: Scholarship Portal Navigation & Eligibility Matrix\n\nDear Applicant,\n\nNavigating the Vanier University Scholarship and Admissions Portal (VUSAP) requires meticulous attention to procedural prerequisites. Below is the operational matrix outlining the tiered scholarship categories, qualifying cumulative grade point averages (CGPA), mandatory supplementary documentation, and the portal validation workflow. Ensure all criteria are rigorously met before initiating your submission.\n\n+-----------------------+------------------------+---------------------------------------+---------------------------------------+\n| Scholarship Tier      | Minimum CGPA (Percentage)| Mandatory Supplementary Documentation  | VUSAP Workflow Stage                  |\n+-----------------------+------------------------+---------------------------------------+---------------------------------------+\n| Tier 1: Chancellor's  | 94.5% or higher        | 1. Dual Academic Letters of Reference  | Stage A: Prelim Transcript Upload     |\n|                       |                        | 2. Comprehensive Leadership Dossier   | Stage B: Dossier System Verification  |\n|                       |                        | 3. Verifiable Community Impact Log    | Stage C: Final Committee Review       |\n+-----------------------+------------------------+---------------------------------------+---------------------------------------+\n| Tier 2: Provost's     | 90.0% - 94.4%          | 1. Single Faculty Recommendation      | Stage A: Prelim Transcript Upload     |\n|                       |                        | 2. Extracurricular Summary Portfolio  | Stage B: System Auto-Adjudication     |\n|                       |                        |                                       | Stage C: Expedited Dean's Sign-off    |\n+-----------------------+------------------------+---------------------------------------+---------------------------------------+\n| Tier 3: Centennial    | 85.0% - 89.9%          | 1. Standard Personal Statement        | Stage A: Prelim Transcript Upload     |\n|                       |                        |                                       | Stage B: Direct Queue Routing         |\n+-----------------------+------------------------+---------------------------------------+---------------------------------------+\n\nOperational Instructions:\nApplicants must complete Stage A by uploading official transcripts via the secure portal gateway. Please note that system auto-adjudication (Stage B for Tier 2) is triggered only after the singular faculty recommendation is digitally countersigned. For Tier 1 candidates, the Leadership Dossier must precede the Community Impact Log in the upload sequence to prevent portal rejection errors. Any discrepancy between self-reported averages and verified academic transcripts will result in immediate disqualification without right of appeal.",
+    "questions": [
+      {
+        "text": "According to the matrix and operational instructions, which exact sequence of events must a Tier 1 Chancellor's scholarship applicant follow regarding their supplementary documentation?",
+        "options": [
+          "Upload the Community Impact Log before submitting the Academic Letters of Reference.",
+          "Ensure the Leadership Dossier is uploaded prior to the Community Impact Log to avert system errors.",
+          "Submit the Verifiable Community Impact Log concurrently with the Prelim Transcript Upload in Stage A.",
+          "Wait for system auto-adjudication before uploading the dual academic letters of reference."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "An applicant presents a verified academic average of 91.2% and wishes to know the exact VUSAP workflow stages applicable to their tier.",
+        "options": [
+          "Stage A: Prelim Transcript Upload -> Stage B: Dossier System Verification -> Stage C: Final Committee Review",
+          "Stage A: Prelim Transcript Upload -> Stage B: System Auto-Adjudication -> Stage C: Expedited Dean's Sign-off",
+          "Stage A: Prelim Transcript Upload -> Stage B: Direct Queue Routing",
+          "Stage A: Prelim Transcript Upload -> Stage C: Final Committee Review directly"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What is the mandatory prerequisite that must occur before Stage B (System Auto-Adjudication) can be triggered for a Provost's scholarship applicant?",
+        "options": [
+          "The comprehensive leadership dossier must be fully verified by the admissions committee.",
+          "The standard personal statement must be uploaded and time-stamped by the portal.",
+          "The single faculty recommendation must be digitally countersigned.",
+          "The applicant must achieve a minimum CGPA exceeding 94.5%."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which of the following scenarios would lead to an immediate disqualification of an application without the right of appeal?",
+        "options": [
+          "Failing to secure a digital countersignature on a Tier 2 faculty recommendation within 48 hours.",
+          "A variance between the academic average reported by the student and the officially verified transcripts.",
+          "Submitting a Tier 3 personal statement instead of an extracurricular summary portfolio.",
+          "Initiating Stage B before the preliminary transcript upload is fully processed by the gateway."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Based on the provided matrix, how many mandatory supplementary documentation items are required in total for an applicant qualifying for Tier 2 compared to Tier 3?",
+        "options": [
+          "Tier 2 requires two items, whereas Tier 3 requires one item.",
+          "Tier 2 requires three items, whereas Tier 3 requires two items.",
+          "Tier 2 requires one item, whereas Tier 3 requires zero items.",
+          "Tier 2 and Tier 3 both require an identical number of supplementary documents."
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
   }
 ]
