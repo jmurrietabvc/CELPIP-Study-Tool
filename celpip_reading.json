@@ -3768,5 +3768,61 @@
         "correctAnswerIndex": 1
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 2 - Everyday Topic",
+    "passage": "INTERNAL MEMORANDUM\nTO: Regional Operations Staff\nFROM: Enterprise IT Infrastructure Division\nDATE: October 24, 2023\nSUBJECT: Standard Operating Procedure for Laptop Hardware Malfunctions and Replacement Tiers\n\nTo ensure business continuity during unforeseen hardware failures, the IT Division has updated the replacement protocols for corporate laptops. Please refer to the matrix below before submitting an IT support ticket regarding a malfunctioning device.\n\n+-----------------------+-----------------------------+-----------------------------+-----------------------------+\n| INCIDENT SEVERITY     | TIER 1: MINOR MALFUNCTION   | TIER 2: MODERATE DAMAGE     | TIER 3: CATASTROPHIC FAILURE|\n+-----------------------+-----------------------------+-----------------------------+-----------------------------+\n| Symptom Profile       | Keyboard unresponsiveness,  | Persistent BSOD, thermal    | Total motherboard fry,      |\n|                       | superficial bezel cracks,   | throttling, intermittent    | liquid submersion, structural|\n|                       | loose charging port.        | peripheral disconnections.  | chassis fracture.           |\n+-----------------------+-----------------------------+-----------------------------+-----------------------------+\n| Diagnostic SLA        | 4 Business Hours            | 2 Business Hours            | 1 Business Hour             |\n+-----------------------+-----------------------------+-----------------------------+-----------------------------+\n| Resolution Protocol   | On-site component swap      | Depot send-in or immediate  | Immediate inventory swap    |\n|                       | (same-day turnaround).      | advance replacement swap.   | with mandatory data recovery|\n|                       |                             |                             | protocol initiated.         |\n+-----------------------+-----------------------------+-----------------------------+-----------------------------+\n| Backup Obligation     | User-managed cloud sync     | Automated nightly backup    | Enterprise shadow copy      |\n|                       | verified prior to service.  | restoration verification.   | restoration up to last      |\n|                       |                             |                             | hourly checkpoint.          |\n+-----------------------+-----------------------------+-----------------------------+-----------------------------+\n\n--- \n\nEMAIL THREAD\n\nFROM: Marcus Vance <m.vance@regops.ca>\nTO: IT Helpdesk <helpdesk@regops.ca>\nDATE: October 26, 2023, 09:15 AM\nSUBJECT: URGENT: Hardware Incident - Executive Laptop Failure\n\nHi IT Team,\n\nI am writing to urgently report a critical issue with my corporate workstation. During this morning's regional briefing, I accidentally knocked a full ceramic mug of black coffee directly onto my primary laptop. The device immediately sparked, emitted a distinct electrical burning odor, and the chassis is now visibly warped near the hinge due to thermal stress. Needless to say, it is completely bricked. \n\nGiven the severity, I need a replacement provisioned immediately as I have a board presentation at 2:00 PM today. Please advise on how we proceed according to the matrix.\n\nRegards,\nMarcus Vance\nRegional Director\n\n--- \n\nFROM: Sarah Lin <s.lin@regops.ca>\nTO: Marcus Vance <m.vance@regops.ca>\nDATE: October 26, 2023, 09:42 AM\nSUBJECT: RE: URGENT: Hardware Incident - Executive Laptop Failure\n\nDear Marcus,\n\nWe have received your ticket and reviewed the diagnostic indicators you provided. Based on your description of the incident, this falls squarely under Tier 3 due to the liquid submersion and structural chassis compromise. \n\nPer our Service Level Agreement for Tier 3 incidents, your diagnostic SLA is 1 hour, which we have already initiated. Our technician, Dave, is currently preparing an immediate inventory swap device for you. Furthermore, our systems have triggered the enterprise shadow copy restoration protocol to recover your data up to the last hourly checkpoint. Dave will bring the replacement unit directly to your office on the 4th floor by 10:30 AM so you can prepare for your 2:00 PM board meeting.\n\nBest regards,\nSarah Lin\nIT Infrastructure Lead",
+    "questions": [
+      {
+        "text": "Based on the provided matrix and email correspondence, which specific combination of factors categorizes Marcus's issue as a Tier 3 incident?",
+        "options": [
+          "Thermal throttling and persistent Blue Screen of Death (BSOD)",
+          "Liquid submersion combined with structural chassis fracture",
+          "A loose charging port alongside a warped bezel",
+          "Total motherboard fry and user-managed cloud sync failure"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "According to the Service Level Agreement outlined in the table, what is the mandatory backup obligation associated with Marcus's specific incident severity?",
+        "options": [
+          "User-managed cloud sync verification prior to service",
+          "Automated nightly backup restoration verification",
+          "Enterprise shadow copy restoration up to the last hourly checkpoint",
+          "Manual external hard drive cloning executed by the user"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What can be inferred about the timing of the IT division's response relative to their stated protocol?",
+        "options": [
+          "The IT team failed to meet the 1-hour diagnostic SLA by arriving after the board meeting commenced.",
+          "The response strictly adhered to the 1-hour diagnostic SLA stipulated for catastrophic failures.",
+          "The IT team downgraded the incident to Tier 2 to extend the diagnostic window to 2 hours.",
+          "The response time was delayed because Sarah Lin had to manually verify Marcus's cloud sync."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which resolution protocol is mandated for a malfunction that exhibits a Diagnostic SLA of exactly 2 Business Hours?",
+        "options": [
+          "On-site component swap with a same-day turnaround",
+          "Depot send-in or immediate advance replacement swap",
+          "Immediate inventory swap with mandatory data recovery",
+          "Immediate write-off and permanent device decommissioning"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Based on the details in the email thread, why was Marcus particularly concerned about the timing of the IT resolution?",
+        "options": [
+          "He needed to verify that his user-managed cloud sync was functioning properly before leaving the office.",
+          "He had a critical board presentation scheduled for 2:00 PM that same day requiring his workstation.",
+          "He wanted to ensure that Dave brought the correct replacement chassis model to match his office decor.",
+          "He needed to review the enterprise shadow copy logs before the 10:30 AM deadline."
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
   }
 ]

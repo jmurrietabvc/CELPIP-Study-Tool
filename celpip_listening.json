@@ -3689,5 +3689,62 @@
       }
     ],
     "audioUrl": "audio/audio_62.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 4 - Everyday Topic",
+    "transcript": "Good evening. This is Fraser Valley News Hour, and I'm your host, Arthur Pendelton. Our top local story tonight centers on a remarkably contentious municipal undertaking in the district of Maple Ridge, where a grassroots initiative aimed at rehabilitating Riverside Park and augmenting its arboreal canopy has inadvertently ignited a bureaucratic and philosophical imbroglio. The endeavor, ostensibly launched to ameliorate the urban heat island effect and mitigate local stormwater runoff through the targeted planting of indigenous hardwood saplings, has drawn vehement opposition from a coalition of legacy residents and amateur ornithologists. While the municipal council initially lauded the grassroots coalition\u2014dubbed 'Verdant Maple'\u2014for their proactive civic engagement, the project's execution phase has run aground on a reef of contentious zoning bylaws and ecological stewardship debates. Critics within the community argue that the indiscriminate removal of dense underbrush to facilitate the sapling integration has inadvertently dismantled critical nesting habitats for migratory songbirds, thereby exacerbating the very biodiversity loss the initiative purported to rectify. Furthermore, contention has arisen regarding the species selection for the arboreal augmentation; arborists dividedly debate whether the introduction of drought-resistant conifers supersedes the ecological imperative of restoring the historical deciduous ecosystem. Municipal authorities, caught in the crossfire between fervent environmental volunteers and indignant preservationists, have convened an emergency consultation session slated for Thursday evening. The overarching challenge remains balancing the amelioration of urban microclimates with the preservation of unmanaged, nascent ecosystems that have organically evolved over decades. As the municipal council deliberates on whether to issue a temporary injunction on the planting phase, Verdant Maple organizers maintain that expediting the canopy replenishment is paramount to counteracting escalating local carbon footprints. We will continue to monitor this unfolding civic paradox as it illuminates the broader tensions inherent in municipal ecological management.",
+    "questions": [
+      {
+        "text": "According to the news report, what was the primary catalyst for the 'Verdant Maple' initiative?",
+        "options": [
+          "[A] To construct recreational pathways and bicycle lanes through the park",
+          "[B] To ameliorate urban heat island effects and mitigate stormwater runoff",
+          "[C] To eradicate invasive plant species threatening local agriculture",
+          "[D] To expand municipal parking infrastructure adjacent to the park"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Why are legacy residents and amateur ornithologists expressing vehement opposition to the project?",
+        "options": [
+          "[A] The saplings being planted are non-native and hazardous to local fauna.",
+          "[B] The removal of dense underbrush has dismantled critical migratory songbird habitats.",
+          "[C] The initiative will restrict public access to the park's primary walking trails.",
+          "[D] The municipal budget allocation for the project has caused property taxes to rise."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What specific debate has arisen among arborists regarding the project?",
+        "options": [
+          "[A] Whether the soil composition can sustain mature hardwood trees",
+          "[B] Whether to prioritize drought-resistant conifers or restore historical deciduous ecosystems",
+          "[C] Whether the planting schedule should be postponed until the autumn frost",
+          "[D] Whether volunteer labor meets municipal safety standards for heavy machinery operation"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How have municipal authorities responded to the escalating conflict?",
+        "options": [
+          "[A] By permanently defunding the Verdant Maple initiative",
+          "[B] By issuing an immediate and permanent injunction on all park modifications",
+          "[C] By convening an emergency consultation session scheduled for Thursday evening",
+          "[D] By deferring the decision entirely to the provincial environmental ministry"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What underlying tension does the news anchor suggest this municipal conflict ultimately highlights?",
+        "options": [
+          "[A] The friction between fiscal conservatism and progressive taxation",
+          "[B] The bureaucratic inefficiency of municipal governance in Maple Ridge",
+          "[C] The broader challenges inherent in balancing urban microclimate amelioration with unmanaged ecosystem preservation",
+          "[D] The deep-seated animosity between long-term residents and recent urban transplants"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "audioUrl": "audio/audio_63.mp3"
   }
 ]
