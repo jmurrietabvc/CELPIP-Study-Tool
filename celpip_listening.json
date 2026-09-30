@@ -3005,5 +3005,62 @@
       }
     ],
     "audioUrl": "audio/audio_50.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 4 - Everyday Topic",
+    "transcript": "Good morning, transit commuters. This is your mid-day municipal update for December 14th. The unprecedented meteorological event currently blanketing the Greater Toronto Area has precipitated catastrophic infrastructural bottlenecks across our subterranean and surface-level transit grids. Municipal snow-clearing apparatuses have been thoroughly overwhelmed by the relentless precipitation, resulting in cascading delays that have paralyzed the metropolitan transit artery. All underground subway routes are currently experiencing intermittent, protracted stoppages due to frozen third-rail mechanisms and unprecedented passenger influxes seeking refuge from the sub-zero gale-force winds above. Furthermore, surface buses have been universally rerouted or shelved indefinitely as treacherous black ice creates insurmountable hazards on arterial thoroughfares. Transit officials strongly advise the populace to eschew all non-essential transit endeavors until municipal salt-truck deployment can re-establish rudimentary road traction. For those already stranded in transit hubs, auxiliary warming buses have been dispatched to major intersections, though their arrival times remain entirely conjectural given the gridlock paralyzing our downtown core. Commuters are encouraged to monitor real-time digital feeds and exercise extreme forbearance as frontline transit personnel labor tirelessly to restore operational integrity to our severely compromised transit network.",
+    "questions": [
+      {
+        "text": "What is the primary factor causing the catastrophic bottlenecks in the transit grid?",
+        "options": [
+          "A sudden mechanical failure of the underground subway doors.",
+          "An unprecedented meteorological event overwhelming snow-clearing apparatuses.",
+          "A coordinated strike by municipal transit operators during a blizzard.",
+          "A power grid failure shutting down the downtown core."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Why are surface buses currently being shelved or rerouted indefinitely?",
+        "options": [
+          "Because of treacherous black ice creating insurmountable hazards on arterial thoroughfares.",
+          "Due to a shortage of available bus drivers during the storm.",
+          "To accommodate the high volume of auxiliary warming buses.",
+          "Because commuters prefer underground subway routes."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "What specific operational issue is affecting the underground subway routes?",
+        "options": [
+          "Flooding from melting surface snow.",
+          "Frozen third-rail mechanisms and unprecedented passenger influxes.",
+          "Power surges caused by gale-force winds.",
+          "Signal failures due to computer network freezes."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What recommendation is given to commuters currently stranded in transit hubs?",
+        "options": [
+          "To walk home using designated pedestrian tunnels.",
+          "To board the auxiliary warming buses immediately regardless of destination.",
+          "To exercise extreme forbearance while waiting for auxiliary warming buses.",
+          "To seek shelter in commercial buildings downtown."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "According to transit officials, what must occur before non-essential transit endeavors should be resumed?",
+        "options": [
+          "The municipal salt-truck deployment successfully re-establishes rudimentary road traction.",
+          "The meteorological event officially downgrades to a flurries advisory.",
+          "All surface buses complete their rerouted journeys.",
+          "The real-time digital feeds are fully updated."
+        ],
+        "correctAnswerIndex": 0
+      }
+    ],
+    "audioUrl": "audio/audio_51.mp3"
   }
 ]

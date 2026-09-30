@@ -3096,5 +3096,61 @@
         "correctAnswerIndex": 2
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 2 - Everyday Topic",
+    "passage": "MEMORANDUM\nTo: Parents and Guardians Registering for the 2024-2025 Academic Year\nFrom: The Peel District School Board, Department of Curriculum and Educational Pathways\nSubject: Navigating Elementary Registration Streams and Pedagogical Frameworks\n\nWelcome to the Peel District School Board. As you prepare to register your child for public elementary education, we wish to provide a comprehensive guide regarding our educational streams and the integration of our updated provincial curriculum. \n\nBelow is a structural matrix outlining our primary educational streams, their core pedagogical emphasis, assessment methodologies, and requisite extracurricular enrichment criteria. Please review this schematic prior to completing your registration portal application.\n\n+---------------------------------------------------------------------------------------------------------------------------------------------------------+\n| EDUCATIONAL STREAM        | CORE PEDAGOGICAL EMPHASIS            | ASSESSMENT METHODOLOGY             | EXTRACURRICULAR ENRICHMENT CRITERIA |\n+---------------------------------------------------------------------------------------------------------------------------------------------------------+\n| Stream A: Standard        | Comprehensive core academics;        | Standardized provincial testing;   | Optional participation in intra-   |\n| Curriculum (Inquiry-      | foundational literacy, numeracy,     | formative teacher-led portfolios;  | mural sports, arts, and debate     |\n| Based Learning)           | and critical thinking.               | summative unit evaluations.        | clubs.                             |\n+---------------------------------------------------------------------------------------------------------------------------------------------------------+\n| Stream B: Early French    | Biliterate immersion; experiential   | Oral proficiency benchmarks;       | Mandatory cultural immersion       |\n| Immersion (EFI)           | language acquisition; cross-cultural | continuous communicative audits;   | workshops; bilingual dramatic arts |\n|                           | competence in Anglophone/Francophone.| dual-language competency metrics.  | and literature circles.            |\n+---------------------------------------------------------------------------------------------------------------------------------------------------------+\n| Stream C: STEM-Enhanced   | Advanced algorithmic reasoning,      | Project-based rubrics; peer-       | Compulsory regional robotics       | |\n| Experiential Track        | empirical experimentation, and       | reviewed design prototypes;        | leagues; coding hackathons; annual |\n|                           | computational design thinking.       | empirical data defense.            | science symposium presentation.    |\n+---------------------------------------------------------------------------------------------------------------------------------------------------------+\n| Stream D: Arts-           | Aesthetic synthesis; kinetic         | Portfolio critique sessions;       | Public gallery exhibitions;      | |\n| Integrated Expressive     | expression; historical art critique  | adjudicated live performances;     | theatrical ensemble productions;   | |\n| Arts Stream               | and cross-media storytelling.        | reflective artistic journals.      | masterclasses with local artists.  |\n+---------------------------------------------------------------------------------------------------------------------------------------------------------+\n\nADDITIONAL REGISTRATION DIRECTIVES:\nParents must ascertain that their chosen stream aligns with their child's developmental trajectory. Stream B mandates prior foundational exposure by Grade 1, while Stream C requires documentation of spatial-reasoning aptitude. Furthermore, any transition between streams post-registration is subject to administrative reallocation policies, enrollment ceilings, and a mandatory transition-advisory meeting with the school principal.",
+    "questions": [
+      {
+        "text": "According to the structural matrix, which educational stream employs 'continuous communicative audits' as part of its evaluative framework?",
+        "options": [
+          "Stream A: Standard Curriculum",
+          "Stream B: Early French Immersion (EFI)",
+          "Stream C: STEM-Enhanced Experiential Track",
+          "Stream D: Arts-Integrated Expressive Arts Stream"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What is a prerequisite condition explicitly mandated for registration in Stream B (Early French Immersion)?",
+        "options": [
+          "Prior foundational exposure to the language by Grade 1",
+          "Documentation demonstrating superior spatial-reasoning aptitude",
+          "Mandatory participation in regional robotics leagues",
+          "Successful completion of an empirical data defense"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "Which of the following best characterizes the assessment methodology utilized within the STEM-Enhanced Experiential Track?",
+        "options": [
+          "Standardized provincial testing alongside formative teacher-led portfolios",
+          "Oral proficiency benchmarks and dual-language competency metrics",
+          "Project-based rubrics, peer-reviewed design prototypes, and empirical data defense",
+          "Portfolio critique sessions and adjudicated live performances"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "If a parent wishes to transition their child to a different educational stream after the initial registration has been finalized, what constraint must they navigate?",
+        "options": [
+          "A purely voluntary consultation with the homeroom teacher without administrative oversight",
+          "Administrative reallocation policies, enrollment ceilings, and a mandatory transition-advisory meeting with the principal",
+          "An automatic approval process provided the request is submitted prior to the mid-term evaluations",
+          "The complete forfeiture of extracurricular privileges for the remainder of the academic year"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which extracurricular enrichment requirement is uniquely associated with Stream D (Arts-Integrated Expressive Arts Stream)?",
+        "options": [
+          "Compulsory regional robotics leagues and coding hackathons",
+          "Optional participation in intramural sports, arts, and debate clubs",
+          "Mandatory cultural immersion workshops and bilingual literature circles",
+          "Public gallery exhibitions, theatrical ensemble productions, and masterclasses with local artists"
+        ],
+        "correctAnswerIndex": 3
+      }
+    ]
   }
 ]
