@@ -1600,5 +1600,61 @@
         "correctAnswerIndex": 2
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 4 - Everyday Topic",
+    "passage": "Navigating the Labyrinth of Automotive Repair: Perspectives on Modern Vehicle Maintenance\n\n[Excerpt from a consumer advocacy column by Arthur Pendelton]\nLast Tuesday, a routine brake pad replacement morphed into an existential financial crisis at my local mechanic's garage. When presented with an estimate that rivaled the GDP of a small municipality, I experienced a familiar modern dread. Modern automobiles are no longer mechanical assemblages; they are proprietary computers on wheels, engineered to preclude DIY intervention. Dealerships and authorized service centers exploit this opacity, charging exorbitant hourly rates and mandating OEM (Original Equipment Manufacturer) components under the guise of safety and warranty preservation. Consumers are essentially held hostage by specialized diagnostic software and proprietary parts monopolies. The pervasive narrative of 'preventative maintenance' has been weaponized into a relentless upselling mechanism, transforming minor wear-and-tear into mandatory overhauls. We must advocate for strict 'Right to Repair' legislation to dismantle this predatory ecosystem and restore fiscal autonomy to vehicle owners.\n\n[Response from automotive technician and shop owner, Marcus Vance]\nArthur Pendelton\u2019s recent diatribe paints an unjustly nefarious portrait of the automotive repair industry, ignoring the fundamental economic and technological realities of contemporary transportation. Vehicles today are feats of extreme engineering\u2014integrating advanced driver-assistance systems (ADAS), complex emissions controls, and high-voltage electrical architecture. When a customer gasps at an unexpected invoice, it is rarely due to gouging; rather, it reflects the immense overhead required to maintain diagnostic infrastructure, specialized tooling, and continuous technician certification. Furthermore, the components we install are rigorously tested to integrate seamlessly with sophisticated onboard networks. Using substandard aftermarket alternatives can compromise critical safety protocols. Mechanics are not predatory gatekeepers; we are specialized technicians navigating an increasingly unforgiving landscape of liability, technological complexity, and escalating manufacturer costs.",
+    "questions": [
+      {
+        "text": "According to Arthur Pendelton, what is the primary driver behind the exorbitant costs of modern automotive repairs?",
+        "options": [
+          "A severe shortage of qualified mechanics willing to work on older vehicle models",
+          "The intentional monopolization of proprietary parts and software by manufacturers and service centers",
+          "The unreasonable consumer demand for luxury cosmetic upgrades during routine maintenance",
+          "An excessive reliance on substandard aftermarket components that fail prematurely"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does Marcus Vance characterize the current technological state of contemporary automobiles?",
+        "options": [
+          "As unnecessarily over-engineered platforms designed strictly to inflate dealership profits",
+          "As obsolete machinery that would benefit greatly from simplified mechanical assemblies",
+          "As complex integrations of advanced systems requiring specialized infrastructure and continuous training",
+          "As hazardous environments that pose insurmountable liability risks to independent garages"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "In the context of Pendelton's column, what does the word 'opacity' most nearly mean?",
+        "options": [
+          "A lack of transparency and understandability for the average consumer",
+          "The physical tint applied to modern automotive windshields",
+          "A deliberate refusal by mechanics to communicate in a polite manner",
+          "The physical density of newly manufactured engine components"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "What is Vance's primary justification for utilizing OEM components rather than aftermarket alternatives?",
+        "options": [
+          "OEM parts are significantly cheaper to manufacture and distribute globally",
+          "Aftermarket parts are universally illegal under current environmental legislation",
+          "OEM components ensure seamless integration with sophisticated safety and computer networks",
+          "Automobile manufacturers legally compel shops to use them under threat of losing their business license"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which of the following best encapsulates the fundamental disagreement between Pendelton and Vance?",
+        "options": [
+          "Pendelton believes cars should run on electricity, whereas Vance advocates for internal combustion engines.",
+          "Pendelton views high repair bills as systemic exploitation of consumers, whereas Vance attributes them to the necessary costs of technological complexity.",
+          "Pendelton argues that mechanics are undertrained, while Vance claims they are overqualified.",
+          "Pendelton wants to eliminate all vehicle maintenance, while Vance wants mandatory weekly checkups."
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
   }
 ]

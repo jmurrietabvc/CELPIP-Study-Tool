@@ -1463,5 +1463,62 @@
       }
     ],
     "audioUrl": "audio/audio_24.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 2 - Everyday Topic",
+    "transcript": "Mark: Elena, do you have a moment to debrief regarding yesterday\u2019s municipal transportation committee hearing? I am still rather perturbed by how dismissive the city planners were regarding our petition for segregated bike lanes on King Street.\nElena: Frankly, Mark, I wasn't entirely surprised. While their formal rationale ostensibly revolved around logistical constraints and potential exacerbation of vehicular congestion, it is blatantly apparent that pedestrian and cyclist safety has been relegated to an afterthought in their broader urban densification strategy.\nMark: Exactly. Their assertion that the current sharrows provide adequate mitigation is nothing short of preposterous. Sharrows are merely a psychological placation, offering zero physical protection against vehicular encroachment, particularly during peak hours when aggressive commuting reaches its zenith.\nElena: Precisely. Furthermore, the argument that retrofitting King Street would irreparably cripple local commerce holds no water. Empirical studies from comparable metropolitan jurisdictions consistently demonstrate that pedestrianization and cycling infrastructure invariably revitalize high-street retail by fostering a more immersive, accessible consumer environment.\nMark: Indeed, but trying to articulate the nuances of induced demand and active transit to council members whose conceptualization of mobility is inextricably tied to the combustion engine is an uphill battle. We need to pivot our strategy for the upcoming town hall.\nElena: Agreed. We must reframe the discourse away from purely environmental idealism and emphasize fiscal prudence\u2014specifically, how investing in robust cycling infrastructure substantially curtails long-term municipal healthcare expenditures and road maintenance liabilities.\nMark: Brilliant. If we quantify the socio-economic externalities, they won't be able to dismiss us as mere zealots. Let's draft an addendum to our proposal focusing strictly on cost-benefit metrics.",
+    "questions": [
+      {
+        "text": "What is Mark's primary reaction to the municipal transportation committee's response?",
+        "options": [
+          "A) He is bewildered by their lack of comprehension.",
+          "B) He is perturbed by their dismissive attitude.",
+          "C) He is relieved they are considering future revisions.",
+          "D) He is indifferent to their logistical arguments."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does Elena characterize the city planners' formal rationale?",
+        "options": [
+          "A) As a genuine concern for local commerce",
+          "B) As an ostensible excuse masking a disregard for safety",
+          "C) As a scientifically sound urban planning strategy",
+          "D) As an unavoidable consequence of urban densification"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "According to Mark, what is the primary deficiency of current sharrows on King Street?",
+        "options": [
+          "A) They increase vehicular congestion during peak hours.",
+          "B) They fail to educate drivers about cyclist rights.",
+          "C) They offer no physical protection against vehicular encroachment.",
+          "D) They are too costly to maintain properly."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What counter-argument do the speakers use against the claim that bike lanes cripple local commerce?",
+        "options": [
+          "A) Empirical studies show active transit revitalizes high-street retail.",
+          "B) Most shoppers in the area actually arrive on bicycles.",
+          "C) Local merchants have signed a petition supporting the lanes.",
+          "D) Vehicular traffic is already declining naturally."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "What strategic shift do they decide to implement for the upcoming town hall?",
+        "options": [
+          "A) Focus strictly on environmental idealism and carbon reduction",
+          "B) Emphasize fiscal prudence and healthcare expenditure reductions",
+          "C) Stage a peaceful protest outside the municipal building",
+          "D) Appeal directly to motorists regarding traffic flow"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ],
+    "audioUrl": "audio/audio_25.mp3"
   }
 ]
