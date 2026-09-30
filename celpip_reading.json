@@ -2440,5 +2440,61 @@
         "correctAnswerIndex": 2
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 3 - Everyday Topic",
+    "passage": "Municipal governance in the thriving metropolitan hub of Metro City has recently entered a contentious phase following the unanimous drafting of By-law 2024-88, colloquially designated as the 'Urban Tranquility Act.' Designed to mitigate escalating decibel pollution in mixed-use districts, the legislation imposes stringent acoustic ceilings on commercial entities operating contiguous to residential zones. While municipal planners champion the ordinance as an overdue paradigm shift toward holistic urban livability, local business proprietors articulate profound apprehension regarding its operational and economic viability.\n\nAt the crux of the discourse is the strict decibel reduction threshold. Effective immediately upon ratification, businesses must not exceed 55 dB between 7:00 AM and 10:00 PM, and a draconian 45 dB during nocturnal hours. For hospitality ventures, open-air patios, and artisanal manufacturing outlets, these metrics represent an existential challenge. Industry advocates argue that the infrastructural retrofitting required to achieve acoustic compliance\u2014such as double-glazed acoustic baffling, specialized HVAC dampening enclosures, and structural decoupling\u2014imposes prohibitive capital expenditure. Consequently, many independent establishments fear insolvency, which could precipitate a homogenized commercial landscape devoid of vibrancy.\n\nConversely, proponents of By-law 2024-88 cite mounting empirical data correlating chronic acoustic overstimulation with physiological distress, sleep deprivation, and diminished cognitive performance among urban residents. Municipal health officials emphasize that as densification intensifies, the historic tolerance for ambient commercial noise is no longer tenable. Furthermore, proponents contend that the legislation fosters a symbiotic urban ecosystem by incentivizing technological innovation in quiet commercial machinery, thereby future-proofing the city's economy against escalating environmental standards.\n\nEnforcement mechanisms outlined in the by-law rely heavily on automated decibel monitoring arrays coupled with municipal inspectorate patrols. Infractions carry escalating penalties, ranging from steep administrative monetary penalties (AMPs) to the ultimate revocation of business operating licenses upon repeated non-compliance. Although a transitional grace period of six months has been provisionally granted to accommodate structural adjustments, critics argue that supply chain bottlenecks for specialized acoustic materials render this timeframe wholly unrealistic. As public consultations proceed toward the final legislative vote, the municipal council faces the formidable task of reconciling the imperatives of public health with the preservation of economic vitality.",
+    "questions": [
+      {
+        "text": "According to the passage, what is the primary objective of By-law 2024-88?",
+        "options": [
+          "To penalize businesses that fail to innovate their manufacturing equipment.",
+          "To mitigate escalating decibel pollution in mixed-use urban districts.",
+          "To eliminate all nocturnal commercial activities across Metro City.",
+          "To subsidize the infrastructural retrofitting of independent hospitality ventures."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Why do local business proprietors express profound apprehension regarding the new ordinance?",
+        "options": [
+          "The automated monitoring arrays are prone to frequent mechanical malfunctions.",
+          "The six-month grace period is considered overly generous by industry competitors.",
+          "The capital expenditure required for acoustic compliance threatens their financial viability.",
+          "The legislation mandates the immediate cessation of all open-air patio operations."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which of the following best characterizes the viewpoint of municipal health officials as presented in the text?",
+        "options": [
+          "Historical tolerance for ambient commercial noise must be maintained to support densification.",
+          "Chronic acoustic overstimulation is directly linked to adverse physiological and cognitive outcomes.",
+          "Economic vitality should perpetually supersede public health initiatives in dense urban areas.",
+          "Automated monitoring arrays are insufficient for capturing true decibel fluctuations."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What potential consequence do independent establishments fear if they cannot meet the compliance standards?",
+        "options": [
+          "Mandatory relocation to purely industrial zones outside Metro City.",
+          "Insolvency leading to a homogenized commercial landscape.",
+          "Permanent exclusion from municipal public consultation panels.",
+          "Immediate revocation of their licenses without a transitional grace period."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which inference can be drawn regarding the six-month transitional grace period?",
+        "options": [
+          "It provides ample time for businesses to install specialized acoustic materials.",
+          "It was extended indefinitely due to widespread public outcry and protests.",
+          "It is viewed skeptically by critics due to potential supply chain constraints.",
+          "It completely exempts hospitality ventures from nocturnal noise thresholds."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
   }
 ]

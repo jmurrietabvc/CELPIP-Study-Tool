@@ -2378,5 +2378,62 @@
       }
     ],
     "audioUrl": "audio/audio_39.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 5 - Everyday Topic",
+    "transcript": "Claire: Good morning, David, Elena. Have you had a chance to digest the municipal council's newly enacted municipal bylaw regarding mandatory tripartite residential waste diversion? It seems they are escalating the penalties for non-compliance quite aggressively.\n\nDavid: Good morning, Claire. Frankly, I found the policy memo excessively bureaucratic and draconian. While I understand the existential imperative of mitigating landfill saturation, fining households upwards of five hundred dollars for miscategorizing organic matter feels counterproductive. It breeds resentment rather than fostering genuine ecological stewardship.\n\nElena: I have to respectfully dissent, David. Relying on voluntary participation has demonstrably failed over the past decade; our diversion rates have plateaued at a dismal thirty-five percent. Enforcement is the only pragmatic lever left to compel behavioral modification. Granted, the implementation timeline is precipitate, but the overarching objective is unimpeachable. Municipalities like San Francisco and Milan have proven that punitive frameworks dramatically accelerate cultural shifts.\n\nClaire: That comparative analysis is insightful, Elena, but we must evaluate the socioeconomic ramifications locally. Consider multi-tenant high-rises where waste contamination is a systemic collective action problem. If one resident chronically contaminates the organic stream, the entire strata corporation incurs the financial penalty. How does the municipality propose to arbitrate individual culpability in communal disposal infrastructures?\n\nDavid: Exactly, Claire. The logistical friction is immense. Furthermore, the mandatory procurement of specialized aerated compost containers imposes an regressive financial burden on fixed-income seniors. The council has obfuscated these auxiliary costs beneath lofty rhetoric about sustainability.\n\nElena: While those logistical anomalies are admittedly vexing, the city has allocated subsidies for strata councils to retrofit their waste bays with optical sorting technologies and educational signage. Moreover, the argument regarding regressive costs is somewhat attenuated by the quarterly municipal tax rebates offered to compliant households. We cannot allow logistical paralysis to perpetually forestall urgent environmental remediation.",
+    "questions": [
+      {
+        "text": "What is David's primary critique of the new municipal bylaw?",
+        "options": [
+          "It focuses too heavily on recycling while ignoring hazardous waste.",
+          "It is overly punitive, economically burdensome, and breeds public resentment.",
+          "It fails to align with international standards set by cities like Milan.",
+          "It provides insufficient subsidies for multi-tenant high-rise retrofitting."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does Elena counter the argument that voluntary participation is preferable?",
+        "options": [
+          "She points out that voluntary measures have stagnated at an unacceptable rate for a decade.",
+          "She argues that voluntary programs cost taxpayers significantly more in the long run.",
+          "She claims that neighboring municipalities have already abolished voluntary systems.",
+          "She suggests that voluntary frameworks lack any measurable metrics."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "What specific concern does Claire raise regarding multi-tenant high-rises?",
+        "options": [
+          "The lack of space in elevators for transporting bulky organic bins.",
+          "The difficulty of determining individual responsibility when a collective fine is levied.",
+          "The refusal of strata corporations to cooperate with municipal inspectors.",
+          "The exorbitant cost of purchasing optical sorting technologies."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "According to Elena, how does the municipality plan to mitigate the financial impact on strata councils?",
+        "options": [
+          "By exempting high-rises from the bylaw for a probationary two-year period.",
+          "By providing specialized aerated compost containers free of charge.",
+          "By offering financial subsidies for retrofitting waste bays and implementing optical sorting.",
+          "By increasing the quarterly municipal tax rebates exclusively for renters."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What can be inferred about the speakers' overall discourse?",
+        "options": [
+          "They are unanimously opposed to the council's new waste diversion strategy.",
+          "They represent municipal policymakers defending the bylaw to constituents.",
+          "They are engaged in a nuanced debate balancing civic urgency against logistical and economic realities.",
+          "They ultimately agree that the implementation timeline is too generous and prolonged."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "audioUrl": "audio/audio_40.mp3"
   }
 ]
