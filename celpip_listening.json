@@ -1691,5 +1691,62 @@
       }
     ],
     "audioUrl": "audio/audio_28.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 6 - Everyday Topic",
+    "transcript": "Good evening, residents of Oakridge. As your municipal waste diversion coordinator, I want to address the pervasive discourse surrounding the city's newly enacted Bylaw 404, which mandates comprehensive composting and recycling protocols for all residential sectors. While initial public reception has been fraught with contention\u2014largely characterized by grievances regarding civic overreach and punitive enforcement\u2014I intend to elucidate the exigency driving this legislation. Critics frequently contend that the imposition of strict sorting mandates infringes upon personal autonomy and imposes an undue administrative burden on households already grappling with economic precarity. However, this perspective fundamentally misapprehends the ecological imperative we face. Our municipal landfill, projected to reach terminal capacity by the end of the decade, represents an unsustainable trajectory of refuse accumulation. By diverting organic matter and recyclable composites from the waste stream, we are not merely engaging in performative environmentalism; we are executing a scientifically validated mitigation strategy to curtail methane emissions and conserve finite municipal resources. Furthermore, the argument that the financial penalties are excessively draconian overlooks the tiered implementation schedule. The city council has deliberately structured the rollout to prioritize civic education and infrastructural acclimation over immediate penalization. Enforcement will transition from advisory warnings to monetary fines only after a six-month grace period, affording citizenry ample opportunity to recalibrate their domestic waste management habits. It is also imperative to dispel the misconception that this bylaw is an isolated administrative whim. It aligns seamlessly with provincial sustainability frameworks and federal carbon reduction commitments, positioning Oakridge as a progressive steward of ecological governance. Ultimately, achieving a zero-waste paradigm necessitates a paradigm shift in our collective ethos. We must transcend the entrenched convenience of a disposable culture and embrace the intricate responsibilities of circular economics. I implore you to view this legislation not as an impediment, but as an indispensable catalyst for intergenerational equity and urban sustainability.",
+    "questions": [
+      {
+        "text": "What is the primary grievance expressed by critics of Bylaw 404?",
+        "options": [
+          "The municipal landfill is expanding too rapidly into residential zones.",
+          "The sorting mandates infringe on personal autonomy and create administrative burdens.",
+          "The financial penalties are applied immediately without a grace period.",
+          "The city council failed to consult provincial sustainability frameworks."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "According to the speaker, what is the projected consequence if the current waste trajectory continues?",
+        "options": [
+          "Municipal taxes will increase exponentially to fund new incinerators.",
+          "Methane emissions will decrease due to natural decomposition.",
+          "The municipal landfill will reach terminal capacity by the decade's end.",
+          "Federal carbon reduction subsidies will be permanently revoked."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "How does the city council plan to address concerns regarding the draconian nature of the fines?",
+        "options": [
+          "By eliminating monetary penalties entirely in favor of community service.",
+          "By implementing a six-month grace period prioritizing education over penalization.",
+          "By exempting households facing severe economic precarity.",
+          "By reducing the severity of the fines by fifty percent."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What does the speaker imply about the misconception surrounding the new bylaw?",
+        "options": [
+          "It is an isolated administrative whim conceived by local bureaucrats.",
+          "It contradicts federal carbon reduction commitments.",
+          "It is solely designed to generate municipal revenue through fines.",
+          "It aligns with broader provincial and federal sustainability frameworks."
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "text": "What ultimate paradigm shift does the speaker argue is necessary for the citizenry?",
+        "options": [
+          "Transitioning from municipal governance to private waste management.",
+          "Transcending a disposable culture to embrace circular economics.",
+          "Prioritizing intergenerational equity over immediate economic growth.",
+          "Accepting higher taxation in exchange for ecological preservation."
+        ],
+        "correctAnswerIndex": 1
+      }
+    ],
+    "audioUrl": "audio/audio_29.mp3"
   }
 ]

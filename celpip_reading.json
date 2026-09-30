@@ -1824,5 +1824,61 @@
         "correctAnswerIndex": 1
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 4 - Everyday Topic",
+    "passage": "Navigating the labyrinthine digital infrastructure of Canadian post-secondary admissions portals has increasingly become a crucible for prospective scholars. Recently, the debate surrounding the centralization of scholarship applications via automated portals has sparked intense discourse among educators, applicants, and institutional administrators.\n\nPerspective A: Dr. Harrison Vance, Professor of Educational Administration\n\"The proliferation of algorithmic filtering and centralized admissions portals is a progressive leap toward equity and administrative efficacy. Historically, the scholarship application process was marred by systemic opacity, human bias, and logistical bottlenecks. By implementing standardized digital portals equipped with preliminary parsing algorithms, universities can democratize access. These systems ensure that every applicant's dossier is evaluated against transparent, quantifiable rubrics rather than the subjective whims of a committee. While initial technical friction is inevitable, the long-term dividend is a meritocratic landscape where socio-economic background is meticulously decoupled from institutional favoritism. Furthermore, automated tracking reduces administrative overhead, allowing universities to reallocate resources toward direct student financial aid rather than bureaucratic processing.\"\n\nPerspective B: Dr. Elena Rostova, Higher Education Sociologist and Student Advocate\n\"While the promise of algorithmic efficiency is seductive, the reality of these hyper-centralized portals is profoundly exclusionary. Rather than fostering equity, these monolithic digital gatekeepers erect formidable socioeconomic and digital barriers. Applicants from marginalized communities or underfunded rural high schools frequently lack the digital literacy or high-speed infrastructure required to seamlessly navigate these capricious, error-prone platforms. Moreover, reducing a multifaceted human narrative\u2014complete with community resilience, nuanced leadership trajectories, and contextual adversity\u2014into standardized data points strips applicants of their individuality. Algorithms are fundamentally incapable of discerning the subtle nuances of lived experience, often penalizing non-traditional applicants whose achievements do not fit neatly into pre-fabricated drop-down menus. Instead of democratization, we are witnessing the mechanization and cold technocratization of higher education.\"",
+    "questions": [
+      {
+        "text": "According to Dr. Harrison Vance, what is a primary justification for utilizing preliminary parsing algorithms in scholarship portals?",
+        "options": [
+          "They completely eliminate all technical friction for applicants.",
+          "They replace subjective committee reviews with transparent, quantifiable metrics.",
+          "They allow universities to increase their overall tuition fees.",
+          "They prioritize applicants from underfunded rural high schools."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does Dr. Elena Rostova characterize the impact of centralized digital portals on non-traditional applicants?",
+        "options": [
+          "As an empowering tool that highlights unique community resilience",
+          "As a beneficial system that streamlines complex human narratives",
+          "As a mechanized barrier that penalizes achievements not fitting standardized formats",
+          "As an effective equalizer that bridges the gap between rural and urban students"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which of the following best describes the underlying disagreement between the two perspectives?",
+        "options": [
+          "Whether universities should offer scholarships at all",
+          "Whether digital portals successfully democratize access or inadvertently marginalize specific applicants",
+          "Whether administrative overhead has actually increased due to technological upgrades",
+          "Whether human committees should be entirely replaced by artificial intelligence in all sectors"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "In the context of Dr. Vance's argument, what does the word 'decoupled' most nearly mean?",
+        "options": [
+          "Connected",
+          "Amplified",
+          "Separated",
+          "Encumbered"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which inference can be reasonably drawn from Dr. Rostova's critique regarding high-speed infrastructure?",
+        "options": [
+          "All Canadian students have equal access to advanced digital tools.",
+          "Technological disparities can inadvertently disadvantage applicants from specific geographic or economic backgrounds.",
+          "Universities intentionally sabotage rural applicants using slow internet connections.",
+          "Digital literacy is no longer relevant in modern higher education."
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
   }
 ]
