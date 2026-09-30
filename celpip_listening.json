@@ -1919,5 +1919,62 @@
       }
     ],
     "audioUrl": "audio/audio_32.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 4 - Everyday Topic",
+    "transcript": "Good evening, and welcome to Metro Morning. I'm your host, Arthur Pendelton. Navigating the labyrinthine administrative frameworks of Canadian higher education can be daunting, but a recent overhaul of Ontario's centralized university admissions portal aims to streamline the convoluted scholarship application process. Prospective undergraduate candidates attempting to procure merit-based funding have historically contended with fragmented interfaces, opaque algorithmic screening, and disparate institutional deadlines. However, the newly minted 'Scholarship Synchronicity Initiative' integrates disparate institutional databases into a unified portal. Educational analysts suggest this technological leap will mitigate systemic attrition rates among high-achieving applicants who previously capitulated to bureaucratic red tape. Critics, nevertheless, remain circumspect, arguing that the automation of qualitative assessments might inadvertently disenfranchise candidates with non-traditional academic trajectories. Students are strongly advised to meticulously audit their digital portfolios before the imminent midnight submission threshold, as retroactive extensions are strictly prohibited under the revised protocol.",
+    "questions": [
+      {
+        "text": "According to the news report, what was the primary historical grievance regarding undergraduate scholarship applications?",
+        "options": [
+          "Exorbitant tuition fees and hidden administrative costs",
+          "Fragmented interfaces and disparate institutional deadlines",
+          "A complete lack of merit-based funding opportunities",
+          "Biased qualitative assessments by human evaluators"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What is the designated name of the newly implemented portal overhaul?",
+        "options": [
+          "The Undergraduate Funding Harmonization Project",
+          "The Centralized Academic Procurement Initiative",
+          "The Scholarship Synchronicity Initiative",
+          "The Metro Morning Education Portal"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "How do educational analysts predict the new technological integration will impact high-achieving applicants?",
+        "options": [
+          "It will exacerbate systemic attrition rates due to increased technical complexity.",
+          "It will completely eliminate the need for academic transcripts.",
+          "It will mitigate systemic attrition rates caused by bureaucratic hurdles.",
+          "It will force students to adopt non-traditional academic trajectories."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What specific concern do critics hold regarding the automated system?",
+        "options": [
+          "It may inadvertently disenfranchise candidates with non-traditional academic trajectories.",
+          "It operates too slowly during peak application hours.",
+          "It lacks adequate security measures to protect sensitive financial data.",
+          "It favors international students over domestic applicants."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "What strict rule applies to the upcoming midnight submission threshold?",
+        "options": [
+          "Students can request a 24-hour grace period for technical issues.",
+          "Retroactive extensions are strictly prohibited under the revised protocol.",
+          "Applications submitted after midnight will be automatically reviewed for the next term.",
+          "Submissions must be mailed physically if the portal crashes."
+        ],
+        "correctAnswerIndex": 1
+      }
+    ],
+    "audioUrl": "audio/audio_33.mp3"
   }
 ]

@@ -2048,5 +2048,61 @@
         "correctAnswerIndex": 2
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 4 - Everyday Topic",
+    "passage": "Urban Planning Quarterly: The Re-Zoning Legacy of Mayor Arthur Vance\n\nIntroduction:\nFew municipal figures in recent Canadian history have generated as much polarization as former Mayor Arthur Vance. Serving from 2004 to 2016, Vance spearheaded a radical overhaul of the city's municipal zoning bylaws, shifting the paradigm from low-density urban sprawl to transit-oriented, mixed-use development. As the city grapples with housing affordability and infrastructural strain a decade after his tenure, two prominent urban analysts offer contrasting evaluations of his enduring legacy.\n\nPerspective A: Dr. Elena Rostova, Professor of Urban Economics\nMayor Vance's zoning reform was nothing short of a visionary masterstroke that salvaged the city from economic stagnation and spatial obsolescence. Prior to his administration, outdated bylaws choked urban vitality, artificially inflating real estate prices and exacerbating socioeconomic stratification. By dismantling single-family exclusionary zoning along major transit corridors and incentivizing medium-density infill, Vance catalyzed a renaissance of vibrant, walkable neighborhoods. Critics invariably point to the friction of transition\u2014such as the demolition of heritage facades and the proliferation of contemporary architectural anomalies\u2014as an indictment of his policies. However, these are the inevitable growing pains of a metropolis forced to mature. Without Vance's audacious legislative pivot, our city would have buckled under the dual pressures of regional population influx and economic sclerosis. His legacy is one of pragmatic courage, establishing a resilient framework that prioritizes human habitation over vehicular hegemony.\n\nPerspective B: Marcus Thorne, Heritage Preservationist and Community Activist\nWhile the rhetoric of modernization sounds appealing in theory, Arthur Vance's heavy-handed rezoning crusade inflicted an irreversible cultural wound on the historic fabric of our city. Vance operated under a utilitarian calculus that equated demographic growth with civic progress, riding roughshod over municipal democratic norms and neighborhood autonomy. His sweeping reclassification of residential zones disenfranchised long-standing communities, exposing them to speculative land grabs by aggressive developers who prioritized superficial aesthetic novelty over structural integration. The resultant high-rises have not truly ameliorated housing affordability; rather, they have accelerated gentrification, displacing vulnerable populations while replacing architectural character with homogenized glass-and-steel monoliths. Furthermore, the accompanying densification severely outstripped municipal infrastructural capacity, resulting in chronic sewer overflows and traffic congestion. Vance's legacy is not one of visionary foresight, but of reckless expediency\u2014a top-down imposition that traded our city's unique identity for short-sighted economic metrics.",
+    "questions": [
+      {
+        "text": "What is the primary point of contention between Dr. Elena Rostova and Marcus Thorne regarding Mayor Vance's zoning reforms?",
+        "options": [
+          "[A] Whether the reforms successfully mitigated regional population growth and traffic congestion.",
+          "[B] Whether the long-term economic and social benefits outweighed the cultural and infrastructural detriments.",
+          "[C] Whether the mayor acted within his legal jurisdiction when rewriting the municipal bylaws.",
+          "[D] Whether the architectural styles introduced during his tenure were environmentally sustainable."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "According to Perspective A, what would have been the most likely consequence if Mayor Vance had not implemented his legislative pivot?",
+        "options": [
+          "[A] The immediate preservation of all historical heritage facades across the city.",
+          "[B] An exponential surge in single-family housing developments.",
+          "[C] Severe economic stagnation and an inability to support population inflows.",
+          "[D] The complete privatization of the municipal transit corridors."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "How does Marcus Thorne characterize the relationship between Vance's policies and housing affordability in Perspective B?",
+        "options": [
+          "[A] He acknowledges that prices dropped initially before rising due to global market shifts.",
+          "[B] He argues that the new developments failed to solve affordability, instead fueling gentrification and displacement.",
+          "[C] He asserts that affordability was successfully addressed, but only at the expense of municipal tax revenues.",
+          "[D] He claims the policies were explicitly designed to protect affluent neighborhoods from lower-income residents."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which of the following best describes Dr. Rostova's stance on the architectural changes and heritage losses mentioned by critics?",
+        "options": [
+          "[A] She disputes that any significant heritage buildings were actually demolished.",
+          "[B] She dismisses them as minor, unavoidable frictional costs of necessary urban evolution.",
+          "[C] She believes developers should be heavily fined for altering historical streetscapes.",
+          "[D] She argues that modern architectural anomalies are superior to heritage facades in every way."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which underlying assumption about municipal leadership is implicitly shared by both authors despite their differing conclusions?",
+        "options": [
+          "[A] Mayoral tenure should be constitutionally limited to prevent sweeping legislative overhauls.",
+          "[B] Urban planning decisions made by a mayor have profound, long-lasting ramifications for a city's identity and viability.",
+          "[C] Economic metrics are ultimately irrelevant when evaluating the success of a civic leader.",
+          "[D] Community activism is generally ineffective against well-funded real estate developers."
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
   }
 ]
