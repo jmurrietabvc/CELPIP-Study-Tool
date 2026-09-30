@@ -3632,5 +3632,62 @@
       }
     ],
     "audioUrl": "audio/audio_61.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 3 - Everyday Topic",
+    "transcript": "Good morning, everyone. As we prepare to roll out our revised remote work framework next month, I want to provide a comprehensive overview of the policy adjustments and the empirical rationale underpinning them. Over the past six months, executive leadership, in collaboration with human resources and department heads, has meticulously analyzed our operational metrics, productivity indices, and employee feedback surveys. The consensus is that while our ad-hoc, pandemic-era flexibility served us admirably during unprecedented disruptions, it lacks the structural cohesion required for our current growth trajectory. Consequently, the new hybrid model mandates a baseline of three core days in the office, with Tuesday, Wednesday, and Thursday designated as synchronous collaboration days. This deliberate design aims to mitigate the insidious creep of siloed communication and foster spontaneous cross-departmental synergy, which has perceptibly atrophied over the last fiscal year. Furthermore, to address equity and accommodate diverse logistical realities, the remaining two days can be executed remotely, contingent upon individual performance benchmarks and managerial discretion. We recognize that this transition may perturb established domestic routines, particularly for those who relocated further afield during the exemption period. Therefore, we have instituted a comprehensive transition grace period extending through the end of the quarter, alongside enhanced digital infrastructure investments to ensure seamless interoperability regardless of physical location. Our objective is not to retrogress into rigid paradigms of presenteeism, but rather to architect a hybridized operational ecosystem that harmonizes institutional cohesion with individual autonomy.",
+    "questions": [
+      {
+        "text": "What primary factor drove the executive leadership to overhaul the previous remote work framework?",
+        "options": [
+          "A sustained decline in overall corporate profitability and revenue generation.",
+          "The absence of structural cohesion and a perceived atrophy in cross-departmental synergy.",
+          "Direct pressure from municipal authorities to revitalize downtown commercial real estate.",
+          "An overwhelming demand from employees for more rigid supervision and oversight."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which specific days of the week have been designated as mandatory synchronous collaboration days in the office?",
+        "options": [
+          "Monday, Wednesday, and Friday",
+          "Tuesday, Wednesday, and Thursday",
+          "Monday through Wednesday",
+          "Any three days chosen at the discretion of the employee"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What is the prerequisite for employees wishing to utilize the two designated remote work days?",
+        "options": [
+          "Submitting a formal relocation request to human resources",
+          "Demonstrating seniority of at least five years within the corporation",
+          "Meeting individual performance benchmarks and securing managerial discretion",
+          "Participating in weekly mandatory digital literacy workshops"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "How does the organization plan to mitigate the disruption for employees who relocated during the exemption period?",
+        "options": [
+          "By offering financial relocation subsidies to move back closer to the corporate headquarters",
+          "By granting a permanent exemption from the three-day in-office mandate",
+          "By instituting a transition grace period extending through the end of the quarter",
+          "By allowing them to work entirely remotely in exchange for a salary adjustment"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "According to the speaker, what is the ultimate overarching objective of the new hybrid operational model?",
+        "options": [
+          "To revert entirely to pre-pandemic operational paradigms and strict presenteeism",
+          "To reduce corporate expenditure on real estate and infrastructural maintenance",
+          "To harmonize institutional cohesion with individual autonomy within a hybridized ecosystem",
+          "To eliminate all remote work privileges by the conclusion of the fiscal year"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "audioUrl": "audio/audio_62.mp3"
   }
 ]
