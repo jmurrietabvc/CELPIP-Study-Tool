@@ -2207,5 +2207,62 @@
       }
     ],
     "audioUrl": "audio/audio_36.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 2 - Everyday Topic",
+    "transcript": "Alex: Good morning, IT helpdesk. This is Alex speaking; how may I assist you today?\nBenoit: Hi Alex, my name is Benoit from the marketing department. I'm facing an intractable hardware malfunction with my corporate-issued laptop, and quite frankly, it's severely hamstringing our team's deliverables for the upcoming Q3 campaign.\nAlex: I apologize for the inconvenience, Benoit. Can you elaborate on the specific symptoms the machine is exhibiting? Is it a kernel panic, a persistent Blue Screen of Death, or perhaps physical component failure?\nBenoit: It started yesterday afternoon with intermittent thermal throttling and spontaneous reboots. However, this morning, upon attempting to initialize the system, the display remained completely inert despite the cooling fans operating at maximum decibels. I suspect either a catastrophic motherboard failure or irreparable GPU degradation.\nAlex: That certainly sounds like a critical hardware anomaly. Did you attempt a hard reset by holding down the power button for thirty seconds, or connect it to an external monitor to isolate whether the LCD panel itself is the culprit?\nBenoit: Naturally, I exhausted all rudimentary troubleshooting protocols prior to escalating the ticket. I even swapped out the OEM power supply unit with a colleague's adapter to rule out voltage irregularities. The machine is fundamentally bricked.\nAlex: Understood. Given your meticulous preliminary diagnosis, I won't subject you to redundant troubleshooting scripts. However, per company compliance mandates, before I can authorize an expedited device swap, you need to verify whether your local data cache was successfully synchronized to the cloud repository, or if there are uncommitted revisions residing solely on your local NVMe drive.\nBenoit: That's precisely my primary anxiety. While our primary assets are redundantly backed up on the enterprise server, I spent the entirety of yesterday afternoon drafting a proprietary market analysis prospectus directly to the local disk, entirely offline due to a transient internet outage. If that partition is inaccessible, retrieving those sector-level sectors will require a cleanroom data recovery procedure.\nAlex: I empathize with the precariousness of your situation. Here is our protocol: Bring the workstation down to the IT service bay on the fourth floor immediately. I will personally interface the drive with our forensic diagnostic rig. If the physical storage controllers remain intact, we can bypass the operating system entirely and mirror your partition before initiating the hardware RMA.\nBenoit: I appreciate your alacrity, Alex. I'll detach the peripheral dock and bring the unit down posthaste. Hopefully, your forensic apparatus can salvage my localized manifest without compromising our immutable compliance timelines.",
+    "questions": [
+      {
+        "text": "What is the primary reason Benoit contacted the IT helpdesk?",
+        "options": [
+          "His corporate laptop suffered a catastrophic hardware failure that is impeding his team's workflow.",
+          "He accidentally deleted proprietary marketing files while offline.",
+          "He is experiencing intermittent internet outages affecting his cloud synchronization.",
+          "He needs assistance installing the operating system for the Q3 campaign."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "What specific physical symptom did Benoit's laptop display the morning of the call?",
+        "options": [
+          "Frequent kernel panics and spontaneous reboots.",
+          "A persistent Blue Screen of Death error code.",
+          "Maximum fan noise with a completely inert display.",
+          "Intermittent thermal throttling during data transfers."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Why did Benoit draft his market analysis prospectus entirely on his local NVMe drive?",
+        "options": [
+          "He preferred local storage over cloud repositories for security reasons.",
+          "He experienced a transient internet outage that prevented cloud synchronization.",
+          "Company compliance mandates prohibited him from using enterprise servers.",
+          "His external dock was malfunctioning at the time."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What prerequisite must be addressed before Alex can authorize an expedited device swap?",
+        "options": [
+          "Benoit must complete a rudimentary troubleshooting script over the phone.",
+          "The laptop needs to be evaluated for physical component damage.",
+          "The status of local uncommitted data versus cloud backups must be verified.",
+          "Benoit's supervisor must sign off on compliance mandates."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What course of action does Alex propose to resolve Benoit's localized data concern?",
+        "options": [
+          "Using a forensic diagnostic rig to mirror the partition before hardware RMA.",
+          "Reformatting the operating system using a bootable USB drive.",
+          "Contacting the external monitor manufacturer for technical support.",
+          "Sending the NVMe drive to an off-site cleanroom facility immediately."
+        ],
+        "correctAnswerIndex": 0
+      }
+    ],
+    "audioUrl": "audio/audio_37.mp3"
   }
 ]

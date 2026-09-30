@@ -2272,5 +2272,61 @@
         "correctAnswerIndex": 2
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 4 - Everyday Topic",
+    "passage": "Debate Over University Scholarship Allocation and Admissions Portals in Canada\n\n[Excerpt from 'The Canadian Academic Review', Editorial Section]\n\nAs Canadian universities increasingly transition their admissions and scholarship allocation mechanisms to centralized digital portals, a contentious debate has emerged regarding the socio-economic implications of algorithmic screening and merit-based criteria. Proponents argue that these platforms streamline administrative overhead and eliminate human bias, whereas critics contend that they exacerbate systemic inequities under the guise of objective technological neutrality.\n\nPerspective A: Dr. Alistair Vance, Professor of Higher Education Administration\n\nThe implementation of unified digital admissions portals and automated scholarship vetting systems represents an indispensable evolution for Canadian post-secondary institutions. In an era of unprecedented application volumes, traditional manual reviews are inextricably plagued by administrative bottlenecks and subjective fatigue. Centralized portals ensure rigorous adherence to standardized rubrics, mitigating idiosyncratic grading variances among human evaluators. Furthermore, by codifying prerequisites and achievement metrics transparently within the portal interface, applicants are afforded unprecedented clarity regarding institutional expectations. Far from being exclusionary, these systems democratize access by ensuring that every dossier is evaluated against identical, immutable benchmarks, thereby upholding the sanctity of meritocracy.\n\nPerspective B: Dr. Elena Rostova, Sociologist and Equity Policy Researcher\n\nWhile the rhetoric surrounding digital portals champions efficiency and neutrality, the reality of algorithmic scholarship allocation is profoundly regressive. These platforms rely heavily on quantifiable proxy metrics\u2014such as standardized test scores, continuous enrollment histories, and institutional prestige markers\u2014that inherently privilege applicants from affluent socio-economic backgrounds. By reducing a student's holistic lived experience and contextual hurdles to a binary set of digital data points, the software penalizes those who have had to navigate systemic disenfranchisement, familial caregiving responsibilities, or interrupted education. Moreover, the labyrinthine design of these portals often acts as a bureaucratic deterrent for first-generation Canadians who lack institutional capital. True equity cannot be achieved by substituting opaque human bias with opaque code; rather, it requires discretionary, context-aware human evaluation.",
+    "questions": [
+      {
+        "text": "According to Dr. Vance (Perspective A), what is a primary advantage of utilizing centralized digital admissions portals?",
+        "options": [
+          "They completely eliminate the need for any human oversight in the final admissions decisions.",
+          "They eradicate subjective evaluation discrepancies and streamline overwhelming application volumes.",
+          "They provide financial subsidies to low-income applicants navigating the system.",
+          "They allow universities to lower their administrative operating costs by reducing staff numbers permanently."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does Dr. Rostova (Perspective B) characterize the 'objective technological neutrality' often attributed to these digital platforms?",
+        "options": [
+          "As a beneficial counterbalance to historical biases in the Canadian educational system",
+          "As an unachievable ideal that will soon be realized through artificial intelligence advancements",
+          "As a deceptive veneer that conceals and reinforces existing socio-economic inequalities",
+          "As a necessary regulatory standard required by provincial education ministries"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which of the following best encapsulates the fundamental disagreement between the two perspectives regarding portal transparency?",
+        "options": [
+          "Perspective A views the portal's codified metrics as democratizing clarity, whereas Perspective B views its complex design as a deterrent for marginalized applicants.",
+          "Perspective A believes the portal code should be open-source, while Perspective B argues for proprietary software security.",
+          "Perspective A claims the portals hide institutional expectations, whereas Perspective B claims they reveal too much private data.",
+          "Perspective A thinks students understand the interface easily, while Perspective B argues that universities struggle to operate the software."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "In the context of Perspective B, what is implied by the phrase 'reducing a student's holistic lived experience... to a binary set of digital data points'?",
+        "options": [
+          "The software successfully captures the emotional maturity of the applicant.",
+          "The platform prioritizes qualitative essays over quantitative grades.",
+          "The evaluation process strips away crucial contextual nuances and systemic challenges faced by the applicant.",
+          "The digital system requires students to convert their transcripts into binary code."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which inference can be drawn about both authors' views on the role of human evaluation in scholarship admissions?",
+        "options": [
+          "Both agree that human evaluators are entirely obsolete and should be replaced by artificial intelligence.",
+          "Both believe that human bias is completely absent when assisted by modern portal technology.",
+          "Dr. Vance views human evaluation as prone to idiosyncratic variances, whereas Dr. Rostova views it as essential for accounting for contextual hurdles.",
+          "Dr. Vance advocates for purely manual reviews, while Dr. Rostova advocates for strictly automated decisions."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
   }
 ]
