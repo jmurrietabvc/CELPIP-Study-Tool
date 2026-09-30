@@ -2435,5 +2435,62 @@
       }
     ],
     "audioUrl": "audio/audio_40.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 6 - Everyday Topic",
+    "transcript": "Welcome, parents and guardians, to this information session regarding the registration process for our public school district and an exposition of our evolving academic curriculum. As you navigate the transition of enrolling your children\u2014whether you are recent immigrants acclimatizing to the Canadian educational milieu or established residents seeking a paradigm shift\u2014it is imperative to comprehend not merely the administrative prerequisites, but the underlying pedagogical philosophy. Registration is meticulously governed by geographical catchment areas; however, provisions exist for specialized magnet programs and alternative learning environments, provided one submits the requisite documentation\u2014proof of residency, immunization records, and historical transcripts\u2014well in advance of the statutory deadlines. Transitioning to the curriculum, our district has pivoted away from rote memorization toward a competency-based model emphasizing critical analysis, digital literacy, and socio-emotional resilience. We have integrated indigenous perspectives across all disciplines, ensuring a holistic worldview. Furthermore, our STEM framework has been augmented with collaborative problem-solving modules, mitigating the propensity for siloed academic disciplines. While some traditionalists voice apprehension regarding the diminution of standardized testing metrics, longitudinal data substantiate that our inquiry-based methodology engenders superior cognitive adaptability and intrinsic motivation. We encourage you to scrutinize the curriculum guides available on our portal, engage in proactive dialogue with your respective school councils, and champion an ethos of lifelong learning within your domestic spheres.",
+    "questions": [
+      {
+        "text": "According to the speaker, what is a primary requirement for enrollment in a non-catchment school within the district?",
+        "options": [
+          "Submitting historical transcripts after the statutory deadline",
+          "Applying specifically for designated magnet or alternative learning programs",
+          "Demonstrating immediate familial hardship through a formal petition",
+          "Securing unanimous approval from the regional school board"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does the speaker characterize the fundamental shift in the district's pedagogical approach?",
+        "options": [
+          "A rigorous reinstitution of traditional rote memorization techniques",
+          "A strict compartmentalization of academic disciplines to foster specialization",
+          "A transition toward competency-based learning emphasizing cognitive adaptability",
+          "A heavy reliance on standardized testing metrics to measure individual output"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What counter-argument does the speaker address concerning the new curriculum model?",
+        "options": [
+          "Apprehensions regarding the potential reduction in emphasis on standardized testing",
+          "Logistical hurdles concerning the transportation of students across catchment borders",
+          "Financial constraints associated with upgrading digital infrastructure",
+          "Parental resistance toward the integration of cross-cultural perspectives"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "What underlying justification is provided for integrating indigenous perspectives across all disciplines?",
+        "options": [
+          "To comply strictly with federal funding mandates for public institutions",
+          "To foster a more holistic and inclusive worldview among students",
+          "To prepare students exclusively for careers in public administration",
+          "To offset deficiencies in historical literacy identified in recent assessments"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What ultimate recommendation does the speaker proffer to parents interested in engaging with the school system?",
+        "options": [
+          "To independently tutor their children in siloed academic subjects",
+          "To petition the government for the total elimination of standardized metrics",
+          "To consult online curriculum guides and actively participate in school councils",
+          "To relocate their households to match preferred geographical catchment areas"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "audioUrl": "audio/audio_41.mp3"
   }
 ]

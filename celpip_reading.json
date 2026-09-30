@@ -2496,5 +2496,101 @@
         "correctAnswerIndex": 2
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 4 - Everyday Topic",
+    "passage": "Debate Intensifies Over Municipal Implementation of the Harbour Link Toll Bridge\n\n[Excerpt from the Metro-Standard Editorial Page]\n\nLast month's silent inauguration of the Harbour Link Toll Bridge was ostensibly engineered to alleviate chronic vehicular bottlenecks plaguing the eastern industrial corridor. However, the municipal government's heavy-handed rollout has catalyzed a firestorm of civic indignation. Proponents of the toll infrastructure argue that user-pay mechanisms are indispensable for amortizing the exorbitant capital outlays required for modern transit engineering, while simultaneously incentivizing carpooling and public transit utilization. Yet, this neoliberal calculus willfully ignores the regressive socioeconomic ramifications inflicted upon working-class commuters who reside on the municipal periphery. For these citizens, the daily levy is not a mere convenience fee, but an onerous, inescapable tax on spatial mobility. Furthermore, the city's assertion that alternative arterial routes remain viable is disingenuous at best; those bypasses are already saturated to a degree that induces systemic gridlock, effectively rendering the toll bridge a monopolistic bottleneck.\n\n[Letter to the Editor: Municipal Mobility and Economic Fairness]\n\nAs a lifelong resident of East Haven, I read the city council's self-congratulatory press releases regarding the Harbour Link Toll Bridge with a mixture of exasperation and disbelief. The administration champions this project as a triumph of innovative urban planning, yet it epitomizes the systemic disenfranchisement of suburban populations. The toll structure operates on a flat-rate model, which inherently penalizes lower-income workers who must commute from affordable housing zones on the outskirts to downtown employment centers. While affluent professionals can comfortably absorb the daily tolls as an incremental cost of living, hourly wage earners face an agonizing calculus between household budgetary destitution and exhaustive, multi-hour detours. Moreover, the lack of transparent consultation prior to implementation violates the fundamental tenets of municipal accountability. Rather than fostering a sustainable transit ecosystem, the city has erected a financial barricade that deepens socioeconomic stratification under the disingenuous guise of environmental stewardship.",
+    "questions": [
+      {
+        "text": "According to the editorial excerpt, what is the primary justification offered by proponents for implementing the toll bridge?",
+        "options": [
+          [
+            "To completely eradicate vehicular traffic within the eastern industrial corridor"
+          ],
+          [
+            "To finance capital expenses and promote alternative modes of transportation"
+          ],
+          [
+            "To generate surplus revenue specifically for downtown pedestrian infrastructure"
+          ],
+          [
+            "To penalize residents who refuse to utilize municipal public transit systems"
+          ]
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does the author of the editorial characterize the municipal government's claim regarding alternative arterial routes?",
+        "options": [
+          [
+            "As an objective assessment supported by empirical traffic data"
+          ],
+          [
+            "As a deliberate falsehood masking an inevitable monopolistic bottleneck"
+          ],
+          [
+            "As a misleading statement masking roads that are already severely congested"
+          ],
+          [
+            "As an overly optimistic projection that will materialize within the decade"
+          ]
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "In the context of the letter to the editor, what does the phrase 'agonizing calculus' imply about the predicament of hourly wage earners?",
+        "options": [
+          [
+            "They must perform complex mathematical equations to calculate their monthly fuel consumption."
+          ],
+          [
+            "They are forced to make a painful and difficult choice between financial strain and wasted time."
+          ],
+          [
+            "They struggle to understand the unpredictable fluctuations of the newly instituted toll rates."
+          ],
+          [
+            "They are deliberately calculating ways to bypass the toll systems without legal repercussions."
+          ]
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which of the following best summarizes the letter writer's view on the flat-rate toll structure?",
+        "options": [
+          [
+            "It is an equitable system that fairly distributes maintenance costs among all drivers."
+          ],
+          [
+            "It disproportionately disadvantages individuals with lower incomes who live in suburban areas."
+          ],
+          [
+            "It successfully encourages affluent professionals to relocate closer to the downtown core."
+          ],
+          [
+            "It serves as a transparent and accountable method of funding environmental initiatives."
+          ]
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which underlying sentiment is shared by both the editorial excerpt and the letter to the editor regarding the municipal administration?",
+        "options": [
+          [
+            "The administration lacks foresight regarding future technological advancements in transit."
+          ],
+          [
+            "The administration has acted autocratically, disregarding public consultation and community impact."
+          ],
+          [
+            "The administration is overly influenced by environmental lobby groups from the industrial sector."
+          ],
+          [
+            "The administration's primary motivation is to revitalize decaying downtown commercial zones."
+          ]
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
   }
 ]
