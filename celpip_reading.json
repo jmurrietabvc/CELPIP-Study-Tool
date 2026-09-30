@@ -2384,5 +2384,61 @@
         "correctAnswerIndex": 2
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 2 - Everyday Topic",
+    "passage": "TO: Municipal Infrastructure Committee\nFROM: Arthur Pendelton\nDATE: November 14, 2023\nSUBJECT: Formal Grievance and Fare Tier Anomalies Regarding the Eastside Expressway Toll Bridge\n\nDear Members of the Committee,\n\nI am writing to formally register my vehement dissatisfaction with the newly instituted toll structure for the Eastside Expressway Bridge, which became operational at the beginning of this month. As a lifelong resident of Ward 4 and a daily commuter whose livelihood depends on accessing the downtown core, the financial burden imposed by the current toll matrix is both inequitable and economically punitive.\n\nUpon reviewing the official Municipal Toll Classification and Concession Schedule (MTCCS), it has become glaringly apparent that the categorization of vehicles fails to account for modern vehicular efficiencies and disproportionately penalizes suburban workers who have no viable alternative transit corridors. \n\nBelow is an excerpt from the municipal diagram outlining the current toll structure based on vehicle classification and time-of-day tariffs:\n\n+------------------------------------------------------------------------------------------+\n|                                 MUNICIPAL TOLL MATRIX (MTCCS)                            |\n+--------------------------+-----------------------+-------------------+-------------------+\n| Vehicle Classification   | Off-Peak Tariff       | Peak Tariff       | Overnight Tariff  |\n|                          | (10:00 - 14:00)       | (07:00 - 09:30)   | (22:00 - 05:00)   |\n+--------------------------+-----------------------+-------------------+-------------------+\n| Class A: Passenger Auto  | $2.50                 | $6.75             | $1.00             |\n| Class B: Hybrid / EV     | $2.25                 | $6.50             | $0.75             |\n| Class C: Multi-Axle SUV  | $4.50                 | $11.00            | $2.00             |\n| Class D: Commercial van  | $5.00                 | $12.50            | $2.25             |\n+--------------------------+-----------------------+-------------------+-------------------+\n\nAccording to the diagram, the distinction between a standard passenger automobile (Class A) and an eco-friendly vehicle (Class B) is a negligible twenty-five cents during peak hours. This minuscule incentive utterly fails to align with the municipality's stated carbon-neutral mandates for 2030. Furthermore, the arbitrary gap between Class A and Class C (Multi-Axle SUVs) creates a perverse economic disincentive for families who require larger vehicles for caregiving responsibilities, forcing them into the same exorbitant bracket as light commercial operators.\n\nI implore the Committee to recalibrate the MTCCS matrix immediately, introducing a graduated sub-tier for families and substantially widening the fiscal differential for zero-emission vehicles. Failing this, I will be escalating this matter to the provincial ombudsman.\n\nSincerely,\nArthur Pendelton",
+    "questions": [
+      {
+        "text": "What is Arthur Pendelton's primary grievance regarding the new toll structure as outlined in the correspondence?",
+        "options": [
+          "[A] The bridge's operating hours are too restrictive for daily commuters.",
+          "[B] The fare tier anomalies disproportionately penalize suburban workers and fail to adequately incentivize eco-friendly choices.",
+          "[C] The municipal government failed to notify Ward 4 residents before the bridge became operational.",
+          "[D] The toll matrix charges commercial vans less than multi-axle SUVs during off-peak hours."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Based on the provided municipal diagram, what is the exact financial difference in the peak tariff between a Class B vehicle and a Class C vehicle?",
+        "options": [
+          "[A] $4.50",
+          "[B] $6.50",
+          "[C] $4.25",
+          "[D] $4.75"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "How does Arthur characterize the twenty-five cent discount applied to Class B vehicles during peak hours?",
+        "options": [
+          "[A] As a generous concession that effectively promotes municipal environmental policies",
+          "[B] As a negligible incentive that fails to support the city's 2030 carbon-neutral mandates",
+          "[C] As an unexpected bonus that adequately offsets the cost of living in Ward 4",
+          "[D] As a temporary measure that will be phased out by the end of the year"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which inference can be made about the impact of the Class C vehicle categorization on local families?",
+        "options": [
+          "[A] It rewards families who choose to drive smaller, fuel-efficient automobiles.",
+          "[B] It places an undue financial strain on families who need larger vehicles for caregiving by grouping them with commercial operators.",
+          "[C] It encourages families to transition to commercial vans for daily commuting.",
+          "[D] It completely exempts family vehicles from paying the overnight tariff."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What ultimate action does Arthur threaten to take if the Municipal Infrastructure Committee refuses to recalibrate the MTCCS matrix?",
+        "options": [
+          "[A] He will organize a public blockade of the Eastside Expressway Bridge.",
+          "[B] He will refuse to pay any future municipal taxes.",
+          "[C] He will escalate the matter to the provincial ombudsman.",
+          "[D] He will resign from his position as a resident representative of Ward 4."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
   }
 ]

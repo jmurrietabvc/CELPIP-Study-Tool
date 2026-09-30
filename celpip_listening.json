@@ -2321,5 +2321,62 @@
       }
     ],
     "audioUrl": "audio/audio_38.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 4 - Everyday Topic",
+    "transcript": "Good evening, and welcome to Metro Toronto News. I'm your host, Arthur Pendelton. Tonight, we examine the shifting paradigm of primary education registration across the Greater Toronto Area, specifically focusing on the intersection of mandatory provincial curriculum mandates and parental advocacy. As the municipal school boards grapple with an unprecedented influx of transnational families, the administrative apparatus for public school enrollment has undergone a radical decentralization. No longer a mere bureaucratic formality, registering a child for the upcoming academic year now requires a nuanced navigation of dual-track language immersion programs, specialized STEM pathways, and newly revised provincial health and physical education frameworks. Critics argue that the digitized portal system, designed to streamline intake, inadvertently exacerbates socioeconomic disparities by privileging tech-literate households. Concurrently, parent-teacher associations report an exponential surge in inquiries regarding the pedagogical philosophy underpinning the updated inquiry-based learning models. Educators emphasize that these contemporary methodologies prioritize critical analysis and emotional resilience over rote memorization. However, skeptics within the academic community caution that without rigorous standardized assessment metrics, students risk foundational deficiencies in numeracy and classical literacy. Furthermore, the incorporation of indigenous perspectives across all disciplinary domains has sparked animated discourse among school trustees regarding resource allocation and teacher professional development. As the registration window narrows, municipal education authorities urge guardians to proactively engage with local school councils to comprehend the full scope of curricular offerings before finalizing their enrollment selections.",
+    "questions": [
+      {
+        "text": "According to the broadcast, what has been a primary consequence of the administrative decentralization of school enrollment?",
+        "options": [
+          "[A] It has entirely eradicated bureaucratic inefficiencies within the municipal school boards.",
+          "[B] It requires parents to navigate complex dual-track programs and revised curriculum frameworks.",
+          "[C] It has drastically reduced the number of transnational families applying to public schools.",
+          "[D] It forces all schools to exclusively adopt specialized STEM pathways."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What concern do critics raise regarding the new digitized portal system?",
+        "options": [
+          "[A] It inadvertently widens socioeconomic gaps by favoring tech-literate households.",
+          "[B] It is completely incompatible with provincial health and physical education frameworks.",
+          "[C] It causes significant delays in the allocation of state funding.",
+          "[D] It diminishes the role of parent-teacher associations in local decision-making."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "How do educators characterize contemporary inquiry-based learning models?",
+        "options": [
+          "[A] As a return to traditional, rigorous standardized testing metrics.",
+          "[B] As a system that prioritizes rote memorization over critical thought.",
+          "[C] As frameworks emphasizing critical analysis and emotional resilience.",
+          "[D] As secondary priorities compared to classical literacy acquisition."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What apprehension do academic skeptics express regarding the updated learning methodologies?",
+        "options": [
+          "[A] Students may develop foundational deficiencies in numeracy and classical literacy without standardized metrics.",
+          "[B] Teachers are overwhelmingly unqualified to instruct indigenous perspectives.",
+          "[C] The curriculum is overly focused on technological literacy at the expense of the arts.",
+          "[D] School trustees will completely defund dual-track language immersion programs."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "What specific action do municipal education authorities recommend to guardians before the registration window closes?",
+        "options": [
+          "[A] To petition the provincial government for increased funding toward digital infrastructure.",
+          "[B] To exclusively enroll their children in specialized STEM pathways.",
+          "[C] To proactively engage with local school councils to understand the full scope of curricular offerings.",
+          "[D] To transition their children into private educational institutions."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "audioUrl": "audio/audio_39.mp3"
   }
 ]
