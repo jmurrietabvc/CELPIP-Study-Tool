@@ -3600,5 +3600,61 @@
         "correctAnswerIndex": 2
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 3 - Everyday Topic",
+    "passage": "HALIFAX \u2014 In a resounding validation of Atlantic Canada's burgeoning reputation as a technological nexus, Halifax-based quantum encryption firm 'Vanguard Cipher' has announced a major expansion that promises to inject unprecedented vitality into the local municipal economy. Bolstered by a strategic infusion of venture capital and provincial innovation grants, the enterprise is slated to inaugurate its new corporate headquarters in the historic Historic Properties district, a move projected to generate upwards of four hundred high-remuneration positions over the next triennium.\n\nFounded by Dalhousie University alumni Dr. Elena Rostova and Marcus Thorne, Vanguard Cipher specializes in post-quantum cryptography, safeguarding financial and governmental infrastructure against the impending obsolescence of classical encryption models. The company's exponential trajectory mirrors a broader macroeconomic shift wherein secondary Canadian markets are successfully decentralizing talent from traditional metropolises like Toronto and Vancouver, catalyzed by lifestyle migration and competitive commercial real estate yields.\n\nCrucially, municipal leaders have emphasized that this economic windfall will be accompanied by a rigorous commitment to community integration. Vanguard Cipher has pledged to institute a robust apprenticeship pipeline in partnership with local polytechnic institutions, explicitly designed to mitigate the perils of gentrification by ensuring socioeconomic mobility for indigenous and historically underrepresented demographics within the urban core. Furthermore, the firm's architectural blueprint mandates the adaptive reuse of a derelict heritage warehouse, thereby harmonizing cutting-edge enterprise with historic preservation.\n\nNevertheless, urban planners caution that municipal infrastructure must rapidly adapt to forestall acute systemic pressures. The influx of affluent knowledge-workers threatens to exacerbate an already tenuous housing affordability crisis, while public transit networks will necessitate expedited optimization to accommodate heightened commuter density. Ultimately, Vanguard Cipher's ascension serves as both a triumphant exemplar of regional diversification and a cautionary crucible testing municipal governance's capacity for equitable stewardship.",
+    "questions": [
+      {
+        "text": "What primary factor is driving secondary Canadian markets like Halifax to successfully decentralize talent from major cities?",
+        "options": [
+          "A combination of lifestyle migration trends and favorable commercial real estate yields.",
+          "An aggressive government mandate compelling corporations to relocate outside of Toronto and Vancouver.",
+          "The complete depletion of venture capital in traditional metropolitan technology hubs.",
+          "A concerted effort by universities to restrict graduate employment exclusively to local firms."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "According to the passage, what specific measure has Vanguard Cipher taken to address potential socio-economic displacement caused by its arrival?",
+        "options": [
+          "Subsidizing the construction of low-income housing units throughout the municipal core.",
+          "Establishing an apprenticeship pipeline with local polytechnic institutions for underrepresented groups.",
+          "Relocating its headquarters to a remote industrial park far away from residential neighborhoods.",
+          "Limiting its total hiring capacity to fewer than one hundred employees per year."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What does the phrase 'adaptive reuse of a derelict heritage warehouse' imply about the company's approach to its new headquarters?",
+        "options": [
+          "The firm is completely demolishing an old structure to build a modern, high-rise glass skyscraper.",
+          "The company is transforming an abandoned historical building into a functional space while preserving its architectural heritage.",
+          "Vanguard Cipher is temporarily leasing a dilapidated structure until a permanent suburban campus is built.",
+          "The municipal government forced the company to use an outdated building against its corporate preferences."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Based on the text, what is the dual nature of Vanguard Cipher's expansion for the city of Halifax?",
+        "options": [
+          "It guarantees immediate resolution to the housing crisis while simultaneously reducing municipal tax revenues.",
+          "It provides a model of regional economic diversification while presenting formidable challenges regarding housing affordability and transit density.",
+          "It creates immense corporate prestige while permanently halting the influx of lifestyle migrants.",
+          "It accelerates technological modernization at the direct expense of historical preservation."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What underlying technological imperative motivates the existence and commercial viability of Vanguard Cipher?",
+        "options": [
+          "The imminent obsolescence of classical encryption methods in the face of advancing quantum computing.",
+          "The urgent need to digitize historical municipal records for public accessibility.",
+          "The widespread failure of traditional financial institutions to secure basic customer databases.",
+          "The mandate from provincial authorities to replace physical currency with cryptographic tokens."
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
   }
 ]

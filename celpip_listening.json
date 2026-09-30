@@ -3518,5 +3518,62 @@
       }
     ],
     "audioUrl": "audio/audio_59.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 1 - Everyday Topic",
+    "transcript": "Mechanic: Good morning, Mr. Vance. I've gone over your sedan, and the diagnostics on that persistent drivetrain shudder are finally complete. Unfortunately, the prognostications are rather grim.\nCustomer: Morning, Greg. Grim is never a welcome prefix to an auto repair estimate. I'm hoping it's not the transmission assembly again; we had that overhauled barely two years ago.\nMechanic: I wish it were merely a transmission recalibration, but it\u2019s far more insidious. The primary issue stems from a catastrophic failure within the differential housing, which has consequently compromised the transfer case. Metal shavings were ubiquitous in the fluid extraction. To rectify this properly, we're looking at a complete powertrain reconstitution.\nCustomer: Good grief. Reconstitution? That sounds like euphemism for replacing half the vehicle's underbelly. When you say ubiquitous shavings, are we talking about a localized bearing failure, or has the entire assembly disintegrated?\nMechanic: It appears to be a cascading failure. The initial culprit was a seized pinion bearing, which precipitated excessive thermal friction, ultimately warping the housing tolerances. Driving it under those compromised conditions exacerbated the wear exponentially. Consequently, we cannot simply replace the bearing; the structural integrity of the casing is irrevocably compromised.\nCustomer: This is financially untenable. The current book value of the automobile barely eclipses the preliminary estimate you're implying, doesn't it? I was operating under the assumption that the vibration was merely an unbalanced driveshaft or perhaps a recalcitrant universal joint.\nMechanic: Had it been restricted to the universal joint, we'd be discussing a nominal expenditure. Regrettably, by the time the vehicle exhibited audible harmonics, the metallurgical fatigue was already far advanced. Now, you do have a dichotomous choice here, Mr. Vance. We can source a salvaged unit from an auto-recycler, which mitigates the fiscal burden significantly, albeit with zero historical provenance and a negligible ninety-day warranty. Alternatively, we install a remanufactured OEM assembly with a comprehensive three-year tripartite guarantee, though the upfront capital outlay is substantial.\nCustomer: Given the propensity for salvaged parts to harbor latent defects, gambling on a junkyard differential feels akin to deferred financial suicide. Yet, committing that level of capital to a vehicle depreciating at this velocity defies economic rationalization. Is there any recourse regarding manufacturer goodwill? The vehicle is barely outside its extended powertrain warranty threshold.\nMechanic: I anticipated you might invoke goodwill arbitration. I've already petitioned our regional zone manager on your behalf, highlighting your immaculate maintenance pedigree at our franchise. However, because the mileage breached the threshold by precisely four thousand kilometers, corporate headquarters invoked a strict, immutable cutoff. They offered a paltry ten percent discount on labor as an appeasement, which, frankly, is negligible in the grand scheme of this invoice.\nCustomer: Ten percent on labor is an insult masquerading as customer retention. It\u2019s emblematic of corporate bureaucracy hiding behind arbitrary metrics. Let me contemplate this overnight, Greg. I need to weigh the sunk cost fallacy against the exorbitant acquisition cost of a replacement vehicle in the current market.",
+    "questions": [
+      {
+        "text": "What initially led to the catastrophic failure of the vehicle's assembly?",
+        "options": [
+          "[A] A poorly executed transmission overhaul performed two years prior",
+          "[B] A seized pinion bearing that caused excessive thermal friction and warped housing tolerances",
+          "[C] An unbalanced driveshaft combined with a recalcitrant universal joint",
+          "[D] Contaminated transmission fluid that degraded the transfer case over time"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does the mechanic characterize the two repair alternatives available to the customer?",
+        "options": [
+          "[A] As a choice between an immediate, costly OEM repair and a delayed, cheaper aftermarket fix",
+          "[B] As a dichotomous decision between a risky salvaged unit with low cost and a secure OEM assembly with high capital outlay",
+          "[C] As a comparison between repairing the transmission versus replacing the entire powertrain",
+          "[D] As an option between corporate goodwill arbitration and independent litigation"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Why did the manufacturer's regional zone manager ultimately reject a full warranty claim?",
+        "options": [
+          "[A] The customer failed to maintain the vehicle at an authorized franchise.",
+          "[B] The vehicle's mileage exceeded the warranty threshold by four thousand kilometers.",
+          "[C] The damage was deemed to be caused by driver negligence rather than mechanical defect.",
+          "[D] The extended powertrain warranty had expired three years prior."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What is the customer's attitude toward the manufacturer's final offer?",
+        "options": [
+          "[A] He is appreciative of the dealership's intervention on his behalf.",
+          "[B] He views it as a pragmatic compromise given the circumstances.",
+          "[C] He considers it an insulting gesture of corporate bureaucracy.",
+          "[D] He regards it as a sufficient incentive to proceed with the OEM replacement."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What underlying economic dilemma is the customer ultimately wrestling with at the end of the conversation?",
+        "options": [
+          "[A] Deciding whether to trade in the car immediately for a brand-new model",
+          "[B] Balancing the sunk cost fallacy against the high cost of purchasing a replacement vehicle",
+          "[C] Determining whether to sue the mechanic for failing to diagnose the issue earlier",
+          "[D] Calculating whether the salvaged part warranty will cover future drivetrain failures"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ],
+    "audioUrl": "audio/audio_60.mp3"
   }
 ]
