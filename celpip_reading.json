@@ -3320,5 +3320,61 @@
         "correctAnswerIndex": 2
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 2 - Everyday Topic",
+    "passage": "MEMORANDUM\nTo: Municipal Business Liaison Committee\nFrom: Urban Zoning & Acoustic Governance Directorate\nSubject: Implementation and Compliance Matrix for Municipal Noise Bylaw 2024-88\n\nFollowing the recent ratification of Bylaw 2024-88, the Directorate has formulated an operational compliance matrix to assist commercial proprietors in navigating the stringent acoustic thresholds now enforceable across the downtown and mixed-use zones. The municipal initiative seeks to reconcile the burgeoning residential density of the core with the economic viability of our vibrant commercial and hospitality sectors.\n\nCommercial entities must evaluate their operational footprint against the newly instituted decibel (dB) ceilings, measured at the nearest residential property boundary. Furthermore, the bylaw introduces temporal categorizations (Diurnal: 07:00-19:00; Nocturnal: 19:00-07:00) alongside mandatory acoustic mitigation prerequisites depending on the assigned zone.\n\nBelow is the official compliance matrix outlining the regulatory parameters for local commercial operations:\n\n+-----------------------+-------------------+--------------------+------------------------+-----------------------------+\n| Commercial Sector     | Diurnal Limit     | Nocturnal Limit    | Mitigation Prerequisite| Non-Compliance Penalty      |\n+-----------------------+-------------------+--------------------+------------------------+-----------------------------+\n| Hospitality & Dining  | 65 dBA            | 50 dBA             | Acoustic baffling &    | Tier 3: Suspension + $5,000 |\n|                       |                   |                    | double-glazed egress   |                             |\n+-----------------------+-------------------+--------------------+------------------------+-----------------------------+\n| Retail & Commerce     | 70 dBA            | 55 dBA             | Perimeter buffering    | Tier 1: Warning + $1,000    |\n+-----------------------+-------------------+--------------------+------------------------+-----------------------------+\n| Light Manufacturing   | 75 dBA            | 60 dBA             | Full envelopment       | Tier 4: Revocation + $10,000|\n|                       |                   |                    | insulation             |                             |\n+-----------------------+-------------------+--------------------+------------------------+-----------------------------+\n| Entertainment Venues  | 60 dBA            | 45 dBA             | Active sound-masking   | Tier 2: Fine + $2,500       |\n|                       |                   |                    | systems & airlocks     |                             |\n+-----------------------+-------------------+--------------------+------------------------+-----------------------------+\n\n Proprietors should note that habitual infractions will precipitate immediate escalation through the penalty tiers. Appeals must be lodged within fourteen business days of citation issuance via the municipal portal.",
+    "questions": [
+      {
+        "text": "What is the primary impetus behind the enactment of Municipal Bylaw 2024-88, as articulated in the introductory memorandum?",
+        "options": [
+          "[A] To curtail the expansion of downtown commercial sectors in favor of residential development.",
+          "[B] To strike a delicate equilibrium between the demands of rising residential density and the survival of local businesses.",
+          "[C] To enforce absolute silence across all municipal zones during nocturnal hours.",
+          "[D] To generate municipal revenue through the systematic escalation of non-compliance penalties."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "If an Entertainment Venue operates during the diurnal period at 58 dBA, which of the following statements is accurate according to the matrix?",
+        "options": [
+          "[A] The venue is in direct violation of the diurnal limit and faces a Tier 2 penalty.",
+          "[B] The venue complies with the diurnal threshold, remaining safely below the 60 dBA ceiling.",
+          "[C] The venue must immediately install double-glazed egress to avoid a Tier 3 penalty.",
+          "[D] The venue is exempt from mitigation prerequisites due to its operating hours."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "A Light Manufacturing facility commits a repeated infraction of its acoustic limits. Based on the matrix, what punitive measure awaits them?",
+        "options": [
+          "[A] A standard warning and a monetary fine of $1,000.",
+          "[B] Immediate permit suspension and a $5,000 fine.",
+          "[C] Permit revocation coupled with a financial penalty of $10,000.",
+          "[D] Mandatory installation of active sound-masking systems."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which commercial sector is subjected to the strictest nocturnal decibel limit, and what specific architectural mitigation is mandated for it?",
+        "options": [
+          "[A] Hospitality & Dining; acoustic baffling and double-glazed egress",
+          "[B] Retail & Commerce; perimeter buffering",
+          "[C] Light Manufacturing; full envelopment insulation",
+          "[D] Entertainment Venues; active sound-masking systems and airlocks"
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "text": "A restaurant owner wishes to contest a citation issued under this bylaw. What is the explicit procedural constraint regarding their appeal?",
+        "options": [
+          "[A] The appeal must be submitted in person to the Urban Zoning Directorate within seven days.",
+          "[B] The appeal must be lodged through the municipal portal within fourteen business days.",
+          "[C] The appeal can only be processed after the Tier 3 suspension has been served.",
+          "[D] The appeal is contingent upon the prior installation of perimeter buffering."
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
   }
 ]

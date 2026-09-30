@@ -3233,5 +3233,62 @@
       }
     ],
     "audioUrl": "audio/audio_54.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 2 - Everyday Topic",
+    "transcript": "Alex: Good morning, IT helpdesk. This is Alex speaking; how may I assist you today?\nJordan: Hi Alex. I'm facing a catastrophic hardware failure with my enterprise-issued laptop, and it's severely jeopardizing my deliverables for the upcoming stakeholder presentation. The motherboard seems to have completely fried.\nAlex: I'm terribly sorry to hear that, Jordan. That certainly sounds distressing, especially with a high-stakes presentation looming. Let's diagnose this methodically. When you articulate that the motherboard is fried, what specific somatic symptoms is the machine exhibiting upon initialization?\nJordan: Absolutely nothing. Complete radio silence. No POST beep, no fan actuation, and the charging LED indicator remains stubbornly dormant, even when tethered to a high-wattage docking station or directly to the wall outlet.\nAlex: Hmm. That points toward either a catastrophic power supply unit failure within the chassis or a critical short circuit on the primary logic board. Have you attempted a hard reset by holding down the power button for an extended duration while completely uncoupled from all peripherals?\nJordan: I executed that protocol twice, adhering strictly to a 60-second duration, but it proved entirely futile. Given the urgency, I'm hoping we can bypass standard triage and initiate an immediate hardware swap. I have redundant backups in the cloud, so data retention isn't my primary anxiety.\nAlex: I completely empathize with your time constraints, Jordan. However, protocol dictates that we log this incident formally and ascertain whether we have an identical chassis in our localized inventory before dispatching a courier. Let me cross-reference our asset management database. Regrettably, our current stock of high-performance enterprise units is severely depleted due to supply chain bottlenecks.\nJordan: Are you implying I'll be stranded without a workstation for an indeterminate period? That would be completely untenable for our department's throughput. Surely there must be an executive reserve or a loaner pool for exigencies of this magnitude.\nAlex: We do maintain a sequestered cache of legacy loaners, but they are severely throttled in terms of processing architecture and RAM, which would undoubtedly bottleneck rendering tasks. Alternatively, I can authorize an emergency expedited procurement from our primary vendor, though delivery is contingent upon courier availability.\nJordan: Let's pursue the expedited vendor dispatch, but simultaneously provision the legacy loaner as a provisional measure so I can at least draft my slide deck and manage correspondence without total operational paralysis.\nAlex: Pragmatic and decisive. I will orchestrate that dual-pronged approach immediately. Please bring your defunct hardware down to suite 402 so I can intake the asset and issue the temporary machine.",
+    "questions": [
+      {
+        "text": "What is Jordan's primary concern regarding the broken laptop?",
+        "options": [
+          "The potential loss of critical unbacked data stored locally on the hard drive.",
+          "The impending delay of an important stakeholder presentation due to lack of a workstation.",
+          "The lengthy bureaucratic protocol required to log an IT infrastructure incident.",
+          "The inferior processing capabilities of the available legacy loaner laptops."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How did Jordan attempt to resolve the issue prior to contacting IT support?",
+        "options": [
+          "By replacing the power supply unit with a high-wattage alternative.",
+          "By performing a hard reset while disconnected from all peripherals.",
+          "By reinstalling the operating system via a cloud-based recovery tool.",
+          "By swapping the motherboard with a spare component from the office inventory."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "According to Alex, what is currently impeding an immediate hardware replacement from local inventory?",
+        "options": [
+          "Strict corporate protocols regarding data security and backup verification.",
+          "A severe depletion of high-performance enterprise units due to supply chain issues.",
+          "The requirement for physical manager approval prior to asset reassignment.",
+          "A backlog of unresolved IT tickets ahead of Jordan's request."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What compromise do Alex and Jordan ultimately agree upon?",
+        "options": [
+          "Jordan will use the legacy loaner exclusively until the supply chain bottleneck resolves naturally.",
+          "Alex will repair the fried motherboard on-site while Jordan waits in suite 402.",
+          "Alex will expedite a vendor purchase while simultaneously providing a legacy loaner as a temporary fix.",
+          "Jordan will retrieve a high-performance unit from the executive reserve pool immediately."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What does Alex suggest is the primary drawback of the sequestered cache of legacy loaners?",
+        "options": [
+          "They are physically incompatible with modern enterprise docking stations.",
+          "They lack adequate cloud connectivity for retrieving redundant backups.",
+          "They are severely throttled in processing architecture and RAM, potentially bottlenecking tasks.",
+          "They are currently all assigned to other department heads facing similar crises."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "audioUrl": "audio/audio_55.mp3"
   }
 ]
