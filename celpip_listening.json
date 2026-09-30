@@ -2948,5 +2948,62 @@
       }
     ],
     "audioUrl": "audio/audio_49.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 3 - Everyday Topic",
+    "transcript": "Good morning, everyone. As we prepare to roll out our revised corporate telecommuting framework next quarter, I want to take this opportunity to elucidate the nuanced rationale behind our strategic pivots. While the previous iteration of our work-from-home policy offered commendable flexibility during unprecedented circumstances, it inadvertently precipitated a fragmentation of our organizational cohesion and diluted our collective creative output. Consequently, the executive board has deliberated extensively to formulate a hybrid paradigm that harmonizes individual autonomy with synergistic collaboration. \n\nUnder the new guidelines, designated 'core collaboration days' will be instituted, requiring departmental presence on Tuesdays, Wednesdays, and Thursdays. This is not a regressive retreat to rigid presenteeism, but rather a deliberate orchestration of serendipitous innovation, ensuring that face-to-face mentorship and spontaneous cross-functional brainstorming are not entirely eclipsed by asynchronous digital communication. Conversely, Mondays and Fridays will remain discretionary remote days, affording staff the latitude to execute deep-focus analytical tasks without the ancillary friction of urban commuting. \n\nWe recognize, however, that a blanket mandate can inadvertently generate friction for personnel with extenuating domestic circumstances or geographical recalibrations. Therefore, we are simultaneously empowering localized department heads with the discretionary latitude to enact bespoke accommodations, provided departmental key performance indicators remain uncompromised. Furthermore, our investment in advanced collaborative software suites will be augmented to bridge the perceptual chasm between on-site and remote participants, mitigating the inadvertent marginalization of telecommuting personnel during pivotal deliberations. \n\nImplementation will be phased incrementally over an eight-week horizon, commencing with comprehensive manager workshops designed to cultivate empathetic leadership in hybrid ecosystems. We anticipate an initial adjustment period; nonetheless, we remain steadfast in our conviction that this recalibrated framework will fortify our institutional resilience, optimize talent retention, and cultivate a more sustainable equilibrium between professional efficacy and personal well-being.",
+    "questions": [
+      {
+        "text": "What is the primary motivation behind the revision of the company's previous telecommuting framework?",
+        "options": [
+          "[A] To reduce operational overhead associated with maintaining physical office infrastructure.",
+          "[B] To counteract the fragmentation of organizational cohesion and diminished creative output.",
+          "[C] To align with governmental mandates regarding post-pandemic workplace safety.",
+          "[D] To eliminate remote work entirely and return to a mandatory five-day in-office schedule."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does the speaker characterize the implementation of mandatory 'core collaboration days'?",
+        "options": [
+          "[A] A regressive retreat to rigid corporate presenteeism and micro-management.",
+          "[B] A necessary evil to appease senior executives who distrust remote employees.",
+          "[C] A deliberate orchestration to foster serendipitous innovation and face-to-face mentorship.",
+          "[D] A temporary measure until all employees relocate closer to the corporate headquarters."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What specific provision is established for Mondays and Fridays under the new policy?",
+        "options": [
+          "[A] Employees are strictly required to attend mandatory company-wide town halls.",
+          "[\nB] Staff are granted discretionary remote privileges to execute deep-focus analytical tasks.",
+          "[C] The entire corporate infrastructure will be closed for maintenance and energy conservation.",
+          "[D] Personnel must submit detailed productivity logs before the weekend commences."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What authority is granted to localized department heads regarding the new policy?",
+        "options": [
+          "[A] The power to completely override the policy and ban remote work altogether in their units.",
+          "[B] The discretion to enact bespoke accommodations for extenuating circumstances, contingent on KPI maintenance.",
+          "[C] The autonomy to reallocate departmental budgets toward remote work stipends.",
+          "[D] The responsibility to penalize employees who fail to meet core collaboration day quotas."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What is the intended purpose of the initial eight-week implementation phase?",
+        "options": [
+          "[A] To conduct a trial run that will be permanently abandoned if employee satisfaction drops.",
+          "[B] To transition all company data to a new cloud-based collaborative software suite.",
+          "[C] To roll out manager workshops cultivating empathetic leadership in hybrid ecosystems.",
+          "[D] To allow employees sufficient time to relocate closer to the primary office."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "audioUrl": "audio/audio_50.mp3"
   }
 ]

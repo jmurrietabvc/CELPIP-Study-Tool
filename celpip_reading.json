@@ -3040,5 +3040,61 @@
         "correctAnswerIndex": 1
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 1 - Everyday Topic",
+    "passage": "From: Arthur Pendelton, Municipal Director of Urban Wildlife Management\nTo: Residents of Cedar Ridge Estates\nDate: October 24, 2023\nSubject: Urgent Advisory: Escalating Ursine Encounters and Resident Obligations\n\nDear Cedar Ridge Residents,\n\nIn recent weeks, our municipal ward office has registered an unprecedented surge in urban wildlife incursions, specifically involving black bears (Ursus americanus) foraging within residential perimeters. While sporadic sightings are an anticipated facet of residing adjacent to natural boreal forest reserves, the current frequency of habituated bear activity necessitates a stringent recalibration of our community's waste management and property maintenance protocols.\n\nHistorically, ursine presence was largely mitigated by natural foraging cycles; however, anthropogenic attractants\u2014most notably unsecured residential refuse, uncleaned barbecues, and fallen orchard fruit\u2014have effectively subverted their natural migratory patterns. Bears possess an extraordinary olfactory apparatus, capable of detecting sustenance across vast distances. When they associate suburban domesticity with high-calorie caloric rewards, they undergo behavioral conditioning, transitioning from transient visitors to persistent, habituated squatters. This constitutes an escalating public safety hazard.\n\nEffective immediately, the municipality is enforcing the municipal bylaws concerning wildlife attractants. Residents are legally mandated to adhere to the following stipulations:\n\n1. Waste Receptacles: Garbage bins must not be placed curbside prior to 5:00 AM on scheduled collection mornings. Bins must be certified bear-resistant or stored securely within a locked garage or outbuilding until collection day.\n2. Vegetative Maintenance: Fallen fruit from ornamental or fruit-bearing trees must be harvested or cleared from lawns daily. Compost heaps must be managed diligently with 'brown' carbon-rich layers to eliminate malodorous decomposition.\n3. Exterior Cleanliness: Domestic barbecues must be thoroughly scorched and scrubbed post-use to eradicate residual grease and lipid scents that act as potent olfactory beacons.\n\nFailure to comply with these directives undermines collective neighborhood security and compromises wildlife welfare, as severely habituated bears frequently necessitate terminal intervention by conservation officers. We implore you to exercise civic vigilance. For comprehensive guidelines or to report aggressive wildlife sightings, consult the municipal portal.\n\nSincerely,\n\nArthur Pendelton\nDirector of Urban Wildlife Management",
+    "questions": [
+      {
+        "text": "What primary factor does the author cite as the catalyst for the shift in bear behavior within Cedar Ridge Estates?",
+        "options": [
+          "A decrease in the natural food supply within the adjacent boreal forest reserves.",
+          "The seasonal migration patterns naturally inherent to the black bear population.",
+          "The conditioning of bears through easily accessible human-generated food sources.",
+          "An unprecedented population boom among local wildlife due to mild weather."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "According to the email, what is the specific restriction regarding the management of residential garbage?",
+        "options": [
+          "Bins must be permanently stored inside a locked outbuilding at all times.",
+          "Refuse containers must only be placed at the curb on the morning of collection.",
+          "Residents must exclusively use municipally provided bear-resistant garbage bags.",
+          "Garbage collection must be coordinated privately if bins are not bear-resistant."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What does the term 'terminal intervention' imply in the context of the passage?",
+        "options": [
+          "Relocating the habituated bears to a remote wilderness sanctuary.",
+          "Euthanizing or destroying the bears that have become dangerously habituated.",
+          "Issuing permanent financial fines to homeowners who neglect property maintenance.",
+          "Permanently closing public access to the municipal portal for wildlife reporting."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which of the following actions is explicitly required to mitigate olfactory attractants from compost heaps?",
+        "options": [
+          "Dousing the compost with commercial masking agents daily.",
+          "Freezing organic food scraps before adding them to the compost bin.",
+          "Interleaving the compost with carbon-rich 'brown' layers to prevent odors.",
+          "Relocating all compost operations to indoor climate-controlled structures."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What tone does Arthur Pendelton adopt throughout the correspondence?",
+        "options": [
+          "Pessimistic and dismissive regarding the efficacy of municipal bylaws.",
+          "Alarmist and accusatory, blaming residents directly for property damages.",
+          "Authoritative, urgent, and instructional regarding community responsibilities.",
+          "Tentative and conciliatory, requesting voluntary participation from homeowners."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
   }
 ]
