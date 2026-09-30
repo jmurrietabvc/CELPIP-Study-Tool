@@ -2720,5 +2720,62 @@
       }
     ],
     "audioUrl": "audio/audio_45.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 5 - Registering a child for public school and discussing curriculum",
+    "transcript": "Elena: Good afternoon, everyone. I'm glad we could finally convene to finalize Leo's academic transition into the public school board. As you know, the registration window is exceptionally stringent this year, and we need to deliberate not just on the administrative logistics, but more importantly, on the pedagogical alignment of the district's curriculum with Leo's intellectual trajectory.\nMarcus: Quite right, Elena. I've been scrutinizing the district's newly implemented experiential learning framework, and frankly, I have reservations. While the progressive approach to collaborative problem-solving is commendable on paper, I worry it dilutes the foundational rigor of core disciplines like advanced mathematics and classical literature. We can't afford to let his analytical acumen atrophy in favor of amorphous group projects.\nSarah: I must respectfully dissent, Marcus. Your perspective feels somewhat myopic regarding contemporary educational paradigms. The district's emphasis on interdisciplinary inquiry and digital literacy isn't a dilution; it's a necessary evolution to prepare students for a rapidly mutating socio-economic landscape. Moreover, Leo has always thrived when given the autonomy to contextualize theoretical concepts through practical application.\nElena: Both of you raise salient points, but let's anchor this in our immediate operational constraints. The registrar explicitly noted that opting out of the standard integrated arts and inquiry modules requires a formal petition to the trustee board, which is a bureaucratic labyrinth with a negligible success rate. Furthermore, Leo himself expressed a fervent desire to participate in the school's renowned robotics incubator, which is inextricably linked to this progressive framework.\nMarcus: If the robotics syndicate is contingent upon accepting the holistic curriculum, then that certainly skews the calculus. My primary anxiety was the potential pedagogical vacuum, but if the STEM integration is as robust as the prospectus implies, perhaps the compromise is manageable. We would simply need to supplement his classical reading list domestically.\nSarah: Exactly. A synergistic approach is optimal. We leverage the public system's unparalleled resources for collaborative and technological immersion, while we curate his humanities exposure at home. Now, regarding the French Immersion vs. International Baccalaureate preparatory stream, we need to reach a consensus before the portal closes at midnight.",
+    "questions": [
+      {
+        "text": "What is Marcus's initial primary concern regarding the district's educational framework?",
+        "options": [
+          "[A] It lacks sufficient extracurricular opportunities for gifted students like Leo.",
+          "[B] It compromises foundational academic rigor in favor of collaborative projects.",
+          "[C] It enforces an archaic pedagogical approach that ignores digital literacy.",
+          "[D] It is too bureaucratic and difficult to navigate during the registration process."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does Sarah view the district's emphasis on interdisciplinary inquiry and digital literacy?",
+        "options": [
+          "[A] As an essential evolution necessary for modern socio-economic preparedness",
+          "[B] As a temporary experimental phase that the school board will soon abandon",
+          "[C] As an inferior substitute for traditional humanities education",
+          "[D] As a superficial attempt to attract higher-tier funding"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "What administrative hurdle does Elena bring to the discussion regarding the curriculum?",
+        "options": [
+          "[A] The registration portal closes prematurely at noon instead of midnight.",
+          "[B] Opting out of standard modules requires a difficult petition to the trustee board.",
+          "[C] The French Immersion stream is already operating at maximum capacity.",
+          "[D] The school board requires proof of residency that they do not yet possess."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What ultimately shifts Marcus's perspective on the district's framework?",
+        "options": [
+          "[A] Sarah's promise to tutor Leo in advanced mathematics",
+          "[B] The realization that the curriculum can be altered through a formal petition",
+          "[C] Leo's expressed desire to join the school's robotics incubator tied to the framework",
+          "[D] A guarantee that classical literature will be added to the mandatory syllabus"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What compromise do the speakers agree upon by the end of the conversation?",
+        "options": [
+          "[A] Enrolling Leo in private school to avoid the public system's bureaucracy",
+          "[B] Relying entirely on the school's curriculum without any domestic supplementation",
+          "[C] Having the school handle STEM while the parents curate humanities at home",
+          "[D] Postponing Leo's registration for another year to evaluate alternative boards"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "audioUrl": "audio/audio_46.mp3"
   }
 ]

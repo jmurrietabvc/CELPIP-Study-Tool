@@ -2816,5 +2816,61 @@
         "correctAnswerIndex": 0
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 1 - Everyday Topic",
+    "passage": "Subject: Executive Consultation: Refinement and Operationalization of the Post-Pandemic Hybrid Work Framework\n\nDear Members of the Senior Leadership Council,\n\nAs we approach the culmination of our experimental telecommuting phase, it is incumbent upon us to evaluate the efficacy of our current operational models and institutionalize a permanent, sustainable framework. While the preliminary data suggests that overall output remained ostensibly stable during the mandatory remote-work epoch, localized productivity metrics and inter-departmental cohesion have exhibited considerable variance across business units.\n\nEffective the first of next month, we are pivoting away from the ad-hoc, discretionary arrangements of the past and implementing the 'Synchronous Hybrid Protocol' (SHP). Under the SHP, all salaried personnel whose roles do not explicitly necessitate physical presence on-site will be mandated to operate from a designated corporate hub exactly three days per week. The remaining two days may be executed remotely, subject to supervisory concurrence.\n\nCritics of this mandatory cadence have posited that arbitrary attendance mandates undermine the autonomy we ostensibly champion. However, Executive Committee consensus dictates that spontaneous intellectual cross-pollination and organic mentorship cannot be effectively replicated via asynchronous digital modalities. To mitigate potential friction, department heads are instructed to collaborate with Human Resources to establish fixed 'anchored days'\u2014 Tuesdays, Wednesdays, and Thursdays \u2014 wherein all team members must converge at the office to facilitate collaborative synergy.\n\nFurthermore, employees requesting exemptions based on geographic relocation or ergonomic exigencies must submit a formal dossier to the newly formed Flex-Work Governance Board no later than the close of business this Friday. Please be advised that historical precedents will not automatically confer approval; each petition will be rigorously scrutinized against operational necessity indices.\n\nI appreciate your steadfast leadership as we navigate this paradigm shift. Please cascade these directives to your respective teams forthwith and schedule a preparatory town hall for next Tuesday.\n\nWarm regards,\n\nArthur Pendelton\nChief Operating Officer, Apex Dominion Enterprises",
+    "questions": [
+      {
+        "text": "What is the primary impetus for transitioning from the previous remote-work model to the Synchronous Hybrid Protocol?",
+        "options": [
+          "A sharp decline in company-wide productivity metrics during the experimental telecommuting phase.",
+          "Inconsistencies in localized productivity and a perceived erosion of inter-departmental cohesion.",
+          "Pressure from human resources to eliminate remote work entirely across all business units.",
+          "Employee grievances regarding the lack of standardized remote-work guidelines."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which of the following best characterizes Arthur Pendelton's stance on asynchronous digital modalities?",
+        "options": [
+          "They are fully sufficient for maintaining long-term corporate culture and mentorship.",
+          "They are inherently superior to physical workspaces for deep, uninterrupted analytical output.",
+          "They fall short in fostering spontaneous intellectual exchange and organic mentorship.",
+          "They should be reserved exclusively for senior leadership and exempt personnel."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "According to the email, what constitutes the requirement for an employee to work remotely up to two days per week?",
+        "options": [
+          "The approval of their immediate supervisor and a role that does not strictly require on-site presence.",
+          "The submission of an ergonomic assessment dossier to the Flex-Work Governance Board by Friday.",
+          "Tenure exceeding two years with Apex Dominion Enterprises and a flawless performance review.",
+          "Exemption status granted exclusively due to long-distance geographic relocation."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "What implication does the phrase 'historical precedents will not automatically confer approval' carry for employees seeking exemptions?",
+        "options": [
+          "Past approvals for remote work arrangements guarantee future leniency from the board.",
+          "Previous informal agreements or arrangements will be heavily scrutinized and do not ensure successful re-certification.",
+          "The board will rely exclusively on past corporate behavior to streamline current exemption requests.",
+          "Employees who relocated in the past are automatically grandfathered into the new policy."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What immediate action are department heads required to take upon receiving this directive?",
+        "options": [
+          "Draft individual contracts for every employee requesting full-time remote status.",
+          "Submit operational necessity indices directly to the Chief Operating Officer.",
+          "Cascade the directives to their teams and organize a preparatory town hall for the upcoming Tuesday.",
+          "Reallocate office space to accommodate the mandatory three-day-per-week influx."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
   }
 ]
