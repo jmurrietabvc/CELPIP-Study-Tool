@@ -2606,5 +2606,62 @@
       }
     ],
     "audioUrl": "audio/audio_43.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 3 - Everyday Topic",
+    "transcript": "Good evening, citizens of the Greater Vancouver Regional District. Tonight, municipal authorities and wildlife conservationists are grappling with an unprecedented surge in urban-wildlife interface conflicts, specifically regarding black bears traversing densely populated suburban neighborhoods. According to the Ministry of Forests, Lands, and Natural Resource Operations, encounters have escalated by nearly forty percent compared to the previous quinquennium.\n\nDr. Elena Vance, a prominent zoologist specializing in ursine behavioral adaptation, attributes this phenomenon to a confluence of anthropogenic pressures and ecological variables. Primarily, the encroachment of suburban sprawl into historical migration corridors has fragmented their native habitat. Furthermore, a deficient seasonal yield of huckleberries and salmon in the adjacent provincial parks has forced these apex omnivores to forage further afield in search of caloric sustenance.\n\nHowever, municipal councilors emphasize that the root catalyst remains unsecured residential attractants. Despite stringent bylaws prohibiting the premature placement of solid waste containers at the curb, rampant non-compliance persists among homeowners. Unsecured composters, unfenced backyard fruit trees, and domestic bird feeders inadvertently function as anthropogenic trophic subsidies, conditioning bears to associate human habitation with high-calorie rewards. This behavioral conditioning, scientifically termed food-conditioning, rapidly transitions into habituation, where bears lose their innate wariness of human presence.\n\nIn response to mounting public safety apprehensions, the municipality is contemplating draconian enforcement measures, including escalating administrative monetary penalties for repeat offenders and deploying specialized conservation officers equipped with non-lethal deterrents. Nevertheless, wildlife advocates staunchly argue that punitive measures targeting residents are insufficient without systemic infrastructural overhauls, such as mandating bear-proof communal waste enclosures and enforcing nocturnal curfews for refuse placement. As communities strive to achieve peaceful coexistence, the imperative for individual accountability and ecological stewardship has never been more acute.",
+    "questions": [
+      {
+        "text": "According to Dr. Elena Vance, what are the primary drivers behind the increased presence of bears in suburban areas?",
+        "options": [
+          "Unprecedented population growth of black bears in provincial parks",
+          "A combination of habitat fragmentation from suburban sprawl and poor seasonal food yields",
+          "The intentional feeding of wildlife by irresponsible homeowners",
+          "Municipal policies that encourage conservation officers to relocate bears improperly"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What term does the speaker use to describe human-provided food sources that unintentionally attract bears?",
+        "options": [
+          "Anthropogenic trophic subsidies",
+          "Behavioral conditioning catalysts",
+          "Suburban ecological attractants",
+          "Nutritional surrogate resources"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "How does 'habituation' differ from 'food-conditioning' based on the context of the report?",
+        "options": [
+          "Food-conditioning causes bears to forage further afield, while habituation makes them nocturnal.",
+          "Food-conditioning involves associating humans with high-calorie rewards, whereas habituation results in the loss of innate wariness toward humans.",
+          "Food-conditioning is a temporary seasonal phase, while habituation is a permanent genetic mutation.",
+          "Food-conditioning occurs naturally in parks, whereas habituation is exclusively caused by suburban waste."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What measure are wildlife advocates proposing in addition to punitive actions against residents?",
+        "options": [
+          "The immediate relocation of all suburban black bears to remote wilderness areas",
+          "Systemic infrastructural overhauls like bear-proof communal waste enclosures and nocturnal refuse curfews",
+          "A complete ban on fruit-bearing trees throughout the entire regional district",
+          "Increased funding for hunting licenses to control the burgeoning bear population"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What tone does the speaker adopt regarding the current enforcement of waste management bylaws?",
+        "options": [
+          "Commendatory, praising citizens for their rapid adaptation to new municipal rules",
+          "Critical, highlighting rampant non-compliance among homeowners despite existing regulations",
+          "Indifferent, suggesting that municipal bylaws have little to no impact on wildlife behavior",
+          "Optimistic, predicting that fines will completely eradicate urban bear encounters within a year"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ],
+    "audioUrl": "audio/audio_44.mp3"
   }
 ]
