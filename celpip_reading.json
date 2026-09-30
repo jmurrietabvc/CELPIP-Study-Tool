@@ -2928,5 +2928,61 @@
         "correctAnswerIndex": 0
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 3 - Everyday Topic",
+    "passage": "MUNICIPAL INFRASTRUCTURE ADVISORY: THE METROPOLITAN CONURBATION ARTERIAL TOLL INITIATIVE\n\nRecent implementation of the municipal arterial toll bridge system, colloquially referred to as the East-Reach Viaduct Levy, has precipitated a substantial wave of civic contention. Designed ostensibly to ameliorate chronic vehicular congestion and generate municipal revenue earmarked for public transit expansion, the toll structure has instead engendered widespread fiscal disenfranchisement among suburban commuters. The core grievance centers on the regressive economic impact of the flat-rate levy, which disproportionately burdens lower-income demographics who are structurally dependent on vehicular transit due to inadequate municipal rail penetration in outlying residential corridors.\n\nFrom a socio-economic standpoint, critics argue that the toll functions as an inequitable proxy tax. While affluent professionals possessing schedule flexibility or remote-work privileges can circumvent peak-hour tariffs, blue-collar and essential service workers\u2014whose physical presence is non-negotiable\u2014absorb the brunt of the financial attrition. Furthermore, municipal transit authorities anticipated a significant modal shift, projecting that a critical mass of drivers would forsake their automobiles for newly augmented express bus lines. However, empirical telemetry from the initial operating quarter indicates a negligible reduction in single-occupancy vehicle volume. Instead, motorists have exhibited entrenched behavioral persistence, absorbing the supplementary expenditure or engendering severe spillover congestion by diverting onto arterial residential secondary routes not engineered to sustain heavy freight and commuter loads.\n\nCompounding public ire is the perceived lack of procedural transparency surrounding the private-public partnership (P3) consortium contracted to administer the electronic tolling infrastructure. Investigative reports reveal that a disproportionate margin of the toll revenue is sequestered to service private debt obligations and yield guaranteed equity returns for the corporate conglomerate, leaving a comparatively meager residual for actual infrastructural maintenance. Consequently, civic associations are mobilizing en masse, demanding an immediate moratorium on the levy, a comprehensive independent audit of the P3 concession agreement, and the implementation of dynamic, income-indexed pricing models that align with principles of distributive justice rather than punitive fiscal deterrence.",
+    "questions": [
+      {
+        "text": "According to the passage, what was the primary theoretical justification provided by the municipality for instituting the East-Reach Viaduct Levy?",
+        "options": [
+          "To penalize suburban residents for failing to utilize public transit alternatives",
+          "To mitigate chronic traffic congestion and secure funding for public transit development",
+          "To subsidize private-public partnerships responsible for regional highway construction",
+          "To replace outdated residential property taxes with a consumption-based infrastructure fee"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Why does the author characterize the flat-rate levy as a 'regressive economic impact'?",
+        "options": [
+          "It disproportionately penalizes lower-income workers who lack viable alternatives and flexible work arrangements",
+          "It generates substantially less municipal revenue than initially projected by transit authorities",
+          "it systematically reduces property values in outlying residential corridors",
+          "It disproportionately benefits corporate conglomerates at the expense of municipal taxpayers"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "What does the empirical telemetry from the initial operating quarter reveal regarding commuter behavior?",
+        "options": [
+          "Commuters have successfully orchestrated a widespread modal shift toward express bus lines",
+          "Drivers have completely abandoned the arterial route in favor of public rail systems",
+          "There has been minimal decrease in single-occupancy vehicle usage, accompanied by increased secondary-route congestion",
+          "Motorists have successfully negotiated a temporary moratorium on peak-hour tariffs"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which of the following best describes the public's grievance regarding the private-public partnership (P3) consortium?",
+        "options": [
+          "The consortium has failed to implement efficient electronic tolling technology",
+          "Corporate partners are receiving guaranteed equity returns while actual infrastructure maintenance receives minimal funding",
+          "The consortium lacks the administrative capability to manage complex municipal infrastructure",
+          "Private investors have unilaterally increased the toll rates without municipal authorization"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What ultimate remedy are civic associations advocating for in response to the toll bridge initiative?",
+        "options": [
+          "The complete privatization of the municipal transit network",
+          "A permanent halt to the levy, an independent audit of the P3 contract, and income-indexed pricing",
+          "The immediate expansion of the rail penetration into affluent downtown sectors",
+          "A total ban on single-occupancy vehicles during peak commuting hours"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
   }
 ]

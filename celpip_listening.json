@@ -2834,5 +2834,62 @@
       }
     ],
     "audioUrl": "audio/audio_47.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 1 - Everyday Topic",
+    "transcript": "Arthur: Good morning, I'm calling to formally register a vehement grievance regarding the implementation of the new municipal toll bridge on the eastern corridor. The socio-economic ramifications for our residential enclave have been catastrophically underestimated by the city council.\n\nClara: Good morning, Arthur. I understand your frustration, but the municipal infrastructure division implemented this toll to offset the exorbitant maintenance expenditures and expedite the amortization of the construction debt. How specifically is it impacting your daily routine?\n\nArthur: It's not merely an inconvenience; it's a punitive financial imposition on commuters who have no viable alternative routes. The arterial bypasses are utterly congested, displacing thousands of vehicles into quiet residential neighborhoods, compromising pedestrian safety, and drastically inflating our daily transit overhead. Furthermore, the electronic toll gantry system has exhibited egregious technical glitches, resulting in erroneous duplicate billings that demand hours of administrative remediation.\n\nClara: I acknowledge that the transition phase has been tumultuous, and I can certainly log a ticket for your billing discrepancies. However, the council did host a series of public consultations prior to the legislation, and the environmental assessment clearly indicated that vehicular mitigation would eventually plateau once drivers acclimatize to the new traffic paradigm.\n\nArthur: Public consultations held at inconvenient midday hours do not constitute substantive community engagement; they are bureaucratic checkboxes designed to circumvent genuine dissent. Moreover, penalizing working-class families with regressive transit levies under the guise of ecological progressivism is disingenuous. I demand to know what remediation measures are being contemplated to mitigate the infrastructural burden on our local streets.\n\nClara: While the toll structure itself is immutable at this juncture, the transportation committee is currently evaluating resident-only parking permits and traffic-calming infrastructural interventions, such as strategically placed modal filters, to deter cut-through traffic. I can submit your property for priority consideration in the upcoming traffic management review, and I will initiate a formal investigation into your erroneous toll charges immediately.",
+    "questions": [
+      {
+        "text": "What is Arthur's primary motive for contacting the municipal office?",
+        "options": [
+          "To apply for a resident-only parking permit for his neighborhood",
+          "To register a strong complaint regarding the socio-economic and logistical impacts of the new toll bridge",
+          "To inquire about the amortization schedule of the eastern corridor construction debt",
+          "To request a comprehensive environmental assessment of the traffic mitigation strategies"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does Clara justify the implementation of the new toll bridge?",
+        "options": [
+          "It aims to completely eliminate vehicular traffic within residential sectors",
+          "It was unanimously demanded by working-class families during public consultations",
+          "It offsets maintenance expenditures and expedites the repayment of construction debt",
+          "it guarantees the immediate elimination of all electronic billing glitches"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "According to Arthur, what secondary problem has the toll bridge created?",
+        "options": [
+          "Severe congestion and safety risks in residential areas due to displaced traffic",
+          "A total collapse of the municipal electronic gantry manufacturing sector",
+          "An immediate halt to all public transportation schedules across the city",
+          "Unprecedented ecological degradation along the eastern corridor bypasses"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "How does Arthur characterize the public consultations held by the city council?",
+        "options": [
+          "As highly transparent and inclusive forums for genuine community consensus",
+          "As exhaustive bureaucratic processes that successfully anticipated all traffic paradigms",
+          "As superficial checkboxes designed to bypass authentic dissent rather than engage the community",
+          "As poorly publicized midday events that successfully resolved all financial grievances"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What concrete actions does Clara offer to resolve Arthur's specific concerns at the end of the conversation?",
+        "options": [
+          "She promises to repeal the toll bridge legislation entirely within the fiscal quarter",
+          "She offers to lower the toll rates for all working-class families permanently",
+          "She agrees to prioritize his property for traffic-calming reviews and investigate his billing errors",
+          "She invites him to lead the upcoming transportation committee meetings"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "audioUrl": "audio/audio_48.mp3"
   }
 ]
