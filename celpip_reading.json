@@ -3488,5 +3488,61 @@
         "correctAnswerIndex": 2
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 1 - Everyday Topic",
+    "passage": "Subject: Urgent: Post-Council Meeting Debrief & Strategy Regarding the Heritage Building Demolition\n\nDear Members of the Strathcona Historical Preservation Coalition,\n\nI am writing to apprise you of the tumultuous proceedings that transpired during last night\u2019s municipal council meeting concerning the fate of the historic 1912 mercantile building on 4th Avenue. As anticipated, the chamber was bitterly polarized, exposing deep-seated ideological schisms regarding municipal development and architectural legacy.\n\nCouncillor Vance spearheaded the motion for demolition, arguing with relentless pragmatism that preserving the dilapidated edifice is fiscally untenable and inimical to urban densification. He underscored that the structural integrity has been severely compromised by decades of neglect, and any prospective restoration would impose an exorbitant tax burden. Furthermore, Vance posited that the parcel of land is desperately needed for mixed-use affordable housing\u2014a pressing exigency in our municipality.\n\nConversely, our coalition's delegates mounted a robust defense, contending that the edifice encapsulates the foundational mercantile ethos of Strathcona. We emphasized that the vernacular architecture, characterized by its distinctive rusticated stone facade and corbelled brickwork, is irreplaceable. To raze it in lieu of a generic glass-and-steel monolith would constitute an irreparable cultural erasure.\n<br><br>\nThe debate grew particularly contentious when Mayor Althaus introduced a conditional compromise: deferring the demolition permit for precisely ninety days. During this interim, the onus is ostensibly upon our coalition to procure viable private capital or an adaptive reuse proposal that mitigates municipal financial exposure. If we fail to substantiate fiscal feasibility within this stringent timeframe, the demolition order will be executed summarily.\n\nIn light of this precarious ultimatum, we must coalesce expeditiously. I propose an emergency steering committee meeting this Thursday at 18:00 to formulate a comprehensive feasibility dossier. We must mobilize architectural consultants and philanthropic donors immediately if we are to forestall this impending civic loss.\n\nRegards,\n\nEvelyn Thorne\nDirector, Strathcona Historical Preservation Coalition",
+    "questions": [
+      {
+        "text": "What was the primary argument presented by Councillor Vance in favor of demolishing the historic building?",
+        "options": [
+          "The building poses an immediate physical hazard to pedestrians and neighboring properties.",
+          "The structure's historical significance has been overstated by preservationists.",
+          "Preserving the building is financially unfeasible and blocks necessary housing development.",
+          "The municipal budget has already allocated the land for a new public park."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "According to the email, what specific condition did Mayor Althaus attach to the demolition permit?",
+        "options": [
+          "The demolition is permanently canceled if the coalition pays a municipal fine.",
+          "The permit is put on hold for ninety days, contingent upon the coalition proving financial viability.",
+          "The building must be disassembled piece by piece and relocated to a museum.",
+          "The coalition must acquire government grants before the council will reconsider."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What does Evelyn Thorne imply regarding the potential replacement for the historical building?",
+        "options": [
+          "It will likely be an uninspired, homogenous structure lacking cultural value.",
+          "It will provide much-needed affordable housing for the local community.",
+          "It will incorporate elements of the old mercantile architecture into its design.",
+          "It will take twice as long to construct as a standard commercial building."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "Which of the following best describes the tone and atmosphere of the municipal council meeting?",
+        "options": [
+          "Apathetic and disengaged, with few council members participating in the discourse.",
+          "Unanimous and cooperative, leading to a swift resolution.",
+          "Acrimonious and deeply divided over opposing priorities.",
+          "Cautiously optimistic, with both sides readily agreeing to a compromise."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What immediate action does Evelyn Thorne urge the coalition members to take?",
+        "options": [
+          "File a formal lawsuit against Councillor Vance for professional misconduct.",
+          "Launch a public protest outside the municipal hall before Thursday morning.",
+          "Attend an emergency steering committee meeting to build a feasibility dossier.",
+          "Begin dismantling the interior artifacts of the building to save them from destruction."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
   }
 ]
