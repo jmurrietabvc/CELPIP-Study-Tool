@@ -340,5 +340,1128 @@
       }
     ],
     "audioUrl": "audio/audio_5.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 1 - Everyday Topic",
+    "transcript": "Clara: Good afternoon, Arthur. I'm so glad we bumped into each other. I've been meaning to discuss the upcoming pioneer exhibit at the Heritage Museum, 'Footprints in the Frost,' and frankly, I'm quite concerned about the curatorial direction.\n\nArthur: Oh, hello Clara. I thought the board unanimously ratified the proposal last month. What seems to be the bone of contention now? Surely not the artifact placement again?\n\nClara: Not the placement per se, though that's debatable. My primary apprehension is the overarching narrative arc. It leans far too heavily into the romanticized agrarian mythos, completely glossing over the socio-economic stratification and the fraught geopolitics of the mid-nineteenth-century settlement era. We are presenting a sanitized, monochromatic vignette instead of a rigorous historical reckoning.\n\nArthur: Well, one must concede that our primary demographic consists of families and school groups who may find dense socio-political discourse impenetrable. A museum exhibit must strike a delicate balance between academic rigor and accessible public engagement. If we alienate the lay visitor with heavy-handed revisionism, attendance will plummet.\n\nClara: That is a false dichotomy, Arthur. We can maintain accessibility without devolving into historical obfuscation. For instance, the section dedicated to the homesteading grants completely omits the systemic marginalization of indigenous populations and the onerous bureaucratic hurdles faced by non-British immigrants. It presents a monolithic narrative that simply does not withstand scholarly scrutiny.\n\nArthur: Granted, the narrative is streamlined, but we simply lack the floor space\u2014and frankly, the conservation budget\u2014to mount a fully comprehensive socio-political retrospective. Every additional interpretive panel requires trimming existing displays, which invariably sparks turf wars among the curatorial staff.\n\nClara: Then we must recalibrate our methodology. Instead of expanding the physical footprint, why not integrate augmented reality modules to contextualize the marginalized voices? That way, we appease the purists without overwhelming the casual patron.\n\nArthur: Augmented reality? Clara, you know our technological infrastructure is woefully archaic, and the capital expenditure required for such an overhaul would never clear the finance committee's desk this fiscal quarter.\n\nClara: Then we utilize QR codes linked to open-access scholarly essays and oral histories curated by local descendants. It requires virtually zero capital outlay, circumventing the finance committee entirely while intellectually fortifying the exhibit.\n\nArthur: Hmm. That is actually rather pragmatic. It shifts the burden of deep historical inquiry to an optional digital layer, preserving the aesthetic integrity of the physical gallery while satisfying your demand for historiographical nuance.\n\nClara: Exactly. It bridges the chasm between public edification and scholarly integrity. Will you back me at tomorrow's executive committee meeting when I table this amendment?\n\nArthur: Provided you draft the proposal concisely and emphasize that it incurs negligible fiscal impact, you have my vote. Let's not let perfection become the enemy of the good.",
+    "questions": [
+      {
+        "text": "What is Clara's primary criticism of the upcoming museum exhibit?",
+        "options": [
+          "[A] The artifacts are improperly cataloged and poorly positioned.",
+          "[B] The exhibit promotes a sanitized, romanticized view of history while ignoring complex socio-political realities.",
+          "[C] The admission prices will alienate families and school groups.",
+          "[D] The curatorial staff is unqualified to handle mid-nineteenth-century history."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What counterargument does Arthur initially raise against Clara's historical approach?",
+        "options": [
+          "[A] The museum lacks sufficient floor space for additional artifacts.",
+          "[B] The general public may find dense socio-political discourse inaccessible, potentially hurting attendance.",
+          "[C] The board has already legally bound the museum to the current design.",
+          "[D] Indigenous groups have formally requested that their history be omitted."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Why does Arthur initially reject Clara's suggestion of using augmented reality modules?",
+        "options": [
+          "[A] The technology would clash with the rustic aesthetic of the pioneer theme.",
+          "[B] The museum's technological infrastructure is outdated and the capital expenditure would not be approved.",
+          "[C] Visitors have consistently complained about digital fatigue in previous exhibits.",
+          "[D] The software development would delay the exhibit's opening by at least a year."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What compromise solution does Clara ultimately propose to resolve the dispute?",
+        "options": [
+          "[A] Scaling down the physical exhibit to half its intended size to save money",
+          "[B] Hiring external historians to rewrite the main interpretive panels",
+          "[C] Utilizing QR codes linked to digital essays and oral histories to provide deeper context without extra cost",
+          "[D] Delaying the exhibit launch until the finance committee approves a technology upgrade"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Under what condition does Arthur agree to support Clara's amendment at the executive committee meeting?",
+        "options": [
+          "[A] If she agrees to head the fundraising campaign for future technology",
+          "[B] If she drops her critique of the homesteading grants section",
+          "[C] If she drafts a concise proposal emphasizing that the solution has a negligible fiscal impact",
+          "[D] If she personally apologizes to the rest of the curatorial board"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "audioUrl": "audio/audio_6.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 2 - Everyday Topic",
+    "transcript": "Arthur: Excuse me, Council Representative. I am here to formally register my vehement dissatisfaction regarding the implementation of the municipal toll on the newly constructed Confederation Bridge. The socioeconomic fallout of this decision has been profoundly deleterious for our residential enclave.\n\nBrenda: Good afternoon, sir. I understand your frustration, but the municipality had to leverage private-public partnerships to expedite the infrastructure's completion, and user fees are the requisite mechanism to amortize the construction debt.\n\nArthur: That justification rings hollow when one scrutinizes the inequitable burden placed upon suburban commuters who have no viable mass transit alternatives. By imposing this exhorbitant levy, the city is effectively penalizing the workforce that sustains its economic engine, while affluent urbanites remain unscathed.\n\nBrenda: The council did weigh the distributional equity, Arthur. We instituted discounted passes for low-income residents and commercial vehicles. Moreover, traffic modeling indicated that without the toll, chronic gridlock would have paralyzed the arterial corridor entirely, negating any environmental gains.\n\nArthur: A spurious argument at best. The purported decongestion is merely a byproduct of displaced traffic spilling over into residential side streets, compromising pedestrian safety and exacerbating localized particulate pollution. You have simply shifted the locus of congestion rather than ameliorating it.\n\nBrenda: Your observations regarding arterial displacement are duly noted, and the transit committee is currently reviewing traffic diversion data. However, the toll structure is codified in municipal bylaws and cannot be unilaterally rescinded without jeopardizing our fiscal credit rating.\n\nArthur: Then perhaps the council should re-evaluate its budgetary allocations rather than balancing its ledger on the backs of overburdened taxpayers. I demand transparency regarding the revenue apportionment and a formal review of the exemption thresholds.\n\nBrenda: I can certainly facilitate the procurement of the fiscal transparency report for you, Arthur, and I will submit your petition for an exemption threshold audit to the commissioner for formal review at the next quorum.",
+    "questions": [
+      {
+        "text": "What is Arthur's primary grievance regarding the newly instituted bridge toll?",
+        "options": [
+          "It disproportionately penalizes suburban commuters lacking mass transit alternatives.",
+          "It fails to generate adequate revenue to amortize the municipal construction debt.",
+          "It was implemented without adherence to standard municipal bylaws.",
+          "It exclusively benefits low-income residents at the expense of the middle class."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "How does Brenda justify the initial implementation of the user fees?",
+        "options": [
+          "As a temporary measure to discourage vehicular usage during peak hours.",
+          "As a necessary mechanism to service debt incurred via public-private partnerships.",
+          "As a strategy to subsidize the expansion of suburban mass transit networks.",
+          "As a direct mandate from the provincial environmental protection agency."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What counter-argument does Arthur raise concerning the city's traffic management claims?",
+        "options": [
+          "The toll has caused a catastrophic collapse in local commercial shipping activity.",
+          "Public transport ridership has plummeted despite the introduction of the bridge.",
+          "The reduction in main corridor traffic is illusory, as congestion has merely been displaced to residential side streets.",
+          "The traffic modeling software used by the council was demonstrably outdated."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "According to Brenda, why is it currently impossible to unilaterally rescind the toll structure?",
+        "options": [
+          "Doing so would provoke immediate legal action from private investors.",
+          "The mayor has threatened to veto any proposed amendments to the bylaws.",
+          "It would compromise the municipality's fiscal credit rating.",
+          "Federal mandates legally bind the city to maintain the user fees for a decade."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What concrete action does Brenda agree to take by the end of the conversation?",
+        "options": [
+          "Issue an immediate temporary suspension of the bridge tolls pending further study.",
+          "Procure the fiscal transparency report and submit Arthur's petition for an exemption audit.",
+          "Organize a town hall meeting to debate the reallocation of municipal budgetary funds.",
+          "Personally lobby the transit committee to redesign the residential side street routes."
+        ],
+        "correctAnswerIndex": 1
+      }
+    ],
+    "audioUrl": "audio/audio_7.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 3 - Everyday Topic",
+    "transcript": "Welcome, citizens, to today's municipal information session regarding the adjudication process for contested parking infractions. I am Arthur Pendelton from the City of Vancouver\u2019s Parking Enforcement and Bylaw Division. Today, I will delineate the protocols for appealing a parking citation, focusing on the rigorous evidentiary thresholds required to successfully overturn a penalty. \n\nMany motorists find themselves perplexed upon receiving a Penalty Notice, often colloquially termed a ticket. If you believe the infraction was issued erroneously, you have precisely fourteen calendar days from the date of issuance to initiate a dispute. This can be effectuated online via our municipal portal or in person at the downtown service centre. However, I must underscore that mere dissatisfaction with the municipal bylaw\u2014such as contesting the hourly tariff or the designated street-cleaning windows\u2014does not constitute grounds for rescission. The bylaws are enacted by City Council and are uniformly binding.\n\nTo mount a meritorious defense, one must furnish tangible exculpatory evidence. Anecdotal assertions carry virtually no weight with the adjudication officers. For instance, if you received a citation due to an obscured or malfunctioning parking meter, you are obligated to capture contemporaneous photographic or videographic proof that unequivocally demonstrates the signage or meter was illegible or non-operational at the precise timestamp of the alleged infraction. Merely stating that the meter was obscured is insufficient; you must substantiate the claim with verifiable documentation. \n\nFurthermore, mechanical failure of your vehicle does not automatically exonerate you. If your automobile became immobilized, necessitating an unscheduled stop in a restricted zone, you must present an official tow-truck receipt or a dated mechanic\u2019s diagnostic report corroborating the emergency. Should your appeal be predicated on a medical exigency, a formal physician's attestation is requisite. \n\nOnce your dispute is formally lodged, it is subjected to an initial administrative review by a screening officer. Should the screening officer uphold the penalty\u2014which occurs in a significant majority of cases where evidence is deemed circumstantial\u2014you possess a secondary right of appeal before an independent adjudicator. Please be advised, however, that the independent adjudicator\u2019s determination is final and legally binding, with no subsequent avenues for administrative redress. Moreover, if an appeal is adjudicated and subsequently dismissed, the administrative penalty may be augmented by a supplementary processing fee. Therefore, I strongly advise all appellants to rigorously evaluate the veracity and strength of their evidentiary portfolio before formalizing their dispute.",
+    "questions": [
+      {
+        "text": "What is the primary prerequisite for successfully overturning a parking citation according to the speaker?",
+        "options": [
+          "[A] Demonstrating general dissatisfaction with City Council's parking tariffs",
+          "[B] Furnishing tangible, contemporaneous exculpatory evidence",
+          "[C] Submitting a formal appeal within seven calendar days of issuance",
+          "[D] Providing an anecdotal account of the circumstances surrounding the infraction"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What consequence may arise if an appellant's dispute is dismissed by the independent adjudicator?",
+        "options": [
+          "[A] The offender may face potential suspension of their driver's license.",
+          "[B] The original fine is automatically reduced by fifty percent for compliance.",
+          "[C] The administrative penalty may be increased by a supplementary processing fee.",
+          "[D] The appellant is granted a final opportunity for a judicial review."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "How does the municipal division view claims regarding a malfunctioning or obscured parking meter?",
+        "options": [
+          "[A] They are accepted at face value during the initial screening officer's review.",
+          "[B] They require verifiable contemporaneous photographic or videographic proof.",
+          "[C] They are automatically dismissed because meters are inspected daily.",
+          "[D] They serve as valid grounds for rescission only if corroborated by a police report."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What is required if an appeal is based upon an unexpected mechanical breakdown of a vehicle?",
+        "options": [
+          "[A] A signed affidavit from a passenger detailing the mechanical failure",
+          "[B] An official tow-truck receipt or a dated mechanic\u2019s diagnostic report",
+          "[C] A registration document proving the vehicle's age and mileage",
+          "[D] Photographic evidence of the vehicle being pushed off the roadway"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which of the following best characterizes the screening officer's initial administrative review?",
+        "options": [
+          "[A] It upholds the penalty in the vast majority of cases lacking robust evidence.",
+          "[B] It acts as the final and legally binding decision for all minor infractions.",
+          "[C] It grants automatic pardons for first-time parking violators.",
+          "[D] It permits appellants to renegotiate the hourly tariff of the parking zone."
+        ],
+        "correctAnswerIndex": 0
+      }
+    ],
+    "audioUrl": "audio/audio_8.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 4 - Everyday Topic",
+    "transcript": "Good evening, and welcome to Metro News Radio. I'm your host, Arthur Pendelton. Tonight, we delve into a recurring administrative imbroglio facing prospective undergraduate scholars across Canada. The annual disbursement of the prestigious Dominion Merit Scholarship has once again been marred by technological bottlenecks within the centralized admissions portal. Thousands of applicants attempting to finalize their supplementary documentation ahead of the midnight deadline encountered severe latency issues, system timeouts, and erratic file-upload validations. Educational administrators have defended the digital infrastructure, attributing the systemic congestion to an unprecedented surge in late-stage submissions. However, student advocacy groups are decrying the lack of infrastructural resilience, arguing that such systemic volatility disproportionately penalizes meticulous candidates who rely on the final hours for portfolio refinement. In response to the outcry, the scholarship committee has announced a forty-eight-hour extension, though it remains to be seen whether this provisional reprieve will suffice to mitigate the profound anxiety experienced by applicants vying for these coveted, fully funded academic tenures.",
+    "questions": [
+      {
+        "text": "What primary issue plagued the centralized admissions portal regarding the Dominion Merit Scholarship?",
+        "options": [
+          "A complete and permanent system blackout lasting several days",
+          "Severe latency, system timeouts, and erratic file-upload validations",
+          "A sudden change in the core eligibility criteria for applicants",
+          "Unauthorized breaches of confidential applicant data"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How did educational administrators account for the technological bottlenecks?",
+        "options": [
+          "They blamed a malicious cyber attack originating from abroad.",
+          "They admitted to routine server maintenance falling behind schedule.",
+          "They attributed the congestion to an unprecedented surge in late-stage submissions.",
+          "They cited budget constraints that prevented necessary server upgrades."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What argument did student advocacy groups put forward in response to the administrative defense?",
+        "options": [
+          "The scholarship program should be entirely dismantled and restructured.",
+          "The application deadline should be permanently moved up by a month.",
+          "The lack of infrastructural resilience disproportionately penalizes meticulous candidates.",
+          "Administrators should manually grade all portfolios without digital assistance."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What immediate remedial action did the scholarship committee take?",
+        "options": [
+          "They granted a forty-eight-hour extension to the deadline.",
+          "They waived the supplementary documentation requirements entirely.",
+          "\u09a4\u09be\u09b0\u09be offered financial compensation to affected applicants.",
+          "They transitioned the remaining application process to a postal submission format."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "What overarching sentiment does the news anchor express regarding the provisional reprieve?",
+        "options": [
+          "Complete confidence that the extension will resolve all administrative friction",
+          "Indifference toward the plight of the prospective undergraduate scholars",
+          "Uncertainty as to whether the measure will sufficiently alleviate applicants' anxiety",
+          "Outrage that the committee did not extend the deadline by a full week"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "audioUrl": "audio/audio_9.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 5 - Complaining to the city about a new toll bridge",
+    "transcript": "Arthur: Welcome, council members and fellow residents. As the representative for the South Shore neighborhood association, I am here to formally contest the imposition of the new municipal toll bridge on the Confederation Gateway. The economic ramifications of this levy are pernicious, disproportionately penalizing working-class commuters who have no viable auxiliary routes.\n\nBeatrice: While I empathize with the sentiment, Arthur, you are eliding the fiscal reality of our municipal infrastructure deficit. The exorbitant costs associated with seismic retrofitting and ongoing maintenance necessitated a dedicated revenue stream. Without the toll, the burden falls inequitably on general property taxpayers, many of whom never utilize that thoroughfare.\n\nCharles: With respect, Beatrice, your dichotomy is entirely specious. It is not a choice between unfairly burdening property owners and exploiting daily commuters. The city could have easily levied a progressive regional corporate tax or reallocated funds from the vastly overbudget downtown beautification initiative. Instead, the administration opted for a regressive user fee that exacerbates socioeconomic stratification, effectively gating mobility for marginalized populations.\n\nArthur: Exactly, Charles. Furthermore, the implementation has been nothing short of byzantine. The RFID transponder mandate, coupled with the exorbitant administrative surcharges for non-compliance, constitutes an egregious cash grab. Constituents are reporting automated billing anomalies that double-charge accounts without recourse. The grievance redressal mechanism is so labyrinthine that disputing a single erroneous charge consumes hours of administrative labor.\n\nBeatrice: Granted, the rollout has been marred by operational friction, and I concede that the current penalty structure is overly punitive. However, let us not lose sight of the overarching environmental imperative. The congestion pricing model is intentionally designed to disincentivize single-occupancy vehicular transit and catalyze modal shift toward our newly expanded rapid transit corridors. Urban densification requires demand management.\n\nCharles: That theoretical justification rings hollow when the rapid transit infrastructure is demonstrably deficient in the southern quadrant. Commuters aren't willingly opting for automobiles out of caprice; they do so because the alternative entails a grueling two-hour, three-transfer odyssey. You are penalizing people for a systemic failure of municipal planning, using environmentalism as a convenient rhetorical fig leaf for budgetary mismanagement.",
+    "questions": [
+      {
+        "text": "What is Arthur's primary grievance regarding the new toll bridge?",
+        "options": [
+          "It generates insufficient revenue for structural maintenance.",
+          "It disproportionately penalizes working-class commuters with economic hardship.",
+          "It violates federal environmental regulations.",
+          "It causes severe traffic congestion in the downtown core."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does Beatrice justify the implementation of the toll?",
+        "options": [
+          "As a temporary measure to fund downtown beautification.",
+          "As a necessary fiscal mechanism to cover infrastructure maintenance without overburdening property taxpayers.",
+          "As a strategy to eliminate all vehicular traffic from the city.",
+          "As a way to increase corporate tax revenues."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What alternative funding source does Charles propose instead of the toll?",
+        "options": [
+          "A federal bailout for municipal infrastructure.",
+          "A progressive regional corporate tax or reallocated funds from the beautification project.",
+          "An increase in parking fees across the entire city.",
+          "A direct user fee on downtown businesses."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which operational issue does Arthur highlight regarding the toll system?",
+        "options": [
+          "The bridges are structurally unsafe for heavy vehicles.",
+          "The toll booths accept only exact cash change.",
+          "Automated billing anomalies and a labyrinthine dispute mechanism.",
+          "A lack of signage indicating the approach to the toll gates."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "How does Charles counter Beatrice's environmental justification for the toll?",
+        "options": [
+          "He argues that public transit infrastructure in the south quadrant is severely deficient.",
+          "He claims that electric vehicles should be exempt from all tolls.",
+          "He states that pollution levels have actually decreased over the last decade.",
+          "He believes that environmental policies are outside the jurisdiction of municipal government."
+        ],
+        "correctAnswerIndex": 0
+      }
+    ],
+    "audioUrl": "audio/audio_10.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 6 - Everyday Topic",
+    "transcript": "Good evening, residents of the downtown municipality. As we convene tonight to deliberate upon the infrastructural evolution of our urban core, I want to address a glaring omission in our contemporary city planning: the pervasive and lamentable absence of protected cycling lanes throughout our central district. While municipal authorities endlessly tout their purported commitment to sustainable urban mobility and carbon-neutral transit initiatives, the reality on the asphalt tells a markedly disparate story. Cycling through our downtown core remains a perilous endeavor, characterized by haphazard sharrows that offer illusory safety, dooring hazards from parallel parking, and an overall prioritization of vehicular throughput over human-centric mobility. \n\nDetractors of infrastructural expansion frequently trot out the tired shibboleth that removing vehicular lanes to accommodate segregated bikeways will inevitably exacerbate traffic congestion and strangle local commerce. However, empirical studies from comparable metropolitan jurisdictions consistently debunk this economic fallacy. Pedestrianized and cyclized corridors invariably foster vibrant streetscapes, encouraging lingering foot traffic that directly benefits storefronts, unlike transient motorists who merely traverse the area. Furthermore, the argument concerning our inclement seasonal climate rings hollow; cities with far more punishing winters, such as Helsinki and Montreal, have demonstrated that with robust winter maintenance and heated infrastructure, micro-mobility remains viable year-round. \n\nTherefore, we must transcend the paralysis of incrementalism and demand a comprehensive, accelerated overhaul of our thoroughfares. We cannot continue to relegate cyclists to the margins of urban design while paying lip service to public health and environmental stewardship. I urge every stakeholder in this room to pressure the city council to earmark the requisite capital expenditures in the upcoming fiscal budget to construct a truly interconnected, protected grid of bicycle infrastructure. Our city's future livability hinges upon this decisive pivot away from automobile hegemony.",
+    "questions": [
+      {
+        "text": "According to the speaker, what is the primary flaw in the municipality's current approach to sustainable transit?",
+        "options": [
+          "A complete lack of financial investment in public transportation systems",
+          "A hypocritical discrepancy between stated environmental goals and actual urban planning",
+          "An over-reliance on federal subsidies for green initiatives",
+          "A failure to consult winter maintenance experts from other countries"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does the speaker characterize the existing cycling provisions, such as sharrows, in the downtown core?",
+        "options": [
+          "As effective short-term measures while permanent infrastructure is being built",
+          "As genuinely protective pathways that reduce commuter anxiety",
+          "As deceptive and inadequate mechanisms that fail to provide real security",
+          "As excessively expensive undertakings that drain municipal resources"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What counterargument does the speaker raise regarding the economic impact of removing vehicular lanes?",
+        "options": [
+          "It will temporarily disrupt supply chains for downtown restaurants.",
+          "It will force businesses to relocate to suburban industrial parks.",
+          "It will drive up commercial property values beyond the reach of small business owners.",
+          "It will invigorate local commerce by encouraging pedestrian engagement and lingering."
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "text": "How does the speaker dismiss the concern regarding the local climate?",
+        "options": [
+          "By arguing that global warming will soon eliminate harsh winters altogether",
+          "By pointing to other cold-climate cities that successfully maintain micro-mobility year-round",
+          "By suggesting that cycling should only be permitted during the summer months",
+          "By claiming that winter cycling is statistically safer than summer cycling"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What specific action does the speaker urge the audience to take at the conclusion of the speech?",
+        "options": [
+          "Boycott local businesses that lobby against bike lanes",
+          "Petition the city council to allocate capital funds for a protected bicycle grid",
+          "Volunteer for winter maintenance crews to clear the existing bike paths",
+          "Form a grassroots citizen patrol to monitor vehicular infractions"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ],
+    "audioUrl": "audio/audio_11.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 1 - Everyday Topic",
+    "transcript": "Mark: Good morning, IT Helpdesk, this is Mark speaking. How can I assist you with your tech infrastructure today?\nSarah: Hi Mark, it's Sarah from the marketing department. I'm facing a rather catastrophic hardware malfunction right now. My workstation\u2014the enterprise-issue Latitude laptop\u2014has abruptly ceased to function, and it's completely thwarting my capacity to finalize the Q3 deliverables before the impending corporate audit.\nMark: I appreciate the urgency, Sarah. Let's diagnose this methodically. When you say it ceased to function, are we talking about a complete lack of power post-boot sequence, or is it manifesting a BSOD\u2014a Blue Screen of Death\u2014upon initialization?\nSarah: It's worse than a standard blue screen. I was in the middle of rendering a high-resolution promotional video when there was an audible electrical pop, followed immediately by acrid smoke emanating from the chassis vents. I yanked the power cable out instantaneously.\nMark: Good grief. An electrical short with thermal smoke indicates a catastrophic motherboard failure or a catastrophic lithium-ion battery meltdown. Do not plug it back in under any circumstances. You need to bring that down to the subterranean IT bullpen immediately so we can isolate the hazard.\nSarah: I understand the safety protocol, Mark, but I have a boardroom presentation with the regional vice president in precisely forty-five minutes. My entire slide deck, alongside the localized backups, resides exclusively on that NVMe drive. Is there any redundancy or failover mechanism you can deploy right now?\nMark: Well, under normal circumstances, we mandate cloud synchronization via OneDrive, but given your propensity for working offline during heavy rendering sessions, I suspect your latest iterations haven't been synchronized to the cloud repository.\nSarah: Spot on. The file sizes are simply too gargantuan for our bandwidth throttling, so I've been deferring cloud syncs until tonight.\nMark: Right. Here is our protocol for this contingency. I'm dispatching a junior technician to your cubicle with a temporary loaner device loaded with a stock system image. Meanwhile, bring the smoking carcass of your laptop down to my desk. We will extract the NVMe storage module in a clean-air environment, mount it to an external enclosure, and attempt a sector-by-sector data extraction onto the loaner hardware. It's a meticulous procedure, but it's our most viable recourse to salvage your presentation.\nSarah: That sounds harrowing, but I suppose beggars can't be choosers. How long will the physical extraction take once I arrive at your station?\nMark: Assuming the soldering isn't heat-fused to the logic board\u2014which sometimes occurs with these ultrathin chassis during severe power surges\u2014we should have you operational within fifteen minutes. But Sarah, heed my warning: once we recover those files, that laptop is decommissioned permanently. No exceptions.\nSarah: Understood, Mark. I'm gathering my peripherals now and heading down the corridor. Please have the enclosure ready; we are treading on razor-thin margins here.\nMark: Will do. I'll have the toolkit prepped. See you in a minute.",
+    "questions": [
+      {
+        "text": "What immediate physical symptom indicated to Sarah that her laptop was experiencing a critical failure?",
+        "options": [
+          "A persistent Blue Screen of Death upon boot",
+          "An audible electrical pop followed by smoke",
+          "A sudden depletion of the lithium-ion battery",
+          "Complete unresponsiveness of the keyboard and trackpad"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Why had Sarah not backed up her latest presentation files to the cloud?",
+        "options": [
+          "She intentionally disabled OneDrive to conserve battery life.",
+          "The corporate network routinely blocks access to cloud repositories.",
+          "The file sizes were too large for the bandwidth, and she deferred syncing.",
+          "She mistakenly believed the local backups were automatically mirrored."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What specific action does Mark strictly prohibit Sarah from taking?",
+        "options": [
+          "Attempting to plug the laptop back into a power source",
+          "Bringing the device down to the IT bullpen without a case",
+          "Attempting to remove the NVMe storage module herself",
+          "Using the temporary loaner device for rendering videos"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "According to Mark, what is the primary risk associated with the laptop's physical condition?",
+        "options": [
+          "Permanent corruption of the cloud synchronization protocols",
+          "Potential heat-fusion of the logic board due to a power surge",
+          "Total loss of the peripheral devices connected during the incident",
+          "Incompatibility between the loaner hardware and the extraction tools"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What is the ultimate fate of Sarah's current laptop according to IT policy?",
+        "options": [
+          "It will be repaired and reassigned to a junior technician.",
+          "It will be sent back to the manufacturer for a warranty replacement.",
+          "It will be permanently decommissioned after data extraction.",
+          "It will be upgraded with a new motherboard and returned to Sarah."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "audioUrl": "audio/audio_12.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 2 - Everyday Topic",
+    "transcript": "Mark: Good morning, Ms. Henderson. I'm calling to follow up on the formal demand letter I sent regarding the withholding of my residential security deposit and the accrued interest, which is mandated under the provincial Residential Tenancies Act.\nMs. Henderson: Good morning, Mark. I received your correspondence. Frankly, I find your recourse to legalistic terminology somewhat premature. The property required substantial remediation upon your departure, and the disbursement of funds is contingent upon covering those extraordinary expenses.\nMark: Extraordinary expenses? I meticulously executed the condition inspection report both at ingress and egress. The wear on the baseboards falls squarely under the purview of reasonable wear and tear, and the minor scuff in the foyer was pre-existing, as duly noted in the initial addendum. You cannot unilaterally repurpose my deposit to subsidize routine capital improvements.\nMs. Henderson: It transcends mere scuffs. Our contractor had to remediate persistent moisture damage behind the drywall in the primary suite, which we attribute to your failure to adequately ventilate the premises despite numerous verbal advisories.\nMark: That is a spurious allegation. The structural dampness was reported to you in writing via certified mail on three separate occasions during the winter months, specifically citing the failing exterior flashing and compromised window seals\u2014maintenance issues that are undeniably the landlord's fiduciary responsibility.\nMs. Henderson: Be that as it may, the arbitration process through the Landlord and Tenant Board is notoriously protracted. We could potentially reach an amicable compromise if you agree to forfeit fifty percent of the principal to expedite the matter and circumvent further administrative friction.\nMark: I am impervious to your attempts at coercive compromise. I demand the full restitution of the principal plus statutory interest within forty-eight hours, or I will escalate this directly to the Board seeking maximum punitive damages for bad-faith retention of funds.",
+    "questions": [
+      {
+        "text": "What is the primary catalyst for Mark's telephone call to Ms. Henderson?",
+        "options": [
+          "A dispute over the unauthorized retention of his security deposit and accrued interest",
+          "A formal complaint regarding structural dampness and failing window seals",
+          "An inquiry into the timeline for the upcoming Landlord and Tenant Board arbitration",
+          "A notification that he is initiating capital improvements on the rental property"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "How does Ms. Henderson attempt to justify withholding a portion of the funds?",
+        "options": [
+          "By citing unpaid monthly rent and late fees accrued during the winter months",
+          "By claiming Mark caused moisture damage due to inadequate ventilation",
+          "By arguing that the initial condition inspection report was improperly executed",
+          "By stating that statutory interest covers the cost of routine capital improvements"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What evidence does Mark present to counter Ms. Henderson's claims regarding the property's condition?",
+        "options": [
+          "Photographs taken on the final day of his tenancy showing pristine baseboards",
+          "Affidavits from the contractor who performed the drywall remediation",
+          "Copies of condition inspection reports and certified mail regarding maintenance issues",
+          "A signed addendum from the previous tenant acknowledging the foyer scuff"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What compromise does Ms. Henderson ultimately propose?",
+        "options": [
+          "That Mark covers fifty percent of the contractor's drywall remediation fees",
+          "That they split the statutory interest evenly to avoid administrative friction",
+          "That Mark forfeits half of the deposit principal to expedite the settlement",
+          " That they mutually agree to forego the Landlord and Tenant Board arbitration"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What is Mark's stance regarding Ms. Henderson's proposed compromise?",
+        "options": [
+          "He is willing to negotiate if she agrees to pay the statutory interest immediately",
+          "He rejects it entirely and threatens to seek maximum punitive damages",
+          "He agrees to consider it if the arbitration process can be circumvented",
+          "He remains skeptical but agrees to review the paperwork within forty-eight hours"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ],
+    "audioUrl": "audio/audio_13.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 3 - Everyday Topic",
+    "transcript": "Good morning, commuters. As we find ourselves in the grip of a quintessential Canadian Nor'easter, I\u2019m providing an exhaustive transit advisory regarding the subterranean and surface-level arterial networks managed by the Metropolitan Transit Authority. A confluence of sub-zero temperatures, drifting snow, and localized power outages has precipitated systemic disruptions across multiple rapid transit corridors. Specifically, the arterial line 2 is experiencing severe cascading delays due to frozen switch mechanisms at the central junction, compounded by a stalled train near the downtown core.\n\nFor those relying on surface transit, articulated buses equipped with winter traction mechanisms are encountering insurmountable gridlock on major thoroughfares. The Authority strongly discourages non-essential travel; however, for those compelled to proceed, we advise utilizing underground pedestrian networks where accessible to mitigate exposure to the inclement weather. Please note that transfer points, particularly at the interchange stations, are operating at peak congestion capacity. Station managers have deployed auxiliary personnel to facilitate crowd control and disseminate up-to-the-minute scheduling adjustments. We remind all commuters that pre-loaded transit cards can be tapped at expedited entry points, bypassing the ticket vending kiosks which are currently plagued by condensation-induced malfunctions. Real-time digital signage is intermittently operational; therefore, passengers are strongly encouraged to consult the mobile application for verified predictive arrival algorithms rather than relying on static platform schedules.",
+    "questions": [
+      {
+        "text": "What is the primary cause of the cascading delays on arterial line 2?",
+        "options": [
+          "A power outage at the central junction and a vehicular accident",
+          "Frozen switch mechanisms combined with a stalled train near the downtown core",
+          "Overcrowded platforms and malfunctioning ticket vending kiosks",
+          "Improperly equipped articulated buses encountering surface gridlock"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What recommendation does the Transit Authority offer to mitigate exposure to the inclement weather?",
+        "options": [
+          "Avoid all travel until the storm completely subsides",
+          "Utilize underground pedestrian networks where accessible",
+          "Rely strictly on surface transit with winter traction mechanisms",
+          "Bypass the central interchange stations entirely"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Why are ticket vending kiosks currently unreliable?",
+        "options": [
+          "They are overwhelmed by a surge of pre-loaded transit card users",
+          "They have been purposely deactivated for crowd control",
+          "They are suffering from condensation-induced malfunctions",
+          "They lack real-time digital signage integration"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "How are station managers assisting commuters at congested interchange stations?",
+        "options": [
+          "By distributing updated static platform schedules",
+          "By manually operating the frozen switch mechanisms",
+          "By deploying auxiliary personnel for crowd control and scheduling updates",
+          "By providing alternative transit cards for expedited entry"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "According to the broadcast, what should passengers consult for the most accurate arrival times?",
+        "options": [
+          "The mobile application's predictive arrival algorithms",
+          "The intermittent real-time digital signage on the platforms",
+          "The static schedules posted at the expedited entry points",
+          "The verbal announcements broadcasted by station managers"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ],
+    "audioUrl": "audio/audio_14.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 4 - Everyday Topic",
+    "transcript": "Good morning, transit commuters. This is your regional transportation update for Tuesday, following the unprecedented blizzard that paralyzed the metropolitan area overnight. Municipal snow-removal crews have been working ceaselessly; however, the sheer accumulation of over forty centimeters of dense, wind-packed snow has severely crippled our surface transit arteries. As of 6:00 AM, the subterranean subway network is experiencing catastrophic cascading delays due to frozen third-rail infrastructure and power grid fluctuations. Shuttle buses have been deployed sporadically, yet their efficacy is severely hamstrung by impassable arterial roadways and abandoned vehicles littering the core. Transit authorities strongly advise against all non-essential travel, urging employers to institute remote-work contingencies to alleviate the immense congestion straining our skeletal service. Passengers currently stranded within interchange stations are instructed to monitor real-time digital feeds rather than relying on automated arrival boards, which are currently asynchronous due to central mainframe latency. Patience and fortitude are paramount as our engineering teams grapple with sub-zero wind chills to restore systemic equilibrium.",
+    "questions": [
+      {
+        "text": "What is the primary factor exacerbating the current delays on the subway network?",
+        "options": [
+          "A shortage of available operational staff",
+          "Frozen third-rail infrastructure and power grid fluctuations",
+          "An unprecedented volume of stranded commuters blocking platforms",
+          "Abandoned vehicles obstructing surface-level shuttle routes"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Why are surface shuttle buses failing to provide an effective alternative?",
+        "options": [
+          "They are being diverted to long-distance regional routes.",
+          "Municipal snow-removal crews have commandeered them.",
+          "They are hampered by impassable roadways and abandoned vehicles.",
+          "Drivers are refusing to operate vehicles in sub-zero wind chills."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What specific recommendation is given to employers in light of the transit crisis?",
+        "options": [
+          "To stagger employee arrival times by at least two hours",
+          "To provide private transportation vouchers for essential staff",
+          "To institute remote-work contingencies to reduce congestion",
+          "To suspend all business operations until the end of the week"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Why are automated arrival boards currently deemed unreliable by transit authorities?",
+        "options": [
+          "They are experiencing central mainframe latency causing asynchronous data.",
+          "Power grid fluctuations have caused total system blackouts.",
+          "Station agents are manually overriding the digital displays.",
+          "They have been purposely disabled to prevent platform overcrowding."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "What is the overarching tone and ultimate message of the news broadcast?",
+        "options": [
+          "A punitive warning penalizing those who attempt to commute",
+          "A logistical critique of municipal snow-removal failures",
+          "An urgent advisory urging avoidance of travel and exercising patience",
+          "An optimistic projection of immediate service restoration"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "audioUrl": "audio/audio_15.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 5 - Discussing a new city bylaw about mandatory composting and recycling",
+    "transcript": "Claire: Have you had a chance to thoroughly review the municipality's newly enacted bylaw regarding mandatory composting and recycling, Julian? The administrative penalties for non-compliance are remarkably draconian.\n\nJulian: I have indeed, Claire, and while I concur that the overarching ecological imperative is unimpeachable, the logistical feasibility of enforcing such granular waste segregation within multi-residential complexes strikes me as fundamentally impractical. How does the city realistically expect property managers to police individual compliance without infringing upon tenant privacy rights?\n\nMarcus: That is precisely the crux of the dilemma, Julian. The municipal council seems to have formulated this legislation through an idealized lens, entirely disregarding the socio-economic friction it will inevitably generate. Take the stipulation regarding organic waste containment: compelling residents in high-density urban infills to maintain airtight compost receptacles in cramped quarters without mitigating the associated olfactory and vector-borne hazards is asking for administrative gridlock.\n\nClaire: While I acknowledge your apprehensions regarding the transitional growing pains, Marcus, we must juxtapose these micro-level inconveniences against the catastrophic trajectory of our municipal landfills reaching saturation point by 2030. The punitive measures\u2014though ostensibly heavy-handed\u2014are calculated to disrupt entrenched behavioral inertia. Without such rigorous legislative scaffolding, voluntary participation rates languished below thirty percent for over a decade.\n\nJulian: True, Claire, but coercion without adequate infrastructural scaffolding is merely a punitive exercise in bureaucratic overreach. In my building, the retrofitting required to accommodate the mandated tri-stream waste chutes would cost upwards of fifty thousand dollars, a capital expenditure that will inevitably be passed down to tenants via exorbitant rent hikes, disproportionately penalizing fixed-income households.\n\nMarcus: Exactly. Furthermore, the bylaw operates on a premise of collective liability; when contamination occurs in the communal recycling bin, the entire building faces censure. This creates a perverse incentive structure where neighbors actively distrust one another, undermining the very social cohesion these urban centers strive to cultivate.\n\nClaire: Granted, the communal penalty clause is methodologically flawed and requires immediate legislative refinement through municipal amendments. Nevertheless, let us not allow the perfect to become the enemy of the good. The paradigm shift from a linear to a circular economy demands systemic disruption. If we continuously defer decisive action because of implementation friction, we abdicate our generational responsibility.",
+    "questions": [
+      {
+        "text": "What is Julian's primary critique of the newly enacted municipal bylaw?",
+        "options": [
+          "[A] The ecological goals of the bylaw are fundamentally flawed and scientifically unfounded.",
+          "[B] The enforcement mechanisms are logistically impractical and threaten tenant privacy.",
+          "[C] The financial penalties are too lenient to deter non-compliant behavior effectively.",
+          "[D] The timeline for implementation provides an unnecessary surplus of time for property managers."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does Marcus characterize the municipal council's formulation of the legislation?",
+        "options": [
+          "[A] As a pragmatic and well-calculated response to an imminent crisis.",
+          "[B] As a deliberate attempt to penalize fixed-income households.",
+          "[C] As an idealized approach that ignores socio-economic friction and practical hazards.",
+          "[D] As a legally sound framework modeled after successful international jurisdictions."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "According to Claire, what historical context justifies the heavy-handed punitive measures?",
+        "options": [
+          "[A] Voluntary participation rates remained dismally low for over a decade under previous frameworks.",
+          "[B] Property managers explicitly requested strict government oversight to enforce building rules.",
+          "[C] Landfill saturation is occurring significantly faster than initial scientific projections.",
+          "[D] Neighboring municipalities have already successfully implemented identical bylaws."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "What specific secondary concern does Marcus raise regarding the communal penalty clause?",
+        "options": [
+          "[A] It will bankrupt property management companies through exorbitant municipal fines.",
+          "[B] It fosters mutual distrust among neighbors due to collective liability for contamination.",
+          "[C] It absolves individual tenants of personal accountability by focusing solely on landlords.",
+          "[D] It creates insurmountable architectural challenges for older high-density buildings."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which statement best encapsulates Claire's ultimate stance on the debate by the conclusion of the discussion?",
+        "options": [
+          "[A] The bylaw must be completely rescinded until all infrastructural flaws are corrected.",
+          "[B] The financial burden on fixed-income households outweighs the environmental benefits.",
+          "[C] Despite valid administrative flaws, systemic disruption is necessary to prevent ecological failure.",
+          "[D] Voluntary compliance should be given one final trial period before punitive measures begin."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "audioUrl": "audio/audio_16.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 6 - Everyday Topic",
+    "transcript": "Good evening, fellow citizens and members of the heritage preservation committee. Tonight, we find ourselves at a critical juncture regarding the fate of the Miller Tannery building on 4th Avenue. While some vocal factions champion the immediate razing of this dilapidated edifice to make way for high-density mixed-use development, I contend that such shortsophagous urban planning would irrevocably sever our community's tether to its foundational history. Opponents frequently lambost the structure as an unsightly eyesore, a fiscal black hole that drains municipal coffers through deferred maintenance liabilities. However, this superficial critique completely overlooks the building's architectural singularity\u2014it stands as one of the last surviving examples of mid-nineteenth-century industrial vernacular in the province. To acquiesce to developers' entreaties under the guise of progress is a capitulation to homogenization. Now, I am not advocating for fiscal irresponsibility; rather, I propose a public-private partnership wherein the exterior facade is rigorously restored under heritage guidelines, while the interior is retrofitted into an artisanal incubator and community hub. This nuanced compromise mitigates the financial burden on taxpayers while safeguarding our collective memory. We must recognize that once a historical anchor of this magnitude is obliterated, it cannot be exhumed or replicated. Authenticity is a non-renewable resource, and our municipal mandate is to curate our city's evolution with both visionary pragmatism and profound historical stewardship.",
+    "questions": [
+      {
+        "text": "What is the primary debate surrounding the Miller Tannery building?",
+        "options": [
+          "Whether to convert it into a municipal office or a residential complex",
+          "Whether to demolish it for new development or preserve and repurpose it",
+          "Whether to sell it to a private developer or retain public ownership",
+          "Whether to completely restore its interior or only its exterior facade"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does the speaker characterize the opponents' view of the building?",
+        "options": [
+          "As a pragmatic approach to solving the city's housing shortage",
+          "As a superficial critique ignoring its architectural and historical significance",
+          "As a politically motivated attempt to undermine municipal leadership",
+          "As a financially sound strategy to eliminate public debt"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What specific compromise does the speaker propose?",
+        "options": [
+          "Fully funding the restoration using municipal tax reserves",
+          "Demolishing the interior while preserving the exterior through a public-private partnership",
+          "Relocating the building to a designated heritage museum",
+          "Allowing partial commercial development in exchange for historical plaques"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What does the speaker imply about the concept of urban progress?",
+        "options": [
+          "It is fundamentally incompatible with any form of historical preservation",
+          "It relies too heavily on foreign investment and external contractors",
+          "It often leads to unwelcome homogenization if not balanced with stewardship",
+          "It should be accelerated to address the city's growing population demands"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which phrase best encapsulates the speaker's concluding stance on authenticity?",
+        "options": [
+          "It is a flexible concept that can be recreated through modern architecture",
+          "It is an expensive luxury that the municipality can no longer afford",
+          "It is a non-renewable resource that demands profound historical stewardship",
+          "It is secondary to the immediate economic benefits of urban expansion"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "audioUrl": "audio/audio_17.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 1 - Everyday Topic",
+    "transcript": "Elena: Marcus, I am completely at my wits' end with this university scholarship portal. I thought navigating the initial admissions process was arduous, but submitting this supplementary bursary application is an absolute labyrinth.\n\nMarcus: Take a breath, Elena. What particular procedural roadblock are you encountering this time? Is the system timing out again?\n\nElena: No, it is far more insidious than a mere server error. The interface requires me to upload my transcripts, contextual statement, and referee evaluations under three separate, highly ambiguous drop-down menus. However, the portal keeps generating a cryptic error code\u2014'Validation Exception 409'\u2014whenever I try to consolidate my PDFs. Furthermore, the financial need assessment section demands documentation regarding my projected living expenses in Toronto, but the drop-down menu for academic terms only lists the upcoming Fall semester, omitting the Winter session entirely, which invalidates my annual budget projection.\n\nMarcus: That sounds like a classic case of legacy software failing to integrate with modern document management protocols. Have you tried clearing your browser's cache or switching to an alternative rendering engine, like Firefox instead of Chrome? Sometimes these institutional platforms are painfully myopic regarding browser compatibility.\n\nElena: I have already exhausted those troubleshooting avenues. I cleared my cache, disabled my ad-blocker, and even attempted the submission on a separate workstation, all to no avail. What exacerbates my anxiety is the immutable deadline: midnight tonight. If I miss this cutoff, I forfeit eligibility for the Chancellor\u2019s Excellence Award, which would fundamentally compromise my financial feasibility for attending this institution.\n\nMarcus: In that case, bypass the graphical user interface altogether. Do not rely solely on the web portal if it is demonstrably malfunctioning during peak traffic hours. You need to contact the Office of the Registrar immediately, request a ticketing escalation, and simultaneously email your complete dossier directly to the scholarship adjudication committee chair as a preemptive measure.\n\nElena: Do you genuinely think they will accept a direct email submission? Their guidelines are draconian; they explicitly state that unrequested email attachments will be summarily discarded without review to maintain equity among applicants.\n\nMarcus: Ordinarily, yes, they enforce those rules rigorously. However, if you attach a time-stamped screenshot of the 'Validation Exception 409' error alongside a formal, polite explanatory memo detailing your persistent technical disenfranchisement, it establishes a verifiable audit trail of your good-faith effort to comply before the deadline.\n\nElena: That is a judicious strategy. It demonstrates due diligence rather than procrastination. I will draft the correspondence immediately and concurrently place a call to IT services to obtain a reference number for the system outage, just to substantiate my claim.\n\nMarcus: Exactly. Mitigate the institutional friction by providing them with incontrovertible proof of systemic failure. Now, go execute that plan, and let me know the moment you receive an acknowledgement receipt.",
+    "questions": [
+      {
+        "text": "What is Elena's primary frustration with the scholarship portal?",
+        "options": [
+          [
+            "The website's servers are repeatedly timing out due to heavy traffic."
+          ],
+          [
+            "A cryptic error code prevents document consolidation, and a drop-down menu omits a critical academic term."
+          ],
+          [
+            "The portal lacks instructions on how to properly format referee evaluations."
+          ],
+          [
+            "The system requires her to mail physical documents instead of digital uploads."
+          ]
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does Marcus initially diagnose the technical issue Elena is facing?",
+        "options": [
+          [
+            "As a deliberate attempt by the university to reduce the number of applicants."
+          ],
+          [
+            "As an issue caused by Elena using an outdated internet connection."
+          ],
+          [
+            "As an incompatibility between legacy software and modern document management protocols."
+          ],
+          [
+            "As a user error resulting from misunderstanding the drop-down menus."
+          ]
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Why is Elena particularly anxious about the technical malfunction?",
+        "options": [
+          [
+            "She fears she will have to pay the application fee a second time."
+          ],
+          [
+            "The strict midnight deadline means she could forfeit a major scholarship vital to her financial feasibility."
+          ],
+          [
+            "She worries her referees will refuse to submit their evaluations through a different platform."
+          ],
+          [
+            "Her acceptance into the university depends entirely on this specific bursary."
+          ]
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What countermeasure does Marcus suggest to bypass the portal's failure?",
+        "options": [
+          [
+            "Wait until tomorrow morning when IT support fixes the server."
+          ],
+          [
+            "Mail physical copies of her documents via express courier to the registrar."
+          ],
+          [
+            "Submit the application through the general admissions portal instead."
+          ],
+          [
+            "Email the dossier directly to the committee chair accompanied by error screenshots and an explanatory memo."
+          ]
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "text": "According to the dialogue, what is the purpose of obtaining a reference number from IT services?",
+        "options": [
+          [
+            "To receive a full refund of her tuition deposit"
+          ],
+          [
+            "To substantiate her claim of systemic failure and establish an audit trail of good-faith effort"
+          ],
+          [
+            "To automatically extend the application deadline by 48 hours"
+          ],
+          [
+            "To bypass the university's English language proficiency requirement"
+          ]
+        ],
+        "correctAnswerIndex": 1
+      }
+    ],
+    "audioUrl": "audio/audio_18.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 2 - Everyday Topic",
+    "transcript": "Mechanic: Good morning, Mr. Henderson. I\u2019ve finally reviewed the diagnostics on your sedan, though I must preface this by saying the prognosis is rather grim, particularly given the prohibitive costs involved.\nCustomer: Good morning, Dave. Well, the engine light has been intermittent for weeks, but it was running relatively smoothly until yesterday's commute. Surely it's just an oxygen sensor or a faulty ignition coil? \nMechanic: I wish it were that superficial. Upon dismantling the upper intake manifold, we discovered catastrophic failure within the variable valve timing actuator, which subsequently resulted in metal particulate contamination circulating throughout the entire oil galley.\nCustomer: Contamination? But I\u2019ve adhered religiously to the synthetic oil change intervals every ten thousand kilometers. How could there be particulate shearing?\nMechanic: It appears to be an anomalous metallurgical fatigue of the internal oil pump drive gear\u2014a rare manufacturing defect that completely bypassed early wear indicators. Consequently, the debris compromised the main bearings and scored the cylinder walls beyond any viable honing tolerances.\nCustomer: Good grief. Are you implying I need a complete engine overhaul, or worse, a replacement long block? That vehicle is barely holding its residual market value as it is.\nMechanic: To be candid with you, the labor-intensive teardown required for a rebuild, coupled with OEM component acquisition, renders the expenditure astronomical. We are looking at an estimate hovering around eight thousand five hundred dollars, excluding provincial tax.\nCustomer: Eight thousand five hundred? That\u2019s nearly tantamount to the vehicle's total Blue Book valuation! It\u2019s economically irrational to sink that kind of capital into a 2018 chassis.\nMechanic: My sentiments precisely. While your frustration is entirely justified, you are essentially caught between Scylla and Charybdis: either absorb a catastrophic loss on the vehicle's trade-in value as a salvage unit, or finance a remanufactured engine with a three-year warranty. \nCustomer: I need time to deliberate. Is the vehicle currently immobilized, or could I tow it to an independent specialist for a secondary appraisal without incurring further disassembly charges?\nMechanic: It\u2019s currently disassembled on the hoist, so reassembling it for transport would necessitate an additional two hours of labor. However, given our long-standing rapport, I\u2019ll waive that reassembly fee if you ultimately decide against proceeding with our shop.",
+    "questions": [
+      {
+        "text": "What was the initial assumption the customer made regarding the car's malfunction?",
+        "options": [
+          "[A] A catastrophic failure of the main bearings.",
+          "[B] A minor issue such as an oxygen sensor or ignition coil.",
+          "[C] Contamination of the oil galley due to synthetic oil degradation.",
+          "[D] Manufacturing defects in the variable valve timing actuator."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What underlying cause did the mechanic ultimately identify for the engine damage?",
+        "options": [
+          "[A] Negligence of standard synthetic oil change intervals.",
+          "[B] Severe scoring of the cylinder walls from external debris.",
+          "[C] An anomalous metallurgical fatigue of the oil pump drive gear.",
+          "[D] Excessive wear from daily long-distance commuting."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "How does the customer perceive the mechanic's estimated repair cost?",
+        "options": [
+          "[A] A reasonable investment for a reliable vehicle.",
+          "[B] An exaggerated figure that can be negotiated down.",
+          "[C] An amount roughly equal to the vehicle's total market value.",
+          "[D] A minor inconvenience compared to buying a brand-new car."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What idiom does the mechanic use to describe the customer's difficult predicament?",
+        "options": [
+          "[A] Caught between Scylla and Charybdis.",
+          "[B] Between a rock and a hard place.",
+          "[C] Barking up the wrong tree.",
+          "[D] Burning the candle at both ends."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "What concession does the mechanic offer the customer regarding the current state of the vehicle?",
+        "options": [
+          "[A] To repair the vehicle free of charge due to their long-standing rapport.",
+          "[B] To waive the labor fee for reassembling the engine if the customer seeks a second opinion.",
+          "[C] To purchase the vehicle as a salvage unit for its full Blue Book value.",
+          "[D] To finance a remanufactured engine with a zero-percent interest rate."
+        ],
+        "correctAnswerIndex": 1
+      }
+    ],
+    "audioUrl": "audio/audio_19.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 3 - Everyday Topic",
+    "transcript": "Welcome, everyone, to today's departmental briefing regarding the comprehensive revision of our corporate telecommuting framework. As you know, the preliminary hybrid model we instituted post-pandemic was largely reactionary, designed to ensure operational continuity amidst unprecedented disruption. However, as we transition into a more permanent operational paradigm, the executive committee has synthesized employee feedback, productivity metrics, and ergonomic studies to formulate a more refined, deliberate work-from-home policy. \n\nThe overarching philosophy of the new policy shifts away from arbitrary, mandatory in-office quotas\u2014which many of you noted felt counterintuitive and deleterious to deep-focus work\u2014toward an outcome-driven methodology. Under the revised guidelines, full-time remote status will no longer require exhaustive, multi-tiered managerial sign-offs for those whose key performance indicators demonstrate sustained autonomous efficacy. Instead, we are implementing a 'core collaboration hours' model, wherein departments designate specific windows for synchronous communication, brainstorming, and cross-functional synergy, while leaving the remainder of the schedule entirely at the discretion of the employee.\n\nFurthermore, we are addressing the longstanding disparity regarding technological stipends and ergonomic equipment allocation. Effective next quarter, every permanent employee, regardless of their primary locus of work, will receive an annualized wellness and home-office enhancement stipend. This is designed to mitigate the physical toll of sedentary work environments and ensure that remote infrastructure mirrors the safety and efficiency of our downtown headquarters. \n\nImplementation will not be monolithic; rather, we are adopting a phased rollout, empowering localized team leads to calibrate these guidelines based on the idiosyncratic demands of their respective portfolios. We recognize that while engineering and data analytics may thrive in asynchronous isolation, client-facing departments may require nuanced adjustments. Detailed documentation will be distributed by end of day, followed by departmental town halls next week to address individualized queries.",
+    "questions": [
+      {
+        "text": "How is the newly proposed telecommuting framework fundamentally different from the initial post-pandemic model?",
+        "options": [
+          "It relies on stricter, mandatory in-office quotas to maintain corporate culture.",
+          "It transitions from reactionary measures to an outcome-driven methodology focused on autonomous efficacy.",
+          "It requires exhaustive managerial sign-offs for all employees seeking remote status.",
+          "It eliminates synchronous communication windows in favor of complete asynchronous isolation."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What is the primary purpose of establishing 'core collaboration hours'?",
+        "options": [
+          "To monitor employee login times and prevent unauthorized absenteeism.",
+          "To dictate the exact physical location from which employees must work during the day.",
+          "To facilitate synchronous communication, brainstorming, and cross-functional synergy.",
+          "To restrict meetings exclusively to the morning hours."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What significant change is being introduced regarding technological and ergonomic stipends?",
+        "options": [
+          "Stipends will be exclusively granted to executive-level personnel.",
+          "An annualized wellness and home-office enhancement stipend will be provided to all permanent employees.",
+          "Equipment allocation will be restricted to those working strictly from the downtown headquarters.",
+          "Stipends will be replaced by a centralized corporate equipment depot."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How will the implementation of the new policy be managed across different departments?",
+        "options": [
+          "Through a monolithic, rigid corporate mandate applied uniformly without exception.",
+          "By leaving policy formulation entirely up to individual employee discretion.",
+          "Via a phased rollout that empowers localized team leads to calibrate guidelines based on specific departmental demands.",
+          "By halting all remote work until client-facing departments achieve identical metrics."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "According to the speaker, which department type was specifically noted as potentially requiring nuanced adjustments under the new policy?",
+        "options": [
+          "Client-facing departments",
+          "Engineering and data analytics",
+          "The executive committee",
+          "The human resources division"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ],
+    "audioUrl": "audio/audio_20.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 4 - Everyday Topic",
+    "transcript": "Good evening, and welcome to Metro News Tonight. I'm your host, Arthur Pendelton. Tonight, our municipal spotlight falls upon the enduring, albeit contentious, legacy of former Mayor Evelyn Vance, who passed away earlier this week at the age of eighty-two. Vance, who helmed our city through a period of unprecedented urbanization from 1998 to 2010, is principally remembered for her radical overhaul of the municipal zoning bylaws\u2014a legislative maneuver that fundamentally reshaped the socio-economic and architectural fabric of our urban core.\n\nAt the heart of Vance\u2019s platform was the dismantling of exclusionary single-family zoning, a policy she lambasted as an antiquated relic exacerbating both urban sprawl and socio-economic stratification. In its stead, she championed 'density with dignity,' introducing sweeping amendments that permitted multiplexes, townhouses, and mixed-use commercial developments in historically low-density neighborhoods. Proponents at the time lauded the initiative as a visionary masterclass in progressive urban planning, citing the subsequent influx of diversified housing stock, enhanced pedestrian accessibility, and a revitalization of local commerce.\n\nHowever, Vance's legacy remains profoundly polarized. Detractors argue that the rapid upzoning catalyzed unchecked speculative real estate development, inadvertently precipitating the displacement of long-standing working-class residents through skyrocketing property assessments and gentrification. Critics frequently point out that while the policy successfully stimulated housing construction, the resultant developments often lacked the requisite infrastructural support, straining municipal transit networks and overwhelming neighborhood schools. Furthermore, neighborhood preservationist coalitions bitterly contested what they perceived as the erosion of architectural heritage and the homogenization of distinct community identities.\n\nAs the city council currently deliberates on the next decade's municipal development framework, Mayor Vance's polarizing policy framework serves as both a blueprint and a cautionary tale. Whether her crusade against exclusionary zoning is ultimately evaluated as a courageous democratization of urban space or an overzealous catalyst for community destabilization, one reality remains indisputable: Evelyn Vance irrevocably altered the trajectory of our city's evolution.",
+    "questions": [
+      {
+        "text": "According to the news report, what was the primary focus of Evelyn Vance's mayoral platform?",
+        "options": [
+          "The expansion of municipal boundaries to accommodate urban sprawl",
+          "The complete overhaul of exclusionary single-family zoning laws",
+          "The privatization of public transit and commercial developments",
+          "The preservation of historical architecture in low-density neighborhoods"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How do proponents characterize Evelyn Vance's zoning amendments?",
+        "options": [
+          "A pragmatic compromise to appease real estate speculators",
+          "A necessary evil to combat rising municipal debt",
+          "A visionary masterclass in progressive urban planning",
+          "A temporary fix for failing public school systems"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What unintended negative consequence did critics attribute to Vance's upzoning policies?",
+        "options": [
+          "A severe reduction in overall housing construction",
+          "The displacement of working-class residents through gentrification",
+          "The total collapse of the local commercial sector",
+          "An increase in traffic congestion due to narrowed pedestrian pathways"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What specific concern did neighborhood preservationist coalitions raise regarding the new developments?",
+        "options": [
+          "They were aesthetically unpleasing and too expensive to maintain",
+          "They caused severe overcrowding in regional healthcare facilities",
+          "They contributed to the erosion of architectural heritage and community identity",
+          "They violated environmental protection laws near the urban core"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "How does the news anchor characterize the ongoing debate surrounding Vance's legacy?",
+        "options": [
+          "As a settled matter with universal public approval",
+          "As an irrelevant historical footnote to current municipal issues",
+          "As a cautionary tale and a polarizing blueprint for future development",
+          "As a partisan political weapon with no basis in urban economics"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "audioUrl": "audio/audio_21.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 5 - Everyday Topic",
+    "transcript": "Claire: Good morning, David and Elena. I wanted to convene this impromptu neighborhood caucus to address the municipality's newly minted mandatory composting and recycling bylaw. Frankly, while the overarching ecological imperative is indisputable, the logistical friction it introduces for multi-family dwellings is becoming untenable.\n\nDavid: I couldn't agree more with your assessment of the implementation strategy, Claire, though I would argue the municipality's hand was somewhat forced by the impending depletion of the regional landfill. The real contention, from my perspective, isn't the environmental ethos, but the draconian penalty structure. Levying four-figure fines for inadvertent sorting infractions in shared chutes is an egregious overreach, especially given the notoriously nebulous municipal guidelines on biodegradable polymers.\n\nElena: While both of you raise valid grievances regarding the punitive measures and the infrastructural deficit in older complexes, I think we are glossing over the profound sociological shift this could catalyze if managed equitably. The bylaw's stipulation for bi-weekly organic waste collection, juxtaposed with the reduction of residual waste pick-up to once a month, is certainly audacious. However, my primary apprehension lies in the vector-borne pest proliferation it inevitably exacerbates during the humid summer months, a nuance completely overlooked by the urban planners ensconced in city hall.\n\nClaire: Exactly, Elena! The sanitary implications are profoundly alarming. Furthermore, the property management consortium has already signaled that compliance will necessitate retrofitting our subterranean waste-management infrastructure, a capital expenditure they are threatening to recuperate via exorbitant maintenance fee escalations. It's an inequitable burden disproportionately penalizing fixed-income residents.\n\nDavid: Precisely, and that segues into the equity paradox inherent in this legislation. Wealthy single-family homeowners possess the acreage to mitigate these challenges through backyard composting or private hauling, whereas high-density urbanites are subjected to a surveillance-heavy, hyper-punitive communal regime. It effectively criminalizes ecological ignorance rather than fostering institutional education.\n\nElena: To play devil's advocate, David, the municipal outreach committee did allocate subsidies for high-density residential retrofits, though the bureaucratic labyrinth required to access those funds is so labyrinthine that most strata councils abandoned the endeavor in exasperation. Perhaps our collective recourse shouldn't be outright resistance, but rather a coordinated lobbying effort to demand a grace period coupled with decentralized community workshops.\n\nClaire: A grace period is the bare minimum, but we need to demand a complete moratorium on punitive enforcement until the city provides standardized, multilingual signage and pneumatic sorting chutes. Otherwise, this progressive policy will engender intense socio-political animosity toward environmentalism itself.",
+    "questions": [
+      {
+        "text": "What is Claire's primary critique of the new municipal bylaw?",
+        "options": [
+          "She believes the environmental goals are fundamentally flawed and unachievable.",
+          "She is concerned about the logistical friction, sanitary risks, and financial burden on residents.",
+          "She argues that the city should focus on recycling rather than composting.",
+          "She thinks the bylaw favors high-density urban complexes over single-family homes."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "According to David, what motivated the municipality to enact this legislation?",
+        "options": [
+          "Pressure from real estate developers to modernize buildings",
+          "The impending depletion of the regional landfill capacity",
+          "A desire to generate revenue through exorbitant fines",
+          "Direct mandates from federal environmental agencies"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What specific secondary concern does Elena raise regarding the new collection schedule?",
+        "options": [
+          "The increase in municipal taxes to pay for extra trucks",
+          "The potential escalation of vector-borne pest proliferation during humid months",
+          "The impossibility of coordinating schedules with private hauling companies",
+          "The lack of adequate multilingual signage in apartment buildings"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How do David and Claire characterize the equity aspect of the new legislation?",
+        "options": [
+          "It fairly distributes the responsibility across all demographic strata.",
+          "It disproportionately benefits low-income renters at the expense of property owners.",
+          "It unfairly penalizes high-density urbanites while sparing wealthy single-family homeowners.",
+          "It creates an unfair advantage for newer buildings over older architectural complexes."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What solution does Elena ultimately propose to address their collective grievances?",
+        "options": [
+          "Filing a formal constitutional challenge against the municipal government",
+          "Instructing strata councils to completely ignore the new sorting mandates",
+          "Launching a coordinated lobbying effort for a grace period and decentralized workshops",
+          "Demanding that property management absorb all retrofitting expenditures"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "audioUrl": "audio/audio_22.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 6 - Everyday Topic",
+    "transcript": "Good morning, everyone. Today, I'd like to share my rather exasperating odyssey regarding a municipal parking infraction I incurred last month, and the subsequent labyrinthine bureaucratic appeal process I navigated at city hall. As someone who prides themselves on meticulous compliance with local bylaws, receiving a steep citation on my windshield was both perplexing and profoundly irritating, particularly given that the signage in question was flagrantly ambiguous.\n\nThe incident transpired on a drizzly Tuesday afternoon in a mixed-use commercial zone downtown. I had meticulously parked my vehicle within the designated bay, paying the meter for a full two hours via the municipal parking application. However, unbeknownst to me, a supplementary temporary restriction had been enacted\u2014ostensibly for emergency utility maintenance\u2014which was communicated solely via a laminated, letter-sized placard affixed to a telephone pole roughly thirty meters away from the bay, obscured entirely by a low-hanging canopy of maple foliage.\n\nWhen I discovered the ticket, my initial impulse was to simply pay the penalty and absolve myself of the administrative headache. Yet, upon closer inspection, the sheer disproportionate nature of the fine, compounded by the city's egregious failure to provide conspicuous notice, galvanized me to mount a formal contestation. I understood that under Section 14 of the Municipal Parking Bylaw, the onus is ostensibly on the motorist to ascertain local parking conditions; nevertheless, the principle of administrative fairness dictates that the municipality must afford reasonable and unobstructed notification of any ad-hoc regulatory amendments.\n\nMy foray into the municipal adjudication center last Thursday proved to be a masterclass in bureaucratic opacity. Armed with geo-tagged photographs of the obscured signage, a screenshot of my active parking session on the mobile app, and a meticulously drafted memorandum citing relevant precedents of administrative oversight, I approached the tribunal counter with cautious optimism. The intake clerk, a veteran of countless such grievances, met my dossier with a mixture of practiced apathy and mild commiseration. \n\nDuring the formal hearing, the adjudicator listened with an air of detached civility. I articulated my argument not merely on the grounds of oversight, but fundamentally on the inadequacy of the communication infrastructure deployed by the city. I posited that relying on ephemeral, poorly placed paper notices when digital infrastructure\u2014such as push notifications via the municipal parking app\u2014is readily available constitutes a dereliction of the city's duty of care toward resident motorists. Furthermore, I underscored the punitive economics of the fine, arguing that such draconian enforcement in the absence of clear, unequivocal signage erodes public trust in municipal governance.\n\nUltimately, the adjudicator rendered a split decision: while she conceded that the visual obstruction of the placard mitigated my culpability, she maintained that the overriding statutory provision regarding temporary zone restrictions still technically applied. Consequently, she exercised her discretionary authority to reduce the penalty by fifty percent rather than granting a full exoneration. While I did not achieve complete absolution, the experience offered a sobering reflection on the friction points between citizen accountability and institutional rigidity in modern civic administration.",
+    "questions": [
+      {
+        "text": "What was the speaker's primary emotional reaction upon initially discovering the parking ticket on their vehicle?",
+        "options": [
+          "Indifference, as they expected to pay it eventually",
+          "Perplexity and profound irritation due to ambiguous signage",
+          "Resignation because they knew they had overstayed their time",
+          "Outrage directed entirely at the municipal parking app developers"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Why did the speaker ultimately decide to contest the ticket rather than simply pay it?",
+        "options": [
+          "They wanted to test the efficiency of the digital parking application.",
+          "They were motivated by the disproportionate fine and the city's failure to provide clear notice.",
+          "They had personal acquaintance with one of the municipal adjudicators.",
+          "They believed Section 14 of the Bylaw exempted them entirely from all downtown parking fees."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What specific evidence did the speaker present during their appeal at the adjudication center?",
+        "options": [
+          "Signed affidavits from local business owners confirming the sign was hidden",
+          "Geo-tagged photographs, an active parking app screenshot, and a formal memorandum",
+          "A petition signed by other motorists who had received tickets in the same zone",
+          "Bank statements proving they could not afford the financial penalty"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What alternative communication method did the speaker argue the city should have utilized?",
+        "options": [
+          "Broadcast messages on local radio stations",
+          "Direct mail notices sent to registered vehicle owners",
+          "Digital push notifications via the municipal parking app",
+          "Automated phone calls to the driver's registered mobile number"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What was the final outcome of the speaker's administrative appeal?",
+        "options": [
+          "The ticket was completely dismissed with a formal apology from the city.",
+          "The appeal was outright rejected, and the full penalty had to be paid immediately.",
+          "The penalty was reduced by half due to mitigating circumstances regarding visibility.",
+          "The case was deferred to a higher provincial court for further constitutional review."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "audioUrl": "audio/audio_23.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 1 - Everyday Topic",
+    "transcript": "Mechanic: Good morning, Mr. Henderson. I\u2019ve just finished the diagnostic on your sedan, and the results are somewhat disconcerting. It appears the transmission failure is far more catastrophic than initially surmised.\nCustomer: Good morning, Arthur. Well, that\u2019s rather distressing to hear. When I brought it in, I assumed it was merely a recalibration issue with the torque converter, perhaps a fluid flush at most. Are you telling me it requires a complete overhaul?\nMechanic: I\u2019m afraid it transcends a mere overhaul. The planetary gearset has disintegrated, shedding metal debris throughout the entire hydraulic circuit. Consequently, the valve body and the mechatronic unit are irretrievably contaminated. We are looking at a full transmission replacement.\nCustomer: Good gracious. A complete replacement? The vehicle is only six years old and hasn't even crested ninety thousand kilometers. Surely a powertrain of that caliber shouldn't experience such catastrophic attrition under normal commuter usage.\nMechanic: I completely empathize with your exasperation. Statistically, this specific transmission model exhibits exceptional longevity, which suggests your unit suffered an anomalous metallurgical anomaly or a premature seal failure that starved it of pressure before the warning indicators illuminated on your dash.\nCustomer: That\u2019s cold comfort, Arthur. The fiscal ramifications of this are staggering. Last week I budgeted for routine brake maintenance, and now I'm confronting a repair bill that rivals the current resale value of the automobile itself.\nMechanic: The financial burden is undeniably hefty\u2014parts alone account for the lion's share, given the supply chain bottlenecks for imported OEM components. However, before you resign yourself to relinquishing the vehicle, let me explore two contingencies. First, I can petition the manufacturer for a goodwill warranty adjustment, citing the exceptionally low mileage and your impeccable service history at our dealership. Second, we could source a certified remanufactured unit, which would shave roughly thirty-five percent off the expenditure without compromising the two-year warranty.\nCustomer: I genuinely appreciate your pragmatism, Arthur. The goodwill gesture is certainly worth pursuing first, as the vehicle has never seen a third-party mechanic. If the manufacturer rejects it, we can pivot to the remanufactured unit. Let\u2019s draft the formal petition this morning.",
+    "questions": [
+      {
+        "text": "What was the customer's initial assumption regarding the car's mechanical issue?",
+        "options": [
+          "A complete transmission failure requiring a total replacement",
+          "A minor calibration problem or a simple fluid change",
+          "Contamination of the hydraulic circuit and valve body",
+          "An anomalous metallurgical defect in the planetary gearset"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "According to the mechanic, what ultimately caused the severe damage to the transmission?",
+        "options": [
+          "Neglect of routine brake maintenance by the customer",
+          "Excessive commuter mileage beyond the vehicle's capacity",
+          "An anomalous failure that starved the system of pressure",
+          "Substandard third-party repairs performed previously"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "How does the customer react to the mechanic's estimate of the repair costs?",
+        "options": [
+          "He believes the cost is entirely justified by the vehicle's high resale value.",
+          "He is unfazed because he budgeted heavily for unexpected automotive repairs.",
+          "He finds the financial impact overwhelming compared to his initial expectations.",
+          "He is infuriated that the dealership failed to diagnose the issue last week."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What is the mechanic's first suggested course of action to mitigate the financial burden?",
+        "options": [
+          "Scrap the vehicle and apply its residual value toward a new model",
+          "Sourcing a cheaper, aftermarket transmission from a local junkyard",
+          "Petitioning the manufacturer for a goodwill warranty adjustment",
+          "Filing an insurance claim for component attrition"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What key factor supports the customer's eligibility for the manufacturer's goodwill adjustment?",
+        "options": [
+          "The vehicle is still covered under the original bumper-to-bumper warranty.",
+          "The automobile has never been serviced by a third-party mechanic.",
+          "The model has a notoriously high rate of premature transmission failure.",
+          "The customer recently purchased an extended powertrain protection plan."
+        ],
+        "correctAnswerIndex": 1
+      }
+    ],
+    "audioUrl": "audio/audio_24.mp3"
   }
 ]
