@@ -1577,5 +1577,62 @@
       }
     ],
     "audioUrl": "audio/audio_26.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 4 - Everyday Topic",
+    "transcript": "Good evening, and welcome to Metro Toronto News. I'm your host, Arthur Pendelton. Tonight, we turn our attention to the labyrinthine administrative processes facing parents across the Greater Toronto Area as the annual public school registration window commences. With the Ministry of Education recently implementing a hybridized curriculum that amalgamates traditional STEM paradigms with mandatory socio-emotional competencies, navigating the registration labyrinth has transcended mere logistical bureaucracy; it has become an ideological exercise for many families. School boards report an unprecedented surge in out-of-catchment waiver applications, fueled by parents desperately seeking institutions boasting specialized arts or advanced placement tracks. Compounding these systemic frictions are stringent documentation mandates\u2014ranging from verifiable proof of residency to complex immunization transcripts\u2014which have inadvertently marginalized newly immigrated families who lack immediate access to notarized credentials. Education critics argue that the rigid adherence to these bureaucratic gatekeeping mechanisms undermines the foundational ethos of universal public education, transforming neighborhood schools into fiercely contested fiefdoms. Meanwhile, pedagogical experts are deeply divided over the newly minted curriculum. While proponents laud the integration of critical media literacy and localized indigenous histories as a progressive leap toward holistic citizenship, detractors contend that this dilution of core foundational mechanics in mathematics and classical sciences may compromise our students' global competitiveness. As school trustees prepare for an extraordinary session this Thursday to address these mounting grievances, parents are left weighing the merits of local public schooling against increasingly alluring, yet financially burdensome, private alternatives.",
+    "questions": [
+      {
+        "text": "According to the broadcast, what has the process of school registration recently transformed into for many families?",
+        "options": [
+          "[A] A straightforward administrative formality",
+          "[B] An ideological exercise due to a hybridized curriculum",
+          "[C] A completely digitized and frictionless experience",
+          "[D] A mandatory consultation with provincial politicians"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What is the primary driver behind the unprecedented surge in out-of-catchment waiver applications?",
+        "options": [
+          "[A] Widespread closures of neighborhood schools",
+          "[B] Parents seeking specialized arts or advanced placement tracks",
+          "[C] Mandatory relocation policies enforced by the Ministry of Education",
+          "[D] Prohibitive tuition hikes in the private education sector"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How do stringent documentation mandates inadvertently impact newly immigrated families?",
+        "options": [
+          "[A] They expedite their integration into advanced placement programs.",
+          "[B] They exempt them from standard immunization requirements.",
+          "[C] They marginalize them due to a lack of immediate access to notarized credentials.",
+          "[D] They provide them with subsidized legal representation."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What is the primary concern raised by detractors regarding the newly minted curriculum?",
+        "options": [
+          "[A] It completely ignores indigenous histories and media literacy.",
+          "[B] The dilution of core foundational mechanics in math and classical sciences may compromise global competitiveness.",
+          "[C] It places an excessive financial burden on the provincial tax base.",
+          "[D] It is too heavily focused on traditional STEM paradigms."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What action are school trustees taking this coming Thursday?",
+        "options": [
+          "[A] Voting to abolish all out-of-catchment waiver applications",
+          "[B] Implementing mandatory private schooling alternatives",
+          "[C] Holding an extraordinary session to address mounting grievances",
+          "[D] Unveiling a completely revised provincial budget"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "audioUrl": "audio/audio_27.mp3"
   }
 ]

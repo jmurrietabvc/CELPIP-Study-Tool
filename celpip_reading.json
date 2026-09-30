@@ -1712,5 +1712,61 @@
         "correctAnswerIndex": 3
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 2 - Everyday Topic",
+    "passage": "INTERNAL MEMORANDUM\nTo: Department Managers\nFrom: Human Resources & Operations Directorate\nDate: October 24, 2023\nSubject: Implementation Framework: Hybrid Work-from-Home Policy Revision\n\nDear Managers,\n\nFollowing extensive consultation with departmental heads and an exhaustive review of our pilot productivity metrics over the preceding fiscal quarters, the Executive Committee has ratified the revised Hybrid Work-from-Home Policy. The overarching objective is to institutionalize a sustainable equilibrium between operational exigencies and employee autonomy, mitigating burnout while safeguarding institutional cohesion.\n\nAs delineated in the framework below, employee eligibility and mandatory in-office parameters are strictly contingent upon role typology and individual performance tiering. Please review the matrix meticulously before conducting alignment sessions with your respective teams.\n\n[HYBRID WORK POLICY ELIGIBILITY & ROTATION MATRIX]\n----------------------------------------------------------------------------------------------------\nRole Typology         | Performance Tier | Max WFH Days/Wk | Mandatory In-Office Days | Core Hours\n----------------------------------------------------------------------------------------------------\nAdministrative Support| Tier 1 (Exemplary)| 2 Days          | Tue, Thu                 | 09:00 - 15:00\nAdministrative Support| Tier 2-3 (Standard)| 1 Day          | Tue, Wed, Thu            | 09:00 - 15:00\nOperational Analyst   | Tier 1 (Exemplary)| 3 Days          | Wed                      | 09:00 - 15:00\nOperational Analyst   | Tier 2-3 (Standard)| 2 Days          | Tue, Thu                 | 09:00 - 15:00\nStrategic Consultant  | Tier 1 (Exemplary)| 4 Days          | Mon                      | Flexible     | Strategic Consultant  | Tier 2-3 (Standard)| 3 Days          | Mon, Fri                 | 09:00 - 15:00\nExecutive Liaison     | Tier 1 (Exemplary)| 1 Day          | Mon, Wed, Thu            | 09:00 - 15:00\nExecutive Liaison     | Tier 2-3 (Standard)| 0 Days          | Mon through Fri          | 09:00 - 15:00\n----------------------------------------------------------------------------------------------------\n\nAdditional Operational Caveats:\n1. Core Hours mandate availability for synchronous communication regardless of physical location.\n2. Tier re-evaluations occur biannually; a downward shift in performance immediately supersedes the current WFH allotment, reverting the employee to the Tier 2-3 baseline for their role typology.\n3. Requests for ad-hoc schedule modifications require a minimum of 72 hours' advance notice and formal managerial sign-off.",
+    "questions": [
+      {
+        "text": "An Operational Analyst who currently falls under Tier 2 performance standards is promoted to Tier 1 next quarter. How does this shift impact their mandatory in-office obligations?",
+        "options": [
+          "They must be in the office on Monday, Wednesday, and Friday.",
+          "They reduce their mandatory in-office days from two days to one day.",
+          "They eliminate all in-office requirements and can work remotely indefinitely.",
+          "Their mandatory in-office days change exclusively to Tuesday and Thursday."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which of the following employee categories possesses the greatest potential flexibility regarding their core hours while working remotely?",
+        "options": [
+          "Administrative Support staff with Exemplary performance ratings",
+          "Executive Liaisons who maintain a Tier 2-3 performance ranking",
+          "Strategic Consultants who achieve Tier 1 performance status",
+          "Operational Analysts operating under standard performance parameters"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "According to the operational caveats, what immediate consequence ensues if an employee with an Exemplary rating experiences a demotion in their performance tier?",
+        "options": [
+          "They are granted a 72-hour grace period to adjust their remote schedule.",
+          "Their remote work privileges are permanently revoked for the fiscal year.",
+          "They immediately forfeit their current WFH allotment and revert to the baseline for their role typology.",
+          "They are required to renegotiate their core hours directly with the Executive Committee."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "An Executive Liaison maintaining a standard performance tier wishes to utilize the maximum allowable remote workdays. Based on the matrix, what is their allowable WFH schedule?",
+        "options": [
+          "One day per week, provided they are in the office on Monday.",
+          "Zero days per week; they must report to the office Monday through Friday.",
+          "Two days per week, subject to managerial approval.",
+          "Three days per week, excluding Wednesdays and Fridays."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What inference can be deduced regarding the overarching philosophy of the newly ratified Hybrid Work-from-Home Policy?",
+        "options": [
+          "It treats all organizational roles identically to ensure absolute egalitarianism across departments.",
+          "It ties remote work privileges directly to demonstrated performance tiers and specific operational duties.",
+          "It prioritizes maximum remote work capacity universally to drastically reduce corporate real estate overhead.",
+          "It discourages synchronous communication in favor of asynchronous output across all tiers."
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
   }
 ]
