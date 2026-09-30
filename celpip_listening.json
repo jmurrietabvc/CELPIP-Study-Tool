@@ -1634,5 +1634,62 @@
       }
     ],
     "audioUrl": "audio/audio_27.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 5 - Discussing a new city bylaw about mandatory composting and recycling",
+    "transcript": "Claire: Have you had a chance to thoroughly review the municipality's newly enacted bylaw regarding mandatory organic waste diversion and stringent recycling protocols, or are you still grappling with the logistical ramifications?\n\nDavid: I have perused the documentation, Claire, and while I unequivocally endorse the ecological imperative of mitigating landfill saturation, I harbor profound reservations regarding the draconian enforcement mechanisms and the sheer impracticability for multi-unit residential complexes.\n\nMarcus: From a macroscopic urban planning perspective, David, the recalcitrance of property developers in accommodating adequate infrastructure has necessitated such heavy-handed municipal intervention. If we are to achieve our net-zero carbon trajectory by 2035, voluntary compliance has historically proven utterly nugatory.\n\nClaire: That may be analytically sound, Marcus, but the financial burden being shifted onto homeowners via disproportionate tiered penalties for minor sorting infractions borders on punitive. Furthermore, the olfactory and vector-borne hazards associated with mandated organic storage in high-density dwellings have been profoundly underestimated in their environmental health assessments.\n\nDavid: Precisely, Claire. The city council appears entirely divorced from the quotidian realities of working-class families whose spatial constraints render multi-bin sorting a Sisyphean endeavor. Moreover, the propensity for contamination within the blue-box stream will likely invalidate entire truckloads, rendering the punitive measures counterproductive when recyclables are summarily diverted to incinerators due to negligible cross-contamination.\n\nMarcus: While those logistical hurdles are undeniably formidable, we must contextualize this within the broader paradigm of ecological economics. The externalities of our current refuse output are subsidized by future generations. Perhaps the implementation is brusque, but without a seismic shift in civic compliance, the municipal waste management apparatus was hurtling toward catastrophic insolvency anyway.",
+    "questions": [
+      {
+        "text": "What is David's primary stance regarding the newly enacted municipal bylaw?",
+        "options": [
+          "[A] He completely rejects the ecological necessity of waste diversion.",
+          "[B] He supports the environmental goals but criticizes the enforcement and practicality.",
+          "[C] He believes voluntary compliance is the only viable path forward.",
+          "[D] He feels the penalties are too lenient to effect meaningful change."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "According to Marcus, why was heavy-handed municipal intervention necessary?",
+        "options": [
+          "[A] Property developers failed to accommodate adequate infrastructure.",
+          "[B] The federal government mandated immediate net-zero targets.",
+          "[C] Voluntary compliance had historically proven ineffective.",
+          "[D] Landfill operators threatened legal action against the city."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What specific concern does Claire raise regarding high-density dwellings?",
+        "options": [
+          "[A] The excessive cost of purchasing municipal-approved bins.",
+          "[B] The lack of spatial planning by real estate conglomerates.",
+          "[C] The olfactory and vector-borne hazards of organic storage.",
+          "[D] The reluctance of landlords to cooperate with waste management."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What does David argue will likely happen due to cross-contamination in the recycling stream?",
+        "options": [
+          "[A] Entire truckloads of recyclables will be diverted to incinerators.",
+          "[B] The city will be forced to retract the bylaw within months.",
+          "[C] Residents will receive tax rebates for their sorting efforts.",
+          "[D] Private waste management companies will take over municipal duties."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "How does Marcus frame the overarching issue in his final response?",
+        "options": [
+          "[A] As a legal dispute between developers and the city council.",
+          "[B] Through the lens of ecological economics and systemic insolvency.",
+          "[C] As a temporary inconvenience that will resolve itself naturally.",
+          "[D] Through a comparison with international waste management models."
+        ],
+        "correctAnswerIndex": 1
+      }
+    ],
+    "audioUrl": "audio/audio_28.mp3"
   }
 ]

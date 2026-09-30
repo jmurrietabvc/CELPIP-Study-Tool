@@ -1768,5 +1768,61 @@
         "correctAnswerIndex": 1
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 3 - Everyday Topic",
+    "passage": "The municipal revitalization of Riverside Park represents a paradigm shift in urban ecological stewardship, transcending the traditional bounds of municipal maintenance to embrace grassroots environmentalism. Historically plagued by industrial runoff and subterranean soil compaction, the park's eastern quadrant had languished as an ecological dead zone for decades. However, the recent mobilization spearheaded by the Riverside Green Coalition has catalyzed a remarkable metamorphosis. \n\nAt the core of this initiative was a meticulously orchestrated arboricultural campaign. Eschewing exotic flora that demand intensive anthropogenic intervention, the coalition mandated the exclusive propagation of indigenous botanical specimens. Over three consecutive weekends, upwards of four hundred volunteers\u2014ranging from octogenarian horticulturists to primary school cohorts\u2014planted over twelve hundred saplings, predominantly Acer saccharum (Sugar Maple), Quercus rubra (Northern Red Oak), and Betula papyrifera (Paper Birch). This arboreal diversity was deliberately selected to fortify the microecosystem against specific endemic blights while expediting the sequestration of atmospheric carbon.\n\nSimultaneously, the remediation protocol addressed the pervasive issue of watershed degradation. Volunteers constructed bioswales and rain gardens designed to intercept urban runoff, thereby mitigating soil erosion and filtering heavy metals prior to their percolation into the adjacent river system. The implementation of coarse woody debris cascades further augmented macroinvertebrate habitats, fostering a trophic rebound that has already attracted diverse avian populations previously absent from the municipality.\n\nCrucially, the success of the Riverside Park undertaking hinges upon perpetual community guardianship rather than ephemeral volunteerism. The coalition has instituted a stewardship matrix wherein local civic associations adopt specific quadrants, assuming responsibility for moisture monitoring, invasive species eradication, and phenological data collection. This decentralized governance model ensures that the rehabilitation remains resilient against fiscal austerity and political vicissitudes. Ultimately, the initiative serves as an empirical testament to the potency of collaborative ecological remediation, proving that urban green spaces can be successfully resuscitated through rigorous scientific methodology paired with fervent civic engagement.",
+    "questions": [
+      {
+        "text": "What does the passage imply about the choice of flora used in the park's revitalization?",
+        "options": [
+          "[A] They were chosen to maximize aesthetic appeal for park visitors.",
+          "[B] They were exclusively native species intended to bolster ecosystem resilience.",
+          "[C] They were fast-growing foreign species meant to quickly cover industrial scars.",
+          "[D] They were selected primarily for their high carbon absorption capacity despite high maintenance needs."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does the initiative address the degradation of the local watershed?",
+        "options": [
+          "[A] By diverting the river flow entirely around the industrial zone.",
+          "[B] By installing chemical filtration plants operated by volunteers.",
+          "[C] By utilizing bioswales, rain gardens, and woody debris to manage runoff and filter pollutants.",
+          "[D] By restricting public access to the riverbanks to prevent soil compaction."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What is the primary function of the newly established 'stewardship matrix'?",
+        "options": [
+          "[A] To raise municipal taxes for ongoing park maintenance.",
+          "[B] To secure long-term protection and monitoring through decentralized civic responsibility.",
+          "[C] To evaluate the financial cost of volunteer efforts against municipal savings.",
+          "[D] To manage political relationships between the coalition and city council."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which of the following best captures the author's viewpoint regarding the longevity of the project?",
+        "options": [
+          "[A] It is precarious due to potential shifts in municipal budgets and political climates.",
+          "[B] It is guaranteed by the initial high volume of volunteers who participated.",
+          "[C] It is secured through ongoing scientific oversight rather than reliance on fleeting civic enthusiasm.",
+          "[D] It is dependent on the natural adaptation of exotic flora introduced during the campaign."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "According to the text, what unintended positive consequence has already been observed following the habitat augmentation?",
+        "options": [
+          "[A] A significant decrease in local industrial activity near the park.",
+          "[B] The return of various bird species that had previously abandoned the area.",
+          "[C] An immediate increase in real estate values surrounding the eastern quadrant.",
+          "[D] The complete elimination of subterranean soil compaction."
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
   }
 ]
