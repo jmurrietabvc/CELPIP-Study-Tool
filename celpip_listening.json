@@ -2033,5 +2033,122 @@
       }
     ],
     "audioUrl": "audio/audio_34.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 6 - Everyday Topic",
+    "transcript": "Good evening, fellow residents. As we dissect the municipality's newly enacted municipal bylaw regarding mandatory residential composting and source-separated recycling, it is imperative to move past the initial visceral reactions and examine the systemic implications of this mandate. While critics vehemently decry the policy as an egregious overreach of municipal governance\u2014arguing that stringent sorting protocols and the impending punitive fines infringe upon personal autonomy\u2014a more nuanced socio-ecological perspective reveals a different reality. Our landfills are approaching critical mass, and the status quo is ecologically untenable. The legislation, despite its administrative friction and the undeniable inconvenience of retrofitting domestic waste systems, aims to internalize the externalities of rampant consumerism. Furthermore, the argument that the financial burden of compliance falls disproportionately on marginalized demographics, though valid, is being addressed through municipal subsidies for compost caddies and comprehensive educational outreach. Ultimately, this ordinance is not merely about diversion metrics; it represents a paradigm shift in urban stewardship, compelling us to reconcile our daily domestic habits with the broader ecological imperatives of the province.",
+    "questions": [
+      {
+        "text": "What is the primary initial reaction of critics toward the new municipal bylaw?",
+        "options": [
+          [
+            "A",
+            " They believe it will completely solve the city's landfill crisis."
+          ],
+          [
+            "B",
+            " They view it as an unacceptable overreach of municipal power that infringes on personal freedom."
+          ],
+          [
+            "C",
+            " They argue it does not go far enough in addressing consumerism."
+          ],
+          [
+            "D",
+            " They are primarily concerned with the financial cost of purchasing compost caddies."
+          ]
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "According to the speaker, what is the fundamental justification for the new legislation?",
+        "options": [
+          [
+            "A",
+            " Landfills are reaching critical mass and current waste habits are ecologically untenable."
+          ],
+          [
+            "B",
+            " The provincial government mandated the policy to increase municipal tax revenues."
+          ],
+          [
+            "C",
+            " Citizens overwhelmingly requested stricter recycling guidelines through public consultations."
+          ],
+          [
+            "D",
+            " Private waste management companies lobbied for increased operational efficiency."
+          ]
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "How does the speaker characterize the administrative friction and inconvenience of the new policy?",
+        "options": [
+          [
+            "A",
+            " As an insurmountable obstacle that invalidates the legislation."
+          ],
+          [
+            "B",
+            " As a deliberate tactic to discourage domestic waste generation."
+          ],
+          [
+            "C",
+            " As an undeniable side effect outweighed by the goal of internalizing consumer externalities."
+          ],
+          [
+            "D",
+            " As a minor issue that has been completely eliminated by municipal programs."
+          ]
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What valid concern raised by critics does the speaker acknowledge regarding the policy?",
+        "options": [
+          [
+            "A",
+            " The ordinance will increase the city's carbon footprint."
+          ],
+          [
+            "B",
+            " The financial burden of compliance may disproportionately affect marginalized demographics."
+          ],
+          [
+            "C",
+            " The new composting caddies are structurally incompatible with most modern kitchens."
+          ],
+          [
+            "D",
+            " The punitive fines are too lenient to deter non-compliance."
+          ]
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "In the speaker's view, what does the ordinance ultimately represent beyond mere waste diversion metrics?",
+        "options": [
+          [
+            "A",
+            " A temporary trial period for future provincial tax reforms."
+          ],
+          [
+            "B",
+            " A method to privatize municipal waste management services."
+          ],
+          [
+            "C",
+            " A punitive measure designed to police everyday domestic habits."
+          ],
+          [
+            "D",
+            " A paradigm shift in urban stewardship aligning domestic habits with ecological imperatives."
+          ]
+        ],
+        "correctAnswerIndex": 3
+      }
+    ],
+    "audioUrl": "audio/audio_35.mp3"
   }
 ]

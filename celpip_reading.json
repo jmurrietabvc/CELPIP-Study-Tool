@@ -2160,5 +2160,61 @@
         "correctAnswerIndex": 1
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 2 - Everyday Topic",
+    "passage": "INTERNAL MEMORANDUM\nTO: Regional Operations Staff\nFROM: Enterprise IT Infrastructure Division\nDATE: October 24, 2023\nSUBJECT: Standard Operating Procedure for Laptop Hardware Malfunctions and Replacement Tiers\n\nTo ensure business continuity during unforeseen hardware failures, the IT Division has updated the deployment protocols for replacement laptops and peripheral accessories. Please consult the troubleshooting matrix and asset allocation tiers below before submitting a formal ServiceNow ticket.\n\n[IT SUPPORT TROUBLESHOOTING & REPLACEMENT MATRIX]\n+---------------------+---------------------------+--------------------------------+-----------------------------------+\n| Symptom / Severity  | Initial Diagnostic Action | Resolution Protocol            | Hardware Replacement Tier         |\n+---------------------+---------------------------+--------------------------------+-----------------------------------+\n| Tier A: Minor Fault | Reboot into Safe Mode;    | Reinstall corrupted display    | Tier 1: Peripherals only          |\n| (Display/Keyboard)  | check driver signatures.  | drivers or swap external USB KB| (External monitor/keyboard issued)|\n+---------------------+---------------------------+--------------------------------+-----------------------------------+\n| Tier B: System Crash| Run MEMTEST86; inspect    | Flash BIOS; reimage storage    | Tier 2: Standard Refurbished      |\n| (BSOD / Boot loop)  | S.M.A.R.T. disk health.   | drive with corporate image.    | (Equivalent model, wiped SSD)     |\n+---------------------+---------------------------+--------------------------------+-----------------------------------+\n| Tier C: Critical    | Check motherboard power   | Immediate quarantine; send to  | Tier 3: Executive / New Device    |\n| (Spill / Thermal)   | rails; isolate battery.   | central depot for forensics.   | (Latest generation, unboxed)      |\n+---------------------+---------------------------+--------------------------------+-----------------------------------+\n\nCORRESPONDENCE:\n\nFrom: Marcus Vance (Senior Analyst, Marketing)\nTo: IT Helpdesk\nDate: October 25, 2023\n\nGreetings Helpdesk Team,\n\nI am writing to expedite a resolution for my corporate laptop, which suffered a catastrophic failure this morning during a client presentation. While hastily setting up in the boardroom, I inadvertently knocked a full tumbler of water directly onto the keyboard chassis. The device instantly suffered a complete electrical blackout accompanied by a faint ozone odor emanating from the ventilation grilles.\n\nGiven that I am spearheading the Q4 deliverables and require uninterrupted processing capability for heavy rendering software, I assume my situation necessitates immediate escalation to the highest hardware tier. I have already removed the battery pack (as much as the sealed enclosure allows) and placed the machine in a container of desiccant crystals, though I fear the motherboard has suffered catastrophic short-circuiting.\n\nCould you please confirm the logistics of obtaining a replacement under these specific exigencies?\n\nRegards,\nMarcus",
+    "questions": [
+      {
+        "text": "Based on the matrix, what is the mandatory immediate action IT requires for the specific malfunction Marcus experienced?",
+        "options": [
+          "Reboot the device into Safe Mode to check driver signatures",
+          "Flash the basic input/output system and reimage the solid-state drive",
+          "Perform an immediate quarantine of the device and dispatch it to the central depot for forensic evaluation",
+          "Issue a Tier 1 external keyboard and monitor peripherals set"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What can be inferred about the hardware replacement Marcus will likely receive according to the corporate asset allocation tiers?",
+        "options": [
+          "He will receive a brand-new, latest-generation unboxed device because his issue falls under Tier 3.",
+          "He will be issued a standard refurbished model with a wiped SSD, characteristic of Tier 2.",
+          "He will only receive peripheral replacements since liquid damage is classified under minor faults.",
+          "He will not receive any replacement until the central depot completes its forensic investigation."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "Which of the following best describes Marcus's troubleshooting attempt prior to contacting IT support?",
+        "options": [
+          "He successfully ran a MEMTEST86 diagnostic and inspected the S.M.A.R.T. disk health.",
+          "He checked the motherboard power rails and successfully isolated the internal battery.",
+          "He removed the battery pack to the extent the sealed enclosure permitted and applied desiccant crystals.",
+          "He reinstalled the corrupted display drivers and swapped the external USB keyboard."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "According to the troubleshooting matrix, which symptom category encompasses a blue screen of death (BSOD) or a persistent boot loop?",
+        "options": [
+          "Tier A: Minor Fault",
+          "Tier B: System Crash",
+          "Tier C: Critical",
+          "Tier 1: Peripherals only"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What underlying assumption does Marcus reveal in his email regarding the replacement protocol?",
+        "options": [
+          "He assumes that his heavy reliance on rendering software exempts him from standard troubleshooting diagnostics.",
+          "He assumes that his senior title automatically qualifies him for the highest hardware replacement tier regardless of the damage.",
+          "He assumes that the ozone odor confirms a minor software driver conflict rather than hardware failure.",
+          "He assumes that his urgent Q4 deliverables dictate an immediate escalation to the highest hardware tier."
+        ],
+        "correctAnswerIndex": 3
+      }
+    ]
   }
 ]
