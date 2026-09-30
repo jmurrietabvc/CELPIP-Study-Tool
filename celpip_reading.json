@@ -3544,5 +3544,61 @@
         "correctAnswerIndex": 2
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 2 - Complaining to the city about a new toll bridge",
+    "passage": "MEMORANDUM\nTo: Municipal Infrastructure & Revenue Committee\nFrom: Arthur Pendelton, Senior Urban Mobility Analyst\nSubject: Post-Implementation Review of the Metro-West Causeway Toll Structure\nDate: October 14, 2023\n\nFollowing the recent inauguration of the Metro-West Causeway, my department has received a substantial influx of correspondence from constituents articulating profound dissatisfaction with the current toll matrix. Residents living in Zones A and B argue that the tariff schedule is inequitable, disproportionately penalizing suburban commuters who have no viable mass-transit alternatives.\n\nTo facilitate your deliberation on the upcoming amendments, please review the revised toll matrix and discount eligibility criteria below:\n\n+-----------------------------------------------------------------------------------------------------------------------+\n|                                    METRO-WEST CAUSEWAY - TARIFF & DISCOUNT MATRIX                                     |\n+------------------+-------------------+-------------------+-------------------+----------------------------------------+\n| Commuter Zone    | Peak Hour (07:00- | Off-Peak Hour     | Weekend Rate      | Eligible Discount Programs             |\n|                  | 09:30, 16:00-     |                   |                   |                                        |\n|                  | 18:30)            |                   |                   |                                        |\n+------------------+-------------------+-------------------+-------------------+----------------------------------------+\n| Zone A (Urban    | $4.50             | $2.50             | $1.75             | P1, P3                                 |\n| Core)            |                   |                   |                   |                                        |\n+------------------+-------------------+-------------------+-------------------+----------------------------------------+\n| Zone B           | $8.75             | $5.00             | $3.50             | P2, P3                                 |\n| (Inner Ring)     |                   |                   |                   |                                        |\n+------------------+-------------------+-------------------+-------------------+----------------------------------------+\n| Zone C           | $12.50            | $7.50             | $5.25             | P2 (Conditional), P4                   |\n| (Outer Suburbs)  |                   |                   |                   |                                        |\n+------------------+-------------------+-------------------+-------------------+----------------------------------------+\n\nDiscount Program Definitions:\n- P1: Municipal Resident Pass (Requires proof of residency within city limits; 20% rebate on off-peak only).\n- P2: Frequent Commuter Pass (Applies to minimum 35 crossings per month; 15% reduction across all tiers).\n- P3: Low-Income Relief Subsidy (Means-tested; 50% waiver applicable exclusively to peak and off-peak rates).\n- P4: Regional Integration Initiative (Valid only for vehicles equipped with approved telematics transponders; flat $2.00 credit during weekends).\n\nCitizens assert that the financial burden undermines the municipality's pledge to foster socioeconomic inclusivity. Committee members must weigh these grievances against municipal budgetary constraints before the November session.",
+    "questions": [
+      {
+        "text": "According to the memorandum and diagram, a resident living in the Inner Ring (Zone B) who qualifies for the Low-Income Relief Subsidy (P3) will receive which of the following benefits?",
+        "options": [
+          "A 50% waiver applicable to both peak and off-peak rates.",
+          "A 15% reduction across all tiers combined with a 50% waiver.",
+          "A 20% rebate on off-peak rates exclusively.",
+          "A flat $2.00 credit valid only during weekends."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "What is the financial cost differential for a Zone C commuter during peak hours compared to off-peak hours, assuming no discount programs are applied?",
+        "options": [
+          "$4.25",
+          "$5.00",
+          "$3.75",
+          "$6.25"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Based on the eligibility criteria, which discount program explicitly requires proof of residency specifically within the city limits rather than vehicle telematics or crossing frequency?",
+        "options": [
+          "P2",
+          "P4",
+          "P1",
+          "P3"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What inference can be drawn regarding the primary grievance articulated by constituents residing in Zones A and B?",
+        "options": [
+          "They object to the operational hours designated for weekend rates.",
+          "They feel the tariff schedule is unfair because suburban commuters lack viable mass-transit alternatives.",
+          "They are frustrated that the P4 discount program excludes vehicles without telematics transponders.",
+          "They believe the bridge was inaugurated prematurely without adequate safety reviews."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "If a commuter from Zone C utilizes the bridge 40 times in a month, which discount program(s) might they potentially be eligible for, according to the matrix?",
+        "options": [
+          "P1 and P3 exclusively",
+          "P2 only",
+          "P2 (Conditional) and P4",
+          "P1, P3, and P4"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
   }
 ]

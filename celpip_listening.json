@@ -3461,5 +3461,62 @@
       }
     ],
     "audioUrl": "audio/audio_58.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 6 - Everyday Topic",
+    "transcript": "Good evening, fellow commuters. Tonight, I want to address the perennial exasperation that plagues our municipal transit infrastructure every single winter: the systemic paralysis of our subway and bus networks during substantial meteorological events. Last Tuesday's unmitigated fiasco, precipitated by a mere twenty centimeters of snowfall, exposed vulnerabilities that transcend mere logistical ineptitude; they are symptomatic of an institutional myopia regarding infrastructural resilience in a Canadian climate.\n\nFirst, let us dissect the fallacy of the 'unprecedented weather event' defense frequently proffered by transit authorities. To categorize a standard winter squall in this latitude as an anomaly is not only disingenuous, it is an egregious dereliction of foresight. Our operational paradigms remain stubbornly reactive rather than proactive. When frozen points halt subterranean and surface rail lines, the subsequent cascading failures\u2014overcrowded platforms, opaque dissemination of updates, and the catastrophic bottlenecking of supplementary shuttle buses\u2014reveal a profound absence of contingency architecture.\n\nFurthermore, the economic and psychological toll exacted upon the citizenry is immeasurable. Commuters are subjected to profound indignities: hours spent freezing on unsheltered platforms, the forfeiture of wages due to tardiness, and an erosion of faith in public institutions. When municipal leadership exhorts us to abandon our vehicles for ecological imperatives, there is an implicit social contract: that public transit will provide a dependable, weatherproof alternative. When that contract is unilaterally breached with impunity, the societal backlash is entirely justified.\n\nIn conclusion, mitigating this recurring crisis demands more than superficial tokenism or incremental budgetary adjustments. It requires a radical overhaul of our cold-weather protocols, rigorous stress-testing of electrical grids exposed to sub-zero moisture, and real-time communication channels that do not collapse under peak digital demand. Until our transit executives internalize the reality that winter is not an aberration, but a predictable baseline, we are destined to repeat this Sisyphean cycle of infrastructural failure year after interminable year.",
+    "questions": [
+      {
+        "text": "How does the speaker characterize the transit authority's use of the term 'unprecedented weather event'?",
+        "options": [
+          "[A] A prudent acknowledgment of increasingly volatile climate patterns",
+          "[B] A disingenuous excuse masking a profound lack of institutional foresight",
+          "[C] A valid justification for unavoidable mechanical failures",
+          "[D] An exaggeration designed to secure emergency funding"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What does the speaker imply about the implicit social contract between the public and municipal leadership?",
+        "options": [
+          "[A] It is successfully upheld through ongoing incremental budget adjustments",
+          "[B] It is contingent upon citizens entirely abandoning private vehicles",
+          "[C] It is violated when reliable, weatherproof transit fails to materialize",
+          "[D] It is secondary to the ecological imperatives of reducing carbon footprints"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "According to the speaker, what is the primary cause of the cascading failures during snowstorms?",
+        "options": [
+          "[A] Uniquely severe meteorological anomalies",
+          "[B] The sheer volume of commuters attempting to travel simultaneously",
+          "[C] A reactive operational paradigm lacking contingency architecture",
+          "[D] The deliberate withdrawal of supplementary shuttle buses"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What does the speaker suggest is necessary to resolve this recurring municipal crisis?",
+        "options": [
+          "[A] A fundamental overhaul of cold-weather protocols and real-time communication",
+          "[B] The complete privatization of the municipal transit infrastructure",
+          "[C] Reducing service hours significantly during winter months",
+          "[D] Implementing stricter penalties for tardy employees"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "Which phrase best captures the speaker's overarching tone throughout the address?",
+        "options": [
+          "[A] Optimistic and conciliatory",
+          "[B] Indifferent and detached",
+          "[C] Incisive and vehemently critical",
+          "[D] Apprehensive and tentative"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "audioUrl": "audio/audio_59.mp3"
   }
 ]
