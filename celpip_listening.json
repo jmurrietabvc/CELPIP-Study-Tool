@@ -2492,5 +2492,62 @@
       }
     ],
     "audioUrl": "audio/audio_41.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 1 - Everyday Topic",
+    "transcript": "Claire: Good morning, Marcus. I'm reviewing the logistical framework for the upcoming Britannia Park revitalization initiative, and I'm somewhat apprehensive about our projected volunteer turnout and botanical resource allocation.\nMarcus: Morning, Claire. I share your reservations, particularly concerning the arboricultural phase. Sourcing indigenous saplings that can withstand the soil's current compaction levels has proven considerably more arduous than anticipated.\nClaire: Indeed. Furthermore, the municipal horticulture department stipulated that we must utilize exclusively non-invasive, drought-tolerant species to mitigate long-term maintenance burdens on the city. That severely curtails our nursery options.\nMarcus: True, but I spoke with the arboretum director yesterday, and they have a surplus of sugar maples and serviceberries that fit the phytosanitary criteria. The catch is logistical: we need to coordinate transportation for three hundred root balls by Saturday dawn, and our current flatbed truck capacity is wholly inadequate.\nClaire: That presents a formidable bottleneck. Can we requisition additional utility vehicles from the community league, or perhaps incentivize local contractors with commercial-grade haulers through tax-exempt charitable receipts?\nMarcus: The community league's fleet is already committed to carting away the accumulated refuse from the wetland perimeter. However, I might be able to leverage my rapport with the regional transit union; they occasionally lend out retrofitted maintenance vans for bona fide civic undertakings.\nClaire: That would circumvent the deficit nicely, provided we can secure insured drivers on such short notice. Let's make that our primary contingency. Now, what about the volunteer demographic? Are we still facing a deficit in skilled labor for the soil aeration segment?\nMarcus: Fortunately, the local landscaping college stepped in. They are sending a contingent of twenty senior horticulture students to oversee the heavy machinery and direct the lay volunteers. That mitigates the safety liability exponentially.\nClaire: That's an immense relief. It ensures compliance with occupational health and safety regulations without placing an undue burden on us. Let's formalize the transport arrangement with the union first, and then reconvene to finalize the tool distribution schedule.",
+    "questions": [
+      {
+        "text": "What is Claire's primary initial concern regarding the park revitalization project?",
+        "options": [
+          "[A] The lack of municipal financial backing for the project",
+          "[B] The adequacy of volunteer numbers and the allocation of botanical resources",
+          "[C] The strict municipal regulations regarding non-native plant species",
+          "[D] The imminent threat of adverse weather conditions on Saturday"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "According to Marcus, what specific hurdle complicates the selection of saplings?",
+        "options": [
+          "[A] Excessive soil compaction levels in the park",
+          "[B] Exorbitant market prices set by commercial nurseries",
+          "[C] Resistance from the municipal horticulture department",
+          "[D] A severe nationwide shortage of deciduous trees"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "How does Marcus propose to resolve the logistical bottleneck regarding tree transportation?",
+        "options": [
+          "[A] By purchasing additional flatbed trucks using community league funds",
+          "[B] By hiring commercial-grade haulers and offering charitable receipts",
+          "[C] By leveraging his connection with the regional transit union to borrow maintenance vans",
+          "[D] By delaying the transportation phase until the following weekend"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What condition must be met to successfully execute Marcus's transportation contingency?",
+        "options": [
+          "[A] Securing fully insured drivers on short notice",
+          "[B] Obtaining written approval from the city mayor",
+          "[C] Re-routing the community league's refuse trucks",
+          "[D] Acquiring specialized permits for heavy loads"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "How will the potential safety liability regarding soil aeration be mitigated?",
+        "options": [
+          "[A] By insurance provided directly by the municipal horticulture department",
+          "[B] By restricting lay volunteers to administrative tasks only",
+          "[C] Through the supervision of senior horticulture students from a local college",
+          "[D] By canceling the soil aeration segment entirely"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "audioUrl": "audio/audio_42.mp3"
   }
 ]

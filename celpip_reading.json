@@ -2592,5 +2592,61 @@
         "correctAnswerIndex": 1
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 1 - Everyday Topic",
+    "passage": "Subject: Urgent: Ramifications of Proposed Municipal Acoustic Bylaw 2024-88\n\nDear Downtown Business Association Executive Committee,\n\nI am writing to formally voice my profound apprehension regarding the impending implementation of Municipal Acoustic Bylaw 2024-88, scheduled for ratification at the upcoming city council chambers next Tuesday. While I acknowledge the municipal administration's ostensible objective to ameliorate urban acoustic pollution and enhance residential tranquility, the draconian parameters of this legislation pose an existential threat to the viability of our local hospitality and retail sectors.\n\nSpecifically, Subsection 4(b) delineates an uncompromising decibel ceiling of 55 dB(A) for commercial establishments operating contiguous to residential zones, effective strictly at 21:00 hours. To contextualize this metric, normal conversational cadence registers at approximately 60 dB. For open-air patios, live music venues, and even boutique cafes hosting acoustic performances, compliance with this threshold is practically impossible. The enforcement mechanism mandates punitive fines escalating incrementally upon recurrent infractions, culminating in the revocation of operating licenses after merely three citations.\n\nFurthermore, the legislation conspicuously lacks a grandfathering clause for pre-existing venues that have operated in harmony with the community for decades. Many proprietors have made substantial capital expenditures to insulate their premises, yet the new standard supersedes historical compliance baselines, rendering previous investments obsolete. The financial precariousness introduced by this bylaw cannot be overstated; it engenders a climate of regulatory volatility that will inevitably deter prospective entrepreneurs from investing in our core.\n\nI urge the Executive Committee to spearhead an expedited coalition with affected stakeholders to draft a series of amendments prior to Tuesday's session. We must advocate for a pragmatic acoustic attenuation framework, including a higher nocturnal threshold (e.g., 68 dB until 23:00 hours on weekends), a transitional grace period of twelve months, and a mediation-first protocol before financial penalization is invoked.\n\nSincerely,\n\nMarcus Vance\nProprietor, The Brass Lantern Bistro\nChair, Metro Culinary Alliance",
+    "questions": [
+      {
+        "text": "What is Marcus Vance's primary motive for writing this correspondence?",
+        "options": [
+          "[A] To express total support for the city council's initiative to eradicate urban noise pollution.",
+          "[B] To mobilize the business association against an unfeasible and economically threatening municipal bylaw.",
+          "[C] To announce the immediate closure of his establishment due to impending financial ruin.",
+          "[D] To propose a complete deregulation of commercial sound limits within residential sectors."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does Marcus characterize the decibel ceiling mandated by Subsection 4(b)?",
+        "options": [
+          "[A] As an achievable standard that aligns with normal human conversation.",
+          "[B] As a lenient measure that favors commercial interests over residential peace.",
+          "[C] As an uncompromising and practically unattainable restriction for hospitality venues.",
+          "[D] As a temporary restriction that will be automatically lifted after a twelve-month grace period."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "According to the email, what critical omission exists within the proposed legislation?",
+        "options": [
+          "[A] The absence of any financial penalties for recurrent infractions.",
+          "[B] The failure to define what constitutes a commercial establishment.",
+          "[C] The omission of a grandfathering clause to protect long-standing venues.",
+          "[D] The lack of clarity regarding who will enforce the decibel limits."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which of the following amendments does Marcus NOT explicitly advocate for in his closing remarks?",
+        "options": [
+          "[A] A higher nocturnal decibel threshold on weekends.",
+          "['[B] A complete exemption from the bylaw for all downtown retail stores.']",
+          "[C] A transitional grace period spanning twelve months.",
+          "[D] A mediation-first protocol prior to the imposition of financial penalties."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What can be inferred about the potential macroeconomic impact of Bylaw 2024-88 on the downtown core?",
+        "options": [
+          "[A] It will stimulate a surge of new investments from cautious entrepreneurs.",
+          "[B] It will foster a predictable and stable regulatory environment.",
+          "[C] It will create an atmosphere of regulatory volatility that discourages future investment.",
+          "[D] It will force all businesses to permanently transition to open-air patio formats."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
   }
 ]
