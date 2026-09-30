@@ -3176,5 +3176,62 @@
       }
     ],
     "audioUrl": "audio/audio_53.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 1 - Everyday Topic",
+    "transcript": "Elena: Marcus, do you have a moment? I wanted to broach the subject of the municipal infrastructure overhaul, specifically regarding our neighborhood's glaring deficiency in micromobility corridors.\nMarcus: Ah, you're referring to the perennial absence of protected bike lanes on King Street. Frankly, Elena, I've resigned myself to the status quo. The city council's budgetary allocations are perpetually skewed toward vehicular artery maintenance.\nElena: That sort of administrative fatalism is precisely what stagnates civic progress. We can't afford to be complacent, especially given the exponential surge in pedestrian and cyclist commuter volume over the past fiscal year. The current configuration is an imminent hazard.\nMarcus: It's not that I'm indifferent; it's a pragmatic assessment of bureaucratic inertia. Every time a grassroots coalition petitions the urban planning committee, we're stonewalled by vehement opposition from local merchant associations who hyperventilate over the prospect of losing curbside parking spaces.\nElena: Their apprehension is entirely unfounded, and empirically speaking, pedestrianized and cycle-friendly commercial zones consistently experience a revitalization of foot traffic and elevated retail patronage. We need to reframe the narrative.\nMarcus: Easier said than done. How do you propose we circumvent the formidable NIMBYism embedded in this precinct? The homeowners' association regards any reconfiguration of the right-of-way as an existential threat to their property values.\nElena: By presenting a cohesive, data-driven proposition at the upcoming town hall. We need to amalgamate traffic safety audits, environmental impact projections, and economic viability studies from comparable municipalities like Vancouver or Montreal.\nMarcus: That sounds exceptionally rigorous, almost excessively so for a localized municipal grievance. Do you genuinely believe the alderman will heed a grassroots white paper?\nElena: If it's meticulously researched and endorsed by influential stakeholders, such as the regional health authority and urban planning academics from the university, they can't afford to shelve it without political repercussion.\nMarcus: Very well. If you're willing to spearhead the data synthesis, I'll leverage my contacts within the neighborhood association to broker a preliminary roundtable. But I remain skeptical about an expedient resolution.\nElena: Skepticism is fine, Marcus, as long as it doesn't preclude action. Let's touch base on Thursday to outline the empirical framework.",
+    "questions": [
+      {
+        "text": "What is the primary grievance Elena is raising regarding their neighborhood?",
+        "options": [
+          "The exorbitant municipal taxes allocated to vehicular infrastructure",
+          "The conspicuous absence of protected bicycle lanes endangering commuters",
+          "The pervasive apathy of local merchant associations toward public safety",
+          "The protracted delays in the city council's budgetary approvals"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does Marcus initially characterize his stance on the infrastructure issue?",
+        "options": [
+          "As an ardent supporter of the merchant association's parking concerns",
+          "As an opportunistic attempt to leverage political connections",
+          "As a pragmatic acceptance of bureaucratic inertia and stagnation",
+          "As an enthusiastic endorsement of Elena's data-driven approach"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What counterargument does Elena present against the local merchants' apprehensions?",
+        "options": [
+          "Cycle-friendly zones empirically boost foot traffic and retail revenue",
+          "Curb parking spaces are legally under the jurisdiction of the transit authority",
+          "Commercial districts in Montreal have entirely banned vehicular traffic",
+          "Property values will inevitably appreciate regardless of retail fluctuations"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "What specific strategy does Elena suggest to circumvent local opposition?",
+        "options": [
+          "Staging a peaceful demonstration outside the town hall",
+          "Filing a formal injunction against the homeowners' association",
+          "Presenting a comprehensive, empirically rigorous white paper at the town hall",
+          "Lobbying the regional health authority to penalize non-compliant businesses"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What is Marcus's final commitment regarding the initiative?",
+        "options": [
+          "To draft the traffic safety audits and economic projections independently",
+          "To utilize his connections within the neighborhood association to arrange a roundtable",
+          "To appeal directly to the municipal alderman on Elena's behalf",
+          "To withdraw his skepticism entirely and lead the public relations campaign"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ],
+    "audioUrl": "audio/audio_54.mp3"
   }
 ]

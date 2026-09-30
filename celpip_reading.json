@@ -3264,5 +3264,61 @@
         "correctAnswerIndex": 2
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 1 - Everyday Topic",
+    "passage": "From: Arthur Pendelton, Director of Urban Economic Development\nTo: City Council Members\nDate: October 24, 2023\nSubject: Memorandum Regarding Nexus Dynamics' Relocation and Municipal Integration\n\nDear Council Members,\n\nI am writing to formally apprise you of the imminent relocation of Nexus Dynamics, a preeminent quantum-encryption software firm, to our downtown core. This enterprise has officially executed a long-term lease for the entirety of the revitalized Metro Plaza, a strategic move projected to catalyze an unprecedented influx of high-caliber employment opportunities within our municipality.\n\nAccording to their corporate projections, Nexus Dynamics intends to onboard approximately 450 highly specialized professionals over the ensuing eighteen months. These positions span multifaceted disciplines, ranging from cryptographic engineering and algorithmic research to corporate administration and localized supply chain logistics. Crucially, the firm has committed to a localized hiring mandate, stipulating that a minimum of sixty percent of these vacancies be filled by regional residents, thereby directly mitigating our persistent brain-drain phenomenon.\n\nFurthermore, the municipal tax implications are profoundly auspicious. Conservative financial models indicate that the direct and induced economic ripple effects will engender a 4.2% augmentation in commercial property revenues and significantly bolster foot traffic for adjacent retail establishments, which have languished since the post-pandemic shift toward remote work models. \n\nNevertheless, this transition is not devoid of logistical exigencies. We must proactively address the impending strain on our municipal transit infrastructure, specifically the Central Metro subway line, and collaborate with urban planners to circumvent exacerbating downtown vehicular congestion. To this end, I have initiated preliminary dialogues with the transit authority to contemplate incentive-laden commuter packages for incoming employees.\n\nI welcome your insights and cordially invite you to the upcoming municipal briefing this Thursday at 10:00 AM, wherein we will dissect the multifaceted socioeconomic ramifications of this momentous corporate transition.\n\nWarm regards,\n\nArthur Pendelton\nDirector of Urban Economic Development",
+    "questions": [
+      {
+        "text": "What is the primary purpose of Arthur Pendelton's memorandum to the City Council?",
+        "options": [
+          "To warn the council about potential fiscal deficits resulting from a corporate relocation.",
+          "To formally notify officials about Nexus Dynamics' move and analyze its multifaceted municipal impacts.",
+          "To propose a strict legislative cap on the number of out-of-province workers hired by incoming tech firms.",
+          "To solicit emergency funding for the expansion of the Central Metro subway line."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which of the following can be inferred regarding the current state of retail establishments in the downtown core?",
+        "options": [
+          "They have experienced a sustained financial downturn due to changing work patterns.",
+          "They are thriving exclusively on remote workers returning to urban centers.",
+          "They have been completely replaced by high-tech corporate offices like Metro Plaza.",
+          "They are currently lobbying the city council to block the influx of new tech employees."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "According to the memorandum, what specific condition has Nexus Dynamics agreed to regarding their hiring practices?",
+        "options": [
+          "They will exclusively recruit international experts in cryptographic engineering.",
+          "They will allocate no less than forty percent of their workforce to remote positions.",
+          "They will ensure that at least three-fifths of the new jobs are secured by individuals living in the region.",
+          "They will defer all hiring initiatives until the public transit infrastructure is fully upgraded."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "How does the author characterize the financial projections associated with Nexus Dynamics' arrival?",
+        "options": [
+          "As wildly speculative and fundamentally detached from current economic realities",
+          "As profoundly auspicious with measurable benefits to commercial revenues",
+          "As negligible in comparison to the immense cost of transit infrastructure overhauls",
+          "As entirely contingent upon immediate tax exemptions granted by the municipality"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What preemptive measure has Arthur Pendelton already undertaken in response to the corporate relocation?",
+        "options": [
+          "He has finalized a binding contract for the expansion of downtown parking facilities.",
+          "He has officially postponed the relocation date to allow for transit enhancements.",
+          "He has begun preliminary discussions with the transit authority regarding commuter incentives.",
+          "He has drafted new zoning bylaws to restrict commercial development near Metro Plaza."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
   }
 ]
