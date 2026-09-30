@@ -3575,5 +3575,62 @@
       }
     ],
     "audioUrl": "audio/audio_60.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 2 - Everyday Topic",
+    "transcript": "Arthur: Beatrice, do you have a moment to dissect the ramifications of the executive leadership's newly minted hybrid work paradigm? I confess I'm grappling with some underlying incongruities.\nBeatrice: Absolutely, Arthur. I was actually perusing the policy memorandum myself. While the overarching sentiment appears progressive, the operational mandates seem inherently contradictory, particularly regarding core hours and mandatory in-office collocation.\nArthur: Precisely my contention. Stipulating a mandatory triad of in-office days arbitrarily undermines the purported autonomy we were promised. It disregards the idiosyncratic nature of our departmental deliverables. My team operates with heightened efficacy in asynchronous environments.\nBeatrice: Indeed. Moreover, the stipulation regarding synchronous availability from 9 to 5, irrespective of geographic location, effectively nullifies the temporal flexibility that remote work was designed to cultivate. It engenders an insidious culture of perpetual surveillance rather than output-oriented accountability.\nArthur: Spot on. Furthermore, the bureaucratic overhead required to justify remote days through quarterly objective alignments feels draconian. It engenders a paucity of trust, subtly undermining the psychological safety we've meticulously fostered.\nBeatrice: We ought to formulate a cohesive, data-driven rebuttal to present at the upcoming consultative committee. We must articulate that while flexibility is nominally endorsed, the caveats functionally vitiate its utility, potentially precipitating an exodus of our top-tier knowledge workers.\nArthur: Splendid proposition. Let us collate our departmental metrics by tomorrow noon to substantiate our assertions before the executive briefing.",
+    "questions": [
+      {
+        "text": "What is Arthur's primary grievance regarding the new work-from-home policy?",
+        "options": [
+          "It mandates an arbitrary number of in-office days that contradicts the promise of autonomy.",
+          "It completely eliminates remote work opportunities for specialized departments.",
+          "It provides insufficient technological infrastructure for asynchronous collaboration.",
+          "It increases the financial burden of commuting without adequate compensation."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "According to Beatrice, what is the adverse effect of the mandatory synchronous availability clause?",
+        "options": [
+          "It causes communication bottlenecks across different time zones.",
+          "It nullifies temporal flexibility and fosters a culture of constant surveillance.",
+          "It prevents employees from taking mandatory meal breaks during core hours.",
+          "It creates friction between junior staff and senior management."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How do both speakers characterize the requirement for quarterly objective alignments to justify remote work?",
+        "options": [
+          "As an innovative measure to track productivity accurately",
+          "As a redundant administrative formality with no practical value",
+          "As a draconian bureaucratic hurdle that signals a lack of institutional trust",
+          "As a collaborative framework that enhances departmental transparency"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What potential consequence do the speakers anticipate if the policy remains unmodified?",
+        "options": [
+          "A significant decline in cross-departmental communication",
+          "The stagnation of quarterly revenue growth",
+          "A mass resignation of high-performing knowledge workers",
+          "Strict regulatory penalties from labor boards"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What do Arthur and Beatrice agree to do as an immediate next step?",
+        "options": [
+          "Draft an immediate resignation letter en masse",
+          "Organize a company-wide strike to protest the mandate",
+          "Compile departmental metrics to substantiate a formal rebuttal for the executive briefing",
+          "Ignore the policy and continue working remotely on an ad-hoc basis"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "audioUrl": "audio/audio_61.mp3"
   }
 ]

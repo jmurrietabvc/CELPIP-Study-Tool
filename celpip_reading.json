@@ -3656,5 +3656,61 @@
         "correctAnswerIndex": 0
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 4 - Everyday Topic",
+    "passage": "CITY COURIER OPINION FORUM: THE MUNICIPAL ORGANICS AND RECYCLING MANDATE\n\nIntroduction:\nLast month, the City Council enacted Bylaw 2024-88, introducing mandatory source separation of organic waste and stringent recycling protocols for all residential zones. To gauge public sentiment and administrative feasibility, the Courier invited two prominent urban analysts to articulate their perspectives on this sweeping legislative undertaking.\n\nPerspective 1: Dr. Aris Thorne, Professor of Urban Sustainability\nBylaw 2024-88 represents an overdue, paradigm-shifting pivot in our municipality's environmental governance. For decades, our landfills have groaned under the immense weight of easily compostable materials, accelerating methane emissions and squandering finite ecological resources. Critics who carp about the inconvenience of the newly mandated sorting procedures are fundamentally prioritizing ephemeral domestic comfort over planetary survival. Mandatory composting is not merely a bureaucratic imposition; it is an ethical imperative. Furthermore, the accompanying punitive measures\u2014fines for non-compliance\u2014are entirely justifiable. Without enforceable strictures, voluntary environmental initiatives invariably atrophy due to civic apathy. By compelling households to internalize the true environmental costs of their waste streams, this bylaw fosters a culture of systemic accountability. The fiscal outlays required for municipal enforcement are dwarfed by the long-term ecological dividends and the unprecedented extension of our landfill's operational lifespan. We must transcend our historically insular consumer habits and embrace this collective responsibility with unwavering resolve.\n\nPerspective 2: Marissa Vance, Director of the Urban Property Owners Association\nWhile the theoretical nobility of Bylaw 2024-88 is difficult to dispute, its pragmatic execution is fraught with administrative overreach and an egregious disregard for socio-economic realities. To blithely categorize all pushback as mere 'civic apathy' is intellectually dishonest. The reality on the ground is that this legislation disproportionately penalizes marginalized populations and high-density tenants who lack adequate infrastructure to comply seamlessly. Furthermore, the bylaw relies on a heavy-handed, surveillance-heavy enforcement model that borders on draconian. Municipal inspectors rummaging through residential bins represents an unacceptable encroachment on personal privacy, eroding the foundational trust between citizens and local governance. Rather than utilizing punitive financial cudgels, the municipality should have prioritized incentivized compliance, infrastructural enhancement\u2014such as retrofitting older multi-unit residential buildings with proper subterranean chutes\u2014and public education. By putting the cart before the horse, the City Council has alienated the very populace whose cooperation is paramount for the policy's success. True sustainability cannot be legislated into existence through intimidation and fear of penalties.",
+    "questions": [
+      {
+        "text": "What is Dr. Aris Thorne's primary stance regarding the enforcement mechanisms of Bylaw 2024-88?",
+        "options": [
+          "They are regrettable measures that should be replaced by educational programs over time.",
+          "They are essential because voluntary environmental initiatives tend to fail due to public indifference.",
+          "They are overly harsh and infringe upon the personal privacy of municipal residents.",
+          "They are primarily designed to generate municipal revenue rather than alter waste habits."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does Marissa Vance characterize the argument that critics of the bylaw are simply valuing convenience over survival?",
+        "options": [
+          "As an accurate reflection of modern consumer selfishness",
+          "As an insightful observation about urban psychology",
+          "As an intellectually dishonest dismissal of legitimate socio-economic challenges",
+          "As a necessary rhetorical device to ensure environmental compliance"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which of the following best captures an underlying point of contention between the two commentators?",
+        "options": [
+          "Whether organic waste actually contributes significantly to municipal methane emissions",
+          "Whether the city's landfills are currently operating beyond their maximum capacity",
+          "Whether punitive enforcement or infrastructural support is the most effective driver of policy success",
+          "Whether the City Council consulted adequately with environmental scientists prior to drafting the bill"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "According to Perspective 2, what specific consequence does the enforcement model of the bylaw have on the community?",
+        "options": [
+          "It fosters a pervasive atmosphere of surveillance that damages trust between citizens and local government.",
+          "It encourages property owners to aggressively upgrade multi-unit residential building infrastructure.",
+          "It eliminates socio-economic disparities by imposing uniform standards across all urban districts.",
+          "It creates an unnecessary financial surplus for the municipal enforcement department."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "What can be inferred about Dr. Thorne's perspective on the financial costs associated with implementing the bylaw?",
+        "options": [
+          "They are excessively burdensome and will likely bankrupt the municipal waste department.",
+          "They are irrelevant compared to the immediate need for municipal tax reform.",
+          "They are negligible when contrasted with the enduring ecological and infrastructural advantages.",
+          "They should be entirely absorbed by high-density property owners rather than taxpayers."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
   }
 ]
