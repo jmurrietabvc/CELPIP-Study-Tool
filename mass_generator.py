@@ -20,7 +20,7 @@ api_key = os.getenv("GEMINI_API_KEY")
 client = genai.Client(api_key=api_key)
 VOICES = ['en-CA-LiamNeural', 'en-CA-ClaraNeural', 'en-US-ChristopherNeural', 'en-US-EricNeural', 'en-US-MichelleNeural', 'en-GB-RyanNeural']
 
-MODEL_NAME = 'gemini-2.5-flash' 
+MODEL_NAME = 'gemini-3.8-flash' 
 TOTAL_TESTS = 63 
 
 # Everyday Canadian topics that appear in CELPIP
