@@ -2328,5 +2328,61 @@
         "correctAnswerIndex": 2
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 1 - Everyday Topic",
+    "passage": "Subject: Urgent: Escalating Safety Concerns Regarding Active Transportation Infrastructure on King Edward Avenue\n\nDear Councillor Vance,\n\nI am writing to formally voice my acute apprehension regarding the conspicuous absence of protected bicycle lanes along the King Edward Avenue corridor, particularly between 5th Street and the central commercial district. As a resident who has commuted through this precinct via bicycle for over a decade, I have witnessed the rapid densification of our neighborhood\u2014a demographic shift that has regrettably not been mirrored by commensurate investments in non-motorized transport infrastructure.\n\nWhile the municipality\u2019s long-term master plan gestures toward a multimodal future, the current reality on the ground remains perilous. King Edward Avenue acts as a primary arterial route, yet it forces cyclists into a precarious compromises: either navigate congested traffic lanes alongside heavy delivery vehicles or risk pedestrian altercations on substandard, fractured sidewalks. The recent residential developments have exacerbated vehicular volume by an estimated 35%, yet the spatial allocation of the roadway remains staunchly anachronistic, favoring single-occupancy vehicles to the detriment of public safety and environmental objectives.\n\nNeighboring wards have successfully integrated buffered cycle tracks that not only mitigate collisions but also stimulate local commerce by improving pedestrian accessibility. Our neighborhood, conversely, languishes in infrastructural stagnation. The municipal inertia on this matter is no longer merely inconvenient; it is actively inimical to the city's stated carbon-reduction mandates and vision zero safety goals.\n\nTherefore, I implore you to leverage your position on the Urban Planning Committee to expedite the feasibility study for the King Edward active transportation project, moving it forward from its current deferred status in the capital budget. Our community requires tangible remediation, not perpetual deliberation.\n\nSincerely,\n\nDr. Alistair Finch\nResident and Urban Mobility Advocate",
+    "questions": [
+      {
+        "text": "What is Dr. Finch's primary criticism regarding the municipal government's approach to the King Edward Avenue corridor?",
+        "options": [
+          "[A] The city has completely abandoned its long-term master plan for multimodal transportation.",
+          "[B] Infrastructure development has failed to keep pace with the neighborhood's population and traffic growth.",
+          "[C] The municipality is unfairly prioritizing commercial delivery vehicles over residential parking.",
+          "[D] The budget allocated for the feasibility study has been misappropriated to neighboring wards."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "According to the email, what forced choice do cyclists currently face on King Edward Avenue?",
+        "options": [
+          "[A] Choosing between cycling alongside heavy traffic or riding on deteriorating sidewalks.",
+          "[B] Paying a toll to use newly constructed buffered cycle tracks or risking unsafe roads.",
+          "[C] Commuting during off-peak hours or utilizing public transit alternatives.",
+          "[D] Relying on temporary painted sharrows or walking their bicycles through the commercial district."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "What does Dr. Finch imply by describing the spatial allocation of the roadway as 'staunchly anachronistic'?",
+        "options": [
+          "[A] The road design relies on outdated pavement materials that degrade rapidly under heavy vehicles.",
+          "[B] The current street layout belongs to a bygone era and fails to reflect modern urban needs and priorities.",
+          "[C] The historical designation of the neighborhood prevents any structural modifications to the avenue.",
+          "[D] The traffic lights and signage on King Edward Avenue are synchronized for horse-drawn or legacy transit."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does Dr. Finch support his argument regarding the broader economic and environmental benefits of cycle tracks?",
+        "options": [
+          "[A] By citing empirical data from a municipal carbon-reduction audit conducted last year.",
+          "[B] By referencing the positive outcomes observed in adjacent wards that have implemented similar infrastructure.",
+          "[C] By quoting the latest findings of the Urban Planning Committee's feasibility study.",
+          "[D] By highlighting a 35% increase in local retail revenue following recent pedestrianization projects."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What specific administrative action does Dr. Finch request of Councillor Vance at the conclusion of his letter?",
+        "options": [
+          "[A] To reallocate emergency funds from the capital budget to immediately pave a new bike lane.",
+          "[B] To draft a new municipal bylaw banning single-occupancy vehicles from arterial routes.",
+          "[C] To use her influence to accelerate the feasibility study currently stalled in the budget process.",
+          "[D] To step down from the Urban Planning Committee due to institutional inertia."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
   }
 ]
