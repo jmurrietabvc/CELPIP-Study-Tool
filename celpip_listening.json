@@ -1805,5 +1805,62 @@
       }
     ],
     "audioUrl": "audio/audio_30.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 2 - Everyday Topic",
+    "transcript": "Liam: Olivia, do you have a few minutes to dissect the city's newly published urban mobility proposal? Because frankly, I'm finding their complete omission of dedicated cycling infrastructure in our neighborhood utterly exasperating.\n\nOlivia: I'm glad you brought this up, Liam, though I must confess I'm not entirely surprised. I perused the executive summary last night, and it seems the municipal planners are prioritizing arterial vehicular flow over granular, community-centric micro-mobility solutions.\nExactly. It's a myopic approach. They're touting their commitment to carbon neutrality and pedestrianization in the downtown core, yet they've effectively marooned our residential sector in a vehicular bottleneck. Without a protected thoroughfare connecting us to the central grid, cycling here remains an exercise in reckless endangerment.\nOlivia: True, but we need to parse their rationale. Their traffic impact assessment indicated that carving out a segregated bike lane along Elm Street would necessitate the elimination of roughly forty percent of street parking. For a council obsessed with appeasing local merchants and motorists, that\u2019s politically untenable.\nLiam: That\u2019s a false dichotomy, and it's emblematic of a profound lack of imaginative urban planning. Cities like Montreal and Vancouver have demonstrated that removing curbside parking can actually stimulate foot traffic and bolster commerce by creating vibrant, walkable streetscapes. Our council is simply capitulating to status-quo inertia.\nOlivia: I completely concur with your philosophical stance, but if we want to lobby the ward councillor effectively before the budget ratification next month, we can't just rely on idealistic precedents. We need to present empirical counter-data proving that the economic vitality of Elm Street won't plummet if we reallocate that asphalt.\nLiam: Precisely. We need to synthesize a compelling advocacy dossier\u2014one that couples safety statistics with economic impact studies from comparable mid-sized Canadian municipalities. Are you willing to co-author the transit subcommittee brief with me this weekend?\nOlivia: Count me in. Let's make sure our collective voice pierces through the bureaucratic apathy.",
+    "questions": [
+      {
+        "text": "What is Liam's primary grievance regarding the city's new urban mobility proposal?",
+        "options": [
+          "[A] It allocates too much budget to suburban transit rather than downtown.",
+          "[B] It completely omits dedicated cycling infrastructure in their neighborhood.",
+          "[C] It fails to address pedestrian safety in the commercial core.",
+          "[D] It relies on outdated traffic impact assessments from other provinces."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "According to Olivia, what is the city council's main rationale for not installing a bike lane on Elm Street?",
+        "options": [
+          "[A] The construction costs exceed the municipal infrastructure budget.",
+          "[B] Residents on Elm Street overwhelmingly petitioned against it.",
+          "[C] It would eliminate a significant percentage of street parking, which pleases motorists and merchants.",
+          "[D] Emergency vehicle access would be severely compromised during peak hours."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "How does Liam characterize the city council's decision-making process?",
+        "options": [
+          "[A] As a pragmatic compromise to balance fiscal and environmental goals",
+          "[B] As a forward-thinking initiative mirroring successful global models",
+          "[C] As a myopic approach driven by status-quo inertia and political appeasement",
+          "[D] As an intentional strategy to phase out vehicular traffic entirely"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What strategy does Olivia suggest is necessary to influence the ward councillor effectively?",
+        "options": [
+          "[A] Organizing a public protest outside municipal hall before the vote",
+          "[B] Presenting empirical counter-data that proves economic vitality won't suffer",
+          "[C] Rallying local merchants to sign a petition demanding more parking",
+          "[D] Threatening legal action based on environmental negligence"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What do Liam and Olivia agree to do at the conclusion of the conversation?",
+        "options": [
+          "[A] Co-author a transit subcommittee brief combining safety stats and economic studies",
+          "[B] Request a private meeting with the mayor to discuss urban mobility",
+          "[C] Launch a social media campaign targeting local motorists",
+          "[D] Survey Elm Street residents regarding their parking habits"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ],
+    "audioUrl": "audio/audio_31.mp3"
   }
 ]

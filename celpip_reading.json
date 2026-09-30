@@ -1936,5 +1936,61 @@
         "correctAnswerIndex": 1
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 2 - Everyday Topic",
+    "passage": "TO: Municipal Urban Wildlife Mitigation Committee\nFROM: Clara Vance, Senior Ecological Planner\nDATE: November 12, 2024\nSUBJECT: Analysis of Suburban Ursine Incursions and Proposed Diagram Protocol\n\nDear Committee Members,\n\nIn light of the unprecedented surge in black bear (Ursus americanus) foraging expeditions into our residential perimeters this autumn, we must critically evaluate our municipal containment strategies. The compounding pressures of habitat fragmentation and exceptionally meager mast crop yields in the surrounding foothills have precipitated a behavioral shift among local ursine populations, driving them deeper into our municipality in search of caloric sustenance.\n\nTo address this, our department has synthesized an operational flowchart and protocol framework, detailed in the schema below, to dictate municipal intervention levels based on the specific behavioral tier exhibited by the animal and its proximity to vulnerable human infrastructure. Please review the diagram prior to our Thursday assembly.\n\n+---------------------------------------------------------------------------------------------------------------------------------------------------------+\n| MUNICIPAL URSINE INCURSION RESPONSE PROTOCOL (MUIRP)                                                                                                    |\n+------------------------+------------------------------------------+------------------------------------------+------------------------------------------+\n| BEHAVIORAL TIER        | TIER 1: Opportunistic Forager            | TIER 2: Habituated Scavenger             | TIER 3: Predatory/Aggressive             |\n+------------------------+------------------------------------------+------------------------------------------+------------------------------------------+\n| Proximity & Action     | Sighting > 100m from residences.         | Within 30m of dwellings, accessing       | Direct confrontation, entering occupied  |\n|                        | Passing through yards without lingering. | unsecured refuse or fruit trees.         | structures, or showing no fear of humans.|\n+------------------------+------------------------------------------+------------------------------------------+------------------------------------------+\n| Resident Protocol      | Secure all attractants post-departure.   | Hazing (loud noises, air horns).         | Immediate evacuation & call 911.         |\n|                        | Do not approach.                         | Do not corner. Ensure escape route open. | Lethal deterrence or relocation auth.    |\n+------------------------+------------------------------------------+------------------------------------------+------------------------------------------+\n| Municipal Response     | Public advisory broadcast within 24 hrs. | Bylaw enforcement dispatched for audit.  | Conservation Officer Service (COS)       |\n|                        | Monitor via wildlife reporting hotline.  | Target waste management violations.      | intervention & emergency trap deployment.|\n+------------------------+------------------------------------------+------------------------------------------+------------------------------------------+\n\nAs indicated in the schema, our primary vulnerability lies in Tier 2 scenarios, where resident inaction frequently exacerbates habituation. While Tier 1 incidents require passive monitoring and public vigilance, Tier 2 demands aggressive proactive bylaw enforcement regarding improperly stored residential waste. I urge you to cross-reference these protocols with our updated municipal budget allocations before we vote on the expanded wildlife deterrence grants.\n\nWarm regards,\n\nClara Vance",
+    "questions": [
+      {
+        "text": "According to the report, what is the primary underlying ecological driver behind the increased frequency of bear incursions into residential districts?",
+        "options": [
+          "A deliberate municipal relocation initiative that inadvertently released bears near suburban perimeters.",
+          "A combination of territorial displacement caused by human expansion and inadequate natural food sources in the foothills.",
+          "An exponential growth in the local black bear population exceeding the carrying capacity of the protected wilderness.",
+          "Unprecedented climatic anomalies that have altered the natural hibernation cycles of juvenile bears."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Based on the MUIRP diagram, which of the following scenarios mandates the immediate dispatch of the Conservation Officer Service for emergency trap deployment?",
+        "options": [
+          "A bear is spotted moving quickly through an open field more than 100 meters away from any residential structures.",
+          "A bear is observed attempting to forage from an unsecured residential garbage bin within 30 meters of a dwelling.",
+          "A resident encounters a bear that displays a complete lack of apprehension toward humans and breaches an occupied home.",
+          "A bear persistently lingers near a suburban orchard, ignoring basic civilian hazing techniques like air horns."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What specific municipal action is triggered exclusively when an incident escalates to Tier 2 status?",
+        "options": [
+          "Issuing a general public advisory broadcast via local media channels within a 24-hour window.",
+          "Authorizing the immediate deployment of lethal deterrence mechanisms by civilian volunteers.",
+          "Deploying bylaw enforcement officers to audit the neighborhood and target waste management violations.",
+          "Ordering an immediate neighborhood evacuation and notifying emergency dispatch services via 911."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which of the following inferences can be reliably drawn regarding Clara Vance's assessment of municipal vulnerabilities?",
+        "options": [
+          "Tier 1 incidents pose the most severe existential threat because they are the most difficult to track via reporting hotlines.",
+          "Tier 2 incidents are particularly dangerous because civilian complacency or inaction tends to reinforce the animals' scavenging behavior.",
+          "Tier 3 protocols are fundamentally flawed because they rely too heavily on municipal budget allocations rather than wildlife conservation.",
+          "The municipality is currently allocating too many resources to Tier 3 responses at the expense of public awareness campaigns."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "According to the Resident Protocol section of the diagram, what mandatory condition must be respected during a Tier 2 encounter where hazing is applied?",
+        "options": [
+          "Residents must physically corner the animal to maximize the psychological impact of the deterrent.",
+          "Residents must ensure that a clear and unobstructed escape route remains available to the animal.",
+          "Residents must immediately contact the Conservation Officer Service before deploying any loud noises.",
+          "Residents must secure all domestic pets indoors before initiating any direct confrontation."
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
   }
 ]
