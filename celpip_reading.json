@@ -3880,5 +3880,101 @@
         "correctAnswerIndex": 1
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 4 - Everyday Topic",
+    "passage": "Navigating the labyrinthine digital infrastructure of Canadian post-secondary admissions portals has increasingly become a crucible for prospective scholars. Recently, the debate surrounding the centralization of merit-based scholarship applications via unified online platforms has elicited polarized viewpoints from educational administrators and student advocacy groups alike.\n\nPerspective A: Dr. Alistair Vance, Dean of Undergraduate Admissions\nFrom an institutional vantage point, the transition toward a standardized, algorithmic admissions and scholarship portal represents an indispensable evolution in administrative efficacy. Critics often lament the impersonal nature of these digital gateways, yet they fundamentally misconstrue the staggering logistical complexities universities face. Annually, institutions like ours process tens of thousands of multifaceted applications, each demanding meticulous scrutiny of academic transcripts, extracurricular dossiers, and esoteric scholarship criteria. A centralized portal mitigates human error, curtails bureaucratic latency, and ensures an equitable, blind evaluation process where implicit bias is systematically minimized. Furthermore, the integration of automated document-verification algorithms expedites the vetting procedure, allowing committee members to pivot their focus from tedious administrative triage to qualitative holistic assessment. While the interface may occasionally engender exasperation among applicants unaccustomed to stringent systemic parameters, this friction is a necessary corollary to rigorous academic governance. Ultimately, these portals champion meritocracy by streamlining a disparate ecosystem into a cohesive, transparent pipeline.\n\nPerspective B: Maya Lin, Coalition for Accessible Higher Education\nWhile administrative expediency is undoubtedly alluring for university bean-counters, the reality experienced by students attempting to traverse these digital labyrinths is profoundly disheartening. These portals are ostensibly designed to streamline applications, but in practice, they often serve as formidable gatekeepers that disproportionately penalize marginalized applicants who lack institutional guidance or high-speed digital infrastructure. The user experience is plagued by Byzantine navigation, opaque error codes, and rigid submission parameters that leave no margin for human nuance. A prospective scholar whose life trajectory encompasses profound adversity cannot adequately encapsulate their resilience within a hyper-rigid, drop-down-menu architecture. Moreover, the over-reliance on automated algorithmic sorting risks homogenizing the student body by discarding applicants who deviate from normative data points, regardless of their latent intellectual brilliance. Instead of fostering equity, these sterile digital ecosystems commodify the application process, transforming the profound transition into higher education into an exhausting, alienating endurance test that privileges technical literacy over genuine academic potential.",
+    "questions": [
+      {
+        "text": "How does Dr. Vance characterize the friction experienced by applicants using the admissions portal?",
+        "options": [
+          [
+            "A superficial inconvenience caused by poor web design"
+          ],
+          [
+            "An unavoidable byproduct of stringent academic governance"
+          ],
+          [
+            "A deliberate strategy to discourage unqualified candidates"
+          ],
+          [
+            "A temporary glitch that will be resolved with future software updates"
+          ]
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What primary concern does Maya Lin raise regarding the reliance on automated algorithmic sorting?",
+        "options": [
+          [
+            "It significantly increases the operational costs for the university."
+          ],
+          [
+            "It causes extensive delays in processing scholarship disbursements."
+          ],
+          [
+            "It risks homogenizing the student body by overlooking non-normative applicants."
+          ],
+          [
+            "It exposes confidential student data to external security threats."
+          ]
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which of the following best encapsulates the fundamental disagreement between the two perspectives?",
+        "options": [
+          [
+            "Whether digital portals should be managed internally or outsourced to tech firms"
+          ],
+          [
+            "Whether administrative efficiency outweighs the human nuance required for equity"
+          ],
+          [
+            "Whether academic transcripts or extracurricular portfolios are more indicative of success"
+          ],
+          [
+            "Whether universities receive too many applications to process manually"
+          ]
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "According to Dr. Vance, what is a direct benefit of automated document-verification algorithms?",
+        "options": [
+          [
+            "They eliminate the need for human committee members entirely."
+          ],
+          [
+            "They allow the committee to concentrate on qualitative holistic assessments."
+          ],
+          [
+            "They guarantee that every applicant will receive a scholarship."
+          ],
+          [
+            "They completely eradicate implicit bias from the interview stage."
+          ]
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does Maya Lin describe the impact of the portal's rigid submission parameters on certain applicants?",
+        "options": [
+          [
+            "It provides them with a clear, unambiguous roadmap to success."
+          ],
+          [
+            "It offers them a fair and unbiased platform to showcase their resilience."
+          ],
+          [
+            "It penalizes those lacking institutional guidance or robust digital infrastructure."
+          ],
+          [
+            "It forces them to acquire advanced technical literacy prior to applying."
+          ]
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
   }
 ]

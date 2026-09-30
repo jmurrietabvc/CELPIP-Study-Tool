@@ -3803,5 +3803,62 @@
       }
     ],
     "audioUrl": "audio/audio_64.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 6 - Everyday Topic",
+    "transcript": "Good morning, everyone. Welcome to this month's municipal advocacy workshop. Today, I want to share my recent, highly exasperating foray into municipal bureaucracy\u2014specifically, my quixotic attempt to rescind an egregiously unjust parking infraction issued outside my residence. Last month, I returned home after a grueling twelve-hour shift at the hospital to find a bright yellow demarcation fluttering under my windshield wiper. The citation alleged that my vehicle was parked in contravention of overnight winter maintenance bylaws. However, the municipal signage on my street is profoundly ambiguous, obscured by an overgrown canopy of municipal maples, and crucially, the meteorological conditions that evening did not necessitate snow removal operations, as substantiated by the regional weather observatory.\n\nUndeterred by the proverbial red tape, I resolved to navigate the administrative adjudication process. I compiled a rigorous dossier: photographic evidence of the obstructed signage, satellite weather logs, and an affidavit detailing the precise timeline of my arrival. When I appeared before the administrative penalty tribunal, I anticipated a judicious deliberation grounded in objective ratiocination. Instead, I encountered an entrenched ethos of institutional intransigence. The adjudicator, exhibiting a disheartening propensity for pedantry, summarily dismissed my nuanced topographical arguments, citing a strict liability clause wherein the onus of discerning obscured signage perpetually rests upon the motorist. Furthermore, she insouciantly disregarded the meteorological data, asserting that municipal predictive protocols supersede retrospective atmospheric observations.\n\nRefusing to acquiesce to what I perceived as a blatant manifestation of bureaucratic extortion, I escalated the matter to the municipal appeals tribunal. This second tier of scrutiny proved equally labyrinthine. The presiding officer was seemingly indifferent to the substantive merits of my defense, focusing instead on procedural minutiae\u2014specifically, that I had submitted my digital appeal four minutes past the nocturnal cutoff window due to a server latency issue on the city's archaic portal. This experience catalyzed a broader realization regarding civic engagement in our municipality. While we pr ourselves on transparent governance, the mechanisms designed for citizen redress are frequently engineered to induce cognitive fatigue and attrition, effectively converting minor infractions into revenue-generation tools while disincentivizing legitimate dissent. Ultimately, while my monetary penalty remains unreversed, the ordeal provided a sobering masterclass in institutional resilience and the pressing necessity for municipal administrative reform.",
+    "questions": [
+      {
+        "text": "What primary justification did the speaker initially use to contest the parking citation?",
+        "options": [
+          "He had paid for extended street parking via the municipal app.",
+          "The parking enforcement officer failed to record his license plate accurately.",
+          "Signage was obscured and weather conditions did not warrant snow removal.",
+          "His vehicle was experiencing a mechanical breakdown and could not be moved."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "How did the initial adjudicator at the administrative penalty tribunal respond to the speaker's defense?",
+        "options": [
+          "She dismissed his arguments by applying a strict liability clause regarding obscured signs.",
+          "She agreed with his meteorological evidence but upheld the fine due to a late filing.",
+          "She reduced the fine by half acknowledging the ambiguity of the municipal signage.",
+          "She commended his thorough dossier and immediately rescinded the citation."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "What procedural technicality did the municipal appeals tribunal ultimately focus on?",
+        "options": [
+          "The speaker's failure to appear in person for the secondary hearing.",
+          "A four-minute delay in submitting the digital appeal due to server latency.",
+          "The omission of the notarized affidavit from the initial evidence package.",
+          "An incorrect vehicle identification number on the primary appeal form."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "According to the speaker, what is the underlying design purpose of the city's administrative redress mechanisms?",
+        "options": [
+          "To foster collaborative problem-solving between citizens and city officials.",
+          "To streamline traffic flow during adverse weather events.",
+          "To induce cognitive fatigue and attrition, disincentivizing legitimate dissent.",
+          "To ensure absolute transparency and rapid resolution of civil disputes."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What broader conclusion did the speaker draw from his overarching experience?",
+        "options": [
+          "Municipal parking enforcement is entirely infallible and technologically advanced.",
+          "Civic engagement requires institutional resilience and urgent administrative reform.",
+          "Digital portals have successfully eradicated bureaucratic inefficiencies.",
+          "Citizens should completely avoid participating in municipal appeals processes."
+        ],
+        "correctAnswerIndex": 1
+      }
+    ],
+    "audioUrl": "audio/audio_65.mp3"
   }
 ]
