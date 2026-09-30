@@ -3347,5 +3347,62 @@
       }
     ],
     "audioUrl": "audio/audio_56.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 4 - Everyday Topic",
+    "transcript": "Good evening, and welcome to Metro Nightly News. I'm your host, Arthur Pendelton. Tonight, our top story focuses on the escalating friction between urban expansion and wildlife habitats across the suburban sprawl of British Columbia's Lower Mainland. Municipal authorities in Coquitlam and Port Moody are grappling with an unprecedented surge in ursine incursions, as black bears increasingly frequent residential neighborhoods in search of sustenance.\n\nOver the past fortnight, local police have logged upwards of forty distinct sightings, culminating in several unsettling incidents involving unsecured refuse receptacles being systematically dismantled. Wildlife biologists attribute this anomalous spike not merely to natural foraging patterns, but to a compounded failure in municipal waste management compliance and the inadvertent anthropogenic provisioning of food sources, ranging from fallen orchard fruit to residential composters.\n\nDr. Aris Thorne, a leading ethologist specializing in urban wildlife adaptation, notes that bears possess extraordinary spatial memory and olfactory acuity. Once an individual animal associates a specific suburban enclave with high-calorie caloric rewards, it develops a conditioned behavioral persistence that is exceptionally difficult to deter. Consequently, conservation officers are issuing stern reprimands to homeowners who persistently flout municipal bylaws regarding waste containment. Fines, previously ranging from nominal to moderate, are now slated for drastic escalation under a newly proposed municipal ordinance designed to enforce strict stewardship.\n\nWhile conservationists emphasize the imperative of coexistence\u2014advocating for electric fencing around livestock and rigorous containment protocols\u2014the provincial ministry is simultaneously weighing more heavy-handed interventions. Relocation, long considered the standard remedy, is increasingly scrutinized as a palliative measure that merely exports the animal's behavioral dilemma or results in territorial displacement mortality. As suburban developments continue to encroach upon the perennial greenbelts, the onus falls squarely upon residents to mitigate attractants before these urban-wildlife intersections precipitate tragic outcomes for both human and beast. We return now to our scheduled programming after a brief word from our sponsors.",
+    "questions": [
+      {
+        "text": "According to the news report, what is the primary catalyst behind the recent surge of bears entering suburban neighborhoods?",
+        "options": [
+          "A severe depletion of natural flora and fauna within their indigenous mountain habitats",
+          "A combination of non-compliance with waste management and inadvertent anthropogenic food provisioning",
+          "The intentional feeding of wildlife by misguided residents seeking closer photographic interactions",
+          "Unusually mild winter conditions that accelerated the post-hibernation metabolic demands of the local bear population"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does Dr. Aris Thorne characterize the behavioral trajectory of a bear that successfully procures food in a suburban area?",
+        "options": [
+          "It undergoes a rapid physiological shift that permanently alters its migratory schedule",
+          "It exhibits heightened aggression toward domestic pets while entirely ignoring human structures",
+          "It develops a persistent behavioral pattern driven by the association of the area with high-calorie rewards",
+          "It quickly becomes dependent on human intervention for survival during the harshest winter months"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What measure are municipal authorities implementing to compel homeowner compliance with waste containment regulations?",
+        "options": [
+          "Mandatory community service hours for repeat offenders caught leaving bins curbside prematurely",
+          "The complete privatization of neighborhood waste collection services",
+          "A drastic escalation in financial penalties under a newly proposed municipal ordinance",
+          "The immediate confiscation of residential property rights in designated wildlife corridors"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What perspective do conservationists hold regarding the traditional practice of wildlife relocation?",
+        "options": [
+          "They champion it as the most humane and permanent solution for nuisance animals",
+          "They view it with increasing skepticism as a mere palliative measure that may cause territorial displacement mortality",
+          "They argue it should only be performed during the vernal equinox to ensure maximum survival rates",
+          "They endorse it exclusively when paired with long-term radio-collar tracking programs"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What overarching conclusion does the news report convey regarding the ongoing incursions?",
+        "options": [
+          "Provincial authorities are poised to completely dismantle suburban developments bordering greenbelts",
+          "The ultimate responsibility for mitigating attractants and preventing tragic outcomes rests heavily on local residents",
+          "Ursine incursions are a temporary seasonal anomaly that will self-correct without human intervention",
+          "Technological deterrents such as electric fencing have proven entirely ineffective against black bears"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ],
+    "audioUrl": "audio/audio_57.mp3"
   }
 ]

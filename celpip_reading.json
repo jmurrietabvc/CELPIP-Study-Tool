@@ -3432,5 +3432,61 @@
         "correctAnswerIndex": 0
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 4 - Everyday Topic",
+    "passage": "ACADEMIC DISPUTES: THE ETHOS OF GRADE REASSESSMENTS IN POST-SECONDARY EDUCATION\n\nText A: The Case for Pedagogical Infallibility and Objective Rigor\nDr. Alistair Vance, Professor of Sociology\n\nIn recent years, the academic landscape has witnessed an insidious erosion of professorial authority, catalyzed largely by an increasingly consumerist ethos among undergraduate students. When a student contests a grade, they are rarely challenging a mere arithmetic miscalculation; rather, they are presuming to pit their transient, unrefined interpretations against a framework constructed through decades of rigorous scholarship and pedagogical refinement. Grading is not an arbitrary exercise in subjective caprice, but a meticulously calibrated evaluation measured against exacting disciplinary rubrics. To entertain endless disputations over nuanced interpretations is to indulge a debilitating sense of entitlement. Professors invest immense intellectual capital in crafting assessments designed to test deep comprehension, critical synthesis, and theoretical application. When a grade fails to meet a student's inflated expectations, the reflexive resort to grievance procedures undermines academic integrity and places an unjustifiable administrative burden on faculty. Furthermore, institutional mechanisms that routinely facilitate grade appeals inadvertently foster a culture of litigiousness, wherein learning is subordinated to credentialism. Students must learn to accept critical evaluations as immutable milestones of their intellectual development, rather than provisional negotiations subject to incessant litigation.\n\nText B: The Imperative of Epistemic Humility and Due Process\nDr. Elena Rostova, Professor of Higher Education Policy\n\nWhile the preservation of academic standards is paramount, Dr. Vance\u2019s defense of unfettered professorial discretion conflates authority with infallibility. Academia is, at its core, an enterprise dedicated to the relentless pursuit of truth\u2014a pursuit that must necessarily apply to the evaluative practices of educators themselves. To deny students a robust, transparent mechanism for contesting grades is to enshrine a dogmatic autocracy that antithetically opposes the ethos of critical inquiry. Disputing a grade is not inherently an act of consumerist petulance; frequently, it represents a legitimate engagement with ambiguous prompt formulations, divergent methodological approaches, or latent institutional biases. Professors, notwithstanding their expertise, are susceptible to cognitive fatigue, unconscious partiality, and rubric misapplication. Providing a formalized, equitable appellate process does not erode academic integrity; rather, it reinforces it by demanding accountability and methodological transparency from educators. When institutions treat grades as sacred, unassailable decrees, they alienate students from their own educational trajectories and discourage the very intellectual courage universities purport to cultivate. True pedagogical rigor demands the humility to subject one's own evaluations to peer review and principled appeal.",
+    "questions": [
+      {
+        "text": "According to Dr. Vance in Text A, what is the primary underlying driver behind the modern increase in student grade disputes?",
+        "options": [
+          "[A] Widespread administrative incompetence and poorly designed grading rubrics.",
+          "[B] An emerging consumerist mentality that treats education as a purchasable commodity.",
+          "[C] Genuine ambiguities within the prompt formulations designed by faculty.",
+          "[D] The institutional encouragement of litigiousness by university administrators."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does Dr. Rostova (Text B) characterize the refusal to allow robust grade appeal mechanisms?",
+        "options": [
+          "[A] As an economically disastrous policy that alienates tuition-paying students.",
+          "[B] As a necessary safeguard to protect exhausted faculty from administrative burdens.",
+          "[C] As a dogmatic autocracy fundamentally opposed to the spirit of critical inquiry.",
+          "[D] As an inevitable byproduct of advanced post-secondary credentialism."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which of the following best encapsulates the fundamental philosophical disagreement between the two authors?",
+        "options": [
+          "[A] Whether students possess the intellectual maturity to comprehend complex disciplinary rubrics.",
+          "[B] Whether professorial evaluations should be treated as infallible standards or subject to accountable peer review.",
+          "[C] Whether universities should prioritize vocational training over theoretical sociological research.",
+          "[D] Whether administrative dispute resolution systems reduce or increase the total cost of running a university."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "In the context of Text A, what does the author imply about students who routinely challenge their grades?",
+        "options": [
+          "[A] They are demonstrating commendable intellectual courage and critical thinking.",
+          "[B] They exhibit a debilitating sense of entitlement and prioritize credentials over actual learning.",
+          "[C] They are usually victims of unconscious faculty bias and fatigue.",
+          "[D] They are attempting to reform archaic university administrative structures."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which statement best describes how Dr. Rostova in Text B views the relationship between academic integrity and grade appeals?",
+        "options": [
+          "[A] Grade appeals inherently compromise academic integrity by undermining professorial autonomy.",
+          "[B] Academic integrity is irrelevant compared to student satisfaction and emotional well-being.",
+          "[C] Academic integrity is strengthened when educators are held accountable through a transparent appeals process.",
+          "[D] Grade appeals should only be permitted if they involve mathematical calculation errors, not subjective interpretations."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
   }
 ]
