@@ -2760,5 +2760,61 @@
         "correctAnswerIndex": 2
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 4 - Everyday Topic",
+    "passage": "Navigating the Aftermath of Automotive Malpractice: Perspectives on Repair Costs and Consumer Advocacy\n\nIntroduction:\nWhen Sarah Jenkins brought her 2018 hatchback into 'Apex Precision Motors' for a routine brake pad replacement, she anticipated a modest, predictable expenditure. What ensued, however, was a staggering quotation of $3,400, ostensibly due to 'unforeseen catastrophic systemic corrosion' and collateral component failure. This incident has catalyzed a broader discourse regarding the opacity of automotive repair practices in Canada, prompting polarized viewpoints from industry insiders and consumer advocates alike.\n\nPerspective A: The Automotive Service Professional's View\nRepresenting the mechanical trades, Marcus Vance, a senior service manager with twenty-five years of tenure, contends that public outcry over exorbitant repair bills stems from a fundamental misunderstanding of modern vehicular engineering and liability. Vance argues that today's automobiles are exceptionally complex ecosystems of interconnected microprocessors, hydraulic actuators, and specialized metallurgy. When corrosion or wear compromises one critical junction, safety mandates dictate comprehensive remediation rather than localized patching. 'Consumers frequently perceive our estimates as predatory,' Vance explains, 'when in reality, we are mitigating severe latent hazards. If a technician overlooks compromised subframe integrity to save the client money, we are culpable for potential highway catastrophes. Furthermore, OEM (Original Equipment Manufacturer) parts and diagnostic software licenses impose substantial overhead. The cost is not merely for labor; it is for certified expertise, indemnification, and technological compliance.' Vance asserts that transparent communication often founders because laypersons lack the technical lexicon to grasp cascading mechanical failures.\n\nPerspective B: The Consumer Advocacy Perspective\nConversely, consumer protection advocate Dr. Elena Rostova lambasts the current regulatory framework governing the automotive repair sector, labeling exorbitant estimates like Jenkins' as symptomatic of systemic exploitation. Rostova posits that the asymmetry of information between monopolistic dealership networks and vehicle owners creates an environment ripe for superfluous upselling and fear-inducing rhetoric. 'While modern vehicles are undeniably intricate,' Rostova counters, 'this technological leap has been weaponized to erect formidable barriers against independent repair, effectively locking consumers into captive markets.' She points out that diagnostic fees, proprietary software lockouts, and vague prognostications of catastrophic failure coerce vulnerable clients into approving unnecessary overhauls. Rostova champions rigorous legislative intervention, advocating for mandatory independent second-opinion clauses, standardized labor time guides, and severe penalties for misleading diagnostic narratives. In her view, Jenkins' experience is not an anomaly of safety compliance, but rather a predatory manifestation of a loosely regulated industry prioritizing profit margins over consumer trust.",
+    "questions": [
+      {
+        "text": "What is the primary catalyst for the discourse detailed in the passage?",
+        "options": [
+          "[A] A legislative push to mandate independent second-opinion clauses in auto repair shops.",
+          "[B] An unexpectedly high repair quotation given to a customer for routine service.",
+          "[C] The rapid evolution of vehicle microprocessors and proprietary diagnostic software.",
+          "[D] A public debate regarding the liability of mechanics in highway accidents."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "According to Marcus Vance, why do vehicle owners frequently misinterpret repair estimates?",
+        "options": [
+          "[A] Because service managers deliberately use obscure terminology to obfuscate the actual labor hours.",
+          "[B] Because consumers fail to appreciate the legal liability and technological complexity inherent in modern vehicles.",
+          "[C] Because independent mechanics charge artificially inflated prices for OEM parts and software licenses.",
+          "[D] Because drivers prioritize short-term financial savings over long-term vehicle maintenance."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which of the following best characterizes Dr. Elena Rostova's stance on modern vehicular technology?",
+        "options": [
+          "[A] It represents a genuine advancement that necessitates strictly certified dealership oversight.",
+          "[B] It has been exploited to create captive markets and hinder independent repair options.",
+          "[C] It is fundamentally flawed and prone to cascading systemic corrosion.",
+          "[D] It is too complex for the average consumer to ever fully understand or regulate."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What does the term 'indemnification' most likely imply in the context of Marcus Vance's argument?",
+        "options": [
+          "[A] Financial compensation paid directly to the vehicle owner for inconvenience.",
+          "[B] Protection or legal exemption from liability incurred by the service provider.",
+          "[C] The mandatory insurance required to operate diagnostic software licenses.",
+          "[D] A government subsidy provided to certified automotive technicians."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How do the two perspectives fundamentally differ regarding the underlying cause of high repair bills?",
+        "options": [
+          "[A] Vance attributes them to mandatory safety standards and technological complexity, whereas Rostova attributes them to predatory upselling and informational asymmetry.",
+          "[B] Vance believes they are caused by consumer ignorance, while Rostova believes they are driven entirely by rising costs of OEM parts.",
+          "[C] Vance views them as a failure of government regulation, whereas Rostova views them as necessary for preventing highway catastrophes.",
+          "[D] Vance argues they are temporary market fluctuations, while Rostova claims they are permanent structural changes in manufacturing."
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
   }
 ]

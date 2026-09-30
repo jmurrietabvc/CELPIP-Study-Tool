@@ -2663,5 +2663,62 @@
       }
     ],
     "audioUrl": "audio/audio_44.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 4 - Everyday Topic",
+    "transcript": "Good morning, this is Metro Morning News. I'm Arthur Pendelton. Commuters across the Greater Toronto Area experienced severe logistical paralysis this morning as a consequence of an unseasonal, albeit not entirely unanticipated, blizzard that dumped upwards of thirty centimeters of dense, wet snow overnight. Municipal transit authorities have issued a comprehensive red alert, citing cascading systemic failures across both subterranean and surface-level networks. While the Toronto Transit Commission deployed its fleet of specialized snow-clearing vehicles at midnight, the sheer velocity of the precipitation rendered arterial roads impassable, subsequently trapping numerous articulated buses in unplowed drifts. Furthermore, a major catenary power line failure near Bloor-Yonge station has precipitated an indefinite suspension of Line 1 services between St. Clair and Union. Transit officials are strongly advising all non-essential personnel to eschew public transit entirely until municipal snow-removal crews can establish rudimentary corridors of mobility. Meanwhile, regional municipalities have activated emergency protocol contingencies, though frustrated commuters lament the glaring absence of real-time digital dissemination regarding rolling delays. We will continue to provide minute-by-minute updates as municipal operations strive to restore a semblance of normalcy to our frozen metropolis.",
+    "questions": [
+      {
+        "text": "How does the news anchor characterize the overnight snowfall?",
+        "options": [
+          "As an entirely unforeseen meteorological anomaly that shocked municipal authorities.",
+          "As an unseasonal occurrence that was nevertheless expected to some degree.",
+          "As a minor weather disruption with negligible impact on infrastructure.",
+          "As the most severe blizzard in the recorded history of the Greater Toronto Area."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What primary reason is given for the entrapment of articulated buses?",
+        "options": [
+          "Mechanical malfunctions caused by sub-zero temperatures.",
+          "Labor strikes by municipal snow-clearing personnel.",
+          "The rapid accumulation of snow rendering arterial roads impassable.",
+          "Power outages affecting traffic signals across the metropolitan area."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What specific consequence did the catenary power line failure have?",
+        "options": [
+          "It caused a city-wide blackout lasting several hours.",
+          "It halted surface-level bus operations completely.",
+          "It forced an indefinite suspension of a specific section of Line 1.",
+          "It damaged the specialized snow-clearing vehicles."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What is the explicit recommendation given by transit officials to non-essential personnel?",
+        "options": [
+          "To utilize alternative regional commuter rail services instead.",
+          "To work from home and completely avoid using public transit for now.",
+          "To walk to their destinations using established pedestrian corridors.",
+          "To wait at designated stations until real-time updates are provided."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What is the primary grievance expressed by frustrated commuters during this crisis?",
+        "options": [
+          "The exorbitant increase in transit fares during inclement weather.",
+          "The lack of heated shelters at surface-level bus stops.",
+          "The inadequate deployment of emergency medical personnel.",
+          "The conspicuous absence of timely digital updates regarding rolling delays."
+        ],
+        "correctAnswerIndex": 3
+      }
+    ],
+    "audioUrl": "audio/audio_45.mp3"
   }
 ]
