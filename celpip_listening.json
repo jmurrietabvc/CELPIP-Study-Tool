@@ -2150,5 +2150,62 @@
       }
     ],
     "audioUrl": "audio/audio_35.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 1 - Navigating public transit delays during a snowstorm",
+    "transcript": "Aiden: Beatrice, I strongly advise you to eschew the surface routes this morning; the transit authority has issued a sweeping advisory regarding cascading infrastructural failures across the municipal network due to the blizzard.\nBeatrice: Surely it can't be that deleterious to the schedule, Aiden. I factored in a conventional fifteen-minute buffer, which usually mitigates minor meteorological disruptions.\nAiden: That buffer is entirely nugatory under these anomalous meteorological conditions. The accumulated precipitation has paralyzed the articulated bus fleet, and the C-Line LRT is experiencing pneumatic brake freezing at every elevated junction.\nBeatrice: If I pivot to the underground subterranean line, I circumvent the surface gridlock, but that necessitates a convoluted detour through the central interchange, which is undoubtedly inundated with stranded commuters.\nAiden: Exactly. The interchange is currently a bottleneck of unprecedented proportions. However, your alternative is remaining stranded on an unheated thoroughfare where vehicular traction is virtually nonexistent.\nBeatrice: It seems I am caught between Scylla and Charybdis. If I brave the subterranean route, I risk claustrophobic pandemonium, yet the surface transit portends an unmitigated tardiness that will compromise my symposium presentation.\nAiden: Precisely. Therefore, you ought to descend immediately to the subway concourse, leverage your mobile transit application for real-time rerouting, and brace yourself for a protracted, sardine-like commute.\nBeatrice: Very well. I shall recalibrate my trajectory, though I harbor profound skepticism regarding the municipal corporation's contingency protocols.",
+    "questions": [
+      {
+        "text": "What is Aiden's primary recommendation regarding Beatrice's morning commute?",
+        "options": [
+          "To maintain her original schedule using the surface bus routes.",
+          "To avoid surface routes entirely due to widespread transit infrastructure failures.",
+          "To wait out the blizzard until the municipal transit authority clears the roads.",
+          "To utilize a personal vehicle instead of relying on public transit."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does Beatrice initially evaluate the situation?",
+        "options": [
+          "She believes her standard time buffer will adequately absorb the minor delays.",
+          "She assumes the entire transit network is completely shut down.",
+          "She panics and decides to work from home instead.",
+          "She insists that the underground line is the only viable option from the start."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "What specific issue is plaguing the C-Line LRT according to Aiden?",
+        "options": [
+          "Power outages along the entire track grid",
+          "Signal failures caused by frozen electrical switches",
+          "Pneumatic brake freezing at elevated junctions",
+          "Overcrowding that prevents doors from closing"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What metaphor does Beatrice use to describe her dilemma?",
+        "options": [
+          "A needle in a haystack",
+          "Caught between Scylla and Charybdis",
+          "The tip of the iceberg",
+          "Burning the candle at both ends"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What ultimate course of action does Beatrice decide to take?",
+        "options": [
+          "Call a rideshare service despite the surge pricing",
+          "Abandon her trip to the symposium entirely",
+          "Recalibrate her trajectory toward the subway concourse while harboring skepticism",
+          "Wait on the surface thoroughfare for the next available articulated bus"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "audioUrl": "audio/audio_36.mp3"
   }
 ]
