@@ -3208,5 +3208,61 @@
         "correctAnswerIndex": 1
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 4 - Everyday Topic",
+    "passage": "MUSEUM EXHIBIT SPARKS DEBATE OVER EARLY CANADIAN SETTLER NARRATIVES\n\nText 1: Preserving the Authentic Frontier Experience\nBy Dr. Alistair Vance, Historian and Cultural Consultant\n\nThe unveiling of the 'Pioneer Horizons' exhibit at the municipal museum represents a monumental triumph in public historiography. For decades, traditional museum displays sanitized the arduous existence of early Canadian homesteaders, romanticizing their endeavors into palatable myths of harmonious nation-building. This new installation, however, eschews such benign hagiography in favor of uncompromising veracity. By integrating recently unearthed journals, ledger books, and material culture from disparate settlements across the harsh Precambrian Shield, the curation successfully resurrects the visceral reality of settler life. Critics who decry the exhibition's unflinching portrayal of destitution, interpersonal strife, and cultural friction fundamentally misunderstand the pedagogical mandate of a modern civic institution. History is not a repository for comforting nostalgia; it is a rigorous examination of human resilience. The curators have meticulously contextualized the agricultural failures, the debilitating isolation, and the precarious reliance on Indigenous botanical and survival knowledge without diminishing the agency of the pioneers. To sanitize these narratives is to patronize the very ancestors we purport to honor. 'Pioneer Horizons' provides an intellectually rigorous landscape wherein visitors are compelled to confront the multifaceted tribulations of early Canada, fostering a mature appreciation for the infrastructural bedrock upon which modern society is constructed.\n\nText 2: Romanticism, Omission, and the Myth of Rugged Individualism\nBy Dr. Beatrice Chen, Professor of Indigenous Studies and Social Critique\n\nWhile the municipal museum\u2019s 'Pioneer Horizons' exhibit has been lauded for its gritty realism, a closer interrogation reveals that it remains fundamentally tethered to a Eurocentric paradigm that sidelines foundational historical truths. Despite incorporating marginalized voices here and there, the overarching narrative structure stubbornly reinforces the tired trope of the rugged, self-reliant European settler conquering an untamed wilderness. This framing is not merely anachronistic; it is methodologically deficient. By foregrounding the psychological and physical tolls endured by homesteaders, the exhibit inadvertently elides the much more consequential narrative of dispossession and systemic displacement inflicted upon the Indigenous nations who already inhabited and managed these ecologies. Furthermore, the portrayal of settler resilience is excessively individualized, obscuring the robust state-sponsored land grants, military protections, and infrastructural subsidies that fundamentally underwrote these agrarian enterprises. Consequently, visitors leave with a sympathetic yet distorted comprehension of colonization, viewing it as a heroic personal crucible rather than an institutionalized geopolitical project. True historical accountability requires more than substituting romantic myths with gritty ones; it demands an epistemological rupture that the museum's conservative curation ultimately refuses to undertake.",
+    "questions": [
+      {
+        "text": "According to Dr. Alistair Vance (Text 1), what was a major flaw of traditional museum displays regarding early Canadian history?",
+        "options": [
+          "[A] They relied too heavily on recently unearthed journals and ledger books.",
+          "[B] They promoted comforting myths and romanticized the hardships of homesteaders.",
+          "[C] They focused excessively on interpersonal strife and cultural friction.",
+          "[D] They failed to acknowledge the contributions of Indigenous peoples."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does Dr. Beatrice Chen (Text 2) characterize the exhibit's depiction of settler resilience?",
+        "options": [
+          "[A] As an accurate reflection of state-sponsored military protections.",
+          "[B] As a necessary pedagogical tool for understanding modern infrastructure.",
+          "[C] As an excessively individualized narrative that obscures broader geopolitical displacement.",
+          "[D] As a complete fabrication with no basis in historical reality."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which statement best captures the fundamental disagreement between the two authors?",
+        "options": [
+          "[A] Vance believes the exhibit is sufficiently radical, whereas Chen argues it does not go far enough in addressing structural colonialism.",
+          "[B] Vance argues for the inclusion of hardship, while Chen contends that hardship should be entirely omitted from historical exhibits.",
+          "[C] Vance views the exhibit as a triumph of historical revisionism, while Chen considers it historically inaccurate regarding agricultural failures.",
+          "[D] Vance believes the exhibit alienates modern visitors, whereas Chen thinks it is too comforting."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "In the context of Text 1, what does the word 'hagiography' most likely imply about past historical displays?",
+        "options": [
+          "[A] They were meticulously researched and historically objective.",
+          "[B] They treated historical figures with uncritical, idealized reverence.",
+          "[C] They focused excessively on religious institutions and clerical life.",
+          "[D] They were overly critical of the pioneers' architectural failures."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Based on Text 2, what does Dr. Chen imply is missing from the museum's current approach to colonization?",
+        "options": [
+          "[A] An acknowledgement of the harsh geographical realities of the Precambrian Shield.",
+          "[B] Acknowledgment of the personal psychological tolls endured by individual settlers.",
+          "[C] An epistemological shift that moves away from viewing colonization merely as a heroic personal trial.",
+          "[D] Sufficient material culture and artifact representation from early settler homesteads."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
   }
 ]

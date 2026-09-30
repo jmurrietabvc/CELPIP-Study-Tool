@@ -3119,5 +3119,62 @@
       }
     ],
     "audioUrl": "audio/audio_52.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 6 - Everyday Topic",
+    "transcript": "Good evening, fellow commuters. Tonight, I want to address the perennial debacle that characterizes our municipal transit system during meteorological anomalies, specifically focusing on the recent gridlock induced by yesterday's unprecedented blizzard. While the transit authority was ostensibly culpable for the cascading delays that left tens of thousands stranded, a nuanced appraisal reveals a systemic vulnerability that extends far beyond mere operational ineptitude. Critics have been vociferous in their condemnation, lambasting the agency for its reactionary protocols rather than proactive mitigation. However, to attribute this systemic paralysis solely to managerial myopia is to fundamentally misapprehend the compounding externalities at play. The convergence of infrastructure obsolescence, infrastructural underfunding, and an exponential surge in vehicular abandonment created a Gordian knot that no contingency plan could effortlessly untangle. Moreover, the discourse surrounding commuter resilience often devolves into polarized recriminations. On one hand, taxpayers demand absolute fiscal accountability and frictionless service delivery, irrespective of meteorological severity. On the other hand, transit operators contend with hyper-volatile weather patterns that routinely defy predictive modeling, rendering scheduled headways practically obsolete. What remains conspicuously absent from this contentious dialogue is a collaborative paradigm shift. Rather than defaulting to punitive measures or superficial infrastructural band-aids, municipal stakeholders must spearhead a paradigm that integrates predictive AI routing with decentralized commuter advisories. Only by dismantling these entrenched silos of operational friction can we hope to cultivate a transit ecology robust enough to withstand the inevitable vicissitudes of a Canadian winter.",
+    "questions": [
+      {
+        "text": "According to the speaker, what is the primary limitation of the public's current critique of the transit authority?",
+        "options": [
+          "[A] It incorrectly assumes the transit system is adequately funded.",
+          "[B] It overlooks the complex compounding externalities and attributes the crisis solely to managerial myopia.",
+          "[C] It relies too heavily on predictive AI modeling rather than human decision-making.",
+          "[D] It fails to acknowledge that the blizzard was entirely unprecedented in modern history."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does the speaker characterize the transit authority's protocols during the storm?",
+        "options": [
+          "[A] Proactive and meticulously planned",
+          "[B] Reactionary and ultimately ineffective",
+          "[C] Innovative yet underfunded",
+          "[D] Bureaucratic but flexible"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What factor, alongside infrastructure obsolescence and underfunding, exacerbated the transit gridlock?",
+        "options": [
+          "[A] A sudden strike by transit operators",
+          "[B] An exponential surge in vehicular abandonment",
+          "[C] The complete failure of the municipal power grid",
+          "[D] Misleading meteorological forecasts"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "According to the speaker, what is missing from the current discourse between taxpayers and transit operators?",
+        "options": [
+          "[A] A collaborative paradigm shift integrating predictive technology and decentralized advisories",
+          "[B] Increased financial penalties for delayed service delivery",
+          "[C] A complete privatization of the municipal transit network",
+          "[D] Strict adherence to traditional scheduling models"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "What is the speaker's ultimate conclusion regarding the transit system's future?",
+        "options": [
+          "[A] Winter storms will eventually cease to impact public transit significantly.",
+          "[B] Commuters must lower their expectations during severe weather events.",
+          "[C] Operational silos must be dismantled to build a resilient transit ecology.",
+          "[D] Funding should be diverted away from transit and into highway maintenance."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "audioUrl": "audio/audio_53.mp3"
   }
 ]
