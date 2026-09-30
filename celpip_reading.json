@@ -3824,5 +3824,61 @@
         "correctAnswerIndex": 1
       }
     ]
+  },
+  {
+    "title": "CLB 12 Reading: Part 3 - Everyday Topic",
+    "passage": "Navigating the complexities of residential tenancy legislation in Canada often culminates in contentious disputes regarding the restitution of security deposits upon lease termination. Under the provincial Residential Tenancies Act, landlords are strictly obligated to return a tenant's security deposit\u2014along with any accrued statutory interest\u2014within fifteen days of the tenancy ending, provided no formal application has been made to the provincial dispute resolution tribunal to retain those funds. Despite the unambiguous nature of these statutory stipulations, friction routinely arises when landlords attempt to withhold monies for alleged property damage that exceeds standard wear and tear.\n\nFrom a legal standpoint, 'normal wear and tear' denotes the inevitable deterioration of a premises resulting from habitual, prudent use over time. Conversely, actionable damage encompasses negligence, recklessness, or intentional defacement attributable to the tenant or their invitees. Landlords frequently conflate the two, attempting to amortize the cost of routine carpet replacement, wall repainting, or minor fixture upgrades onto departing occupants. To lawfully retain any portion of a deposit for repairs, the landlord must substantiate the claim through comprehensive, contemporaneous move-in and move-out inspection reports, accompanied by verifiable, itemized repair invoices from licensed contractors.\n\nFurthermore, tenants are legally shielded by the principle of betterment. This legal doctrine dictates that a landlord cannot utilize a departing tenant's security deposit to upgrade a rental unit beyond its condition at the commencement of the tenancy. For instance, if a ten-year-old linoleum floor suffers a localized tear, the landlord is only entitled to the depreciated residual value of that specific floor, rather than the full cost of installing brand-new hardwood flooring. Consequently, when landlords unilaterally deduct exorbitant sums without furnishing an exhaustive, itemized accounting within the statutory window, they commit an administrative infraction that can render them liable for statutory penalties amounting to double the withheld sum.\n\nTenants aggrieved by such practices are advised to formally invoke the dispute resolution process by filing an application for compensation. However, the evidentiary burden rests squarely on the shoulders of both parties. The landlord must establish on a balance of probabilities that the damage occurred and exceeded normal degradation, while the tenant must produce substantive proof\u2014such as timestamped photographs, communication logs, and signed condition inspection documents\u2014to corroborate the pristine or unaltered state of the property upon vacating. Mediation remains an encouraged preliminary recourse, yet many disputes ultimately require formal adjudication by an appointed arbitrator whose binding decision hinges strictly upon the documentary rigor presented by each litigant.",
+    "questions": [
+      {
+        "text": "According to the passage, what is the primary legal consequence for a landlord who fails to return a security deposit or provide an itemized accounting within the mandated timeframe?",
+        "options": [
+          "[A] Immediate revocation of their rental licensing privileges across the municipality.",
+          "[B] Potential liability for statutory penalties equal to twice the amount wrongfully withheld.",
+          "[C] Mandatory participation in binding arbitration overseen by the municipal housing authority.",
+          "[D] Forfeiture of the right to ever collect future security deposits from subsequent tenants."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "How does the legal doctrine of 'betterment' restrict a landlord's ability to use a tenant's security deposit?",
+        "options": [
+          "[A] It prevents landlords from charging for repairs if the tenant lived in the unit for more than five consecutive years.",
+          "[B] It prohibits landlords from claiming repair costs unless the work was performed by a licensed contractor.",
+          "[C] It restricts landlords from charging tenants the full cost of brand-new replacements when older, depreciated items are damaged.",
+          "[D] It completely absolves tenants of financial responsibility for any damage occurring in common areas."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which of the following best encapsulates the distinction between 'normal wear and tear' and 'actionable damage' as outlined in the text?",
+        "options": [
+          "[A] Normal wear and tear is caused by habitual, prudent use, whereas actionable damage stems from negligence or recklessness.",
+          "[B] Normal wear and tear occurs in common spaces, while actionable damage is restricted to the interior of private residential units.",
+          "[C] Normal wear and tear can be deducted from security deposits, whereas actionable damage requires a separate civil lawsuit.",
+          "[D] Normal wear and tear is determined solely by the landlord's discretion, whereas actionable damage requires photographic proof."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "What does the passage imply regarding the evidentiary burden required during a formal dispute resolution hearing?",
+        "options": [
+          "[A] The tenant bears the sole responsibility of proving that the landlord acted in bad faith.",
+          "[B] Arbitrators rely primarily on verbal testimonies rather than written documentation.",
+          "[C] The landlord must prove damage exceeding normal wear and tear, while the tenant must substantiate the property's condition with evidence.",
+          "[D] Photographic evidence submitted by the tenant automatically supersedes the landlord's inspection reports."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "In the context of the passage, what does the word 'contemporaneous' most nearly mean when describing inspection reports?",
+        "options": [
+          "[A] Highly critical and legally binding",
+          "[B] Recorded at the exact time the events or inspections occurred",
+          "[C] Concurrently shared with municipal housing authorities",
+          "[D] Temporarily withheld pending formal review"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
   }
 ]

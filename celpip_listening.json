@@ -3746,5 +3746,62 @@
       }
     ],
     "audioUrl": "audio/audio_63.mp3"
+  },
+  {
+    "title": "CLB 12 Listening: Part 5 - Complaining to the city about a new toll bridge",
+    "transcript": "Arthur: Welcome, council members, and thanks for granting the Municipal Affairs Committee this audience. We are here to formally contest the implementation of the exorbitant tariffs recently imposed on the new Confederation Gateway Bridge. To frame the debate, this fiscal mechanism is fundamentally regressive, disproportionately penalizing suburban commuters who have no viable alternative transit corridors.\n\nBeatrice: While I appreciate the committee's vigilance, Arthur, let us not obfuscate the fiscal reality. The municipal coffers are depleted, and traditional taxation cannot sustain the requisite infrastructure maintenance. The user-pay model is internationally recognized as the most equitable mechanism for capital amortization. Furthermore, the electronic tolling system mitigates congestion by shifting demand to off-peak hours through dynamic pricing.\n\nCharles: With respect, Beatrice, your technocratic defense of dynamic pricing ignores the socio-economic topography of our municipality. For lower-income laborers residing in the eastern sectors, shifting to off-peak hours is an illusory choice; they cannot simply dictate their shifts to appease a municipal algorithm. Moreover, the traffic diversion into residential neighborhoods\u2014as motorists circumvent the tolls\u2014has precipitated a catastrophic spike in local particulate pollution and pedestrian hazards. The externalities have completely undermined the projected net benefit.\n\nArthur: Precisely, Charles. The city administration has conflated infrastructure financing with punitive taxation. The projected revenue surplus is being siphoned into general municipal revenues rather than being sequestered for localized transit amelioration. We demand an immediate moratorium on the current tariff structure until a comprehensive socioeconomic impact assessment is published and public consultations are legitimately integrated into the municipal bylaws.",
+    "questions": [
+      {
+        "text": "What is Arthur's primary contention regarding the newly implemented bridge tariffs?",
+        "options": [
+          "They are excessively regressive and unfairly penalize commuters lacking alternative routes.",
+          "They fail to generate enough revenue for necessary infrastructure maintenance.",
+          "They rely on an outdated electronic system that causes massive technical delays.",
+          "They were implemented without the formal approval of the provincial government."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "How does Beatrice justify the implementation of the user-pay toll model?",
+        "options": [
+          "It was universally endorsed during previous municipal public consultations.",
+          "It offsets depleted municipal funds and uses dynamic pricing to mitigate peak-hour congestion.",
+          "It completely eliminates all forms of localized pollution in surrounding neighborhoods.",
+          "It forces major corporations to subsidize public transit networks."
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "What counter-argument does Charles raise against Beatrice's point regarding off-peak hour shifts?",
+        "options": [
+          "Working-class laborers lack the schedule flexibility to adapt to algorithmic dynamic pricing.",
+          "Dynamic pricing actually increases traffic volume during the middle of the night.",
+          "Off-peak hours cause the electronic tolling infrastructure to malfunction.",
+          "Employers are legally prohibited from altering employee shift timings."
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "According to Charles, what unintended consequence has arisen from motorists attempting to avoid the tolls?",
+        "options": [
+          "A sharp decline in local commercial business revenues.",
+          "An increase in public transit ridership that overwhelms current capacity.",
+          "A severe rise in neighborhood particulate pollution and pedestrian safety risks.",
+          "The complete deterioration of the Confederation Gateway Bridge structure."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "What specific action do Arthur and his committee ultimately demand from the city administration?",
+        "options": [
+          "The immediate resignation of the municipal council members responsible for the project.",
+          "The permanent dismantling and physical removal of the Confederation Gateway Bridge.",
+          "An immediate moratorium on tariffs pending an impact assessment and genuine public consultation.",
+          "A complete transfer of bridge ownership to a private provincial corporation."
+        ],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "audioUrl": "audio/audio_64.mp3"
   }
 ]
