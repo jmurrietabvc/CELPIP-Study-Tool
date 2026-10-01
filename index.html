@@ -541,15 +541,15 @@ function renderExamUI() {
 
             document.getElementById('btn-next-action').innerText = "NEXT";
             document.getElementById('btn-next-action').onclick = submitTest;
-        }
 
             if (isListening && !isReviewMode) {
-        const na = document.getElementById("native-audio");
-        if (na) na.onended = function() {
-            document.getElementById("q-container").style.display = "block";
-            startTimer();
-        };
-    }
+                const na = document.getElementById("native-audio");
+                if (na) na.onended = function() {
+                    document.getElementById("q-container").style.display = "block";
+                    startTimer();
+                };
+            }
+        }
 
 function playAudio(btn) {
             if (ttsUtterance) window.speechSynthesis.cancel();
