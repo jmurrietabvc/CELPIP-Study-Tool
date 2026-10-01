@@ -498,7 +498,7 @@ function renderExamUI() {
                 } else if (currentTest.audioUrl) {
                     audioDiv.innerHTML = `
                         <p style="margin-top:0; color:var(--celpip-blue); font-weight:bold;">Listen to the audio. You will hear the audio only once.</p>
-                        <audio controls style="width: 100%; outline: none;" controlsList="nodownload"><source src="${currentTest.audioUrl}" type="audio/mpeg"></audio>
+                        <audio id="native-audio" controls style="width: 100%; outline: none;" controlsList="nodownload"><source src="${currentTest.audioUrl}" type="audio/mpeg"></audio>
                     `;
                 } else {
                     audioDiv.innerHTML = `
@@ -515,6 +515,8 @@ function renderExamUI() {
 
             // Render Questions
             const qContainer = document.createElement('div');
+            qContainer.id = 'q-container';
+            if (isListening && !isReviewMode) { qContainer.style.display = 'none'; }
             (currentTest.questions || []).forEach((q, qIndex) => {
                 const qBlock = document.createElement('div');
                 qBlock.className = 'question-block';
@@ -541,7 +543,16 @@ function renderExamUI() {
             document.getElementById('btn-next-action').onclick = submitTest;
         }
 
-        function playAudio(btn) {
+            if (isListening && !isReviewMode) {
+        const na = document.getElementById("native-audio");
+        if (na) na.onended = function() {
+            document.getElementById("q-container").style.display = "block";
+            startTimer();
+        };
+    }
+}
+
+function playAudio(btn) {
             if (ttsUtterance) window.speechSynthesis.cancel();
             
             // Clean up the transcript tags like "[Three people: ...]" and speaker names "Lin:" for better speech flow
