@@ -626,6 +626,11 @@ function playAudio(btn) {
             });
 
             document.getElementById('final-score').innerText = `${score} / ${total}`;
+            if (currentTestId) {
+                savedScores[currentTestId] = score;
+                localStorage.setItem('celpipScores', JSON.stringify(savedScores));
+                renderDashboard();
+            }
             document.getElementById('score-screen').style.display = 'flex';
         }
 
