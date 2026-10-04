@@ -1,32 +1,10 @@
 [
   {
-    "title": "CLB 12 Reading: Part 3 - 12 Reading Part 3: Reading for Information",
-    "passage": "A: Navigating the complexities of municipal property taxation in Canadian urban centers requires a nuanced understanding of assessment methodologies, mill rates, and statutory appeal procedures. Homeowners frequently encounter discrepancies between their property's assessed value, determined by provincial valuation authorities, and the prevailing fair market value dictated by volatile real estate fluctuations. Municipalities levy property taxes by multiplying the assessed value by the established mill rate, which is calibrated annually to balance civic budgetary deficits without necessitating provincial bailouts or drastic service reductions.\n\nB: For properties situated within heritage overlay zones, an additional layer of regulatory compliance governs physical alterations, structural maintenance, and aesthetic preservation. Property owners are legally mandated to secure a Certificate of Appropriateness from the municipal heritage advisory committee prior to initiating any exterior modifications. Non-compliance often incurs severe administrative penalties, stop-work orders, and mandatory restoration at the owner's sole expense. Furthermore, specialized grants are occasionally accessible to offset the exorbitant costs associated with sourcing period-accurate building materials.\n\nC: The implementation of mandatory water meter retrofits across several Canadian provinces has sparked considerable discourse regarding privacy rights, utility billing accuracy, and infrastructural cost-sharing. Municipal water authorities assert that remote-reading endpoints facilitate early leak detection and promote sustainable consumption habits amidst escalating climate pressures. Conversely, civil liberties associations have raised apprehensions regarding the frequency of data polling and the long-term cybersecurity vulnerabilities inherent in interconnected utility infrastructure, advocating for stringent legislative oversight and opt-out mechanisms.\n\nD: Condominium governance in Canada is fundamentally regulated by provincial strata property acts, which delineate the legal boundaries between private units, common elements, and exclusive-use common areas. Elected strata councils wield discretionary authority to enforce bylaws, levy special assessments for unforeseen capital repairs, and register liens against delinquent owners' titles for unpaid maintenance fees. Prospective purchasers are strongly advised to commission a comprehensive depreciation report review to ascertain the adequacy of the reserve fund and mitigate exposure to catastrophic fiscal liabilities.",
+    "title": "CLB 12 Reading: Part 3 - Public transit expansion and construction delays.",
+    "passage": "A: The ambitious metropolitan transit expansion initiative, originally slated for completion by the end of the decade, has encountered unprecedented infrastructural bottlenecks. Municipal authorities recently released an exhaustive audit attributing the pervasive delays to a confluence of unforeseen subsurface geological anomalies, protracted supply chain disruptions for specialized tunneling machinery, and protracted bureaucratic negotiations regarding municipal land expropriation. Consequently, stakeholders are bracing for a timeline recalibration that extends the projected inauguration date by at least forty-eight months, inciting considerable public consternation.\n\nB: Compounding the physical construction challenges are complex financial re-evaluations necessitated by escalating inflation rates and labor shortages within the heavy civil engineering sector. The initial fiscal framework, predicated on pre-pandemic market projections, has proven entirely inadequate to absorb the exorbitant cost overruns associated with mitigating the aforementioned geological hazards. Transit executives are currently navigating arduous legislative channels to secure supplementary appropriations from both provincial and federal coffers, a prerequisite for averting a complete suspension of tunneling operations across the primary downtown corridors.\n\nC: In response to mounting civic dissatisfaction and the palpable erosion of commuter trust, transit authorities have unveiled a comprehensive mitigation strategy aimed at alleviating localized congestion. This multi-faceted intervention encompasses the immediate deployment of high-capacity interim bus rapid transit lanes, the optimization of existing legacy signaling systems to marginally increase network throughput, and the establishment of a transparent digital dashboard providing real-time telemetry on construction milestones. Furthermore, targeted financial compensation packages are being deliberated for small businesses enduring debilitating revenue losses directly attributable to prolonged street-level disruptions.\n\nD: Academics specializing in urban infrastructure economics argue that the systemic vulnerabilities plaguing this project are symptomatic of broader governance failures inherent in mega-project procurement models. They contend that overly optimistic initial ridership forecasts and inadequate risk-sharing mechanisms between public agencies and private consortiums invariably culminate in budgetary overreaches. These experts advocate for a paradigmatic shift toward incremental, modular expansion frameworks that mitigate systemic exposure by delivering operational benefits in smaller, more manageable increments rather than relying on monolithic, high-risk delivery paradigms.",
     "questions": [
       {
-        "text": "Which paragraph mentions the specific statutory instrument required before making exterior modifications to properties in designated zones?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "text": "Which paragraph discusses the legal mechanism municipalities use to recover unpaid maintenance fees from delinquent property owners?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 3
-      },
-      {
-        "text": "Which paragraph explains how local governments calculate property tax levies using mill rates and assessed values?",
+        "text": "Which paragraph mentions the specific length of time by which the project's completion date is being extended?",
         "options": [
           "A",
           "B",
@@ -37,7 +15,18 @@
         "correctAnswerIndex": 0
       },
       {
-        "text": "Which paragraph outlines civil liberties concerns regarding data privacy and cybersecurity vulnerabilities associated with utility upgrades?",
+        "text": "Which paragraph discusses academic perspectives on the systemic procurement and risk-sharing failures inherent in mega-projects?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "text": "Which paragraph outlines interim measures such as bus rapid transit lanes and digital dashboards to address commuter frustration?",
         "options": [
           "A",
           "B",
@@ -48,7 +37,18 @@
         "correctAnswerIndex": 2
       },
       {
-        "text": "Which paragraph details the mandatory federal inspections required for all residential basement radon mitigation systems?",
+        "text": "Which paragraph details the necessity of seeking additional funding from provincial and federal governments due to budget shortfalls?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which paragraph addresses the psychological impact of construction delays on the mental health of daily commuters?",
         "options": [
           "A",
           "B",
@@ -59,29 +59,7 @@
         "correctAnswerIndex": 4
       },
       {
-        "text": "Which paragraph highlights the necessity for prospective buyers to review depreciation reports to assess reserve fund adequacy?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 3
-      },
-      {
-        "text": "Which paragraph references the availability of specialized financial grants to help cover the cost of period-accurate renovation materials?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "text": "Which paragraph touches upon the divergence between provincial property assessments and fair market values driven by real estate fluctuations?",
+        "text": "Which paragraph highlights unforeseen subsurface geological anomalies as a primary driver of the initial infrastructural bottlenecks?",
         "options": [
           "A",
           "B",
@@ -92,7 +70,7 @@
         "correctAnswerIndex": 0
       },
       {
-        "text": "Which paragraph addresses the arguments put forward by water authorities regarding early leak detection and sustainable consumption?",
+        "text": "Which paragraph mentions potential financial compensation being considered for local businesses suffering from street-level disruptions?",
         "options": [
           "A",
           "B",
@@ -101,6 +79,28 @@
           "E"
         ],
         "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which paragraph references inflation rates and labor shortages as compounding financial challenges?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which paragraph advocates for modular expansion frameworks to deliver operational benefits in smaller increments?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 3
       }
     ]
   },
@@ -424,11 +424,11 @@
     ]
   },
   {
-    "title": "CLB 12 Reading: Part 3 - Everyday Topic",
-    "passage": "A: Navigating the complexities of municipal composting regulations in urban Canadian centers often requires meticulous attention to detail, particularly regarding organic waste diversion protocols. Residents must differentiate between compostable materials accepted by industrial municipal facilities and those restricted to backyard bins. For instance, while yard trimmings and raw vegetable scraps are universally welcomed, bioplastics and pet waste undergo rigorous screening processes and are subject to stringent regional bylaws that dictate whether they can be processed through curbside green bin programs.\n\nB: The integration of smart-waste infrastructure in cities like Toronto and Vancouver has fundamentally altered how households manage their refuse. Automated sorting mechanisms at material recovery facilities utilize near-infrared spectroscopy and advanced optical sorting to identify and categorize recyclable polymers instantaneously. Consequently, citizens are urged to familiarize themselves with the specific resin identification codes mandated by local sanitation departments, as contamination thresholds have become exceedingly strict, often resulting in rejected neighborhood collection loads.\n\nC: Seasonal fluctuations in household waste generation present distinct logistical challenges for municipal waste management authorities across Canada. During the autumn months, the surge in organic debris from landscaping and leaf collection necessitates temporary adjustments to garbage collection schedules and capacity limits. Similarly, the winter holiday season experiences a dramatic uptick in corrugated cardboard and wrapping paper consumption, prompting municipalities to deploy supplemental recycling depots and enforce rigid guidelines on flattened cardboard bundle dimensions to maintain operational efficiency.\n\nD: Economic incentives and punitive measures are increasingly being leveraged by Canadian municipalities to encourage waste reduction and adherence to diversion mandates. Pay-as-you-throw (PAYT) pricing models, which charge residents based on the volume or weight of non-recyclable garbage generated, have demonstrated measurable success in curbing landfill reliance. Conversely, households that consistently violate sorting protocols face escalating financial penalties, enforced through rigorous manual auditing of curbside bins by municipal compliance officers.",
+    "title": "CLB 12 Reading: Part 3 - Managing wildlife encounters in suburban neighborhoods (bears, coyotes).",
+    "passage": "A: As suburban sprawl increasingly encroaches upon traditional wildlife corridors, municipal authorities face escalating exigencies regarding urban fauna integration and hazard mitigation. Black bears (Ursus americanus) and coyotes (Canis latrans) represent the primary apex and mesopredator species frequently observed traversing residential perimeters. Urban ecology studies indicate that these animals are not merely transient wanderers, but rather opportunistic foragers successfully habituating to anthropogenic food subsidies. Consequently, municipal governance models must pivot from reactive culling strategies to proactive, ecosystem-level management frameworks that emphasize community-wide behavioral modification and stringent attractant management protocols.\n\nB: The cornerstone of mitigating human-wildlife conflict lies in the uncompromising eradication of residential attractants, which serve as the primary catalyst for habituation. Municipal bylaws increasingly mandate that residential and commercial waste containers be equipped with certified wildlife-resistant locking mechanisms, prohibiting curbside placement prior to the morning of collection. Beyond municipal solid waste, backyard poultry enclosures, unharvested fruit trees, and domestic pet food left outdoors constitute significant attractants. Failure to remediate these localized caloric bonanzas invariably precipitates bolder foraging behaviors, transforming timid wildlife into persistent, food-conditioned hazards that necessitate eventual euthanization by conservation officers.\n\nC: When direct encounters with black bears or coyotes occur within residential zones, human behavioral responses dictate the probability of an escalation to physical confrontation. Residents are instructed to eschew the instinctual impulse to flee, as running can trigger predatory chase dynamics in coyotes or provoke defensive aggression in bears. Instead, individuals must maintain visual contact, assume an assertive posture, and utilize forceful vocalizations paired with deterrent devices such as air horns or bear spray. Furthermore, community education initiatives underscore the importance of distinguishing between active predation threats and passive territorial defense, ensuring that homeowners apply the proportional tactical response required for each unique species.\n\nD: At the jurisdictional level, inter-agency collaboration between municipal councils, provincial wildlife ministries, and local law enforcement is paramount for establishing synchronized response protocols. Data-driven mapping of wildlife sightings enables authorities to deploy targeted educational campaigns and rigorous enforcement sweeps in designated high-conflict zones before incidents escalate. Moreover, long-term urban planning must integrate ecological permeability principles, ensuring that greenbelts and wildlife corridors are designed with minimal interface friction against residential developments, thereby safeguarding both human populations and indigenous fauna.",
     "questions": [
       {
-        "text": "Which paragraph discusses the use of optical sorting technologies at material recovery facilities?",
+        "text": "Which paragraph discusses the legal mandates and mechanical safeguards required for residential waste disposal to prevent wildlife habituation?",
         "options": [
           "A",
           "B",
@@ -439,7 +439,7 @@
         "correctAnswerIndex": 1
       },
       {
-        "text": "Which paragraph mentions seasonal adjustments made by municipalities during the autumn leaf collection period?",
+        "text": "Which paragraph outlines the specific psychological and physical responses humans should exhibit when confronted by these animals?",
         "options": [
           "A",
           "B",
@@ -450,18 +450,7 @@
         "correctAnswerIndex": 2
       },
       {
-        "text": "Which paragraph explains the application and impact of Pay-as-you-throw pricing models?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 3
-      },
-      {
-        "text": "Which paragraph highlights the distinction between materials accepted in industrial municipal facilities versus backyard bins?",
+        "text": "Which paragraph highlights the necessity of shifting away from reactive culling toward comprehensive, ecosystem-level management frameworks?",
         "options": [
           "A",
           "B",
@@ -472,7 +461,18 @@
         "correctAnswerIndex": 0
       },
       {
-        "text": "Which paragraph outlines the specific tax exemptions available for households that successfully achieve zero-waste milestones?",
+        "text": "Which paragraph emphasizes the importance of inter-agency collaboration and data-driven mapping for deploying targeted educational campaigns?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "text": "Which paragraph details the financial penalties imposed on homeowners who fail to harvest fruit trees or secure backyard livestock?",
         "options": [
           "A",
           "B",
@@ -483,18 +483,7 @@
         "correctAnswerIndex": 4
       },
       {
-        "text": "Which paragraph addresses the increased consumption of corrugated cardboard and wrapping paper during the winter holidays?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "text": "Which paragraph notes that bioplastics and pet waste are subject to regional bylaws and rigorous screening?",
+        "text": "Which paragraph explains that urban wildlife are often opportunistic foragers successfully adapting to anthropogenic food subsidies rather than mere transient visitors?",
         "options": [
           "A",
           "B",
@@ -505,18 +494,7 @@
         "correctAnswerIndex": 0
       },
       {
-        "text": "Which paragraph details the manual auditing of curbside bins by compliance officers to enforce sorting protocols?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 3
-      },
-      {
-        "text": "Which paragraph emphasizes that contamination thresholds have become stricter due to automated sorting mandates?",
+        "text": "Which paragraph notes that unmanaged residential attractants can transform timid animals into persistent, food-conditioned hazards requiring euthanization?",
         "options": [
           "A",
           "B",
@@ -525,6 +503,28 @@
           "E"
         ],
         "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which paragraph mentions that running away from a coyote or bear can trigger predatory chase dynamics or provoke defensive aggression?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which paragraph addresses the integration of ecological permeability principles in long-term urban planning to minimize interface friction?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 3
       }
     ]
   },
@@ -737,22 +737,11 @@
     ]
   },
   {
-    "title": "CLB 12 Reading: Part 3 - Everyday Topic",
-    "passage": "A: Navigating the complexities of municipal composting regulations in urban Canadian centers often requires meticulous attention to local bylaws, which can vary significantly even between neighboring suburbs. Residents are typically mandated to utilize specific aerated green bins designed to mitigate unpleasant odors and deter urban wildlife such as raccoons and coyotes. Furthermore, the inclusion of non-compostable materials, such as bioplastics labeled as biodegradable but lacking certified industrial compostability, can result in substantial administrative penalties or the outright rejection of the organic waste collection at the curb.\n\nB: The integration of community garden plots within high-density municipal areas has burgeoned into a vital sociological phenomenon, fostering neighborhood cohesion and bolstering local food security. Municipalities frequently lease these parcels of land for nominal fees, yet participants must adhere strictly to organic cultivation mandates, prohibiting synthetic pesticides and chemical fertilizers. Waitlists for these coveted plots can extend up to three growing seasons, reflecting an unprecedented surge in urban agriculture enthusiasm among metropolitan denizens.\n\nC: Winter vehicular preparation in regions experiencing rigorous sub-zero temperatures necessitates a multifaceted approach beyond the conventional transition to winter tires. Statutes in provinces like Quebec mandate the installation of certified snow tires bearing the mountain snowflake symbol by a strict calendar deadline, under threat of fiscal fines. Additionally, motorists must meticulously clear all accumulated snow and ice from their vehicle roofs prior to transit to preclude hazardous projectile hazards from endangering trailing motorists on arterial highways.\n\nD: The proliferation of smart home energy management systems has revolutionized domestic power consumption patterns across Canadian households, particularly during peak hydro-pricing hours. Advanced algorithmic thermostats dynamically adjust heating and cooling loads by analyzing historical meteorological data and real-time occupancy sensors. Consequently, homeowners can optimize their electricity expenditures without compromising indoor thermal comfort, thereby contributing to broader provincial grid stabilization initiatives.",
+    "title": "CLB 12 Reading: Part 3 - Adapting to severe winter weather and snow removal bylaws.",
+    "passage": "A: As intensification accelerates across Canadian municipalities, municipal councils are overhauling archaic snow removal bylaws to mitigate escalating infrastructural vulnerabilities associated with severe winter weather events. The proliferation of high-density residential complexes and narrow thoroughfares has severely impeded municipal plow mobility, necessitating unprecedented regulatory interventions. Property owners are now legally obligated to maintain continuous, unobstructed access along abutting sidewalks within an accelerated timeframe of four hours post-precipitation cessation. Failure to comply precipitates escalating administrative monetary penalties, which can culminate in the imposition of municipal liens upon the title of the non-compliant property.\n\nB: Compounding the logistical burdens on municipal works departments is the persistent, deleterious practice of pushing accumulated snow from private driveways back onto public thoroughfares. Under the newly enacted Municipal Sanitation and Safety Code, this infraction is categorized as a severe public nuisance, carrying immediate summary conviction fines that surpass standard municipal bylaws. Enforcement officers are empowered to deploy high-resolution automated license plate recognition and neighborhood surveillance networks to capture transient violations. Furthermore, exemptions formerly granted to commercial enterprises utilizing private snow-clearing contractors have been comprehensively rescinded, establishing absolute strict liability for the property owner of record regardless of contractual delegations.\n\nC: To address the exacerbating microclimatic phenomena of prolonged freeze-thaw cycles and unprecedented localized precipitation anomalies, municipalities are pioneering integrated, multi-modal winter maintenance frameworks. These initiatives mandate the utilization of eco-friendly, non-corrosive de-icing agents that prevent heavy metal leaching into vulnerable municipal watersheds while maintaining optimal traction coefficients on inclined surfaces. Concurrently, municipal engineering divisions have initiated comprehensive retrofits of storm sewer catchment basins, incorporating automated thermal heating elements to prevent debilitating ice-damming during rapid thermal transitions. Residents residing within designated priority transit corridors are also mandated to register their vehicles for alternate-side overnight parking bans to facilitate uninterrupted subterranean and surface plow operations.\n\nD: Recognizing the disproportionate socioeconomic impact of these stringent bylaws on vulnerable demographics, municipal authorities have institutionalized subsidized auxiliary support networks. Low-income seniors and individuals with certified mobility impairments can apply for the municipal Assisted Snow Removal Registry, which dispatches dedicated community service crews to clear primary egress routes. Eligibility vetting is rigorous, requiring comprehensive financial disclosures and medical documentation to prevent systemic abuse of the municipal subsidy. Concurrently, civic engagement initiatives provide real-time telemetry dashboards, enabling populace oversight of snowplow deployment velocity, localized salt dispersion rates, and neighborhood-specific compliance enforcement metrics.",
     "questions": [
       {
-        "text": "Which paragraph mentions the specific symbol required on tires to comply with provincial winter driving legislation?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "text": "Which paragraph discusses the prohibition of chemical fertilizers in urban agricultural spaces?",
+        "text": "Which paragraph discusses the legal penalties and mechanisms associated with pushing private snow onto public roads?",
         "options": [
           "A",
           "B",
@@ -763,7 +752,29 @@
         "correctAnswerIndex": 1
       },
       {
-        "text": "Which paragraph outlines how algorithmic climate control systems utilize weather data and sensors to optimize power usage?",
+        "text": "Which paragraph outlines the specific timeframe within which property owners must clear abutting sidewalks?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "Which paragraph details the retrofitting of storm sewer catchment basins with thermal heating elements?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which paragraph explains the eligibility requirements for the municipal Assisted Snow Removal Registry?",
         "options": [
           "A",
           "B",
@@ -774,7 +785,7 @@
         "correctAnswerIndex": 3
       },
       {
-        "text": "Which paragraph explains the penalties associated with placing uncertified bioplastics into organic waste streams?",
+        "text": "Which paragraph mentions the specific criminal code amendments implemented by the federal government regarding winter driving negligence?",
         "options": [
           "A",
           "B",
@@ -782,10 +793,10 @@
           "D",
           "E"
         ],
-        "correctAnswerIndex": 0
+        "correctAnswerIndex": 4
       },
       {
-        "text": "Which paragraph notes the exact duration of the multi-year waitlists typically encountered for community garden plots?",
+        "text": "Which paragraph notes the rescission of exemptions previously afforded to commercial properties using private snow contractors?",
         "options": [
           "A",
           "B",
@@ -796,7 +807,7 @@
         "correctAnswerIndex": 1
       },
       {
-        "text": "Which paragraph details the mandatory federal subsidies provided to homeowners for purchasing smart thermostat technology?",
+        "text": "Which paragraph highlights the use of automated thermal imaging drones by municipal police to detect underground heat loss?",
         "options": [
           "A",
           "B",
@@ -807,7 +818,7 @@
         "correctAnswerIndex": 4
       },
       {
-        "text": "Which paragraph references the danger posed by uncleared snow on vehicle roofs to drivers on highways?",
+        "text": "Which paragraph describes the requirement for residents in designated corridors to register vehicles for alternate-side overnight parking bans?",
         "options": [
           "A",
           "B",
@@ -818,7 +829,7 @@
         "correctAnswerIndex": 2
       },
       {
-        "text": "Which paragraph highlights the design features of specialized green bins aimed at preventing intrusion by urban wildlife?",
+        "text": "Which paragraph explains how non-compliance with sidewalk snow removal can eventually lead to municipal liens on property titles?",
         "options": [
           "A",
           "B",
@@ -827,17 +838,6 @@
           "E"
         ],
         "correctAnswerIndex": 0
-      },
-      {
-        "text": "Which paragraph describes the process of establishing a neighborhood-led municipal recycling cooperative?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 4
       }
     ]
   },
@@ -1010,33 +1010,11 @@
     ]
   },
   {
-    "title": "CLB 12 Reading: Part 3 - Everyday Topic",
-    "passage": "A: Navigating the complexities of municipal composting regulations in urban Canadian centers often presents a multifaceted challenge for residents striving to adhere to zero-waste mandates. Municipalities such as Toronto and Vancouver have instituted rigorous sorting protocols that categorize organic waste into fine-grained distinctions, encompassing yard trimmings, food scraps, and compostable bioplastics. Failure to comply with these stringent bylaws can result in escalating financial penalties, which are enforced through meticulous sorting audits conducted by municipal waste management inspectors at the curb.\n\nB: Beyond residential curbside collection, the proliferation of community composting initiatives has catalyzed a grassroots movement in neighborhoods across the country. These decentralized hubs not only mitigate the methane emissions associated with landfill-bound organics but also foster social cohesion through shared stewardship of urban agriculture plots. Participants must undergo mandatory orientation sessions to master carbon-to-nitrogen ratios, aeration techniques, and temperature regulation, ensuring that the communal piles decompose aerobically without becoming a vector for urban pests.\n\nC: At the industrial scale, commercial composting facilities employ sophisticated in-vessel systems and mechanized trommel screens to process the vast influx of organic detritus generated by metropolitan populations. These high-capacity installations utilize biofilters to neutralize noxious odor emissions and subject the compost to hyper-thermophilic conditions capable of eradicating persistent pathogens and weed seeds. The resulting nutrient-dense humus is subsequently redistributed to regional agricultural cooperatives and landscaping enterprises, thereby closing the loop in a truly circular regional bio-economy.\n\nD: Despite these technological and infrastructural advancements, systemic friction persists regarding the integration of compostable packaging materials. While manufacturers increasingly market bio-based polymers as an eco-friendly alternative to conventional petroleum plastics, many municipal facilities lack the mechanical degradation capacity required to break down these complex molecules within their standard operational timelines. Consequently, policy makers are grappling with the imperative to harmonize manufacturing standards with municipal processing realities to prevent widespread contamination of high-grade compost streams.",
+    "title": "CLB 12 Reading: Part 3 - Tenant rights and navigating rental disputes with landlords.",
+    "passage": "A: Navigating the complex legislative frameworks governing residential tenancies in Canada requires a meticulous understanding of provincial statutes, such as Ontario's Residential Tenancies Act or British Columbia's Residential Tenancy Act. These statutes delineate the fundamental obligations and statutory protections afforded to both lessors and lessees. Central to these rights is the principle of quiet enjoyment, which legally obligates landlords to ensure tenants can inhabit their premises without unreasonable disturbances, substantial interference, or deprivation of essential services like heat, water, and electricity. Furthermore, these acts stipulate strict protocols regarding rent increases, requiring mandatory written notice periods\u2014typically ninety days\u2014and capping annual increases in accordance with provincial economic guidelines unless formal exemptions are secured through adjudicative bodies.\n\nB: When disputes precipitate formal friction between tenants and landlords, initiating direct, documented communication is the mandatory first procedural threshold. Should informal resolutions falter, parties frequently resort to provincial dispute resolution services, such as the Landlord and Tenant Board (LTB) in Ontario or the Residential Tenancy Branch (RTB) in British Columbia. Initiating a formal hearing necessitates the submission of specific application forms accompanied by meticulous evidentiary documentation, including dated correspondence, photographic evidence of property disrepair, and financial ledgers. Adjudicators evaluate these submissions within an administrative law framework, where adherence to procedural fairness is paramount. It is crucial to note that tenants withholding rent as a punitive or corrective measure against landlord negligence is strictly prohibited under statutory law and constitutes grounds for immediate eviction proceedings.\n\nC: Maintenance and structural repair obligations represent a perennial source of contention in rental tenancies. Landlords bear the non-delegable responsibility of ensuring rental units comply rigorously with municipal health, safety, and housing maintenance standards at the inception of and throughout the duration of the tenancy. If a landlord fails to execute necessary repairs within a reasonable timeframe after receiving written notice, tenants may escalate the matter by requesting a municipal property standards inspection. An official order to comply issued by a municipal inspector serves as potent evidence in subsequent provincial board hearings. Additionally, tenants possess the legal recourse to seek rent abatements\u2014financial retrocessions compensating for the loss of use and enjoyment of a portion of the rental unit\u2014though these must be formally quantified and adjudicated rather than arbitrarily deducted.\n\nD: The termination of a residential tenancy is likewise governed by stringent statutory provisions designed to prevent arbitrary displacement and retaliatory evictions. Landlords seeking to reclaim possession for personal use, extensive renovations, or demolition must furnish statutory notices within prescribed timeframes, frequently accompanied by mandatory compensation packages, such as the equivalent of one month's rent. Conversely, tenants wishing to vacate must provide proper legal notice, typically sixty days prior to the end of the rental period for fixed-term or periodic leases. In scenarios involving domestic violence or abuse, specialized statutory provisions allow tenants to break fixed-term lease agreements prematurely without financial penalty by submitting certified documentation, thereby prioritizing occupant safety over contractual obligations.",
     "questions": [
       {
-        "text": "Which paragraph discusses the utilization of mechanical trommel screens and biofilters in large-scale processing?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "text": "Which paragraph mentions the enforcement of penalties through curbside sorting audits by municipal inspectors?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "text": "Which paragraph highlights the necessity for participants to understand carbon-to-nitrogen ratios and aeration techniques?",
+        "text": "Which paragraph discusses the legal prohibition against tenants withholding rent to penalize landlord negligence?",
         "options": [
           "A",
           "B",
@@ -1047,7 +1025,29 @@
         "correctAnswerIndex": 1
       },
       {
-        "text": "Which paragraph addresses the discrepancy between the marketing of bio-based polymers and the actual degradation capacity of facilities?",
+        "text": "Which paragraph outlines the specific mandatory notice period required for standard annual rent increases?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "Which paragraph mentions the process of obtaining a municipal property standards inspection to support a dispute?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which paragraph explains specialized provisions allowing lease termination without penalty in cases of domestic abuse?",
         "options": [
           "A",
           "B",
@@ -1058,7 +1058,7 @@
         "correctAnswerIndex": 3
       },
       {
-        "text": "Which paragraph details the historical evolution of municipal waste management legislation dating back to the early 1900s?",
+        "text": "Which paragraph details the exact arbitration fees charged by the provincial dispute resolution services?",
         "options": [
           "A",
           "B",
@@ -1069,29 +1069,7 @@
         "correctAnswerIndex": 4
       },
       {
-        "text": "Which paragraph explains how decentralized organic processing hubs contribute to neighborhood social cohesion and urban agriculture?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "text": "Which paragraph notes the redistribution of nutrient-dense humus to regional agricultural cooperatives?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "text": "Which paragraph references specific urban Canadian centers like Toronto and Vancouver implementing rigorous sorting protocols?",
+        "text": "Which paragraph describes the principle of quiet enjoyment and the maintenance of essential services?",
         "options": [
           "A",
           "B",
@@ -1102,7 +1080,7 @@
         "correctAnswerIndex": 0
       },
       {
-        "text": "Which paragraph describes the precise chemical formulas used by manufacturers to synthesize biodegradable plastics from cornstarch?",
+        "text": "Which paragraph references the legal mechanism of seeking rent abatements for the loss of use of a property?",
         "options": [
           "A",
           "B",
@@ -1110,7 +1088,29 @@
           "D",
           "E"
         ],
-        "correctAnswerIndex": 4
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which paragraph outlines the mandatory compensation packages required when landlords reclaim units for demolition?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "text": "Which paragraph specifies the required evidentiary documentation for submitting an application to a provincial board?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 1
       }
     ]
   },
@@ -1283,11 +1283,11 @@
     ]
   },
   {
-    "title": "CLB 12 Reading: Part 3 - Everyday Topic",
-    "passage": "A: Navigating the complexities of municipal composting regulations in urban Canadian centers often requires meticulous attention to detail, particularly regarding the categorization of organic waste. While standard food scraps like vegetable peelings and coffee grounds are universally accepted, municipal bylaws increasingly stipulate stringent protocols for biodegradable packaging, commercial compostable cutlery, and specialized yard waste. Homeowners must familiarize themselves with seasonal collection shifts, as municipal waste management authorities frequently alter pickup schedules during winter months to accommodate snow clearing operations, thereby necessitating proactive monitoring of local public works announcements.\n\nB: The integration of smart-home technology into traditional Canadian residential properties has accelerated dramatically, prompting municipal utility providers to introduce dynamic pricing models. These advanced metering infrastructures allow homeowners to track electricity and water consumption in real-time through centralized smartphone applications. Consequently, residents can strategically schedule high-energy household appliances\u2014such as washing machines, dishwashers, and electric vehicle charging stations\u2014during off-peak hours when utility rates drop significantly. Furthermore, provincial rebates are frequently available for households that upgrade to certified high-efficiency HVAC systems, though the application process requires comprehensive historical usage data.\n\nC: Community garden allotment programs managed by metropolitan civic authorities serve as vital green spaces for urban populations, yet securing a plot involves navigating a labyrinth of administrative prerequisites. Applicants are typically subjected to rigorous multi-tiered lottery systems due to unprecedented demand, and successful participants must adhere to strict organic cultivation covenants. These covenants explicitly prohibit the use of synthetic fertilizers and chemical pesticides, mandating instead the utilization of companion planting and localized composting techniques. Additionally, garden lease agreements stipulate mandatory communal maintenance hours, failure of which can result in the immediate revocation of gardening privileges for the remainder of the growing season.\n\nD: Winterizing residential plumbing systems in regions characterized by severe sub-zero temperatures is an indispensable annual chore for Canadian homeowners. Beyond the conventional procedure of insulating exposed exterior pipes and disconnecting garden hoses, advanced preventative maintenance entails draining sprinkler systems completely using compressed air to prevent catastrophic structural rupture. Insurance underwriters increasingly mandate proof of professional winterization or adherence to strict DIY protocols for claims related to frozen burst pipes, emphasizing the critical intersection between preventative domestic upkeep and comprehensive homeowner insurance liability coverage.",
+    "title": "CLB 12 Reading: Part 3 - Choosing between different healthcare plans and finding a family doctor.",
+    "passage": "A: Navigating the landscape of Canadian provincial healthcare coverage and supplemental private insurance requires a nuanced understanding of statutory health mandates and individual risk profiles. While the Canada Health Act guarantees publicly funded medically necessary hospital and physician services, provincial frameworks diverge significantly regarding supplementary benefits such as pharmacare, dental care, and optometry. Consequently, individuals transitioning between provinces or augmenting their public coverage with private group or individual plans must rigorously evaluate policy deductibles, co-insurance percentages, and maximum out-of-pocket limits. Failing to conduct a granular comparative analysis of these metrics frequently precipitates unforeseen financial liabilities during acute medical contingencies.\n\nB: Securing a primary care physician within Canada's increasingly strained healthcare infrastructure demands a strategic, multi-faceted approach. Prospective patients should leverage provincial physician linkage registries, such as Health Care Connect in Ontario or the Health Access Line in British Columbia, which systematically match unattached residents with accepting family practices based on geographical proximity and specific clinical needs. Furthermore, proactive outreach to local community health centres, academic family medicine teaching units, and regional health authority directories often yields unadvertised patient intake openings that circumvent protracted waitlist queues entirely.\n\nC: Supplemental healthcare plans frequently incorporate ancillary health services, including registered massage therapy, chiropractic care, clinical psychology, and advanced diagnostic imaging not covered under baseline provincial provisions. When scrutinizing these plans, policyholders must differentiate between indemnity structures, which reimburse a flat fee per service, and comprehensive percentage-reimbursement frameworks governed by strict reasonable-and-customary fee schedules. Moreover, analyzing pre-existing condition exclusion clauses, waiting periods, and annual maximum thresholds is paramount to ensuring that high-utilization therapies do not prematurely exhaust the policy's fiscal ceiling.\n\nD: Integrating public provincial insurance with private supplemental coverage necessitates synchronizing claim coordination protocols to maximize financial return and minimize administrative friction. Dual-income households, in particular, benefit from optimizing coordination of benefits (COB) provisions, whereby the primary earner's plan processes claims initially, and the secondary plan absorbs the residual out-of-pocket balance up to one hundred percent of the eligible expense. Mastery of these procedural nuances prevents redundant claim submittals and accelerates reimbursements from third-party insurance administrators.",
     "questions": [
       {
-        "text": "Which paragraph discusses real-time consumption tracking applications that enable residents to optimize appliance usage during cheaper utility hours?",
+        "text": "Which paragraph mentions provincial registries and alternative community-based avenues for securing a primary care provider?",
         "options": [
           "A",
           "B",
@@ -1298,29 +1298,7 @@
         "correctAnswerIndex": 1
       },
       {
-        "text": "Which paragraph mentions strict organic cultivation covenants that prohibit the use of synthetic fertilizers?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "text": "Which paragraph details seasonal collection schedule adjustments made by municipal authorities during winter months?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "text": "Which paragraph highlights insurance underwriters requiring proof of professional winterization to cover claims for frozen pipes?",
+        "text": "Which paragraph discusses the mechanisms of coordinating benefits between dual-income household insurance policies to cover residual expenses?",
         "options": [
           "A",
           "B",
@@ -1331,7 +1309,29 @@
         "correctAnswerIndex": 3
       },
       {
-        "text": "Which paragraph outlines the financial tax penalties imposed on homeowners who fail to upgrade their aging gas-powered furnaces?",
+        "text": "Which paragraph analyzes the discrepancies between provincial healthcare frameworks regarding supplementary benefits and the necessity of evaluating policy deductibles?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "Which paragraph evaluates indemnity structures versus percentage-reimbursement frameworks and examines pre-existing condition clauses?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which paragraph details the exact federal legislative penalties imposed on physicians who opt out of the public billing system entirely?",
         "options": [
           "A",
           "B",
@@ -1342,7 +1342,7 @@
         "correctAnswerIndex": 4
       },
       {
-        "text": "Which paragraph explains the mandatory communal maintenance hours required to maintain gardening privileges?",
+        "text": "Which paragraph emphasizes the risks of failing to perform a detailed comparative analysis of co-insurance percentages and out-of-pocket limits?",
         "options": [
           "A",
           "B",
@@ -1350,10 +1350,10 @@
           "D",
           "E"
         ],
-        "correctAnswerIndex": 2
+        "correctAnswerIndex": 0
       },
       {
-        "text": "Which paragraph references provincial rebates available for households upgrading to certified high-efficiency HVAC systems?",
+        "text": "Which paragraph highlights the utility of academic family medicine teaching units and regional health authority directories in finding a doctor?",
         "options": [
           "A",
           "B",
@@ -1364,7 +1364,7 @@
         "correctAnswerIndex": 1
       },
       {
-        "text": "Which paragraph describes the process of draining sprinkler systems completely using compressed air to prevent structural rupture?",
+        "text": "Which paragraph addresses the importance of monitoring annual maximum thresholds to prevent the premature exhaustion of a policy's fiscal ceiling?",
         "options": [
           "A",
           "B",
@@ -1372,10 +1372,10 @@
           "D",
           "E"
         ],
-        "correctAnswerIndex": 3
+        "correctAnswerIndex": 2
       },
       {
-        "text": "Which paragraph notes municipal bylaws that increasingly stipulate stringent protocols for biodegradable packaging and commercial compostables?",
+        "text": "Which paragraph explains how international medical graduates must complete mandatory bridge training programs before establishing private family practices?",
         "options": [
           "A",
           "B",
@@ -1383,7 +1383,7 @@
           "D",
           "E"
         ],
-        "correctAnswerIndex": 0
+        "correctAnswerIndex": 4
       }
     ]
   },
@@ -1596,44 +1596,11 @@
     ]
   },
   {
-    "title": "CLB 12 Reading: Part 3 - Everyday Topic",
-    "passage": "A: Navigating the complexities of municipal composting regulations in urban Canadian centers often presents a multifaceted challenge for residents striving to adhere to zero-waste mandates. Municipalities such as Toronto and Vancouver have instituted rigorous sorting protocols, categorizing organic waste into distinct streams that encompass food scraps, yard trimmings, and certified compostable packaging. Failure to comply with these stringent sorting directives frequently results in substantial financial penalties or the complete rejection of residential waste collection, thereby necessitating a meticulous approach to household refuse management.\n\nB: Beyond mere sorting, the operational mechanics of community composting facilities rely heavily on precise temperature and aeration controls to accelerate decomposition while mitigating noxious odor emissions. Industrial windrows and in-vessel composting systems require a meticulously balanced carbon-to-nitrogen ratio, incorporating \"browns\" like autumn leaves with \"greens\" such as kitchen trimmings. Municipal waste management authorities routinely publish exhaustive guidelines outlining prohibited materials\u2014most notably bioplastics that fail to meet ASTM D6400 standards, pet waste, and treated lumber\u2014which contaminate the final nutrient-rich compost destined for public parks and agricultural applications.\n\nC: Recent legislative amendments in several provinces have further decentralized waste diversion efforts by mandating commercial establishments, including restaurants and grocery stores, to partner with local organic waste upcycling initiatives. These B2B frameworks emphasize circular economy principles, transforming what was once considered refuse into high-grade biofuels or organic soil amendments. Furthermore, grassroots initiatives, such as community-led urban gardening cooperatives, leverage municipal grant programs to establish neighborhood-scale composting hubs, fostering civic engagement and educating the populace on sustainable lifecycle analysis.\n\nD: Despite these progressive structural frameworks, significant systemic hurdles persist, notably the prevalence of \"wish-cycling\"\u2014the well-intentioned practice of depositing non-compostable items into organic bins in the hope that they will be magically processed. Public education campaigns have increasingly pivoted toward behavioral psychology to combat this phenomenon, utilizing targeted visual signage and localized workshops to recalibrate public perception. Nevertheless, discrepancies in regional processing capabilities mean that an item accepted in one municipality may be strictly forbidden in a neighboring jurisdiction, creating pervasive confusion among transient urban populations.",
+    "title": "CLB 12 Reading: Part 3 - The impact of short-term rentals (Airbnb) on local housing markets.",
+    "passage": "A: The exponential proliferation of platform-based short-term rentals (STRs) in metropolitan Canadian municipalities has catalyzed a profound paradigm shift in urban residential ecosystems. Historically conceived as a modest peer-to-peer lodging alternative, the contemporary short-term rental market is now heavily dominated by commercial operators wielding portfolios of multiple properties. This institutionalization of peer-to-peer housing has fundamentally decoupled residential real estate from its primary societal function as long-term domicile, transforming standard dwellings into lucrative, high-yield transient accommodation assets that systematically bypass traditional municipal zoning and residential tenancy protections.\n\nB: Empirical econometric analyses conducted across major urban centres such as Toronto, Vancouver, and Montreal reveal a statistically robust correlation between high-density STR saturation and the precipitous deflation of long-term rental housing stock. By removing residential units from the permanent leasing pool to capture inflated tourist revenues, platforms like Airbnb exert acute upward pressure on rental rates while simultaneously depressing vacancy rates to historic lows. Consequently, long-term residents, particularly low- and middle-income demographics, face unprecedented displacement pressures, exacerbated by landlords converting traditional long-term lease agreements into erratic, highly lucrative short-term visitor accommodations.\n\nC: In response to mounting socio-economic friction, municipal authorities have deployed an intricate mosaic of regulatory frameworks, ranging from mandatory host registry systems and principal-residency mandates to strict annual night-cap limitations and punitive administrative monetary penalties. However, regulatory enforcement remains perpetually hampered by technological opacity, recalcitrant platform operators, and sophisticated evasion tactics employed by commercial hosts, such as shadow-listing and multi-profile syndication. Consequently, municipal bylaws have achieved mixed efficacy, often failing to stem the tide of housing commodification without concurrent provincial legislative intervention and robust data-sharing agreements.\n\nD: Beyond strictly quantitative metrics of housing availability and pricing anomalies, the proliferation of commercialized short-term rentals engenders significant qualitative degradation of urban neighborhoods. Permanent residents frequently report chronic infrastructural strain, heightened transiency undermining community cohesion, excessive municipal waste generation, and acute security liabilities associated with unregulated tourist influxes. Furthermore, the localized economic windfall generated by transient tourism is frequently offset by the destabilization of neighborhood commerce, as long-term community-sustaining retail is supplanted by ephemeral tourist-centric enterprises.",
     "questions": [
       {
-        "text": "Which paragraph mentions the specific technical standards that certain bioplastics must meet to avoid being prohibited?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "text": "Which paragraph discusses how commercial establishments are required to collaborate with local organic waste upcycling initiatives?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "text": "Which paragraph describes the behavioral psychology and terminology used to explain well-intentioned improper disposal habits?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 3
-      },
-      {
-        "text": "Which paragraph highlights the financial penalties and collection rejections associated with non-compliance in specific major cities?",
+        "text": "Which paragraph discusses the transition of short-term rentals from a peer-to-peer lodging concept to a domain dominated by commercial operators with multiple properties?",
         "options": [
           "A",
           "B",
@@ -1644,7 +1611,7 @@
         "correctAnswerIndex": 0
       },
       {
-        "text": "Which paragraph outlines the precise carbon-to-nitrogen ratios and aeration controls utilized in industrial composting systems?",
+        "text": "Which paragraph details econometric findings linking high-density short-term rental saturation to decreased long-term vacancy rates and rising rental costs?",
         "options": [
           "A",
           "B",
@@ -1655,7 +1622,29 @@
         "correctAnswerIndex": 1
       },
       {
-        "text": "Which paragraph details the exact federal subsidies provided to private corporations for transitioning entirely to renewable solar-powered waste facilities?",
+        "text": "Which paragraph outlines the specific municipal regulatory instruments, such as registry systems and principal-residency mandates, deployed to control STRs?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which paragraph describes the qualitative degradation of neighborhoods, including community cohesion loss and security liabilities?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "text": "Which paragraph mentions the specific implementation of a federal property tax exemption specifically designed to subsidize long-term housing developers?",
         "options": [
           "A",
           "B",
@@ -1666,18 +1655,7 @@
         "correctAnswerIndex": 4
       },
       {
-        "text": "Which paragraph explains how regional discrepancies in processing capabilities across neighboring jurisdictions contribute to public confusion?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 3
-      },
-      {
-        "text": "Which paragraph mentions grassroots urban gardening cooperatives utilizing municipal grants to establish neighborhood composting hubs?",
+        "text": "Which paragraph highlights the challenges municipal authorities face regarding regulatory enforcement, including technological opacity and shadow-listing?",
         "options": [
           "A",
           "B",
@@ -1688,7 +1666,18 @@
         "correctAnswerIndex": 2
       },
       {
-        "text": "Which paragraph categorizes organic waste streams into specific components such as food scraps, yard trimmings, and certified packaging?",
+        "text": "Which paragraph explains how traditional long-term lease agreements are being actively converted into transient accommodations to capture inflated tourist revenues?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which paragraph notes that the proliferation of STRs has transformed standard dwellings into assets that bypass traditional residential tenancy protections?",
         "options": [
           "A",
           "B",
@@ -1697,6 +1686,17 @@
           "E"
         ],
         "correctAnswerIndex": 0
+      },
+      {
+        "text": "Which paragraph addresses the displacement of long-term residents and the specific impact on low- and middle-income demographics?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 1
       }
     ]
   },
@@ -1869,11 +1869,17 @@
     ]
   },
   {
-    "title": "CLB 12 Reading: Part 3 - Everyday Topic",
-    "passage": "A: Navigating the complexities of municipal composting regulations in urban Canadian centers often requires a nuanced understanding of organic waste classification. Residents must meticulously separate compostable materials from non-compostable contaminants, as stringent sorting protocols are enforced by municipal waste management authorities. Infractions can lead to rejected collection bins and progressive financial penalties, making comprehensive household adherence paramount to community sustainability initiatives.\n\nB: Beyond mere sorting, the physical management of organic waste containers presents unique seasonal challenges across various Canadian provinces. During the frigid winter months, moisture retention in food scraps frequently causes waste to freeze solidly to the interior walls of green bins, rendering mechanical dumping impossible during municipal collection routines. Homeowners employ various mitigation strategies, such as layering bin bottoms with corrugated cardboard or wrapping wet scraps in newspaper, to preemptively counteract this persistent freezing phenomenon.\n\nC: Furthermore, the introduction of automated sorting technologies at regional processing facilities has revolutionized how organic waste is handled on an industrial scale. Optical sorters and advanced spectroscopic sensors now rapidly identify and segregate residual plastics and metals that inadvertently slip through residential sorting processes. This technological integration not only enhances the purity of the resultant nutrient-rich compost destined for agricultural applications, but also significantly mitigates operational downtime caused by machinery contamination.\n\nD: Public engagement campaigns orchestrated by municipal councils continue to play a pivotal role in shaping citizen behavior regarding waste diversion. Through targeted digital applications, neighborhood workshops, and multilingual informational brochures, cities strive to demystify evolving composting guidelines. These educational frameworks are continually refined using data-driven metrics to address common misconceptions, thereby fostering a collective responsibility among diverse urban populations towards achieving long-term zero-waste objectives.",
+    "title": "CLB 12 Reading: Part 3 - Applying for provincial student loans and navigating university tuition.",
+    "passage": "A: Navigating the labyrinthine ecosystem of Canadian provincial student financial assistance requires meticulous adherence to institutional deadlines and statutory eligibility criteria. Applicants must first establish residency within the province administering the loan, a prerequisite that often demands uninterrupted physical presence for a minimum of twelve consecutive months immediately preceding the commencement of their designated study period. Furthermore, the Integrated Student Financial Assistance System (ISFAF) evaluates financial need by scrutinizing parental or spousal contributions, liquid assets, and declared scholarships. Failing to accurately disclose external funding sources during the initial application phase can trigger immediate disqualification, administrative penalties, and a mandatory two-year ban from accessing government-backed fiscal support.",
+    "passage_heading_b": "B",
+    "passage_body_b": "B: Beyond baseline loan acquisition, students must strategically decode complex university tuition frameworks, which frequently distinguish between domestic auxiliary fees, mandatory ancillary levies, and international differential pricing models. Many provincial jurisdictions have implemented tuition freeze legislation for domestic undergraduates; however, universities routinely circumvent these caps by incrementally escalating ancillary fees for health services, athletics, and technological infrastructure. Students are strongly advised to audit their itemized billing statements meticulously upon registration. Additionally, institutional bursaries and work-study opportunities are frequently distributed on a rolling basis, prioritizing early applicants who demonstrate exceptional academic merit coupled with an unmitigated, federally verified financial deficit.",
+    "passage_heading_c": "C",
+    "passage_body_c": "C: The repayment lifecycle of provincial student loans incorporates sophisticated income-sensitive thresholds and statutory interest-relief provisions designed to mitigate post-graduation economic precarity. Upon graduation or the cessation of full-time enrollment, borrowers enter a mandatory six-month non-repayment grace period, during which provincial portions of the loan accumulate interest pursuant to prevailing prime lending rates. Once the repayment obligation crystallizes, borrowers may apply for the Repayment Assistance Plan (RAP), which recalibrates monthly installments to reflect contemporaneous gross household income. Under advanced RAP provisions, if adjusted earnings fall beneath a federally mandated threshold, the government subsidizes the entirety of the monthly interest accumulation, safeguarding the borrower from negative amortization.",
+    "passage_heading_d": "D",
+    "passage_body_d": "D: Cross-jurisdictional portability remains a frequent point of contention for students pursuing education outside their home province or at designated international institutions. While inter-provincial reciprocity agreements facilitate the seamless transfer of loan funding for approved programs, verifying institutional accreditation can be exceptionally onerous. Students enrolled in niche diploma mill programs or non-recognized foreign universities invariably find themselves ineligible for provincial disbursements, necessitating reliance on high-interest commercial lines of credit. Consequently, verifying the Designated Learning Institution (DLI) status prior to committing non-refundable tuition deposits is an indispensable risk-mitigation strategy for prospective post-secondary attendees.",
     "questions": [
       {
-        "text": "Which paragraph discusses specific techniques used by residents to prevent waste from adhering to bins during cold weather?",
+        "text": "Which paragraph discusses the mandatory grace period that commences immediately after a student completes their studies or stops attending school full-time?",
         "options": [
           "A",
           "B",
@@ -1881,21 +1887,10 @@
           "D",
           "E"
         ],
-        "correctAnswerIndex": 1
+        "correctAnswerIndex": 2
       },
       {
-        "text": "Which paragraph details the financial incentives provided by municipal governments to households that achieve zero waste?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 4
-      },
-      {
-        "text": "Which paragraph explains the consequences for failing to adhere to local organic waste sorting regulations?",
+        "text": "Which paragraph outlines the specific penalties and administrative bans imposed for failing to disclose external funding sources?",
         "options": [
           "A",
           "B",
@@ -1906,7 +1901,7 @@
         "correctAnswerIndex": 0
       },
       {
-        "text": "Which paragraph outlines the role of technological advancements like optical sorters in processing facilities?",
+        "text": "Which paragraph mentions how universities frequently bypass tuition freeze legislation by increasing fees for athletics and health services?",
         "options": [
           "A",
           "B",
@@ -1914,21 +1909,10 @@
           "D",
           "E"
         ],
-        "correctAnswerIndex": 2
+        "correctAnswerIndex": 1
       },
       {
-        "text": "Which paragraph mentions the use of multilingual brochures and digital applications to educate the public?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 3
-      },
-      {
-        "text": "Which paragraph describes the chemical composition of fertilizers produced from industrial composting?",
+        "text": "Which paragraph details the exact percentage by which provincial student loan interest rates will decrease automatically after five years of continuous repayment?",
         "options": [
           "A",
           "B",
@@ -1939,7 +1923,7 @@
         "correctAnswerIndex": 4
       },
       {
-        "text": "Which paragraph highlights how data-driven metrics are utilized to improve educational frameworks for waste diversion?",
+        "text": "Which paragraph explains the necessity of verifying a school's Designated Learning Institution (DLI) status to avoid relying on commercial lines of credit?",
         "options": [
           "A",
           "B",
@@ -1950,7 +1934,18 @@
         "correctAnswerIndex": 3
       },
       {
-        "text": "Which paragraph notes how machinery contamination is reduced through the implementation of advanced sensors?",
+        "text": "Which paragraph specifies the duration of uninterrupted physical presence typically required to establish provincial residency for loan eligibility?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "Which paragraph describes how the Repayment Assistance Plan (RAP) can subsidize total monthly interest accumulation when earnings fall below a threshold?",
         "options": [
           "A",
           "B",
@@ -1961,7 +1956,7 @@
         "correctAnswerIndex": 2
       },
       {
-        "text": "Which paragraph addresses the difficulties posed by moisture retention in organic waste during specific seasons?",
+        "text": "Which paragraph notes that institutional bursaries and work-study programs often prioritize early applicants with verified financial deficits?",
         "options": [
           "A",
           "B",
@@ -1970,6 +1965,17 @@
           "E"
         ],
         "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which paragraph addresses the challenges and inter-provincial reciprocity agreements associated with studying at international or out-of-province institutions?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 3
       }
     ]
   },
@@ -2142,44 +2148,11 @@
     ]
   },
   {
-    "title": "CLB 12 Reading: Part 3 - Everyday Topic",
-    "passage": "A: Navigating the complexities of municipal composting regulations in urban Canadian centers can often prove arduous for newly established residents. Municipalities such as the City of Toronto enforce stringent bylaws regarding organic waste diversion, requiring households to utilize specific biodegradable bags and adhere to rigid collection schedules. Non-compliance frequently results in escalating administrative monetary penalties, underscoring the necessity for civic diligence.\n\nB: Beyond standard kitchen scraps, modern Canadian municipal waste management frameworks increasingly mandate the separation of hazardous household materials, including electronics, batteries, and pharmaceutical remnants. Specialized eco-stations and designated community recycling depots facilitate the proper neutralization of these pollutants, ensuring they circumvent municipal landfills and thereby mitigate long-term subterranean leaching into local aquifers.\n\nC: The transition toward a zero-waste economy has catalyzed grassroots community initiatives across various provinces, supplementing official municipal efforts with localized repair cafes and tool-sharing libraries. These collaborative platforms empower citizens to extend the lifecycle of consumer goods, fundamentally counteracting the prevalent throwaway culture. Consequently, participation in these voluntary collectives has surged exponentially among environmentally conscious urbanites.\n\nD: While technological innovations in automated sorting facilities continue to optimize recycling efficiency, public skepticism regarding the ultimate destination of recovered materials persists. Critics argue that a significant proportion of domestically collected plastics ultimately faces exportation to developing nations with laxer environmental oversight, casting doubt on the genuine efficacy of domestic curbside recycling programs.",
+    "title": "CLB 12 Reading: Part 3 - Participating in a local neighborhood watch and community safety initiatives.",
+    "passage": "A: The resurgence of community-led safety programs across Canadian municipalities has fundamentally transformed the paradigm of local law enforcement and civil participation. Historically perceived as informal surveillance groups, contemporary Neighborhood Watch initiatives have evolved into sophisticated community resilience frameworks. These modern coalitions leverage data-driven crime mapping, encrypted neighborhood communication channels, and structured liaison protocols with local police services. By fostering an environment of proactive vigilance rather than reactive panic, participating communities have reported measurable decreases in opportunistic property crimes and enhanced social cohesion among diverse demographic cohorts.\n\nB: Establishing and sustaining an effective community safety initiative requires adherence to rigorous organizational protocols and municipal bylaws. Volunteers must undergo comprehensive orientation seminars that emphasize de-escalation tactics, ethical observation boundaries, and strict compliance with provincial privacy legislation, ensuring that surveillance activities do not infringe upon individual civil liberties. Furthermore, the operational architecture of these groups typically relies on a tiered leadership model: block captains coordinate hyper-local awareness, while a central steering committee liaises directly with municipal stakeholders, urban planners, and emergency response agencies to address systemic infrastructural vulnerabilities such as inadequate street lighting or obscured pathways.\n\nC: Despite the undeniable empirical successes of structured neighborhood watch programs, critical sociologists and civil rights advocates continuously scrutinize the socio-political implications of privatized vigilance. Critics argue that hyper-vigilant communities inadvertently institutionalize implicit bias, leading to the racial profiling of non-resident pedestrians and an exacerbation of exclusionary socio-spatial practices. To counteract these systemic pitfalls, progressive community initiatives have integrated mandatory anti-bias training modules and restorative justice principles into their core charters. These measures strive to balance the imperative of local security with the equally vital preservation of an inclusive, welcoming public sphere where marginalized individuals are not subjected to unwarranted suspicion.\n\nD: Funding mechanisms and resource allocation for community safety initiatives remain a contentious subject within municipal fiscal governance. While federal and provincial grant programs occasionally disburse seed capital for technological infrastructure\u2014such as automated license plate readers or communal closed-circuit television networks\u2014ongoing operational expenditures are predominantly sustained through grassroots fundraising and voluntary resident contributions. This financial precarity often results in stark disparities between affluent neighborhoods, which can easily procure advanced security hardware, and economically disadvantaged areas that must rely entirely on uncompensated human labor and obsolete communication tools to safeguard their environs.",
     "questions": [
       {
-        "text": "Which paragraph mentions potential financial consequences for failing to follow local organic waste disposal bylaws?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "text": "Which paragraph discusses how proper disposal of hazardous household items helps prevent groundwater contamination?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "text": "Which paragraph highlights community-led initiatives like tool-sharing libraries designed to reduce consumer waste?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "text": "Which paragraph addresses public skepticism concerning the overseas exportation of domestic plastic waste?",
+        "text": "Which paragraph mentions the specific types of technological infrastructure that can be funded through federal and provincial grant programs?",
         "options": [
           "A",
           "B",
@@ -2190,40 +2163,7 @@
         "correctAnswerIndex": 3
       },
       {
-        "text": "Which paragraph outlines federal tax incentives provided to homeowners who install residential solar-powered composting units?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 4
-      },
-      {
-        "text": "Which paragraph specifies the requirement for residents to utilize designated biodegradable bags for organic waste?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "text": "Which paragraph references the role of specialized eco-stations in handling electronic and pharmaceutical remnants?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "text": "Which paragraph notes the exponential surge in participation rates for voluntary repair collectives among urbanites?",
+        "text": "Which paragraph discusses the integration of anti-bias training and restorative justice principles to combat exclusionary practices?",
         "options": [
           "A",
           "B",
@@ -2234,7 +2174,51 @@
         "correctAnswerIndex": 2
       },
       {
-        "text": "Which paragraph describes the mandatory involvement of provincial governments in subsidizing private garbage collection companies?",
+        "text": "Which paragraph outlines the tiered leadership model involving block captains and a central steering committee?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which paragraph notes the evolution of Neighborhood Watch initiatives into sophisticated frameworks utilizing encrypted communication channels and crime mapping?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "Which paragraph addresses the financial disparities between affluent and disadvantaged neighborhoods regarding the procurement of security hardware?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "text": "Which paragraph details the requirement for volunteers to understand provincial privacy legislation and de-escalation tactics?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which paragraph references the role of federal military intervention in managing local neighborhood safety disputes?",
         "options": [
           "A",
           "B",
@@ -2243,6 +2227,28 @@
           "E"
         ],
         "correctAnswerIndex": 4
+      },
+      {
+        "text": "Which paragraph highlights the sociological criticism that hyper-vigilant groups may inadvertently promote racial profiling?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which paragraph cites the measurable decrease in opportunistic property crimes resulting from proactive vigilance?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 0
       }
     ]
   },
@@ -2415,11 +2421,11 @@
     ]
   },
   {
-    "title": "CLB 12 Reading: Part 3 - Everyday Topic",
-    "passage": "A: Navigating the complexities of municipal composting regulations in urban Canadian centers can often prove arduous for new homeowners. Cities such as Toronto and Vancouver have instituted rigorous sorting mandates, distinguishing meticulously between organic food waste, compostable paper products, and standard recyclables. Infractions regarding contamination levels in green bins can result in escalating financial penalties, emphasizing the necessity of meticulous household adherence to local waste-management bylaws.\n\nB: Beyond mere compliance, the operational mechanisms of municipal organic waste processing facilities have undergone significant technological advancements. Modern anaerobic digestion plants not only convert household refuse into nutrient-rich soil conditioners but simultaneously capture methane emissions to generate renewable electricity. This closed-loop urban ecosystem dramatically reduces greenhouse gas emissions, directly contributing to Canada's overarching municipal climate action targets and landfill diversion milestones.\n\nC: Nevertheless, seasonal climatic variations across Canada introduce distinct operational hurdles for residential composting practices. During harsh winter months, sub-zero temperatures frequently cause organic matter to freeze solidly inside outdoor collection bins, rendering mechanical tipping by municipal collection trucks ineffective and leaving bins partially full. To mitigate this phenomenon, environmental authorities recommend layering organic refuse with dry carbon-rich materials like shredded cardboard or utilizing certified biodegradable liner bags to prevent structural adhesion.\n\nD: Community-led educational initiatives and grassroots neighborhood workshops have increasingly become vital adjuncts to municipal awareness campaigns. By fostering localized peer-to-peer mentorship, these grassroots programs effectively bridge linguistic and cultural divides among Canada's diverse immigrant populations, ensuring that critical environmental protocols are universally understood and practiced. Collaborative block-level composting initiatives have consequently demonstrated a marked increase in diversion rates compared to neighborhoods relying solely on passive municipal literature.",
+    "title": "CLB 12 Reading: Part 3 - Changes to municipal property taxes and understanding the assessment.",
+    "passage": "A: The Municipal Board of Assessment has officially promulgated the comprehensive restructuring of the municipal property tax framework, slated to take effect in the upcoming fiscal cycle. This legislative overhaul aims to rectify long-standing valuation disparities across residential and commercial sectors by recalibrating the mill rates in accordance with contemporary macroeconomic indicators. Homeowners will experience a differentiated taxation structure, wherein properties exceeding the median assessed benchmark are subjected to a progressive surcharge, ostensibly designed to temper speculative real estate acquisition. Furthermore, municipal authorities have instituted a stringent compliance protocol, mandating that all assessment discrepancies be formally adjudicated through the newly established Municipal Taxation Review Tribunal rather than the traditional judicial courts, thereby expediting dispute resolution and curtailing municipal litigation expenditures.\n\nB: Comprehending the nuanced mechanics of your annual property assessment notice necessitates a granular examination of the valuation methodologies employed by certified assessors. The assessment value does not inherently reflect the instantaneous fair market value, but rather a retrospective amalgamation of comparable sales data, infrastructural adjacency indices, and capitalized cost coefficients compiled over a mandatory triennial valuation cycle. Property owners frequently conflate assessment growth with taxation surges; however, municipal statutes dictate a statutory mitigation factor that dampens sudden valuation spikes. Consequently, even if a property's evaluated worth escalates exponentially due to gentrification, the corresponding tax liability is legally restricted from exceeding the provincial consumer price index ceiling, barring substantial structural modifications or unpermitted capital improvements that artificially inflate the property's utility.\n\nC: To ameliorate the socioeconomic ramifications of the revised property tax matrix on vulnerable demographics, the municipality has concurrently expanded the purview of the Low-Income Senior and Disabled Tax Deferral Program. Eligible constituents can now apply to defer up to one hundred percent of their annual municipal tax burden, accruing at a nominal statutory interest rate tied to the Bank of Canada benchmark rate, until the eventual alienation or transfer of the real property title. Additionally, commercial enterprises demonstrating adherence to sustainable building certifications are eligible for a tiered tax abatement schedule. This incentive aims to galvanize corporate alignment with municipal carbon-neutrality mandates by providing substantial fiscal relief to entities retrofitting their infrastructural assets with geothermal heating and advanced photovoltaic generation arrays.\n\nD: Property owners wishing to challenge their localized assessment notices must navigate a rigorously defined procedural labyrinth, commencing with an informal administrative review conducted by the municipal assessor's office. Should this preliminary discourse fail to yield a conciliatory adjustment, the aggrieved party must file a formal Notice of Complaint within a strict forty-five-day statutory window from the date of issuance, accompanied by a non-refundable administrative filing fee and empirical evidence substantiating valuation incongruity. It is imperative to note that the onus probandi, or burden of proof, rests unequivocally upon the appellant to demonstrate that the municipal valuation deviates from the statutory standard by a margin exceeding ten percent. Failure to meet this evidentiary threshold results in an immediate summary dismissal of the appeal, with no further recourse for administrative remediation within the current fiscal year.",
     "questions": [
       {
-        "text": "Which paragraph discusses how extremely cold weather adversely affects the mechanical collection of residential organic waste?",
+        "text": "Which paragraph mentions the specific statutory time frame required for filing a formal Notice of Complaint after receiving an assessment notice?",
         "options": [
           "A",
           "B",
@@ -2427,10 +2433,21 @@
           "D",
           "E"
         ],
-        "correctAnswerIndex": 2
+        "correctAnswerIndex": 3
       },
       {
-        "text": "Which paragraph outlines the financial repercussions associated with improper sorting of organic refuse?",
+        "text": "Which paragraph discusses the legal restriction that prevents tax liability from exceeding the consumer price index ceiling despite rapid valuation increases?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which paragraph outlines the progressive surcharge applied to residential properties exceeding the median assessed benchmark?",
         "options": [
           "A",
           "B",
@@ -2441,40 +2458,7 @@
         "correctAnswerIndex": 0
       },
       {
-        "text": "Which paragraph explains how modern facilities utilize organic waste to produce renewable energy?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "text": "Which paragraph describes the role of community-led workshops in addressing linguistic barriers among diverse immigrant groups?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 3
-      },
-      {
-        "text": "Which paragraph provides specific chemical formulas used by municipal plants to neutralize toxic landfill leachate?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 4
-      },
-      {
-        "text": "Which paragraph mentions the use of carbon-rich materials or biodegradable liners to prevent frozen waste from adhering to bins?",
+        "text": "Which paragraph details the tiered tax abatement schedule designed to reward commercial enterprises implementing geothermal heating and photovoltaic arrays?",
         "options": [
           "A",
           "B",
@@ -2485,7 +2469,18 @@
         "correctAnswerIndex": 2
       },
       {
-        "text": "Which paragraph highlights the contribution of anaerobic digestion plants to municipal climate action targets?",
+        "text": "Which paragraph specifies the exact monetary penalties imposed on appellants who fail to meet the ten percent valuation deviation threshold?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 4
+      },
+      {
+        "text": "Which paragraph explains that property assessment values are derived from a retrospective amalgamation of comparable sales data compiled over a triennial cycle?",
         "options": [
           "A",
           "B",
@@ -2496,7 +2491,7 @@
         "correctAnswerIndex": 1
       },
       {
-        "text": "Which paragraph notes that collaborative block-level initiatives show higher diversion rates than neighborhoods relying only on passive literature?",
+        "text": "Which paragraph notes that assessment disputes must now be adjudicated through the Municipal Taxation Review Tribunal instead of traditional courts?",
         "options": [
           "A",
           "B",
@@ -2504,10 +2499,21 @@
           "D",
           "E"
         ],
-        "correctAnswerIndex": 3
+        "correctAnswerIndex": 0
       },
       {
-        "text": "Which paragraph details the exact provincial tax incentives provided to manufacturers of residential composting bins?",
+        "text": "Which paragraph indicates the conditions under which eligible constituents can defer up to the entirety of their annual municipal tax burden?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which paragraph specifies the exact percentage increase in municipal property taxes expected for industrial manufacturing zones?",
         "options": [
           "A",
           "B",
@@ -2688,33 +2694,11 @@
     ]
   },
   {
-    "title": "CLB 12 Reading: Part 3 - Everyday Topic",
-    "passage": "A: Navigating the complexities of municipal composting regulations in urban Canadian centers often requires meticulous attention to detail, particularly regarding organic waste diversion protocols. Residents in metropolitan areas must familiarize themselves with the nuanced categorization of compostable materials, which frequently extends beyond standard food scraps to encompass specialized bioplastics and certified compostable packaging. Municipalities enforce rigorous sorting mandates to mitigate contamination rates in centralized processing facilities, where automated optical sorters and manual inspection lines triage incoming organic streams. Failure to adhere to these stringent municipal bylaws can culminate in escalating financial penalties, ranging from formal warnings for initial infractions to substantial monetary fines for persistent non-compliance.\n\nB: The integration of anaerobic digestion technology within municipal waste management infrastructure has revolutionized how Canadian cities process high-volume organic waste. Unlike traditional windrow composting, which relies on aerobic microbial decomposition in open-air environments, anaerobic digestion operates within sealed, oxygen-deprived bioreactors. This biological process not only accelerates the breakdown of complex organic matter but concurrently captures biogas\u2014predominantly methane and carbon dioxide\u2014which is subsequently scrubbed and repurposed to generate renewable electricity or injected directly into the natural gas grid. Furthermore, the residual by-product, known as digestate, undergoes further stabilization and is frequently transformed into nutrient-rich agricultural fertilizer, fostering a closed-loop municipal nutrient economy.\n\nC: Public engagement initiatives designed to champion zero-waste lifestyles necessitate multifaceted educational campaigns spearheaded by local environmental agencies. These outreach programs frequently deploy community champions, digital carbon-tracking applications, and interactive workshops to demystify waste reduction methodologies. By emphasizing behavioral economics and social norming, these initiatives successfully catalyze shifts in consumer purchasing habits, steering citizens toward package-free retailers, bulk-buying cooperatives, and comprehensive textile recycling networks. Empirical studies underscore that sustained community-level interventions yield statistically significant reductions in per capita landfill contributions, outperforming passive informational mailers by a margin of nearly threefold.\n\nD: Despite the progressive expansion of municipal green bin programs, persistent logistical bottlenecks continue to challenge waste haulage operators during extreme seasonal fluctuations. Sub-zero winter temperatures frequently cause wet organic waste to freeze solidly against the interior walls of residential collection bins, precipitating incomplete container dumping during automated hydraulic truck lifts. While municipal councils recommend preventative measures such as layering bin bottoms with shredded cardboard or wrapping organic waste in certified compostable bags, fleet operators nonetheless experience significant collection delays and heightened mechanical wear on compaction mechanisms during prolonged cold snaps.",
+    "title": "CLB 12 Reading: Part 3 - Registering a child for public school and understanding the curriculum.",
+    "passage": "A: Navigating the Canadian public education system requires adherence to standardized provincial enrollment protocols. Parents or legal guardians wishing to register a child must establish residency within the designated school catchment area by providing primary documentation such as a municipal property tax assessment, a registered lease agreement, or recent utility bills. Additionally, official proof of the child's age and legal status in Canada\u2014typically satisfied by a birth certificate, passport, or permanent residency confirmation\u2014is mandatory. While registration remains open throughout the academic year, families moving prior to the September term are strongly encouraged to complete submissions by early spring to facilitate optimal classroom allocation and specialized resource distribution within the district.\n\nB: The foundational curriculum across provincial jurisdictions is meticulously designed to foster comprehensive intellectual, social, and emotional growth. Instruction is anchored in core disciplines including mathematics, language arts, science, and social studies, while progressively integrating contemporary competencies such as digital literacy, critical thinking, and civic stewardship. Educators employ a balanced assessment model, which juxtaposes formative evaluations\u2014continuous feedback mechanisms tracking daily progress\u2014with summative assessments like standardized provincial examinations and cumulative project portfolios. This dual approach ensures that pedagogical strategies can be dynamically tailored to address both individual remediation requirements and advanced enrichment opportunities.\n\nC: Accommodation for diverse learner profiles is a cornerstone of the public education mandate, operationalized through specialized programming designed to support exceptionalities. English as an Additional Language (EAL) frameworks provide targeted linguistic scaffolding to immigrant students, ensuring equitable access to academic content while honoring cultural heritage. Concurrently, Individual Education Plans (IEPs) are collaboratively formulated by multidisciplinary teams\u2014comprising educators, administrators, psychologists, and parents\u2014to outline customized accommodations, modifications, and assistive technologies for students with diagnosed learning disabilities or gifted attributes, thereby mitigating systemic barriers to academic achievement.\n\nD: Beyond standard curricular parameters, public schools offer an extensive array of extracurricular and co-curricular pursuits aimed at holistic youth development. Participation in competitive athletics, fine arts ensembles, debate societies, and STEM clubs is actively encouraged to cultivate leadership, collaboration, and resilience. Furthermore, comprehensive guidance counseling services are embedded within secondary institutions to assist students with post-secondary pathway planning, scholarship acquisitions, and mental health advocacy, ensuring a seamless transition from compulsory education to higher academia or the modern workforce.",
     "questions": [
       {
-        "text": "Which paragraph discusses the mechanical complications and operational bottlenecks caused by sub-zero winter temperatures during waste collection?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 3
-      },
-      {
-        "text": "Which paragraph explains how sealed bioreactors process organic matter while capturing methane for renewable energy production?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "text": "Which paragraph outlines municipal sorting mandates, categories of compostable materials, and financial penalties for non-compliance?",
+        "text": "Which paragraph discusses the mandatory documentation required to prove residency and age during the registration process?",
         "options": [
           "A",
           "B",
@@ -2725,7 +2709,18 @@
         "correctAnswerIndex": 0
       },
       {
-        "text": "Which paragraph details educational campaigns, community champions, and digital carbon-tracking applications aimed at promoting zero-waste lifestyles?",
+        "text": "Which paragraph explains the dual assessment model utilizing both formative feedback and summative evaluations?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which paragraph details the collaborative creation of Individual Education Plans (IEPs) for students with exceptionalities?",
         "options": [
           "A",
           "B",
@@ -2736,7 +2731,18 @@
         "correctAnswerIndex": 2
       },
       {
-        "text": "Which paragraph highlights the specific role of provincial tax incentives in subsidizing the construction of anaerobic digestion facilities?",
+        "text": "Which paragraph outlines the role of extracurricular activities and guidance counseling in fostering holistic development and post-secondary planning?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "text": "Which paragraph outlines the specific criteria for qualifying for district-funded transportation subsidies and bus route assignments?",
         "options": [
           "A",
           "B",
@@ -2747,18 +2753,7 @@
         "correctAnswerIndex": 4
       },
       {
-        "text": "Which paragraph references the transformation of residual digestate into a nutrient-rich agricultural fertilizer to support a closed-loop economy?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "text": "Which paragraph mentions automated optical sorters and manual inspection lines used in centralized processing facilities?",
+        "text": "Which paragraph mentions the recommendation to submit registration documents by early spring for families moving before the September term?",
         "options": [
           "A",
           "B",
@@ -2769,7 +2764,18 @@
         "correctAnswerIndex": 0
       },
       {
-        "text": "Which paragraph compares the effectiveness of community-level interventions against passive informational mailers using empirical data?",
+        "text": "Which paragraph highlights the integration of contemporary competencies like digital literacy alongside core academic subjects?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which paragraph describes English as an Additional Language (EAL) frameworks providing linguistic scaffolding for immigrant students?",
         "options": [
           "A",
           "B",
@@ -2780,7 +2786,7 @@
         "correctAnswerIndex": 2
       },
       {
-        "text": "Which paragraph suggests lining bin bottoms with shredded cardboard or using compostable bags to prevent frozen waste accumulation?",
+        "text": "Which paragraph specifies the exact annual budget allocated by the provincial government for specialized technological infrastructure in classrooms?",
         "options": [
           "A",
           "B",
@@ -2788,7 +2794,7 @@
           "D",
           "E"
         ],
-        "correctAnswerIndex": 3
+        "correctAnswerIndex": 4
       }
     ]
   },
@@ -2961,22 +2967,11 @@
     ]
   },
   {
-    "title": "CLB 12 Reading: Part 3 - Everyday Topic",
-    "passage": "A: Navigating the complexities of municipal composting regulations in urban Canadian centers often presents a nuanced challenge for environmentally conscious residents. While organic waste diversion programs have expanded exponentially over the past decade, discrepancies persist regarding the permissible inclusion of biopolymers, waxed cardboards, and specific animal byproducts across different metropolitan jurisdictions. Homeowners frequently encounter ambiguities in sorting mandates, primarily because regional processing facilities utilize disparate mechanical sorting technologies that either optimize or hinder the degradation of complex organic compounds.\n\nB: Furthermore, the proliferation of community-led composting initiatives has introduced a parallel framework of waste management that operates alongside municipal collection. These grassroots collectives frequently employ vermicomposting and decentralized aerobic digestion techniques, which can metabolize food scraps unaccepted by industrial facilities, such as citrus peels and Allium trimmings. However, the regulatory oversight governing these localized operations remains disparate, leading to friction with municipal health authorities who cite vector attraction and odor abatement concerns as primary operational bottlenecks.\n\nC: To address the educational deficits surrounding waste diversion, several provincial environmental ministries have launched algorithmic sorting applications utilizing optical recognition and machine learning. These digital tools allow residents to scan barcodes or photograph household items to receive instantaneous, jurisdiction-specific disposal instructions. Preliminary data indicates a marked reduction in contamination rates within blue and green bin streams where these applications have achieved high adoption rates, though accessibility barriers continue to affect marginalized demographics lacking consistent smartphone access.\n\nD: Economic incentives are increasingly recognized as a potent catalyst for behavioral modification in household waste reduction. Municipalities experimenting variable-rate pricing models\u2014colloquially termed 'pay-as-you-throw' systems\u2014have documented unprecedented surges in organic waste capture efficiency. By levying direct financial tariffs on residual waste generation while subsidizing compostable receptacle distribution, these fiscal strategies effectively internalize the environmental externalities of consumption, compelling citizens to rigorously scrutinize their procurement and disposal habits.",
+    "title": "CLB 12 Reading: Part 3 - The introduction of new bicycle lanes and traffic calming measures.",
+    "passage": "A: The Municipal Infrastructure Directorate has officially unveiled the comprehensive blueprint for the Metropolitan Mobility Harmonization Initiative, a sweeping urban overhaul designed to recalibrate vehicular dominance and prioritize active transportation corridors. At the core of this ambitious undertaking is the deployment of over one hundred kilometers of protected bidirectional cycling tracks, meticulously segregated from vehicular traffic through infrastructural interventions such as raised concrete buffers, robust bollards, and specialized grade separations. This structural decoupling aims to systematically mitigate the pervasive issue of commuter vulnerability while concurrently catalysing a paradigm shift away from private automobile dependency toward sustainable, low-emission micro-mobility ecosystems across the greater metropolitan catchment.\n\nB: Complementing the aforementioned cycling infrastructure, the initiative introduces an aggressive suite of localized traffic calming measures engineered to decelerate vehicular velocity and reclaim public right-of-ways for pedestrian engagement. Neighborhood rat-runs, historically plagued by aggressive cut-through driving and excessive speeding, will be subjected to a constellation of engineered interventions including synchronized modal filters, chicanes, raised intersection plateaus, and bulb-outs. Furthermore, intelligent signal timing algorithms integrated with the municipal Internet of Things network will dynamically prioritize non-motorized transit phases, thereby minimizing wait times at heavily congested urban junctions and engendering a more harmonious equilibrium among all street users.\n\nC: Empirical projections derived from longitudinal traffic modeling and comprehensive socio-economic cost-benefit analyses indicate profound systemic dividends resulting from the harmonization initiative. Preliminary econometric assessments forecast a twenty-five percent reduction in particulate matter emissions within the first operational quinquennium, alongside a significant amelioration of chronic healthcare expenditures linked to sedentary lifestyles and traffic-related morbidity. Conversely, commercial stakeholders have expressed rigorous apprehension regarding potential reductions in curbside delivery zones and client vehicular accessibility, prompting municipal authorities to institute a dedicated business mitigation fund and orchestrate phased nocturnal logistics windows to safeguard commercial viability during construction.\n\nD: Implementation of the initiative will proceed via a highly synchronized, four-phase chronological rollout spanning twenty-four months, commencing with the downtown core before radiating outward into contiguous residential neighborhoods. Public oversight will be continuously maintained through an open-data dashboard tracking real-time modal split shifts, air quality metrics, and incident frequencies, allowing for agile geometric adjustments and adaptive policy calibration. Post-implementation audits conducted by independent academic consortia will rigorously evaluate the efficacy of the infrastructural interventions, ultimately serving as a replicable benchmark for burgeoning smart-city transformations throughout the broader national municipal landscape.",
     "questions": [
       {
-        "text": "Which paragraph discusses how digital technologies are being deployed by provincial bodies to mitigate informational gaps in waste sorting?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "text": "Which paragraph highlights discrepancies in municipal regulations regarding the disposal of specific organic materials due to varying processing technologies?",
+        "text": "Which paragraph mentions the specific types of physical barriers used to separate cycling tracks from vehicular traffic?",
         "options": [
           "A",
           "B",
@@ -2987,7 +2982,40 @@
         "correctAnswerIndex": 0
       },
       {
-        "text": "Which paragraph examines fiscal strategies that leverage variable-rate pricing to penalize residual waste and incentivize organic capture?",
+        "text": "Which paragraph details the specific smart-city technology utilized to dynamically prioritize non-motorized transit phases?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which paragraph discusses the projected timeline for phasing out all legacy public transit diesel buses in favor of electric fleets?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 4
+      },
+      {
+        "text": "Which paragraph outlines the economic forecasts and commercial stakeholder apprehensions regarding curbside access?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which paragraph describes the duration and phased geographical rollout of the infrastructure project?",
         "options": [
           "A",
           "B",
@@ -2998,7 +3026,7 @@
         "correctAnswerIndex": 3
       },
       {
-        "text": "Which paragraph mentions localized composting collectives utilizing methods capable of breaking down materials rejected by industrial facilities?",
+        "text": "Which paragraph references the specific geometric interventions, such as chicanes and bulb-outs, designed to decelerate vehicular speed?",
         "options": [
           "A",
           "B",
@@ -3009,29 +3037,7 @@
         "correctAnswerIndex": 1
       },
       {
-        "text": "Which paragraph details the exact chemical composition of biopolymers used in manufacturing compostable packaging?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 4
-      },
-      {
-        "text": "Which paragraph notes that public health authorities often raise concerns regarding odor and pests when evaluating decentralized composting operations?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "text": "Which paragraph points out that demographic inequities concerning smartphone availability can limit the effectiveness of app-based sorting tools?",
+        "text": "Which paragraph notes the establishment of a dedicated business mitigation fund to address commercial viability concerns?",
         "options": [
           "A",
           "B",
@@ -3042,7 +3048,18 @@
         "correctAnswerIndex": 2
       },
       {
-        "text": "Which paragraph references historical data from the 1990s detailing the inception of the first municipal green bin programs in Canada?",
+        "text": "Which paragraph outlines the involvement of independent academic consortia in conducting post-implementation audits?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "text": "Which paragraph specifies the exact financial subsidies provided to citizens for purchasing electric bicycles?",
         "options": [
           "A",
           "B",
@@ -3051,17 +3068,6 @@
           "E"
         ],
         "correctAnswerIndex": 4
-      },
-      {
-        "text": "Which paragraph addresses the confusion homeowners face due to regional differences in how processing facilities handle complex organic compounds?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 0
       }
     ]
   },
@@ -3274,22 +3280,11 @@
     ]
   },
   {
-    "title": "CLB 12 Reading: Part 3 - Everyday Topic",
-    "passage": "A: Navigating the complexities of municipal waste management in urban Canadian centers often requires residents to familiarize themselves with intricate sorting protocols. The implementation of automated green bin programs for organic waste has significantly reduced landfill contributions, yet non-compliance penalties remain a contentious issue among homeowners associations. Municipalities emphasize that contamination by non-compostable plastics not only disrupts the anaerobic digestion process but also jeopardizes the export market for high-grade compost produced by city facilities.\n\nB: In parallel with organic waste initiatives, metropolitan recycling infrastructures have undergone stringent overhauls to adapt to global commodity market fluctuations. The elimination of single-use plastics and expanded polystyrene from curbside collection mandates that citizens meticulously cleanse and segregate materials. Furthermore, specialized depots have been established to handle household hazardous waste, electronics, and textiles, ensuring that environmentally noxious substances are diverted away from standard municipal incineration streams and processed through certified circular economy channels.\n\nC: Despite extensive public awareness campaigns, persistent ambiguities regarding recyclable thermoplastics and multi-layered packaging continue to confound even the most conscientious citizens. Municipal bylaws dictate that items failing the rigorous \"poke test\" or exhibiting complex chemical laminates must be relegated to general refuse. Consequently, civic environmental boards are currently lobbying provincial legislators to enforce extended producer responsibility (EPR) frameworks, shifting the financial and operational burden of waste mitigation upstream to manufacturers.\n\nD: The integration of smart-city technology into waste collection services has introduced real-time monitoring sensors embedded within neighborhood receptacles. These IoT devices optimize truck routing schedules based on volumetric fill-levels rather than static calendar days, drastically cutting municipal carbon emissions and traffic congestion. However, privacy advocates have raised concerns regarding data aggregation, questioning whether automated monitoring of household discards could inadvertently infringe upon residential privacy rights through granular behavioural profiling.",
+    "title": "CLB 12 Reading: Part 3 - Workplace rights regarding remote work policies and return-to-office mandates.",
+    "passage": "A: The landscape of Canadian labor jurisprudence has been fundamentally reshaped by the proliferation of remote work arrangements established during the pandemic era. As federally and provincially regulated employers increasingly issue sweeping return-to-office (RTO) mandates, employees are scrutinizing the legal enforceability of these directives against established employment contracts and implied terms. While management rights typically afford employers broad discretion in structuring their operations and determining physical reporting locations, this prerogative is no longer absolute. Labor boards and arbitrators are signaling that where telework has been institutionalized over a protracted period, it may constitute a substantive modification of the employment relationship, thereby restricting unilateral employer revocations without reasonable notice or appropriate compensation in lieu thereof.\n\nB: Central to the discourse surrounding mandatory physical relocation is the statutory duty to accommodate under Canadian human rights legislation. Employees seeking exemptions from RTO mandates frequently invoke protected grounds, such as family status\u2014specifically concerning caregiving obligations\u2014and physical or psychological disabilities. Employers are mandated to engage in a rigorous, individualized procedural assessment when evaluating accommodation requests, rather than applying blanket policies uniformly. Failure to accommodate up to the point of undue hardship exposes organizations to significant liability before human rights tribunals. Furthermore, recent jurisprudence underscores that generalized inconveniences or commuting preferences do not meet the legal threshold for accommodation, necessitating robust medical or circumstantial evidentiary burdens upon the employee.\n\nC: Beyond human rights considerations, the intersection of health and safety regulations and collective bargaining agreements introduces complex compliance dimensions for employers. In unionized environments, arbitrators have consistently held that remote work policies cannot be arbitrarily dismantled if they have acquired the status of a past practice or if the collective agreement contains specific provisions governing working conditions. Concurrently, under occupational health and safety statutes, employers retain a positive obligation to ensure a safe work environment, which increasingly encompasses addressing the ergonomics and mental health implications of abrupt transitions. Consequently, organizations attempting to enforce rigid physical presence quotas must navigate rigorous grievance procedures and potential work refusal claims if the physical workplace fails to meet requisite safety standards.\n\nD: Looking forward, legal scholars advocate for the codification of a formal 'right to disconnect' and statutory frameworks explicitly governing telework to mitigate escalating labor friction. While provinces like Ontario have pioneered legislation regarding disconnecting from work outside designated hours, comprehensive federal and provincial statutory integration regarding the location of work remains nascent. Employers are consequently advised to draft unambiguous, agile employment agreements that explicitly reserve the right to alter workplace locations upon stipulated notice periods. Adopting a collaborative hybrid model rather than an inflexible mandate not only mitigates the risk of constructive dismissal claims but also fosters organizational resilience amidst evolving jurisprudential interpretations of workplace equity.",
     "questions": [
       {
-        "text": "Which paragraph discusses how sensors are used to optimize collection truck routes and reduce carbon emissions?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 3
-      },
-      {
-        "text": "Which paragraph mentions the negative impacts of plastic contamination on the composting process and export markets?",
+        "text": "Which paragraph discusses how long-term telework arrangements can alter the original employment relationship and limit an employer's ability to unilaterally revoke remote work?",
         "options": [
           "A",
           "B",
@@ -3300,7 +3295,7 @@
         "correctAnswerIndex": 0
       },
       {
-        "text": "Which paragraph details the establishment of specialized depots for handling textiles and electronics?",
+        "text": "Which paragraph details the requirement for employers to conduct individual assessments for exemption requests based on protected human rights grounds?",
         "options": [
           "A",
           "B",
@@ -3311,7 +3306,7 @@
         "correctAnswerIndex": 1
       },
       {
-        "text": "Which paragraph notes that civic boards are lobbying for frameworks to shift the financial burden of waste mitigation to manufacturers?",
+        "text": "Which paragraph explains how collective agreements and past practices can prevent employers from arbitrarily dismantling established remote work policies?",
         "options": [
           "A",
           "B",
@@ -3322,7 +3317,7 @@
         "correctAnswerIndex": 2
       },
       {
-        "text": "Which paragraph mentions privacy advocates raising concerns over data aggregation and potential residential profiling?",
+        "text": "Which paragraph recommends drafting agile employment contracts with explicit clauses regarding the modification of workplace locations upon specified notice?",
         "options": [
           "A",
           "B",
@@ -3333,18 +3328,7 @@
         "correctAnswerIndex": 3
       },
       {
-        "text": "Which paragraph outlines the requirement for citizens to cleanse and segregate materials due to global commodity market shifts?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "text": "Which paragraph discusses the mandatory provincial tax rebates provided to households that achieve zero-waste milestones?",
+        "text": "Which paragraph outlines the specific financial penalties and fines levied by provincial labor boards against employers who violate the statutory duty to accommodate?",
         "options": [
           "A",
           "B",
@@ -3355,7 +3339,18 @@
         "correctAnswerIndex": 4
       },
       {
-        "text": "Which paragraph addresses the public confusion caused by complex chemical laminates and the 'poke test'?",
+        "text": "Which paragraph notes that generalized commuting preferences and minor personal inconveniences do not satisfy the legal criteria required for human rights accommodation?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which paragraph mentions that occupational health and safety statutes require employers to maintain safe environments, which can affect the enforcement of physical presence quotas?",
         "options": [
           "A",
           "B",
@@ -3366,7 +3361,18 @@
         "correctAnswerIndex": 2
       },
       {
-        "text": "Which paragraph highlights that non-compliance penalties are a contentious issue among homeowners associations?",
+        "text": "Which paragraph highlights that while some provinces have legislated a 'right to disconnect,' comprehensive statutory frameworks specifically governing the physical location of work remain in early stages?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "text": "Which paragraph states that management rights traditionally grant organizations broad operational discretion, though this authority is increasingly constrained by recent legal developments?",
         "options": [
           "A",
           "B",
@@ -3547,11 +3553,11 @@
     ]
   },
   {
-    "title": "CLB 12 Reading: Part 3 - Everyday Topic",
-    "passage": "A: Navigating the complexities of municipal waste management in urban Canadian centres requires residents to meticulously categorize organic matter, recyclables, and residual refuse in accordance with stringent municipal bylaws. Recent policy shifts in provinces such as Ontario and British Columbia have implemented automated enforcement systems, utilizing optical scanners affixed to waste collection vehicles to detect sorting infractions. Households that persistently contravene these sorting mandates face escalating administrative monetary penalties, which are automatically levied against property tax accounts. Consequently, civic engagement workshops have proliferated, aiming to elucidate the nuanced distinctions between compostable bioplastics and traditional polymers.\n\nB: Beyond mere compliance with sorting protocols, urban municipalities are increasingly transitioning toward decentralized composting initiatives to mitigate the carbon footprint associated with long-haul transportation of organic waste. Neighborhood-level aerobic digestion facilities have been piloted in cities like Toronto and Vancouver, converting residential food scraps into nutrient-dense soil amendments utilized in community urban agriculture plots. These localized systems not only curtail greenhouse gas emissions but also foster a sense of civic stewardship, as residents directly witness the circular lifecycle of their organic discarded materials transforming into localized agricultural inputs.\n\nC: Nevertheless, the integration of these sophisticated waste diversion frameworks is not without logistical friction. Critics and urban planners frequently highlight the disproportionate financial burden placed on lower-income multi-unit residential buildings, where space constraints preclude the installation of comprehensive multi-stream sorting stations. Furthermore, municipal councils grapple with the persistent phenomenon of 'wish-cycling'\u2014wherein well-intentioned citizens deposit non-recyclable contamination into blue bins out of a desire to be environmentally proactive, inadvertently compromising entire batches of recyclable commodities and rendering them commercially unviable for processing.\n\nD: To counteract contamination and infrastructural inequities, forward-thinking municipalities are leveraging behavioral economics and digital applications to incentivize rigorous sorting habits. Gamified civic apps now reward residents with transit credits or discounts at participating local businesses for maintaining high accuracy rates in their waste separation regimens. Concurrently, material recovery facilities are retrofitting their sorting lines with artificial intelligence and machine learning algorithms capable of real-time contaminant identification, thereby bridging the gap between human error and the rigorous purity standards demanded by global commodity markets.",
+    "title": "CLB 12 Reading: Part 3 - Navigating the process of renewing a driver's license and vehicle registration.",
+    "passage": "A: Streamlining your administrative obligations with provincial motoring authorities has become significantly more digitized, yet transitioning through the renewal matrix for both operator credentials and vehicular validation mandates meticulous adherence to statutory timelines. Motorists must initiate the driver's license renewal protocol up to 180 days prior to the explicit expiration date printed on the photocard. Failure to act within this stipulated window not only incurs compounding financial penalties but may also necessitate retaking both the theoretical knowledge examination and the practical road test, contingent upon the duration of the lapse. Furthermore, provincial mandates dictate that applicants must provide verifiable proof of residency and legal status during every second renewal cycle to comply with enhanced federal identification protocols.\n\nB: Concurrently, vehicular registration renewal operates under a parallel yet distinct regulatory framework that requires annual validation. Registered owners will receive a formal renewal notice approximately two months prior to the designated expiry, which typically coincides with the primary vehicle owner's birth month. To successfully execute this transaction online or via designated kiosks, motorists must present a valid safety standards certificate if the vehicle exceeds a specific operational threshold, alongside confirmation of mandatory third-party liability insurance coverage. It is paramount to note that operating a motor vehicle with an expired registration sticker\u2014even within a grace period\u2014yields severe infractions, including immediate impoundment under extreme circumstances.\n\nC: Recent legislative amendments have introduced specialized conditional exemptions for remote northern residents and individuals enrolled in recognized extended overseas work or study programs. These citizens may apply for a temporary administrative hiatus, which effectively freezes the accumulation of late penalties and defers physical vision screening requirements for a maximum of twenty-four months. However, upon re-entry into the provincial jurisdiction, individuals are granted a strictly enforced fourteen-day moratorium to complete all outstanding compliance measures. Neglecting to reconcile these credentials within the post-hiatus timeframe instantly revokes driving privileges and triggers an automatic audit of the registrant's historical driving abstract.\n\nD: For commercial fleet operators and heavy vehicle proprietors, the renewal trajectory incorporates an exhaustive compliance audit administered by the Ministry of Transportation. Operators of commercial vehicles exceeding 4,500 kilograms must submit an annual preventative maintenance report and pass a rigorous diagnostic emissions test prior to initiating the registration renewal sequence. Any discrepancies identified within the commercial carrier profile will halt the entire administrative pipeline, freezing all operational permits until the safety infractions are formally remediated. Consequently, fleet managers are strongly advised to initiate preliminary verification procedures at least four months in advance of the annual corporate renewal deadline.",
     "questions": [
       {
-        "text": "Which paragraph discusses automated enforcement technologies utilizing optical scanners on collection vehicles to penalize sorting infractions?",
+        "text": "Which paragraph mentions the exact timeframe allowed for operators to initiate their driver's license renewal before the expiration date?",
         "options": [
           "A",
           "B",
@@ -3562,7 +3568,7 @@
         "correctAnswerIndex": 0
       },
       {
-        "text": "Which paragraph mentions the conversion of food scraps into soil amendments for community agriculture plots?",
+        "text": "Which paragraph discusses the annual validation requirement for vehicular registration and its typical alignment with the owner's birth month?",
         "options": [
           "A",
           "B",
@@ -3573,7 +3579,7 @@
         "correctAnswerIndex": 1
       },
       {
-        "text": "Which paragraph addresses the logistical challenges and financial burdens faced by multi-unit residential buildings?",
+        "text": "Which paragraph outlines the special conditional exemptions and temporary administrative hiatus available to remote northern residents or individuals abroad?",
         "options": [
           "A",
           "B",
@@ -3584,7 +3590,7 @@
         "correctAnswerIndex": 2
       },
       {
-        "text": "Which paragraph outlines the use of gamified civic applications to reward residents for accurate waste separation?",
+        "text": "Which paragraph details the exhaustive compliance audits and preventative maintenance reports required specifically for commercial fleet operators?",
         "options": [
           "A",
           "B",
@@ -3595,29 +3601,7 @@
         "correctAnswerIndex": 3
       },
       {
-        "text": "Which paragraph describes the phenomenon known as 'wish-cycling' and its detrimental effects on recyclable commodities?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 2
-      },
-      {
-        "text": "Which paragraph details the retrofitting of material recovery facilities with artificial intelligence for contaminant identification?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 3
-      },
-      {
-        "text": "Which paragraph explains federal tax exemptions available for households that successfully transition to zero-waste lifestyles?",
+        "text": "Which paragraph specifies the exact protocol and penalty structure for individuals caught driving while using a counterfeit driver's license?",
         "options": [
           "A",
           "B",
@@ -3628,7 +3612,7 @@
         "correctAnswerIndex": 4
       },
       {
-        "text": "Which paragraph references the proliferation of civic engagement workshops explaining the difference between bioplastics and traditional polymers?",
+        "text": "Which paragraph explains the requirement for providing verifiable proof of residency and legal status during specific renewal cycles?",
         "options": [
           "A",
           "B",
@@ -3639,7 +3623,7 @@
         "correctAnswerIndex": 0
       },
       {
-        "text": "Which paragraph highlights the reduction of greenhouse gas emissions through localized aerobic digestion facilities?",
+        "text": "Which paragraph notes the consequences of operating a motor vehicle with an expired registration, including potential vehicle impoundment?",
         "options": [
           "A",
           "B",
@@ -3648,6 +3632,28 @@
           "E"
         ],
         "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which paragraph states the strict enforcement moratorium duration granted to returning individuals after an administrative hiatus expires?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which paragraph recommends that fleet managers begin preliminary verification procedures at least four months before the corporate deadline?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 3
       }
     ]
   },
@@ -3820,11 +3826,11 @@
     ]
   },
   {
-    "title": "CLB 12 Reading: Part 3 - Everyday Topic",
-    "passage": "A: Navigating the complexities of municipal waste management in urban Canadian centers often requires residents to familiarize themselves with nuanced local bylaws regarding compostable materials and recyclables. Recent amendments to municipal ordinances mandate the strict separation of organic kitchen waste from general refuse, introducing a rigorous tiered enforcement framework that includes substantial financial penalties for non-compliance. Homeowners are provided with specialized aerated green bins designed to mitigate unpleasant odors and deter urban wildlife, though the efficacy of these measures remains a subject of considerable debate among neighborhood associations.\n\nB: In parallel with residential organic waste initiatives, metropolitan recycling programs have undergone significant systemic overhauls to adapt to shifting global commodity markets and tightening international import standards for processed plastics. Municipalities now employ sophisticated optical sorting technologies at centralized material recovery facilities, which necessitates a higher degree of pre-consumer rinsing and sorting at the household level. Residents who inadvertently contaminate recycling streams with non-compliant polymers or hazardous household items frequently trigger automated sorting halts, leading to localized collection delays and escalated operational expenditures for municipal sanitation departments.\n\nC: Beyond curbside collection protocols, community-driven sustainability initiatives have gained substantial traction, manifesting as neighborhood-led repair caf\u00e9s and tool-lending libraries that actively counter the prevailing culture of planned obsolescence. These grassroots organizations operate independently of municipal funding, relying instead on volunteer master artisans and crowdfunding to facilitate the restoration of electronics, furniture, and textiles. By extending the lifecycle of consumer goods, these collectives not only alleviate the strain on municipal landfills but also foster social cohesion and intergenerational skill-sharing within diverse urban enclaves.\n\nD: Despite the concerted push toward comprehensive waste diversion, significant infrastructural bottlenecks persist, particularly concerning the disposal of electronic waste and household hazardous materials such as residual paint and automotive fluids. While designated eco-depots exist across various municipal wards, their restricted operating hours and distant geographic locations often present insurmountable logistical barriers for car-free urban dwellers relying entirely on public transit. Consequently, urban planners are increasingly advocating for the integration of permanent, subterranean hazardous waste receptacles within high-density transit-oriented developments to streamline eco-friendly disposal.",
+    "title": "CLB 12 Reading: Part 3 - The controversy over a new high-rise development in a historic neighborhood.",
+    "passage": "A: The proposed construction of the 'Heritage Apex,' a 40-story multi-use high-rise slated for the historic district of Strathcona, has ignited a fierce municipal debate. Promoted by MetroBuild Developments, the project promises to inject much-needed residential density and commercial vibrancy into the aging urban core. Proponents argue that architectural progression is vital for accommodating the region's burgeoning population without exacerbating urban sprawl. Furthermore, the developers have pledged to allocate fifteen percent of the units to subsidized affordable housing, a concession designed to appease mounting socioeconomic pressures within the municipality.\n\nB: Conversely, a coalition of heritage conservationists, local historians, and long-standing residents has mounted a vigorous opposition campaign. The Strathcona Preservation Society contends that the tower's monolithic modernist aesthetic directly violates the Victorian and Edwardian architectural vernacular that has defined the neighborhood for over a century. Critics emphasize that the sheer scale of the high-rise will cast long shadows over adjacent community parks, disrupt local wind patterns, and irrevocably compromise the intimate, human-scale character of the historically designated zone.\n\nC: City Council finds itself politically deadlocked as it weighs the economic imperatives of urban intensification against heritage preservation mandates. Urban planners note that the municipal Official Community Plan encourages high-density corridors along transit arteries, a criterion the proposed site ostensibly meets. However, municipal bylaws also explicitly empower the Heritage Commission to veto any development deemed detrimental to the visual integrity of protected heritage corridors. Public hearings scheduled for the upcoming month are anticipated to be contentious, as both factions mobilize legal counsel and community outreach initiatives to sway undecided councilors.\n\nD: Beyond the aesthetic and density arguments, civil engineers have raised substantial concerns regarding the neighborhood's subterranean infrastructure. The area's Victorian-era sewer and water mains, already operating near maximum capacity, face catastrophic failure risks if subjected to the immense effluent and consumption demands of a high-rise of this magnitude. Although MetroBuild has offered to finance minor localized upgrades, municipal engineers insist that an overhaul of the entire regional trunk is prerequisite, a capital expenditure neither the city nor the developer has budgeted for in the current fiscal cycle.",
     "questions": [
       {
-        "text": "Which paragraph discusses the implementation of a tiered financial penalty system for residents who fail to properly separate their organic kitchen waste?",
+        "text": "Which paragraph mentions the specific percentage of units designated for affordable housing?",
         "options": [
           "A",
           "B",
@@ -3835,7 +3841,7 @@
         "correctAnswerIndex": 0
       },
       {
-        "text": "Which paragraph explains how contamination of recycling streams by non-compliant materials can cause automated sorting halts and collection delays?",
+        "text": "Which paragraph describes the architectural styles that historically characterize the affected neighborhood?",
         "options": [
           "A",
           "B",
@@ -3846,7 +3852,7 @@
         "correctAnswerIndex": 1
       },
       {
-        "text": "Which paragraph highlights community-led initiatives that operate independently of municipal funding to restore electronics, furniture, and textiles?",
+        "text": "Which paragraph outlines the conflict between municipal intensification policies and heritage preservation mandates?",
         "options": [
           "A",
           "B",
@@ -3857,7 +3863,7 @@
         "correctAnswerIndex": 2
       },
       {
-        "text": "Which paragraph mentions the logistical barriers posed by restricted operating hours and distant locations of eco-depots for car-free residents?",
+        "text": "Which paragraph details the potential risks posed to aging underground municipal infrastructure?",
         "options": [
           "A",
           "B",
@@ -3868,7 +3874,29 @@
         "correctAnswerIndex": 3
       },
       {
-        "text": "Which paragraph outlines the specific tax incentives provided by the federal government to manufacturers who adopt circular economy design principles?",
+        "text": "Which paragraph notes that public hearings are scheduled for the upcoming month?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which paragraph mentions the specific name of the proposed high-rise development?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "Which paragraph discusses the exact financial compensation demanded by federal heritage grants for the project?",
         "options": [
           "A",
           "B",
@@ -3879,18 +3907,7 @@
         "correctAnswerIndex": 4
       },
       {
-        "text": "Which paragraph describes the use of specialized aerated green bins intended to deter urban wildlife and reduce odors?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "text": "Which paragraph details the adoption of optical sorting technologies at centralized facilities to adapt to shifting global commodity markets?",
+        "text": "Which paragraph references the name of the specific community preservation society leading the opposition?",
         "options": [
           "A",
           "B",
@@ -3901,7 +3918,7 @@
         "correctAnswerIndex": 1
       },
       {
-        "text": "Which paragraph references urban planners advocating for subterranean hazardous waste receptacles in high-density transit developments?",
+        "text": "Which paragraph explains that the developer offered to finance minor localized infrastructure upgrades?",
         "options": [
           "A",
           "B",
@@ -3910,17 +3927,6 @@
           "E"
         ],
         "correctAnswerIndex": 3
-      },
-      {
-        "text": "Which paragraph notes that grassroots repair collectives foster social cohesion and intergenerational skill-sharing?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 2
       }
     ]
   },
@@ -4093,22 +4099,11 @@
     ]
   },
   {
-    "title": "CLB 12 Reading: Part 3 - Everyday Topic",
-    "passage": "A: Navigating the complexities of municipal composting regulations in urban Canadian centers often requires residents to meticulously categorize organic waste streams. While traditional kitchen scraps like vegetable peelings and coffee grounds are universally accepted, municipal bylaws increasingly dictate stringent protocols for bioplastics and grease-laden paper products. Homeowners who inadvertently introduce non-compliant materials risk administrative penalties or the complete rejection of their organic waste bin by municipal collection crews.\n\nB: The implementation of community-led composter distribution initiatives has substantially mitigated landfill accumulation rates across several provinces. These programs typically subsidize backyard composting vessels for residents dwelling in detached or semi-detached housing typologies. Nevertheless, high-density residential complexes, such as condominiums and high-rise apartment buildings, face distinct structural impediments regarding centralized organic management, necessitating innovative decentralized chute systems or private hauling contracts.\n\nC: Recent amendments to provincial environmental protection statutes mandate that commercial food service establishments divert their organic refuse from municipal waste streams entirely. Consequently, restaurateurs are compelled to forge partnerships with private industrial composting facilities. These industrial processors utilize advanced aerated static pile composting and in-vessel systems capable of rapidly degrading commercial-scale volumes of compostable serviceware and food residuals under tightly controlled thermal conditions.\n\nD: Despite these technological advancements and regulatory frameworks, public adherence remains variable due to pervasive contamination issues within green bin programs. Outreach campaigns frequently emphasize the necessity of rigorous sorting practices, yet public ambiguity persists concerning the acceptability of pet waste, waxed cardboard, and certified compostable packaging. Municipalities are currently exploring artificial intelligence-driven optical sorting technologies at material recovery facilities to preemptively identify and extract contaminants prior to processing.",
+    "title": "CLB 12 Reading: Part 3 - Implementing water conservation rules during summer droughts.",
+    "passage": "A: Amid escalating climate volatility and prolonged meteorological anomalies across the Canadian Prairies, municipal authorities have enacted stringent municipal bylaws governing residential and commercial water usage. These protocols are meticulously calibrated to preemptively mitigate severe reservoir depletion before critical thresholds are breached. The phased restrictions establish clear parameters regarding exterior irrigation, effectively curtailing non-essential consumption through automated scheduling systems. By enforcing these rigorous mandates, regional municipalities aim to safeguard essential aquatic ecosystems and maintain adequate potable water reserves for emergency firefighting operations throughout the peak of the arid summer months.\n\nB: Compliance monitoring under the newly instituted framework leverages an amalgamation of high-resolution aerial thermography, smart-meter analytics, and community-driven reporting mechanisms. Municipal enforcement officers are empowered to issue graduated administrative monetary penalties for blatant infractions, escalating rapidly from initial formal warnings to substantial financial encumbrances. Notwithstanding these punitive measures, the policy framework heavily emphasizes public education campaigns. These initiatives elucidate the direct correlation between indiscriminate lawn watering and the exacerbation of localized hydrological stress, thereby fostering a culture of collective stewardship and voluntary adherence among property owners.\n\nC: Commercial enterprises, particularly those dependent on intensive water-intensive processes such as commercial vehicle washes, golf course maintenance, and industrial manufacturing, face a distinct regulatory rubric. Such entities are mandated to formulate comprehensive Water Management Contingency Plans, detailing specific technological retrofits and closed-loop recycling systems designed to achieve a minimum twenty-five percent reduction in aggregate daily consumption. Exemptions are granted strictly on a case-by-case basis following exhaustive environmental impact assessments, ensuring that critical economic lifelines are not unduly compromised while simultaneously prioritizing ecological preservation and long-term sustainability.\n\nD: Critics of the framework have raised pertinent concerns regarding the socio-economic equity of the enforcement mechanisms, arguing that flat-rate penalty structures disproportionately impact lower-income demographics who may reside in older rental properties with inefficient, landlord-controlled irrigation or plumbing infrastructure. Furthermore, civil liberties advocates have questioned the privacy implications of deploying advanced smart-meter data analytics to track hourly household consumption patterns. In response, municipal policymakers are currently reviewing amendments to incorporate hardship waivers and privacy safeguards, striving to reconcile ecological urgency with equitable governance.",
     "questions": [
       {
-        "text": "Which paragraph discusses penalties and bin rejections resulting from non-compliant organic waste materials?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "text": "Which paragraph mentions the specific architectural challenges high-density residential buildings encounter with organic waste management?",
+        "text": "Which paragraph discusses the utilization of advanced technological tools and community reporting to monitor regulatory compliance?",
         "options": [
           "A",
           "B",
@@ -4119,7 +4114,7 @@
         "correctAnswerIndex": 1
       },
       {
-        "text": "Which paragraph outlines statutory mandates requiring commercial food establishments to utilize private industrial composting facilities?",
+        "text": "Which paragraph outlines the specific reduction targets and mandatory contingency planning required for commercial and industrial entities?",
         "options": [
           "A",
           "B",
@@ -4130,7 +4125,7 @@
         "correctAnswerIndex": 2
       },
       {
-        "text": "Which paragraph details the exploration of artificial intelligence-driven optical sorting technologies at material recovery facilities?",
+        "text": "Which paragraph details the socio-economic criticisms and privacy concerns raised by civil advocates regarding enforcement practices?",
         "options": [
           "A",
           "B",
@@ -4141,7 +4136,7 @@
         "correctAnswerIndex": 3
       },
       {
-        "text": "Which paragraph highlights the specific thermal conditions required by in-vessel industrial composting systems?",
+        "text": "Which paragraph explains the primary objectives of the bylaws, including the prevention of reservoir depletion and the protection of aquatic ecosystems?",
         "options": [
           "A",
           "B",
@@ -4149,21 +4144,10 @@
           "D",
           "E"
         ],
-        "correctAnswerIndex": 2
+        "correctAnswerIndex": 0
       },
       {
-        "text": "Which paragraph notes the financial subsidies provided for backyard composting vessels in low-density housing?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "text": "Which paragraph describes the integration of mandatory residential composting education into primary school curricula?",
+        "text": "Which paragraph mentions the specific federal subsidies provided to agricultural sectors to offset financial losses caused by prolonged drought conditions?",
         "options": [
           "A",
           "B",
@@ -4174,18 +4158,7 @@
         "correctAnswerIndex": 4
       },
       {
-        "text": "Which paragraph references public uncertainty regarding the acceptability of pet waste and waxed cardboard?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 3
-      },
-      {
-        "text": "Which paragraph identifies coffee grounds and vegetable peelings as universally accepted kitchen scraps?",
+        "text": "Which paragraph highlights the implementation of phased restrictions that specifically target exterior irrigation through automated scheduling?",
         "options": [
           "A",
           "B",
@@ -4194,6 +4167,39 @@
           "E"
         ],
         "correctAnswerIndex": 0
+      },
+      {
+        "text": "Which paragraph describes the use of public education campaigns to emphasize the link between excessive lawn watering and hydrological stress?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which paragraph explains the strict criteria and environmental impact assessments required for commercial enterprises to obtain regulatory exemptions?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "text": "Which paragraph notes that municipal policymakers are reviewing potential hardship waivers and privacy safeguards to address public grievances?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 3
       }
     ]
   },
@@ -4366,11 +4372,22 @@
     ]
   },
   {
-    "title": "CLB 12 Reading: Part 3 - Everyday Topic",
-    "passage": "A: Navigating the complexities of municipal composting regulations in urban Canadian centers often requires meticulous attention to detail, particularly regarding the precise categorization of organic waste. While standard food scraps are universally accepted, municipal green bin programs frequently enforce stringent prohibitions on bioplastics, compostable packaging, and certain types of treated paper products, citing contamination issues that severely compromise the efficacy of large-scale industrial composting facilities. Residents failing to adhere to these nuanced sorting protocols may face escalating financial penalties or the outright rejection of their organic waste collection containers by municipal sanitation crews.\n\nB: In parallel with organic waste management, municipal bylaws governing residential property maintenance\u2014specifically concerning snow and ice removal from public sidewalks\u2014impose strict legal liabilities on property owners. Across major Canadian municipalities, homeowners are typically mandated by localized ordinances to clear accumulated snow from adjacent public pathways within a stipulated timeframe following the cessation of a winter storm, usually ranging from twelve to twenty-four hours. Failure to execute these mandatory clearances not only exposes pedestrians to severe slip-and-fall hazards but also renders the property owner vulnerable to formidable tort claims and municipal administrative monetary penalties.\n<br><br>\nC: Furthermore, the proliferation of urban beekeeping initiatives has introduced a complex layer of municipal oversight, requiring hobbyists to register their apiaries and comply with stringent setback requirements from neighboring properties and public thoroughfares. Municipalities frequently stipulate maximum hive densities per parcel of land, mandate the incorporation of continuous water sources within the apiary to deter bees from frequenting neighboring swimming pools, and reserve the right of municipal health inspectors to conduct unannounced audits to ensure disease mitigation protocols are rigorously maintained.\n<br><br>\nD: Complementing these localized environmental and property regulations, municipal water conservation initiatives during the peak summer months frequently institute mandatory lawn-watering schedules based on alternating odd-and-even civic address systems. These seasonal restrictions are meticulously enforced through automated monitoring and neighborhood reporting mechanisms, with non-compliance resulting in progressive warnings followed by substantial surcharges levied directly onto municipal utility bills. Concurrently, exemptions are occasionally granted for newly laid sod or newly planted landscaping, provided residents secure prior authorization through an expedited municipal permit application process.",
+    "title": "CLB 12 Reading: Part 3 - Community reactions to a proposed supervised consumption site.",
+    "passage": "A: The municipal council's recent endorsement of a proposed supervised consumption site in the downtown core has galvanized unprecedented civic engagement, polarizing residents and business owners alike. Proponents of the initiative, spearheaded by public health officials and addiction medicine specialists, argue that the facility is an indispensable intervention to mitigate escalating overdose mortalities and alleviate the strain on emergency medical services. Conversely, a vocal coalition of commercial stakeholders and residential associations has expressed profound apprehension regarding potential localized criminality, public disorder, and the ostensible devaluation of property assets in the immediate vicinity.\n\nB: Empirical analyses and comparative data from similar municipal implementations across Canada were tabled during the contentious public consultation phase. Health authorities emphasized that these sites demonstrably reduce transmission rates of blood-borne pathogens and connect vulnerable demographics with vital wraparound services, including housing assistance, mental health counseling, and rehabilitative programming. Nevertheless, detractors contend that the methodology employed in selecting the proposed location lacked procedural transparency and disregarded the socioeconomic vulnerabilities of the preexisting neighborhood fabric, which already bears a disproportionate burden of marginalization.\n\nC: In an endeavor to reconcile these diametrically opposed perspectives, municipal authorities have mandated the formation of a Community Liaison Committee, ostensibly designed to facilitate continuous dialogue, monitor operational metrics, and swiftly address emergent grievances once the facility becomes operational. Despite this administrative concession, skepticism remains palpable among business proprietors who demand legally binding guarantees concerning perimeter security, daily sanitation protocols, and rapid-response protocols for discarded paraphernalia. Conversely, harm reduction advocates maintain that any punitive restrictions or onerous oversight mechanisms will merely deter utilization, thereby undermining the primary public health mandate of the facility.\n\nD: The ideological chasm widened further following the release of an independent economic impact study commissioned by the downtown business improvement area, which projected a transient decline in foot traffic and consumer patronage. In direct rebuttal, epidemiological modelers published localized forecasts indicating that the implementation of the site would avert numerous preventable fatalities annually, far outweighing the anticipated economic externalities. As the provincial licensing board deliberates on the final operational permit, both factions are mobilizing their respective constituencies for the impending legislative showdown, transforming a clinical health policy debate into a referendum on urban livability and civic responsibility.",
     "questions": [
       {
-        "text": "Which paragraph discusses the legal liabilities and timeframes associated with clearing winter precipitation from public pathways adjacent to private residences?",
+        "text": "Which paragraph mentions the specific stakeholders who originally spearheaded the proposal for the consumption site?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "text": "Which paragraph discusses the utilization of comparative data from other Canadian municipalities during consultations?",
         "options": [
           "A",
           "B",
@@ -4381,18 +4398,7 @@
         "correctAnswerIndex": 1
       },
       {
-        "text": "Which paragraph outlines the potential financial repercussions and rejection of waste containers due to the improper disposal of bioplastics and packaging?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "text": "Which paragraph details the mandatory setback requirements, hive density limits, and disease mitigation audits for urban apiary enthusiasts?",
+        "text": "Which paragraph outlines the administrative measure established by the council to monitor operations and handle grievances?",
         "options": [
           "A",
           "B",
@@ -4403,7 +4409,7 @@
         "correctAnswerIndex": 2
       },
       {
-        "text": "Which paragraph explains seasonal restrictions on lawn irrigation based on civic addresses, along with the permit process for newly laid sod?",
+        "text": "Which paragraph details the findings of an independent economic impact study commissioned by business groups?",
         "options": [
           "A",
           "B",
@@ -4414,7 +4420,7 @@
         "correctAnswerIndex": 3
       },
       {
-        "text": "Which paragraph describes the federal tax incentives available for homeowners who install high-efficiency solar panels and rainwater harvesting systems?",
+        "text": "Which paragraph references the exact financial cost incurred by the municipality to acquire the property for the site?",
         "options": [
           "A",
           "B",
@@ -4425,7 +4431,7 @@
         "correctAnswerIndex": 4
       },
       {
-        "text": "Which paragraph notes that municipal sanitation workers may refuse to collect organic waste if sorting protocols are violated?",
+        "text": "Which paragraph highlights the arguments made regarding the potential reduction of blood-borne pathogen transmission?",
         "options": [
           "A",
           "B",
@@ -4433,10 +4439,10 @@
           "D",
           "E"
         ],
-        "correctAnswerIndex": 0
+        "correctAnswerIndex": 1
       },
       {
-        "text": "Which paragraph mentions that municipal health inspectors possess the authority to conduct unannounced visits to verify apiary compliance?",
+        "text": "Which paragraph notes the concerns of business owners regarding perimeter security and daily sanitation protocols?",
         "options": [
           "A",
           "B",
@@ -4447,7 +4453,7 @@
         "correctAnswerIndex": 2
       },
       {
-        "text": "Which paragraph highlights that seasonal water conservation measures are enforced through neighborhood reporting and progressive surcharges on utility bills?",
+        "text": "Which paragraph describes the conflicting views on how punitive oversight mechanisms might affect the facility's utilization?",
         "options": [
           "A",
           "B",
@@ -4455,10 +4461,10 @@
           "D",
           "E"
         ],
-        "correctAnswerIndex": 3
+        "correctAnswerIndex": 2
       },
       {
-        "text": "Which paragraph provides guidelines on the mandatory acoustic insulation standards required for residential basement secondary suites?",
+        "text": "Which paragraph mentions the specific name of the provincial licensing board responsible for granting the final operational permit?",
         "options": [
           "A",
           "B",
@@ -4639,11 +4645,11 @@
     ]
   },
   {
-    "title": "CLB 12 Reading: Part 3 - Everyday Topic",
-    "passage": "A: Navigating the complexities of municipal waste management and recycling protocols in major Canadian urban centers requires a nuanced understanding of provincial environmental mandates. Residents must meticulously categorize organic compost, rigid plastics, and hazardous household materials, ensuring absolute compliance with local bylaws to circumvent substantial monetary penalties. Municipalities deploy sophisticated optical sorting technologies at recycling facilities to process commingled commodities, yet contamination remains a persistent operational bottleneck that diminishes systemic efficiency.\n\nB: The intricacies of winter city living in Canada necessitate comprehensive preparedness regarding municipal snow removal operations and vehicular winterization. Municipal bylaws strictly mandate that property owners clear public sidewalks abutting their land within a defined temporal window following a snowfall event. Failure to execute these civic duties promptly can precipitate liability litigations should pedestrians sustain injuries, thereby underscoring the legal imperative of proactive property maintenance amidst adverse meteorological phenomena.\n\nC: Urban transit ecosystems across Canada are increasingly transitioning toward integrated, contactless payment infrastructures to streamline commuter throughput. Commuters utilize smart cards or mobile applications that dynamically calculate fares based on distance traveled across interconnected regional networks. Furthermore, public consultation forums are routinely convened by transit authorities to deliberate upon proposed route rationalizations, fare adjustments, and capital investments earmarked for fleet electrification and accessibility retrofits.\n\nD: The proliferation of community garden initiatives within Canadian municipalities fosters localized agricultural sustainability and enhances social cohesion among diverse urban demographics. Participants are allocated discrete plots of land subject to adherence to stringent organic cultivation guidelines, which prohibit synthetic pesticides and mandate water conservation practices. These communal green spaces also serve as invaluable pedagogical venues where horticultural workshops are conducted to educate populace segments on food security and ecological stewardship.",
+    "title": "CLB 12 Reading: Part 3 - The shift towards electric vehicles and municipal charging infrastructure.",
+    "passage": "A: The rapid transition toward zero-emission transportation has placed unprecedented demands on Canadian municipal infrastructure, necessitating comprehensive overhauls of urban energy grids. As provincial mandates progressively restrict the sale of internal combustion engines, municipal governments find themselves at the vanguard of this logistical paradigm shift. Local authorities are tasked with forecasting hyper-localized energy consumption trajectories to prevent catastrophic substation overloads. This complex undertaking requires intricate synchronization between municipal urban planners, provincial electrical regulators, and private utility conglomerates to ensure grid resiliency amidst exponential surges in nocturnal vehicular charging demand.\n\nB: To mitigate range anxiety and democratize access to green mobility, cities are aggressively deploying curbside Level 2 chargers and high-capacity DC fast-charging hubs. However, spatial constraints in densely populated metropolitan cores present formidable engineering hurdles. Planners must reconcile the imperative for ubiquitous charging access with the preservation of pedestrian pathways, public transit corridors, and existing commercial loading zones. Furthermore, municipalities are pioneering innovative right-of-way management frameworks, integrating smart-charging technology that dynamically throttles electrical draw during peak industrial hours, thereby averting costly infrastructural reinforcement requirements.\n\nC: Financing these capital-intensive urban overhauls demands sophisticated fiscal orchestration, typically materializing through a hybrid model of municipal bond issuance, federal green infrastructure grants, and public-private partnerships. While long-term macroeconomic projections indicate substantial municipal cost savings through reduced particulate pollution and enhanced public health outcomes, the immediate budgetary strain is palpable. Critics frequently interrogate the return on investment for low-density suburban districts, where per-capita infrastructure deployment costs exponentially exceed those of high-density urban cores, sparking heated municipal council debates over equitable resource distribution.\n\nD: Beyond the physical installation of charging hardware, the socio-economic ramifications of this transition are cascading through property markets and municipal tax bases. Forward-thinking urban municipalities are updating zoning bylaws to mandate EV-readiness in all new multi-unit residential buildings (MURBs), fundamentally altering real estate valuation metrics. Simultaneously, equitable access initiatives are being instituted to subsidize charging infrastructure in underserved socio-economic neighborhoods, ensuring that the economic dividends of the green transition do not bypass marginalized urban demographics who rely predominantly on street parking.",
     "questions": [
       {
-        "text": "Which paragraph discusses the technological methods used by recycling facilities to process commingled commodities?",
+        "text": "Which paragraph discusses the necessity of synchronizing urban planners, regulators, and private utility companies to prevent electrical grid overloads?",
         "options": [
           "A",
           "B",
@@ -4654,7 +4660,7 @@
         "correctAnswerIndex": 0
       },
       {
-        "text": "Which paragraph mentions the legal liabilities and property maintenance duties associated with seasonal weather events?",
+        "text": "Which paragraph mentions spatial constraints and the need to reconcile charging access with pedestrian pathways and public transit corridors?",
         "options": [
           "A",
           "B",
@@ -4665,7 +4671,7 @@
         "correctAnswerIndex": 1
       },
       {
-        "text": "Which paragraph describes the integration of contactless payment infrastructures and public consultation forums for transit?",
+        "text": "Which paragraph outlines the hybrid financing models involving bonds, federal grants, and public-private partnerships?",
         "options": [
           "A",
           "B",
@@ -4676,7 +4682,7 @@
         "correctAnswerIndex": 2
       },
       {
-        "text": "Which paragraph outlines organic cultivation guidelines and educational workshops regarding food security?",
+        "text": "Which paragraph describes the updating of zoning bylaws to mandate EV-readiness in multi-unit residential buildings?",
         "options": [
           "A",
           "B",
@@ -4687,7 +4693,7 @@
         "correctAnswerIndex": 3
       },
       {
-        "text": "Which paragraph details the specific subsidies provided by the federal government for purchasing electric transit vehicles?",
+        "text": "Which paragraph details the specific chemical composition of lithium-ion battery cells used in Canadian commercial electric buses?",
         "options": [
           "A",
           "B",
@@ -4698,29 +4704,7 @@
         "correctAnswerIndex": 4
       },
       {
-        "text": "Which paragraph references the deployment of optical sorting technologies to address recycling contamination?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 0
-      },
-      {
-        "text": "Which paragraph explains the temporal windows mandated for clearing public sidewalks after a snowfall?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "correctAnswerIndex": 1
-      },
-      {
-        "text": "Which paragraph highlights how smart cards dynamically calculate fares across interconnected regional networks?",
+        "text": "Which paragraph notes that per-capita infrastructure deployment costs are significantly higher in low-density suburban districts compared to dense urban cores?",
         "options": [
           "A",
           "B",
@@ -4731,7 +4715,18 @@
         "correctAnswerIndex": 2
       },
       {
-        "text": "Which paragraph notes the prohibition of synthetic pesticides in communal green spaces?",
+        "text": "Which paragraph explains the implementation of smart-charging technology to throttle electrical draw during peak industrial hours?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "text": "Which paragraph addresses equitable access initiatives designed to subsidize charging infrastructure in underserved socio-economic neighborhoods?",
         "options": [
           "A",
           "B",
@@ -4740,6 +4735,17 @@
           "E"
         ],
         "correctAnswerIndex": 3
+      },
+      {
+        "text": "Which paragraph highlights how provincial mandates restricting internal combustion engine sales have positioned local authorities at the forefront of this shift?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswerIndex": 0
       }
     ]
   },
