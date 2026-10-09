@@ -336,12 +336,11 @@
                     </div>
                 </div>
                 
-                <div class="module-section" style="grid-column: 1 / -1; margin-top: 30px;">
-                    <h2 style="color: #d32f2f;">🔥 C2 BULLET-PROOF MOCKS (Boss Mode)</h2>
-                    <p style="margin-bottom: 20px; color: #555;">Extreme difficulty. Hyper-focused nuanced topics. Perfect for final C2 training.</p>
-                    <div class="test-list" id="boss-list" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 15px;">
-                        <!-- Populated by JS -->
-                    </div>
+                <div class="module-section" style="grid-column: 1 / -1; margin-top: 30px; text-align: center; background: #ffebee; padding: 30px; border-radius: 8px; border: 2px solid #ef5350;">
+                    <h2 style="color: #d32f2f; margin-bottom: 10px; font-size: 28px;">🔥 THE ULTIMATE C2 BULLET-PROOF MOCK</h2>
+                    <p style="margin-bottom: 20px; color: #555; font-size: 16px;">This is a full-length, seamless 10-part simulation (5 Reading + 5 Listening). Extreme difficulty. Hyper-focused nuanced topics. Once you start, you proceed section by section just like the real CELPIP exam.</p>
+                    <button class="btn-play" style="font-size: 20px; padding: 15px 40px; background: #d32f2f; border-radius: 30px;" onclick="startMegaMock()">START ULTIMATE MOCK TEST</button>
+                    <div style="margin-top: 15px; font-weight: bold; color: #d32f2f;" id="mock-progress"></div>
                 </div>
             </div>
         </div>
@@ -355,7 +354,8 @@
             <p>Review your answers below, or return to the main menu.</p>
             <div style="display:flex; gap:10px; justify-content:center; margin-top: 20px;">
                 <button class="btn-next" style="background:#6c757d;" onclick="showReview()">Review Answers</button>
-                <button class="btn-next" onclick="returnToMenu()">Main Menu</button>
+                <button class="btn-next" id="btn-main-menu" onclick="returnToMenu()">Main Menu</button>
+                <button class="btn-next" id="btn-mock-next" style="display:none; background:#d32f2f;" onclick="continueMock()">Continue to Next Section</button>
             </div>
         </div>
     </div>
@@ -388,6 +388,30 @@
     <script src="celpip_data.js"></script>
 
     <script>
+        
+        let mockQueue = [];
+        
+        function startMegaMock() {
+            mockQueue = [];
+            for(let i=0; i<(bossReadingData||[]).length; i++) mockQueue.push({type: 'BR', idx: i});
+            for(let i=0; i<(bossListeningData||[]).length; i++) mockQueue.push({type: 'BL', idx: i});
+            
+            if(mockQueue.length > 0) {
+                continueMock();
+            } else {
+                alert("Data is still loading, please wait a moment and try again.");
+            }
+        }
+        
+        function continueMock() {
+            if(mockQueue.length > 0) {
+                let next = mockQueue.shift();
+                startTestFromDash(next.type, next.idx);
+            } else {
+                returnToMenu();
+            }
+        }
+
         let currentTest = null;
         let isListening = false;
         let timerInterval = null;
@@ -437,24 +461,18 @@
                 });
             }
             
-            if (typeof bossReadingData !== 'undefined') {
-                bossReadingData.forEach((test, idx) => {
-                    const id = 'BR' + idx;
-                    const score = savedScores[id];
-                    if (score !== undefined) completedCount++;
-                    bList.appendChild(createTestCard(test.title, id, score, 'BR', idx));
-                });
-            }
-            if (typeof bossListeningData !== 'undefined') {
-                bossListeningData.forEach((test, idx) => {
-                    const id = 'BL' + idx;
-                    const score = savedScores[id];
-                    if (score !== undefined) completedCount++;
-                    bList.appendChild(createTestCard(test.title, id, score, 'BL', idx));
-                });
-            }
 
+
+            
+            const mockProg = document.getElementById('mock-progress');
+            if (mockProg && typeof bossReadingData !== 'undefined') {
+                let mComp = 0;
+                for(let i=0; i<bossReadingData.length; i++) if (savedScores['BR'+i] !== undefined) mComp++;
+                for(let i=0; i<bossListeningData.length; i++) if (savedScores['BL'+i] !== undefined) mComp++;
+                mockProg.innerText = `Mock Progress: ${mComp} / 10 Sections Completed`;
+            }
             const overall = document.getElementById('overall-progress');
+
             if(overall) overall.innerText = completedCount + " / " + totalCount;
         }
 
@@ -670,6 +688,15 @@ function playAudio(btn) {
                 localStorage.setItem('celpipScores', JSON.stringify(savedScores));
                 renderDashboard();
             }
+            
+            if (mockQueue.length > 0) {
+                document.getElementById('btn-main-menu').style.display = 'none';
+                document.getElementById('btn-mock-next').style.display = 'inline-block';
+            } else {
+                document.getElementById('btn-main-menu').style.display = 'inline-block';
+                document.getElementById('btn-mock-next').style.display = 'none';
+            }
+            
             document.getElementById('score-screen').style.display = 'flex';
         }
 
