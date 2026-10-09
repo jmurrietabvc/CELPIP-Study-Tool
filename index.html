@@ -335,6 +335,14 @@
                         <!-- Populated by JS -->
                     </div>
                 </div>
+                
+                <div class="module-section" style="grid-column: 1 / -1; margin-top: 30px;">
+                    <h2 style="color: #d32f2f;">🔥 C2 BULLET-PROOF MOCKS (Boss Mode)</h2>
+                    <p style="margin-bottom: 20px; color: #555;">Extreme difficulty. Hyper-focused nuanced topics. Perfect for final C2 training.</p>
+                    <div class="test-list" id="boss-list" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 15px;">
+                        <!-- Populated by JS -->
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -400,11 +408,16 @@
         function renderDashboard() {
             const rList = document.getElementById('reading-list');
             const lList = document.getElementById('listening-list');
+            const bList = document.getElementById('boss-list');
             if(rList) rList.innerHTML = '';
             if(lList) lList.innerHTML = '';
+            if(bList) bList.innerHTML = '';
             
             let completedCount = 0;
-            let totalCount = (typeof readingData !== 'undefined' ? readingData.length : 0) + (typeof listeningData !== 'undefined' ? listeningData.length : 0);
+            let totalCount = (typeof readingData !== 'undefined' ? readingData.length : 0) + 
+                             (typeof listeningData !== 'undefined' ? listeningData.length : 0) +
+                             (typeof bossReadingData !== 'undefined' ? bossReadingData.length : 0) +
+                             (typeof bossListeningData !== 'undefined' ? bossListeningData.length : 0);
 
             if (typeof readingData !== 'undefined') {
                 readingData.forEach((test, idx) => {
@@ -421,6 +434,23 @@
                     const score = savedScores[id];
                     if (score !== undefined) completedCount++;
                     lList.appendChild(createTestCard(test.title || "Listening Test " + (idx+1), id, score, 'L', idx));
+                });
+            }
+            
+            if (typeof bossReadingData !== 'undefined') {
+                bossReadingData.forEach((test, idx) => {
+                    const id = 'BR' + idx;
+                    const score = savedScores[id];
+                    if (score !== undefined) completedCount++;
+                    bList.appendChild(createTestCard(test.title, id, score, 'BR', idx));
+                });
+            }
+            if (typeof bossListeningData !== 'undefined') {
+                bossListeningData.forEach((test, idx) => {
+                    const id = 'BL' + idx;
+                    const score = savedScores[id];
+                    if (score !== undefined) completedCount++;
+                    bList.appendChild(createTestCard(test.title, id, score, 'BL', idx));
                 });
             }
 
@@ -458,6 +488,16 @@
                 isListening = false;
                 timeLeft = 10 * 60;
                 currentTestId = 'R' + idx;
+            } else if (type === 'BR') {
+                currentTest = bossReadingData[idx];
+                isListening = false;
+                timeLeft = 10 * 60;
+                currentTestId = 'BR' + idx;
+            } else if (type === 'BL') {
+                currentTest = bossListeningData[idx];
+                isListening = true;
+                timeLeft = 5 * 60;
+                currentTestId = 'BL' + idx;
             } else {
                 currentTest = listeningData[idx];
                 isListening = true;
