@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1e574b">
+<meta name="description" content="Prueba rápida de Reading: 10 preguntas, 10 minutos y un resumen para compartir por WhatsApp.">
+<title>Reading · Prueba rápida</title>
+<style>
+:root{color-scheme:light;--ink:#182c28;--muted:#546660;--green:#1e574b;--line:#d9e2dc;--paper:#fff;--bg:#f3f5f1}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+main{max-width:760px;margin:auto;padding:24px 16px 60px}h1{font-size:clamp(27px,6vw,38px);line-height:1.15;letter-spacing:-.8px;margin:10px 0 18px}h2{font-size:23px;line-height:1.25;margin:0 0 18px}h3{font-size:19px;margin:0 0 12px}p{margin:0 0 16px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:24px;margin-bottom:24px}
+.eyebrow{font-size:13px;font-weight:750;letter-spacing:1.5px;text-transform:uppercase;color:var(--green)}.muted{color:var(--muted);font-size:15px}
+button,.button{border:0;border-radius:9px;padding:13px 18px;font:inherit;font-weight:650;cursor:pointer;background:var(--green);color:white;text-decoration:none;display:inline-block;text-align:center;min-height:48px}
+button.secondary{background:#e8eee9;color:var(--ink)}button:disabled{opacity:.6;cursor:default}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #be8b25;outline-offset:3px}
+.actions{display:flex;gap:10px;flex-wrap:wrap}.actions>*{flex:1 1 180px}.facts{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0}.facts span{background:#eaf0ea;padding:5px 12px;border-radius:6px;font-size:15px}
+.instructions{padding-left:22px}.instructions li{margin:8px 0}
+#bar{position:sticky;top:0;z-index:10;background:var(--green);color:white;box-shadow:0 2px 12px #0002}
+.bar-inner{max-width:760px;margin:auto;padding:12px 16px;display:flex;justify-content:space-between;gap:12px;align-items:center;font-size:14px}
+#timer{font-variant-numeric:tabular-nums;font-size:24px;font-weight:750;letter-spacing:1px;white-space:nowrap}#timer.urgent{color:#ffdda0}
+.passage{white-space:pre-wrap;font-size:17px;line-height:1.75}.text-label{color:var(--green);font-size:13px;font-weight:750;text-transform:uppercase;letter-spacing:1px;margin-bottom:10px}
+.question{border:0;margin:0;padding:22px 0;border-top:1px solid var(--line);min-width:0}.question legend{display:block;float:left;width:100%;font-weight:650;margin:0 0 14px;font-size:17px;line-height:1.5}.options{clear:both;display:grid;gap:9px}
+.choice{display:flex;align-items:flex-start;gap:10px;padding:12px;border:1px solid var(--line);border-radius:8px;cursor:pointer;font-size:16px;line-height:1.5}.choice:has(input:checked){border-color:var(--green);background:#edf5ef}.choice input{margin-top:5px;accent-color:var(--green);min-width:18px;width:18px;height:18px}.letter{font-weight:750}
+.confidence{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:14px;color:var(--muted);margin-top:12px}select{font:inherit;padding:7px;border:1px solid var(--line);border-radius:6px;background:white;color:var(--ink);min-height:40px}
+.table-wrap{overflow:auto;margin-bottom:18px;border:1px solid var(--line);border-radius:8px}table{width:100%;border-collapse:collapse;min-width:650px;font-size:15px}th,td{text-align:left;padding:12px;border-bottom:1px solid var(--line);border-right:1px solid var(--line)}th{background:#edf2ed}tr:last-child td{border-bottom:0}
+textarea{width:100%;min-height:92px;resize:vertical;font:inherit;padding:12px;border:1px solid var(--line);border-radius:8px;margin:8px 0 18px}label.reason{font-size:15px;font-weight:650;display:block}.score{font-size:38px;font-weight:750;letter-spacing:-1px;margin:0}.review{border-top:1px solid var(--line);padding:16px 0}.review p{margin:5px 0;font-size:15px}.badge{display:inline-block;border-radius:5px;padding:2px 8px;font-size:13px;font-weight:750;background:#e6efe8;color:#245941}.badge.wrong{background:#fbebe4;color:#8b3d24}
+[hidden]{display:none!important}#status{min-height:26px;margin-top:12px;color:var(--muted);font-size:14px}
+@media(max-width:480px){main{padding:18px 12px 40px}.card{padding:20px 16px}.choice{padding:12px 10px}.bar-inner{padding:9px 12px}}
+@media print{#bar,button,.actions,.confidence,#intro,#status{display:none}body{background:white}.card{border:0;padding:0}main{max-width:none}table{min-width:0}.question,.review{break-inside:avoid}}
+</style>
+</head>
+<body>
+<header id="bar" hidden><div class="bar-inner"><span>Reading · <span id="progress">0/10 respuestas</span></span><span id="timer" role="timer" aria-label="Tiempo restante">10:00</span></div></header>
+<main>
+<section id="intro" class="card">
+<div class="eyebrow">Prueba rápida</div><h1>Reading, paso a paso.</h1>
+<p>Diez preguntas para observar cómo interpretas el texto y eliges entre opciones parecidas.</p>
+<div class="facts"><span>10 minutos</span><span>10 preguntas</span><span>Textos en inglés</span></div>
+<ol class="instructions"><li>Hazla sola/o, sin diccionario, ayuda ni pausas.</li><li>Elige una respuesta y señala si estás segura/o o dudaste.</li><li>Puedes revisar mientras quede tiempo. Al llegar a cero, las respuestas se cierran.</li><li>Después, explica tres decisiones y comparte tu resumen por WhatsApp.</li></ol>
+<p class="muted">Es una prueba diagnóstica creada para esta práctica. Su resultado no equivale a un nivel CELPIP.</p>
+<button id="start" type="button">Comenzar · 10 minutos</button>
+<p class="muted" style="margin:16px 0 0">Las respuestas se guardan en este navegador. La página no las envía automáticamente.</p>
+</section>
+<section id="test" hidden aria-label="Prueba de lectura">
+<div id="sections"></div>
+<div class="card"><p class="muted">Comprueba que elegiste una opción en cada pregunta.</p><button id="finish" type="button">Terminar prueba</button></div>
+</section>
+<section id="results" hidden>
+<div class="eyebrow">Prueba terminada</div><h1>Cuéntanos cómo elegiste.</h1>
+<p id="finished-note"></p>
+<p>Antes de ver la corrección, explica dos preguntas donde dudaste y una donde estuviste muy segura/o. Incluye el número y la evidencia del texto.</p>
+<div class="card">
+<label class="reason" for="reason1">Una pregunta donde dudaste<textarea id="reason1" placeholder="Pregunta 4: elegí… porque… La otra opción me hacía dudar por…"></textarea></label>
+<label class="reason" for="reason2">Otra pregunta donde dudaste<textarea id="reason2" placeholder="Número de pregunta y por qué elegiste esa respuesta."></textarea></label>
+<label class="reason" for="reason3">Una pregunta donde estuviste segura/o<textarea id="reason3" placeholder="Número de pregunta y la parte del texto que la respalda."></textarea></label>
+<p class="muted">Si no dudaste en ninguna, elige tres respuestas y explica qué las respalda.</p>
+<div class="actions"><button id="whatsapp" type="button">Compartir por WhatsApp</button><button id="copy" class="secondary" type="button">Copiar resumen</button></div>
+<p id="status" role="status" aria-live="polite"></p>
+<button id="feedback" class="secondary" type="button">Ver corrección</button>
+</div>
+<div id="correction" class="card" hidden></div>
+<button id="reset" class="secondary" type="button">Hacer un nuevo intento</button>
+<p class="muted" style="margin-top:16px">Para revisar el diagnóstico, comparte el resumen con la persona que te ayuda.</p>
+</section>
+</main>
+<script>
+"use strict";
+const sections = [{"title":"1. An email","passage":"Hi Nina,\n\nSaturday’s repair workshop is still scheduled for the courtyard. I’ve provisionally booked the library room as a backup, but we must confirm or cancel that booking by Wednesday noon. We’ll move indoors only if Wednesday morning’s forecast predicts rain during the workshop. Today’s dry forecast is encouraging, but I’d rather wait before releasing the room.\n\nThe courtyard is free; the library room costs $80. Our grant covers repair materials, not venue hire, so please reserve $80 from the event budget in case we need it.\n\nThere’s also a change to the volunteers’ arrival time. Most should now come at 9:30 rather than 9:00. The electrical team still needs to arrive at 9:00 to check the equipment. The public opening time remains 10:00.\n\nPlease email the volunteers about their arrival times before Wednesday. Participants should receive a location update only after we’ve made the final venue decision.\n\nThanks,\nMaya","questions":[{"text":"What is Maya asking Nina to do before the venue decision is final?","options":["Tell participants that the workshop will probably move indoors.","Confirm the library booking using the current weather forecast.","Inform volunteers about their arrival times and reserve backup funds.","Ask the library to postpone the deadline for confirming its room."],"answer":2,"explanation":"Maya pide avisar a los voluntarios antes del miércoles y reservar $80 por si necesitan el salón. La ubicación se comunicará a los participantes después de la decisión final."},{"text":"What can be concluded about the grant?","options":["Using the library would require money from outside the grant.","Reserving the library has already used part of the grant.","The grant can pay for the room if rain prevents outdoor work.","The grant will cover venue hire after materials have been purchased."],"answer":0,"explanation":"La subvención cubre materiales, pero excluye el alquiler del lugar. El salón se pagaría con el presupuesto del evento si hace falta."},{"text":"Nina replies: “I’ll ask the general volunteers to arrive at ___ and the electrical team at ___.”","options":["9:00; 9:30","9:30; 9:00","9:30; 9:30","10:00; 9:00"],"answer":1,"explanation":"El nuevo horario de 9:30 corresponde a la mayoría de los voluntarios. La excepción es el equipo eléctrico, que conserva las 9:00."}]},{"title":"2. A course schedule","passage":"The community centre offers these furniture repair courses:","table":{"headers":["Course","Time","Sessions","Total fee","Equipment","Entry level"],"rows":[["Weekend Basics","Saturday, 10–12","4","$48","All supplied","Beginners"],["Tuesday Basics","Tuesday, 18–20","3","$42","Bring a basic toolkit","Beginners"],["Intensive Repair","Saturday, 10–12","2","$40","All supplied","Experienced"],["Thursday Basics","Thursday, 18–20","4","$48","All supplied","Beginners"]]},"after":"There are no additional charges.\n\nElena has never repaired furniture. She can attend on weekday evenings but works every Saturday. She can spend up to $50 in total and currently has no toolkit.","questions":[{"text":"Which course meets all Elena’s current requirements?","options":["Weekend Basics","Tuesday Basics","Intensive Repair","Thursday Basics"],"answer":3,"explanation":"Thursday Basics combina horario entre semana por la tarde, nivel principiante, materiales incluidos y precio de $48. Las otras opciones incumplen al menos una condición."},{"text":"Elena writes: “If Thursday Basics is full, Tuesday Basics could still work for me, provided I ___.”","options":["borrow a basic toolkit before attending","increase my budget to cover the extra charges","complete a course for experienced learners first","arrange to take time off work on Saturdays"],"answer":0,"explanation":"El curso del martes ya cumple horario, nivel y presupuesto. Solo necesita conseguir un juego de herramientas; el texto no exige que sea propio."}]},{"title":"3. A community programme","passage":"Paragraph A\nThe town’s bicycle library opened last spring to help people travel between the bus station and nearby workplaces. Residents can borrow a bicycle for up to three hours. The service began with twelve ordinary bicycles; six electric bicycles were added in July.\n\nParagraph B\nThe first month produced 140 loans, but those loans came from just twenty registered users. The programme manager cautioned that frequent borrowing by a small group did not establish whether the service appealed to the wider community. A larger survey is planned.\n\nParagraph C\nInitially, bicycles could be collected only between 9:00 and 17:00. Several users said this made the service difficult to use for early shifts. In response, the town introduced a 7:00 collection time on weekdays, while keeping the original weekend hours.\n\nParagraph D\nA mechanic checks each bicycle after it is returned. Borrowing is temporarily suspended during high winds, even when bicycles are available and have passed inspection. Staff explain that these suspensions are safety measures rather than signs that the programme is ending.","questions":[{"text":"Which paragraph describes a change made because the original arrangements did not suit some users?","options":["Paragraph A","Paragraph B","Paragraph C","Paragraph D","The information is not stated."],"answer":2,"explanation":"C explica que usuarios con turnos tempranos tenían dificultades y que, en respuesta, se adelantó la hora de recogida entre semana."},{"text":"Which paragraph reports that the programme has reduced the number of journeys made by car?","options":["Paragraph A","Paragraph B","Paragraph C","Paragraph D","The information is not stated."],"answer":4,"explanation":"El texto explica para qué sirve el programa y cuántos préstamos hubo. No informa que hayan disminuido los viajes en automóvil."}]},{"title":"4. Views on a street closure","passage":"The council is considering closing Market Street to cars every Saturday for a three-month trial.\n\nTransport planner Rita Shah supports the trial, provided that alternative loading areas are available and traffic on surrounding streets is monitored. She argues that pedestrian space could benefit the neighbourhood, but that problems must be identified before any permanent arrangement is considered. If traffic increases substantially on nearby roads, she wants the plan adjusted before an extension is approved.\n\nCafé owner Leo Grant agrees that pedestrians need safer streets. However, he opposes closing Market Street for the entire Saturday. Many of his customers collect large food orders before noon, and he believes that a full-day closure would make collection difficult. He proposes starting the closure at 14:00 instead. He would support an afternoon trial.\n\nA resident, Alex, comments:\n\n“More space for people would be welcome. But a quieter Market Street wouldn’t reassure me if the same cars simply moved past my front door. I would support a trial that measures more than what happens inside the closed area.”","questions":[{"text":"Which proposal would Rita’s stated position most clearly conflict with?","options":["Providing alternative loading areas while the temporary closure operates.","Comparing traffic on neighbouring roads before and during the trial.","Altering the trial if nearby roads experience substantial extra traffic.","Making the closure permanent without first assessing its wider effects."],"answer":3,"explanation":"Rita apoya una prueba con condiciones y evaluación previa. Hacer el cierre permanente sin analizar sus efectos contradice esa postura."},{"text":"Alex’s comment is closest to Rita’s position because both want to ___.","options":["protect access for customers collecting orders during the morning","consider effects beyond the street that would be closed","begin the closure later to reduce its impact on local businesses","preserve current traffic levels within the proposed pedestrian area"],"answer":1,"explanation":"Ambos se preocupan por el tráfico en las calles vecinas, fuera de la zona cerrada. La recogida de pedidos por la mañana es la preocupación de Leo."},{"text":"What do Rita and Leo agree on?","options":["Market Street should be closed to cars for the whole Saturday.","The trial should begin only after its permanent funding is approved.","Street arrangements should improve safety for people walking.","The same closure hours should apply to all neighbouring streets."],"answer":2,"explanation":"Leo coincide en que los peatones necesitan calles más seguras. Rita propone un espacio peatonal que beneficie al barrio; discrepan sobre las condiciones del cierre."}]}];
+const items = sections.flatMap(s=>s.questions);
+const LIMIT = 600000;
+const STORAGE = "celpip-quick-diagnostic-v1";
+const $ = id=>document.getElementById(id);
+const letters = "ABCDE";
+function remainingSeconds(deadline, now=Date.now()){return Math.max(0,Math.ceil((deadline-now)/1000));}
+function formatTime(seconds){return String(Math.floor(seconds/60)).padStart(2,"0")+":"+String(seconds%60).padStart(2,"0");}
+function grade(answers){return items.reduce((score,q,i)=>score+(answers[i]===q.answer?1:0),0);}
+function fresh(){return {startedAt:null,deadline:null,finishedAt:null,expired:false,answers:Array(10).fill(null),confidence:Array(10).fill(""),changes:Array(10).fill(0),firstAnswers:Array(10).fill(null),reasons:["","",""],feedback:false};}
+let state=fresh(), interval=null;
+try{const saved=JSON.parse(localStorage.getItem(STORAGE));if(saved&&saved.answers?.length===10&&saved.confidence?.length===10&&saved.reasons?.length===3&&(!saved.startedAt||Number.isFinite(saved.deadline)))state={...fresh(),...saved};}catch{}
+function save(){try{localStorage.setItem(STORAGE,JSON.stringify(state));}catch{}}
+function node(tag,text,className){const el=document.createElement(tag);if(text!==undefined)el.textContent=text;if(className)el.className=className;return el;}
+function build(){
+ let index=0;
+ sections.forEach(s=>{
+  const card=node("section",undefined,"card");
+  card.append(node("h2",s.title),node("div","Read the text","text-label"),node("div",s.passage,"passage"));
+  if(s.table){
+   card.append(node("p","Desliza la tabla si necesitas ver todas las columnas.","muted"));
+   const wrap=node("div",undefined,"table-wrap"),table=node("table"),head=node("thead"),headRow=node("tr");
+   s.table.headers.forEach(h=>{const th=node("th",h);th.scope="col";headRow.append(th);});head.append(headRow);table.append(head);
+   const body=node("tbody");s.table.rows.forEach(row=>{const tr=node("tr");row.forEach((value,i)=>{const cell=node(i===0?"th":"td",value);if(i===0)cell.scope="row";tr.append(cell);});body.append(tr);});table.append(body);wrap.append(table);card.append(wrap);
+  }
+  if(s.after)card.append(node("div",s.after,"passage"));
+  const questions=node("div");questions.style.marginTop="24px";
+  s.questions.forEach(q=>{
+   const n=index++,field=node("fieldset",undefined,"question");
+   field.append(node("legend",(n+1)+". "+q.text));const options=node("div",undefined,"options");
+   q.options.forEach((option,j)=>{
+    const label=node("label",undefined,"choice"),input=node("input");input.type="radio";input.name="q"+n;input.value=j;input.checked=state.answers[n]===j;input.disabled=Boolean(state.finishedAt);
+    input.addEventListener("change",()=>{if(!active())return;if(state.answers[n]!==null&&state.answers[n]!==j)state.changes[n]++;if(state.firstAnswers[n]===null)state.firstAnswers[n]=j;state.answers[n]=j;save();updateProgress();});
+    const text=node("span");text.append(node("span",letters[j]+". ","letter"),document.createTextNode(option));label.append(input,text);options.append(label);
+   });field.append(options);
+   const confidence=node("div",undefined,"confidence"),label=node("label","Tu seguridad:");label.htmlFor="c"+n;
+   const select=node("select");select.id="c"+n;select.disabled=Boolean(state.finishedAt);select.setAttribute("aria-label","Seguridad de la pregunta "+(n+1));
+   [["","Sin indicar"],["S","Segura/o"],["D","Dudé"]].forEach(([value,text])=>{const option=node("option",text);option.value=value;select.append(option);});select.value=state.confidence[n];
+   select.addEventListener("change",()=>{if(!active())return;state.confidence[n]=select.value;save();});
+   confidence.append(label,select);field.append(confidence);questions.append(field);
+  });card.append(questions);$("sections").append(card);
+ });
+}
+function active(){if(!state.startedAt||state.finishedAt)return false;if(Date.now()>=state.deadline){end(true);return false;}return true;}
+function updateProgress(){$("progress").textContent=state.answers.filter(a=>a!==null).length+"/10 respuestas";}
+function tick(){
+ if(state.finishedAt)return;
+ const left=remainingSeconds(state.deadline);$("timer").textContent=formatTime(left);$("timer").classList.toggle("urgent",left<=60);
+ if(left===0)end(true);
+}
+function begin(){
+ state=fresh();state.startedAt=Date.now();state.deadline=state.startedAt+LIMIT;save();
+ $("intro").hidden=true;$("test").hidden=false;$("bar").hidden=false;
+ $("sections").replaceChildren();build();updateProgress();tick();interval=setInterval(tick,250);window.scrollTo({top:0,behavior:"instant"});
+}
+function end(expired){
+ if(state.finishedAt)return;clearInterval(interval);
+ state.expired=expired;state.finishedAt=expired?state.deadline:Math.min(Date.now(),state.deadline);save();showResults();window.scrollTo({top:0,behavior:"instant"});
+}
+function showResults(){
+ $("intro").hidden=true;$("test").hidden=true;$("bar").hidden=true;$("results").hidden=false;
+ const answered=state.answers.filter(a=>a!==null).length,seconds=Math.max(0,Math.round((state.finishedAt-state.startedAt)/1000));
+ $("finished-note").textContent=(state.expired?"El tiempo terminó. ":"")+answered+"/10 respondidas · Tiempo: "+formatTime(seconds)+".";
+ state.reasons.forEach((value,i)=>{$("reason"+(i+1)).value=value;});if(state.feedback)showCorrection();
+}
+function collectReasons(){state.reasons=[1,2,3].map(i=>$("reason"+i).value.trim());save();}
+function showCorrection(){
+ collectReasons();state.feedback=true;save();const el=$("correction");el.replaceChildren();el.hidden=false;
+ el.append(node("p",grade(state.answers)+" / 10","score"),node("p","Respuestas correctas. Este puntaje no representa un nivel CELPIP.","muted"));
+ items.forEach((q,i)=>{const div=node("div",undefined,"review"),good=state.answers[i]===q.answer;
+  div.append(node("span",good?"Correcta":"Revisar","badge"+(good?"":" wrong")),node("h3","Pregunta "+(i+1)));
+  div.append(node("p","Tu respuesta: "+(state.answers[i]===null?"Sin responder":letters[state.answers[i]]+". "+q.options[state.answers[i]])));
+  div.append(node("p","Respuesta correcta: "+letters[q.answer]+". "+q.options[q.answer]),node("p",q.explanation));el.append(div);
+ });$("feedback").hidden=true;
+}
+function summary(s){
+ const seconds=Math.max(0,Math.round((s.finishedAt-s.startedAt)/1000)),answers=s.answers.filter(a=>a!==null).length;
+ const lines=["READING · DIAGNÓSTICO RÁPIDO","Tiempo: "+formatTime(seconds)+(s.expired?" (se agotó el tiempo)":""),
+  "Respondidas: "+answers+"/10","Aciertos: "+grade(s.answers)+"/10 · Sin equivalencia CLB","",
+  "Respuestas (S = segura/o; D = dudé):"];
+ items.forEach((q,i)=>lines.push((i+1)+": "+(s.answers[i]===null?"Sin responder":letters[s.answers[i]])+" · "+(s.confidence[i]||"Seguridad sin indicar")+(s.changes[i]?" · Cambios: "+s.changes[i]+" · Primera: "+letters[s.firstAnswers[i]]:"")));
+ lines.push("","EXPLICACIONES");
+ ["Pregunta con duda 1","Pregunta con duda 2","Pregunta segura"].forEach((label,i)=>lines.push(label+": "+(s.reasons[i]||"Sin comentario")));
+ if(s.feedback)lines.push("","Se consultó la corrección antes de compartir.");
+ lines.push("","Prueba: https://jmurrietabvc.github.io/CELPIP-Study-Tool/diagnostico.html");
+ return lines.join("\n");
+}
+$("start").addEventListener("click",begin);
+$("finish").addEventListener("click",()=>{if(!active())return;const blanks=state.answers.filter(a=>a===null).length;if(blanks&&!confirm("Quedan "+blanks+" preguntas sin responder. ¿Terminar ahora?"))return;if(active())end(false);});
+$("feedback").addEventListener("click",showCorrection);
+[1,2,3].forEach(i=>$("reason"+i).addEventListener("input",collectReasons));
+$("whatsapp").addEventListener("click",()=>{collectReasons();window.open("https://wa.me/?text="+encodeURIComponent(summary(state)),"_blank","noopener,noreferrer");});
+$("copy").addEventListener("click",async()=>{
+ collectReasons();const text=summary(state);
+ try{await navigator.clipboard.writeText(text);$("status").textContent="Resumen copiado. Pégalo en tu conversación de WhatsApp.";}
+ catch{const area=node("textarea");area.value=text;area.setAttribute("aria-label","Resumen para copiar");$("status").replaceChildren(node("p","Mantén presionado el texto para copiarlo:"),area);area.focus();area.select();}
+});
+$("reset").addEventListener("click",()=>{if(!confirm("¿Empezar otro intento? Antes guarda o comparte este resultado."))return;try{localStorage.removeItem(STORAGE);}catch{}state=fresh();location.reload();});
+build();updateProgress();
+if(state.finishedAt)showResults();
+else if(state.startedAt){$("intro").hidden=true;$("test").hidden=false;$("bar").hidden=false;tick();if(!state.finishedAt)interval=setInterval(tick,250);}
+document.addEventListener("visibilitychange",()=>{if(state.startedAt&&!state.finishedAt)tick();});
+window.addEventListener("pageshow",()=>{if(state.startedAt&&!state.finishedAt)tick();});
+</script>
+</body>
+</html>
