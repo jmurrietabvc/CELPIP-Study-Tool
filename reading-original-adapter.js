@@ -49,6 +49,6 @@ const ORIGINAL_BANK = ORIGINAL_READING_SOURCE.map((source, sourceIndex) => {
   }
   const minutes = ultimate ? (part===1?9:part===2?9:part===3?10:11) : (part===1?Math.ceil(questions.length):part===2?Math.ceil(questions.length*9/8):part===3?10:Math.ceil(questions.length*13/10));
   let passage = source.passage.replace(/<br\s*\/?\s*>/gi,'\n');
-  if (source.id === 'original-32') passage = passage.replace(/fire-hydrant parking violation/gi,'temporary parking restriction violation');
+  if (source.id === 'original-32') passage = passage.replace("The ticket cites infraction code 44B: 'Parking within three meters of a fire hydrant.' While I acknowledge the physical proximity of my vehicle to the hydrant, I contend that the enforcement action was fundamentally unjust due to extenuating circumstances governed by municipal statute exemption clause 12(4).","The ticket cites infraction code 44B: 'Parking in a temporary restriction zone.' I contend that this enforcement action was unjust because the signs for that restriction were not reasonably visible.").replace('municipal snow-clearing signage','temporary parking restriction signage');
   return {id:source.id,title,part,minutes,passage,questions,source:'original',ultimate,reviewed:questions.every(q=>q.reviewed)};
 });
