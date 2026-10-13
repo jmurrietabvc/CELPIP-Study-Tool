@@ -61,8 +61,14 @@ function synchronize(now=Date.now()){
 }
 function startClock(){clearInterval(interval);interval=setInterval(()=>{synchronize();if(current&&!current.finishedAt)updateClock();},250);}
 function updateClock(){const p=current.parts[current.partIndex];$('timer').textContent=p.deadline===null?'Sin reloj':clock(p.deadline-Date.now());$('timer').classList.toggle('urgent',p.deadline!==null&&p.deadline-Date.now()<60000);$('answered').textContent=`${count(p.answers)}/${p.answers.length} respuestas`;}
+function originalPassageHtml(value){
+ const lines=value.split(/\r?\n/),chunks=[];let table=null,buffer=[];
+ const flush=()=>{if(buffer.length){chunks.push({table,body:buffer.join('\n')});buffer=[];}};
+ for(const line of lines){const isTable=line.includes('|')||/^\s*[+\-]{12,}\s*$/.test(line);if(table!==isTable){flush();table=isTable;}buffer.push(line);}flush();
+ return chunks.map(c=>c.table?`<div class="source-table"><pre>${esc(c.body)}</pre></div>`:`<div class="passage">${esc(c.body)}</div>`).join('');
+}
 function passageHtml(part){
- const passage=`<div class="passage">${esc(part.passage)}</div>`;
+ const passage=part.source==='original'?originalPassageHtml(part.passage):`<div class="passage">${esc(part.passage)}</div>`;
  const table=part.table?`<div class="table-wrap"><table><thead><tr>${part.table.headers.map(h=>`<th scope="col">${esc(h)}</th>`).join('')}</tr></thead><tbody>${part.table.rows.map(row=>`<tr>${row.map(c=>`<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`:'';
  const reply=part.reply?`<h3>Read the following message and complete its blanks.</h3><div class="reply">${esc(part.reply).replace(/\[(\d+)\]/g,'<span class="blank">[$1]</span>')}</div>`:'';
  return passage+table+reply;
@@ -147,15 +153,16 @@ function renderHome(){
  if(current&&!current.finishedAt){const resume=document.createElement('div');resume.className='notice';resume.innerHTML='Hay un intento guardado. Su reloj continúa. <button id="resume">Continuar intento</button>';$('history').prepend(resume);$('resume').onclick=()=>{synchronize();if(!current.finishedAt){renderExam();startClock();}};}
 }
 function renderCatalog(){
- const needle=$('catalog-search').value.trim().toLocaleLowerCase(),filter=$('catalog-filter').value;
- const items=ORIGINAL_BANK.filter(p=>!p.ultimate&&(filter==='all'||String(p.part)===filter)&&(!needle||(p.title+' '+p.passage.slice(0,180)).toLocaleLowerCase().includes(needle)));
- $('catalog-count').textContent=`${items.length} de 68 ejercicios · ${ORIGINAL_BANK.filter(p=>!p.ultimate&&p.reviewed).length} con alternativas y evidencia revisadas`;
+ const needle=$('catalog-search').value.trim().toLocaleLowerCase(),filter=$('catalog-filter').value,quality=$('catalog-quality').value;
+ const items=ORIGINAL_BANK.filter(p=>!p.ultimate&&(quality==='all'||p.reviewed)&&(filter==='all'||String(p.part)===filter)&&(!needle||(p.title+' '+p.passage.slice(0,180)).toLocaleLowerCase().includes(needle)));
+ $('catalog-count').textContent=`${items.length} mostrados · ${ORIGINAL_BANK.filter(p=>!p.ultimate&&p.reviewed).length} revisados de 68 ejercicios originales`;
  $('catalog').innerHTML=items.map(p=>`<article class="catalog-item"><div><span class="tag">Part ${p.part}</span> <span class="tag ${p.reviewed?'reviewed':''}">${p.reviewed?'Revisado':'Banco original'}</span><h3>${esc(p.title.replace(/^Ejercicio \d+ · Part \d+ ·?\s*/,''))}</h3><p class="small">${esc(p.title.match(/^Ejercicio \d+/)?.[0]||'')} · ${p.questions.length} preguntas · ${p.minutes} minutos${p.part!==3?' · Ejercicio corto':''}</p></div><button data-original="${esc(p.id)}">Practicar →</button></article>`).join('');
 }
 $('modules').addEventListener('click',e=>{const b=e.target.closest('[data-part]');if(b)openSetup(b.dataset.mode,Number(b.dataset.part));});
 $('catalog').addEventListener('click',e=>{const b=e.target.closest('[data-original]');if(b)openSetup('original',b.dataset.original);});
 $('catalog-search').addEventListener('input',renderCatalog);
 $('catalog-filter').addEventListener('change',renderCatalog);
+$('catalog-quality').addEventListener('change',renderCatalog);
 $('ultimate').onclick=()=>openSetup('ultimate');
 $('history').addEventListener('click',e=>{const b=e.target.closest('[data-record]');if(!b)return;if(current&&!current.finishedAt){alert('Termina el intento en curso antes de abrir otro resultado.');return;}current=JSON.parse(JSON.stringify(history[Number(b.dataset.record)]));persist();renderResults();});
 $('diagnostic').onclick=()=>openSetup('diagnostic');$('mock').onclick=()=>openSetup('mock');$('begin').onclick=begin;$('finish').onclick=finishManually;

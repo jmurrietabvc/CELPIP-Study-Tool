@@ -114,3 +114,26 @@ During the pilot, the library will count visits after 7 p.m. and record self-ser
  ['Which paragraph describes how feedback will include people unable to use even the new hours?', 'D']
  ]}
 ];
+const REPAIRED_ORIGINAL_V2=[
+ {id:'original-26',part:3,title:'Ejercicio 27 · Part 3 · Student aid application',minutes:10,passage:`A
+At Lakeview College, students who intend to apply for public student aid are advised to check the province’s eligibility rules before choosing a course load. The college can explain its own full-time and part-time enrolment categories, but the province decides whether a student qualifies for aid. An estimate from the college is therefore useful for planning, not a promise of funding.
+
+B
+The online aid form asks applicants to enter tuition and other expected costs. The college’s fee estimate is updated after registration changes, so a student who switches programs should check it again before submitting the form. An aid assessment may include living costs as well as tuition. The assessed amount does not necessarily arrive all at once; the province’s payment schedule is shown in the student’s account after approval.
+
+C
+Applicants can upload supporting documents before the form deadline, but an unreadable upload will be rejected. The portal then displays a request for a clearer copy. Submitting a replacement does not move the original deadline. The aid office recommends checking the account regularly, since an email alert may be delayed or filtered. Staff can confirm whether a document is marked received but cannot approve it on the province’s behalf.
+
+D
+A student whose income changes substantially after applying may request a reassessment. The request requires an explanation and supporting information; it does not automatically change the award. Students who think the assessment contains an error may also ask for a review, but they should not assume that a review pauses any existing payment obligation. The aid office can explain where to submit these requests, while the province makes the final decision.`,questions:[
+ ['Which paragraph distinguishes college enrolment guidance from the province’s funding decision?','A'],
+ ['Which paragraph warns that submitting a clearer document does not extend a deadline?','C'],
+ ['Which paragraph explains why changing programs may require updating an estimate?','B'],
+ ['Which paragraph gives a guaranteed number of days for approval after all documents are received?','E'],
+ ['Which paragraph says a changed income can lead to a request but not an automatic new award?','D'],
+ ['Which paragraph notes that a total assessment may be paid in instalments?','B'],
+ ['Which paragraph advises checking the account even if an email notice is expected?','C'],
+ ['Which paragraph cautions against assuming that a review suspends payment duties?','D'],
+ ['Which paragraph describes a planning estimate that should not be treated as a funding promise?','A']
+ ]}
+];
