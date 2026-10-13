@@ -12,9 +12,10 @@ if(current && (!Array.isArray(current.parts) || current.version!==READING_VERSIO
 let setupConfig=null;
 let interval=null;
 const getPart=id => id===TIME_DIAGNOSTIC.id?TIME_DIAGNOSTIC:READING_BANK.find(p=>p.id===id)||ORIGINAL_BANK.find(p=>p.id===id);
+const partFor=p=>p.material||getPart(p.id);
 const sum = values => values.reduce((a,b)=>a+b,0);
 const count = answers => answers.filter(a=>a!==null).length;
-const score = (id, answers) => getPart(id).questions.reduce((n,q,i)=>n+(answers[i]===q.answer?1:0),0);
+const score = (p, answers) => partFor(p).questions.reduce((n,q,i)=>n+(answers[i]===q.answer?1:0),0);
 const clock = ms => {const seconds=Math.max(0,Math.ceil(ms/1000));return `${String(Math.floor(seconds/60)).padStart(2,'0')}:${String(seconds%60).padStart(2,'0')}`;};
 const duration = ms => clock(ms);
 const dated = at => new Date(at).toLocaleString('es',{dateStyle:'short',timeStyle:'short'});
@@ -39,10 +40,10 @@ function openSetup(mode, idx=0){
 function begin(){
  if(!setupConfig)return;
  const now=Date.now();
- current={id:crypto.randomUUID?crypto.randomUUID():String(now),kind:'practice',version:READING_VERSION,mode:setupConfig.mode,startedAt:now,finishedAt:null,partIndex:0,phase:'base',reflection:'',feedbackSeen:false,parts:setupConfig.ids.map(id=>({id,repeated:previousCount(id)>0,answers:Array(getPart(id).questions.length).fill(null),changes:Array(getPart(id).questions.length).fill(0),firstAnswers:Array(getPart(id).questions.length).fill(null),events:[],startedAt:null,deadline:null,base:null,final:null,expired:false}))};
+ current={id:crypto.randomUUID?crypto.randomUUID():String(now),kind:'practice',version:READING_VERSION,mode:setupConfig.mode,startedAt:now,finishedAt:null,partIndex:0,phase:'base',reflection:'',feedbackSeen:false,parts:setupConfig.ids.map(id=>({id,material:JSON.parse(JSON.stringify(getPart(id))),repeated:previousCount(id)>0,answers:Array(getPart(id).questions.length).fill(null),changes:Array(getPart(id).questions.length).fill(0),firstAnswers:Array(getPart(id).questions.length).fill(null),events:[],startedAt:null,deadline:null,base:null,final:null,expired:false}))};
  startPart(0,now);persist();renderExam();startClock();
 }
-function startPart(index,at){current.partIndex=index;current.phase='base';const p=current.parts[index];p.startedAt=at;p.deadline=current.mode==='untimed'?null:at+getPart(p.id).minutes*60000;}
+function startPart(index,at){current.partIndex=index;current.phase='base';const p=current.parts[index];p.startedAt=at;p.deadline=current.mode==='untimed'?null:at+partFor(p).minutes*60000;}
 function snapshot(p,at){return {at,elapsedMs:at-p.startedAt,answers:p.answers.slice(),changes:p.changes.slice(),firstAnswers:p.firstAnswers.slice()};}
 function finishAll(at){current.finishedAt=at;current.finishedReason='completed';persist();archive();clearInterval(interval);renderResults();}
 function advanceBase(at,expired){
@@ -75,7 +76,7 @@ function passageHtml(part){
 }
 function renderExam(){
  if(!current || current.finishedAt)return;
- const p=current.parts[current.partIndex],part=getPart(p.id);
+ const p=current.parts[current.partIndex],part=partFor(p);
  show('exam');$('exam-title').textContent=part.title;
  $('mode-label').textContent=current.mode==='diagnostic'?(current.phase==='base'?'Evaluación · etapa 1 de 2':'Evaluación · etapa 2 de 2'):current.mode==='mock'?`Simulacro · parte ${current.partIndex+1} de ${current.parts.length}`:current.mode==='ultimate'?`Ultimate · bloque ${current.partIndex+1} de ${current.parts.length}`:current.mode==='untimed'?'Entrenamiento sin reloj':'Práctica con reloj';
  $('phase-notice').hidden=current.phase!=='extra';$('phase-notice').textContent='Las respuestas de la primera etapa están guardadas. Ahora tienes cinco minutos adicionales para completar y revisar. La corrección sigue oculta.';
@@ -91,7 +92,7 @@ $('question-panel').addEventListener('change',e=>{
  synchronize();
  if(!current || current.finishedAt || current.parts[current.partIndex].id!==expected || current.phase!==phase)return;
  const p=current.parts[current.partIndex],i=Number(e.target.name.slice(1)),answer=Number(e.target.value);
- if(!Number.isInteger(i) || i<0 || i>=p.answers.length || !Number.isInteger(answer) || answer<0 || answer>=getPart(p.id).questions[i].options.length)return;
+ if(!Number.isInteger(i) || i<0 || i>=p.answers.length || !Number.isInteger(answer) || answer<0 || answer>=partFor(p).questions[i].options.length)return;
  if(p.answers[i]!==null && p.answers[i]!==answer)p.changes[i]++;
  if(p.firstAnswers[i]===null)p.firstAnswers[i]=answer;
  if(p.answers[i]!==answer)p.events.push({question:i+1,answer,at:Date.now(),phase:current.phase});
@@ -109,9 +110,9 @@ function finishManually(){
  const now=Date.now();
  if(current.phase==='extra'){const p=current.parts[current.partIndex];p.final=snapshot(p,now);p.extraExpired=false;finishAll(now);}else{advanceBase(now,false);if(!current.finishedAt)renderExam();}
 }
-function recordTotals(record,stage='final'){return {correct:sum(record.parts.map(p=>score(p.id,(p[stage]||p.final).answers))),answered:sum(record.parts.map(p=>count((p[stage]||p.final).answers))),total:sum(record.parts.map(p=>getPart(p.id).questions.length))};}
-function diagnosticChanges(record){const p=record.parts[0],qs=getPart(p.id).questions;return qs.reduce((r,q,i)=>{const before=p.base.answers[i],after=p.final.answers[i];if(before===null&&after!==null)r.newAnswers++;if(before!==q.answer&&after===q.answer)r.recovered++;if(before===q.answer&&after!==q.answer)r.lost++;return r;},{newAnswers:0,recovered:0,lost:0});}
-function titleFor(record){return record.mode==='diagnostic'?'Tiempo y precisión':record.mode==='mock'?'Reading completo':record.mode==='ultimate'?'Ultimate · cinco bloques':getPart(record.parts[0].id).title;}
+function recordTotals(record,stage='final'){return {correct:sum(record.parts.map(p=>score(p,(p[stage]||p.final).answers))),answered:sum(record.parts.map(p=>count((p[stage]||p.final).answers))),total:sum(record.parts.map(p=>partFor(p).questions.length))};}
+function diagnosticChanges(record){const p=record.parts[0],qs=partFor(p).questions;return qs.reduce((r,q,i)=>{const before=p.base.answers[i],after=p.final.answers[i];if(before===null&&after!==null)r.newAnswers++;if(before!==q.answer&&after===q.answer)r.recovered++;if(before===q.answer&&after!==q.answer)r.lost++;return r;},{newAnswers:0,recovered:0,lost:0});}
+function titleFor(record){return record.mode==='diagnostic'?'Tiempo y precisión':record.mode==='mock'?'Reading completo':record.mode==='ultimate'?'Ultimate · cinco bloques':partFor(record.parts[0]).title;}
 function interpretationFor(record){
  if(record.mode!=='diagnostic')return 'Este puntaje describe esta práctica. Revisa también pendientes, evidencia y repeticiones. Para medir progreso hacia CLB 10+, utiliza material oficial nuevo con sus tiempos.';
  const first=recordTotals(record,'base'),final=recordTotals(record),gained=final.correct-first.correct;
@@ -126,21 +127,21 @@ function renderResults(){
  if(current.mode==='diagnostic')html=`<div class="metrics"><div class="metric"><strong>${first.correct}/${first.total}</strong><p class="small">Aciertos · primera etapa<br>${count(current.parts[0].base.answers)} respondidas · ${duration(current.parts[0].base.elapsedMs)}</p></div><div class="metric"><strong>${final.correct}/${final.total}</strong><p class="small">Aciertos · resultado final<br>${final.answered} respondidas · ${duration(current.finishedAt-current.startedAt)}</p></div><div class="metric"><strong>${final.correct-first.correct>0?'+':''}${final.correct-first.correct}</strong><p class="small">Cambio neto en aciertos</p></div></div>`;
  else html=`<div class="metrics"><div class="metric"><strong>${final.correct}/${final.total}</strong><p class="small">Aciertos</p></div><div class="metric"><strong>${final.total-final.answered}</strong><p class="small">Sin responder</p></div><div class="metric"><strong>${duration(current.finishedAt-current.startedAt)}</strong><p class="small">Tiempo usado</p></div></div>`;
  if(current.mode==='diagnostic'){const changes=diagnosticChanges(current);html+=`<p class="small">En la etapa adicional: ${changes.newAnswers} pendientes contestadas · ${changes.recovered} respuestas pasaron a correctas · ${changes.lost} respuestas correctas pasaron a incorrectas.</p>`;}
- html+=current.parts.map(p=>{const part=getPart(p.id);return `<p class="small">${esc(part.title)}: ${score(p.id,p.final.answers)}/${p.final.answers.length} · ${duration(p.final.elapsedMs)}${p.repeated?' · Texto repetido':''}${p.expired?(current.mode==='diagnostic'?' · Se agotó el tiempo de la primera etapa':' · Se agotó el tiempo de la parte'):''}</p>`;}).join('');
+ html+=current.parts.map(p=>{const part=partFor(p);return `<p class="small">${esc(part.title)}: ${score(p,p.final.answers)}/${p.final.answers.length} · ${duration(p.final.elapsedMs)}${p.repeated?' · Texto repetido':''}${p.expired?(current.mode==='diagnostic'?' · Se agotó el tiempo de la primera etapa':' · Se agotó el tiempo de la parte'):''}</p>`;}).join('');
  $('result-metrics').innerHTML=html;$('interpretation').textContent=interpretationFor(current);$('reflection').value=current.reflection||'';$('share-status').textContent='';
- $('result-passages').innerHTML=current.parts.map(p=>`<section class="result-passage"><h3>${esc(getPart(p.id).title)}</h3>${passageHtml(getPart(p.id))}</section>`).join('');
+ $('result-passages').innerHTML=current.parts.map(p=>`<section class="result-passage"><h3>${esc(partFor(p).title)}</h3>${passageHtml(partFor(p))}</section>`).join('');
  $('review').hidden=!current.feedbackSeen;$('review').innerHTML=current.feedbackSeen?reviewHtml():'';
  $('show-review').textContent=current.feedbackSeen?'Corrección consultada':'Ver corrección y evidencia';window.scrollTo(0,0);
 }
 function letter(answer){return answer===null?'Sin responder':String.fromCharCode(65+answer);}
-function reviewHtml(){return current.parts.map(p=>{const part=getPart(p.id);return `<h2>${esc(part.title)}</h2>`+part.questions.map((q,i)=>{const answer=p.final.answers[i],correct=answer===q.answer;return `<section class="review-item" lang="en"><h3>${i+1}. ${esc(q.text)}</h3><p class="${correct?'right':'wrong'}">${correct?'Correcta':'Incorrecta o pendiente'} · Tu respuesta: ${letter(answer)} · Clave: ${letter(q.answer)}</p>${current.mode==='diagnostic'?`<p class="small">Primera etapa: ${letter(p.base.answers[i])} → final: ${letter(answer)}</p>`:''}${part.source==='original'?`<p class="small">${q.reviewed?'Alternativas y evidencia revisadas':'Clave heredada · revisión editorial pendiente'}</p>`:''}<p lang="es"><strong>${q.reviewed===false?'Nota':'Evidencia'}:</strong> ${esc(q.evidence)}</p><ul>${q.options.map((o,j)=>`<li><strong>${String.fromCharCode(65+j)}. ${esc(o)}</strong><br><span lang="es">${j===q.answer?(q.reviewed===false?'Clave del banco original; pendiente de revisión.':'Sustentada por el texto.'):esc(q.why[j])}</span></li>`).join('')}</ul></section>`;}).join('');}).join('');}
+function reviewHtml(){return current.parts.map(p=>{const part=partFor(p);return `<h2>${esc(part.title)}</h2>`+part.questions.map((q,i)=>{const answer=p.final.answers[i],correct=answer===q.answer;return `<section class="review-item" lang="en"><h3>${i+1}. ${esc(q.text)}</h3><p class="${correct?'right':'wrong'}">${correct?'Correcta':'Incorrecta o pendiente'} · Tu respuesta: ${letter(answer)} · Clave: ${letter(q.answer)}</p>${current.mode==='diagnostic'?`<p class="small">Primera etapa: ${letter(p.base.answers[i])} → final: ${letter(answer)}</p>`:''}${part.source==='original'?`<p class="small">${q.reviewed?'Alternativas y evidencia revisadas':'Clave heredada · revisión editorial pendiente'}</p>`:''}<p lang="es"><strong>${q.reviewed===false?'Nota':'Evidencia'}:</strong> ${esc(q.evidence)}</p><ul>${q.options.map((o,j)=>`<li><strong>${String.fromCharCode(65+j)}. ${esc(o)}</strong><br><span lang="es">${j===q.answer?(q.reviewed===false?'Clave del banco original; pendiente de revisión.':'Sustentada por el texto.'):esc(q.why[j])}</span></li>`).join('')}</ul></section>`;}).join('');}).join('');}
 function saveReflection(){if(!current?.finishedAt)return;current.reflection=$('reflection').value;persist();archive();}
 function summary(){
  const final=recordTotals(current),first=recordTotals(current,'base');
  const lines=['READING STUDIO · '+titleFor(current),`Fecha: ${dated(current.startedAt)}`,`Modo: ${current.mode==='diagnostic'?'10 + 5 minutos':current.mode==='mock'?'Simulacro completo':current.mode==='untimed'?'Sin reloj':'Con reloj'}`,`Resultado final: ${final.correct}/${final.total} · Respondidas: ${final.answered}/${final.total}`,`Tiempo total: ${duration(current.finishedAt-current.startedAt)}`,'Sin equivalencia CLB · Material original, no oficial.'];
  if(current.mode==='diagnostic'){const changes=diagnosticChanges(current);lines.push(`Primera etapa: ${first.correct}/${first.total} · ${first.answered} respondidas · ${duration(current.parts[0].base.elapsedMs)}`,`Etapa adicional: ${duration(current.finishedAt-current.parts[0].extraStartedAt)}`,`Cambio neto de aciertos: ${final.correct-first.correct}`,`Pendientes contestadas: ${changes.newAnswers} · Respuestas recuperadas: ${changes.recovered} · Aciertos perdidos: ${changes.lost}`);}
- for(const p of current.parts){lines.push('',getPart(p.id).title+(p.repeated?' · REPETICIÓN':''));p.final.answers.forEach((answer,i)=>lines.push(`${i+1}: ${current.mode==='diagnostic'?letter(p.base.answers[i])+' → ':''}${letter(answer)}${p.changes[i]?` · ${p.changes[i]} cambios`:''}`));}
- lines.push('','EXPLICACIÓN DEL PROCESO',current.reflection||'Sin explicación añadida.',current.feedbackSeen?'Se consultó la corrección antes de compartir.':'Corrección no consultada.',`Prueba: ${location.origin}${location.pathname}?mode=${current.mode}${current.mode==='original'?'&id='+encodeURIComponent(current.parts[0].id):current.parts.length===1&&current.mode!=='diagnostic'?'&part='+getPart(current.parts[0].id).part:''}`);return lines.join('\n');
+ for(const p of current.parts){lines.push('',partFor(p).title+(p.repeated?' · REPETICIÓN':''));p.final.answers.forEach((answer,i)=>lines.push(`${i+1}: ${current.mode==='diagnostic'?letter(p.base.answers[i])+' → ':''}${letter(answer)}${p.changes[i]?` · ${p.changes[i]} cambios`:''}`));}
+ lines.push('','EXPLICACIÓN DEL PROCESO',current.reflection||'Sin explicación añadida.',current.feedbackSeen?'Se consultó la corrección antes de compartir.':'Corrección no consultada.',`Prueba: ${location.origin}${location.pathname}?mode=${current.mode}${current.mode==='original'?'&id='+encodeURIComponent(current.parts[0].id):current.parts.length===1&&current.mode!=='diagnostic'?'&part='+partFor(current.parts[0]).part:''}`);return lines.join('\n');
 }
 function download(value,name){const blob=new Blob([JSON.stringify(value,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
 async function copySummary(){saveReflection();const text=summary();try{await navigator.clipboard.writeText(text);$('share-status').textContent='Resumen copiado. Pégalo en WhatsApp.';}catch{let area=document.getElementById('copy-fallback');if(!area){area=document.createElement('textarea');area.id='copy-fallback';$('share-status').after(area);}area.value=text;area.focus();area.select();$('share-status').textContent='Selecciona y copia este resumen.';}}
