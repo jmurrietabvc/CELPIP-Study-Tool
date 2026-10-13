@@ -2,6 +2,18 @@
 // The original exercises remain available. Only entries with editorial revisions
 // receive rewritten alternatives and a specific evidence note.
 const ORIGINAL_BANK = ORIGINAL_READING_SOURCE.map((source, sourceIndex) => {
+  const fresh = ULTIMATE_V2.find(p=>p.id===source.id);
+  if(fresh){
+    const questions=fresh.questions.map((row,qi)=>{
+      const [text,raw,evidence]=row;
+      if(fresh.part===3){const answer='ABCDE'.indexOf(raw);return {text,options:['A','B','C','D','E — Not stated'],answer,group:1,evidence:answer===4?'Ningún párrafo indica ese dato.':`El párrafo ${raw} respalda esta idea.`,why:Array(5).fill('Busca la afirmación completa, no solo una palabra compartida.'),reviewed:true};}
+      const order=[0,1,2,3];let seed=(sourceIndex+1)*131+(qi+1)*53;
+      for(let i=3;i>0;i--){seed=(seed*1664525+1013904223)>>>0;const j=seed%(i+1);[order[i],order[j]]=[order[j],order[i]];}
+      const answer=order.indexOf(0),options=order.map(i=>raw[i]);
+      return {text,options,answer,group:qi>=5?2:1,evidence,why:options.map((_,i)=>i===answer?'':'Esta opción cambia un detalle de la evidencia o afirma algo no indicado.'),reviewed:true};
+    });
+    return {...fresh,questions,source:'ultimate-v2',ultimate:true,reviewed:true};
+  }
   const part = Number(source.title.match(/Part\s*([1-4])/i)?.[1] || 3);
   const ultimate = source.id.startsWith('ultimate-');
   const topic = source.title.replace(/^CLB\s*\d+(?:\s*[-–]\s*\d+)?\s*/i,'').replace(/^C2 BOSS MOCK\s*[-–]\s*/i,'').replace(/^Reading\s*:?[\s-]*/i,'').replace(/^Part\s*[1-4]\s*[:.–-]?\s*/i,'').trim();
