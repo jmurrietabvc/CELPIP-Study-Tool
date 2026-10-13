@@ -11,7 +11,7 @@ let current = read(CURRENT_KEY, null);
 if(current && (!Array.isArray(current.parts) || current.version!==READING_VERSION)) current=null;
 let setupConfig=null;
 let interval=null;
-const getPart=id => id===TIME_DIAGNOSTIC.id?TIME_DIAGNOSTIC:READING_BANK.find(p=>p.id===id);
+const getPart=id => id===TIME_DIAGNOSTIC.id?TIME_DIAGNOSTIC:READING_BANK.find(p=>p.id===id)||ORIGINAL_BANK.find(p=>p.id===id);
 const sum = values => values.reduce((a,b)=>a+b,0);
 const count = answers => answers.filter(a=>a!==null).length;
 const score = (id, answers) => getPart(id).questions.reduce((n,q,i)=>n+(answers[i]===q.answer?1:0),0);
@@ -24,10 +24,11 @@ function show(name){for(const id of ['home','setup','exam','results'])$(id).hidd
 function previousCount(id){return history.filter(a=>a.kind==='practice' && a.parts.some(p=>p.id===id)).length;}
 function openSetup(mode, idx=0){
  if(current && !current.finishedAt){if(!confirm('Hay un intento en curso. ¿Descartarlo para comenzar otro?'))return;current=null;write(CURRENT_KEY,null);}
- const ids=mode==='diagnostic'?[TIME_DIAGNOSTIC.id]:mode==='mock'?READING_BANK.map(p=>p.id):[READING_BANK[idx].id];
+ const ids=mode==='diagnostic'?[TIME_DIAGNOSTIC.id]:mode==='mock'?READING_BANK.map(p=>p.id):mode==='ultimate'?ORIGINAL_BANK.filter(p=>p.ultimate).map(p=>p.id):mode==='original'?[idx]:[READING_BANK[idx].id];
+ if(!ids.length || !ids.every(id=>getPart(id)))return;
  setupConfig={mode,ids};
- $('setup-title').textContent=mode==='diagnostic'?'Tiempo y precisión':mode==='mock'?'Reading completo':getPart(ids[0]).title;
- $('setup-description').textContent=mode==='diagnostic'?'Un texto nuevo de Reading for Information. Comparamos la precisión a los diez minutos con la precisión después de cinco minutos adicionales.':mode==='mock'?'Las cuatro partes avanzan con su propio reloj. No puedes volver a una parte cerrada y la clave se muestra al terminar todo.':mode==='untimed'?'Lee y responde a tu ritmo. Al terminar, revisa la evidencia y el motivo por el que cada alternativa es incorrecta.':'Una parte con reloj, sin corrección hasta terminar.';
+ $('setup-title').textContent=mode==='diagnostic'?'Tiempo y precisión':mode==='mock'?'Reading completo':mode==='ultimate'?'Ultimate · cinco bloques':getPart(ids[0]).title;
+ $('setup-description').textContent=mode==='diagnostic'?'Un texto nuevo de Reading for Information. Comparamos la precisión a los diez minutos con la precisión después de cinco minutos adicionales.':mode==='mock'?'Las cuatro partes avanzan con su propio reloj. No puedes volver a una parte cerrada y la clave se muestra al terminar todo.':mode==='ultimate'?'Cinco bloques originales con reloj independiente. La corrección se muestra al terminar toda la serie. Algunas claves del banco original siguen pendientes de revisión editorial.':mode==='untimed'?'Lee y responde a tu ritmo. Al terminar, revisa la evidencia y el motivo por el que cada alternativa es incorrecta.':mode==='original'?'Ejercicio del banco original con reloj proporcional a su longitud. Las preguntas con evidencia revisada se distinguen en la corrección.':'Una parte con reloj, sin corrección hasta terminar.';
  const total=sum(ids.map(id=>getPart(id).questions.length));
  const minutes=mode==='diagnostic'?'10 + 5 minutos':mode==='untimed'?'Sin límite':sum(ids.map(id=>getPart(id).minutes))+' minutos';
  $('setup-facts').innerHTML=`<span>${total} preguntas</span><span>${minutes}</span><span>Sin equivalencia CLB</span>`;
@@ -70,12 +71,12 @@ function renderExam(){
  if(!current || current.finishedAt)return;
  const p=current.parts[current.partIndex],part=getPart(p.id);
  show('exam');$('exam-title').textContent=part.title;
- $('mode-label').textContent=current.mode==='diagnostic'?(current.phase==='base'?'Evaluación · etapa 1 de 2':'Evaluación · etapa 2 de 2'):current.mode==='mock'?`Simulacro · parte ${current.partIndex+1} de 4`:current.mode==='untimed'?'Entrenamiento sin reloj':'Práctica con reloj';
+ $('mode-label').textContent=current.mode==='diagnostic'?(current.phase==='base'?'Evaluación · etapa 1 de 2':'Evaluación · etapa 2 de 2'):current.mode==='mock'?`Simulacro · parte ${current.partIndex+1} de ${current.parts.length}`:current.mode==='ultimate'?`Ultimate · bloque ${current.partIndex+1} de ${current.parts.length}`:current.mode==='untimed'?'Entrenamiento sin reloj':'Práctica con reloj';
  $('phase-notice').hidden=current.phase!=='extra';$('phase-notice').textContent='Las respuestas de la primera etapa están guardadas. Ahora tienes cinco minutos adicionales para completar y revisar. La corrección sigue oculta.';
  $('passage-panel').innerHTML=passageHtml(part);
  let group=0;
  $('question-panel').innerHTML=part.questions.map((q,i)=>{let label='';if(group!==q.group){group=q.group;label=`<p class="group-label">${group===2?'Complete the message blanks':'Choose the best answer'}</p>`;}return label+`<fieldset class="question"><legend>${i+1}. ${esc(q.text)}</legend><div class="options">${q.options.map((o,j)=>`<label class="choice"><input type="radio" name="q${i}" value="${j}" ${p.answers[i]===j?'checked':''}><span>${part.part===3?'':String.fromCharCode(65+j)+'. '}${esc(o)}</span></label>`).join('')}</div></fieldset>`;}).join('');
- $('finish').textContent=current.mode==='diagnostic'?(current.phase==='base'?'Guardar y pasar a cinco minutos extra':'Terminar evaluación'):current.mode==='mock'&&current.partIndex<3?'Guardar y pasar a la siguiente parte':'Terminar parte';
+ $('finish').textContent=current.mode==='diagnostic'?(current.phase==='base'?'Guardar y pasar a cinco minutos extra':'Terminar evaluación'):['mock','ultimate'].includes(current.mode)&&current.partIndex<current.parts.length-1?'Guardar y pasar a la siguiente parte':'Terminar parte';
  $('passage-panel').scrollTop=0;$('question-panel').scrollTop=0;window.scrollTo(0,0);updateClock();
 }
 $('question-panel').addEventListener('change',e=>{
@@ -104,7 +105,7 @@ function finishManually(){
 }
 function recordTotals(record,stage='final'){return {correct:sum(record.parts.map(p=>score(p.id,(p[stage]||p.final).answers))),answered:sum(record.parts.map(p=>count((p[stage]||p.final).answers))),total:sum(record.parts.map(p=>getPart(p.id).questions.length))};}
 function diagnosticChanges(record){const p=record.parts[0],qs=getPart(p.id).questions;return qs.reduce((r,q,i)=>{const before=p.base.answers[i],after=p.final.answers[i];if(before===null&&after!==null)r.newAnswers++;if(before!==q.answer&&after===q.answer)r.recovered++;if(before===q.answer&&after!==q.answer)r.lost++;return r;},{newAnswers:0,recovered:0,lost:0});}
-function titleFor(record){return record.mode==='diagnostic'?'Tiempo y precisión':record.mode==='mock'?'Reading completo':getPart(record.parts[0].id).title;}
+function titleFor(record){return record.mode==='diagnostic'?'Tiempo y precisión':record.mode==='mock'?'Reading completo':record.mode==='ultimate'?'Ultimate · cinco bloques':getPart(record.parts[0].id).title;}
 function interpretationFor(record){
  if(record.mode!=='diagnostic')return 'Este puntaje describe esta práctica. Revisa también pendientes, evidencia y repeticiones. Para medir progreso hacia CLB 10+, utiliza material oficial nuevo con sus tiempos.';
  const first=recordTotals(record,'base'),final=recordTotals(record),gained=final.correct-first.correct;
@@ -126,25 +127,36 @@ function renderResults(){
  $('show-review').textContent=current.feedbackSeen?'Corrección consultada':'Ver corrección y evidencia';window.scrollTo(0,0);
 }
 function letter(answer){return answer===null?'Sin responder':String.fromCharCode(65+answer);}
-function reviewHtml(){return current.parts.map(p=>{const part=getPart(p.id);return `<h2>${esc(part.title)}</h2>`+part.questions.map((q,i)=>{const answer=p.final.answers[i],correct=answer===q.answer;return `<section class="review-item" lang="en"><h3>${i+1}. ${esc(q.text)}</h3><p class="${correct?'right':'wrong'}">${correct?'Correcta':'Incorrecta o pendiente'} · Tu respuesta: ${letter(answer)} · Clave: ${letter(q.answer)}</p>${current.mode==='diagnostic'?`<p class="small">Primera etapa: ${letter(p.base.answers[i])} → final: ${letter(answer)}</p>`:''}<p lang="es"><strong>Evidencia:</strong> ${esc(q.evidence)}</p><ul>${q.options.map((o,j)=>`<li><strong>${String.fromCharCode(65+j)}. ${esc(o)}</strong><br><span lang="es">${j===q.answer?'Sustentada por el texto.':esc(q.why[j])}</span></li>`).join('')}</ul></section>`;}).join('');}).join('');}
+function reviewHtml(){return current.parts.map(p=>{const part=getPart(p.id);return `<h2>${esc(part.title)}</h2>`+part.questions.map((q,i)=>{const answer=p.final.answers[i],correct=answer===q.answer;return `<section class="review-item" lang="en"><h3>${i+1}. ${esc(q.text)}</h3><p class="${correct?'right':'wrong'}">${correct?'Correcta':'Incorrecta o pendiente'} · Tu respuesta: ${letter(answer)} · Clave: ${letter(q.answer)}</p>${current.mode==='diagnostic'?`<p class="small">Primera etapa: ${letter(p.base.answers[i])} → final: ${letter(answer)}</p>`:''}${part.source==='original'?`<p class="small">${q.reviewed?'Alternativas y evidencia revisadas':'Clave heredada · revisión editorial pendiente'}</p>`:''}<p lang="es"><strong>${q.reviewed===false?'Nota':'Evidencia'}:</strong> ${esc(q.evidence)}</p><ul>${q.options.map((o,j)=>`<li><strong>${String.fromCharCode(65+j)}. ${esc(o)}</strong><br><span lang="es">${j===q.answer?(q.reviewed===false?'Clave del banco original; pendiente de revisión.':'Sustentada por el texto.'):esc(q.why[j])}</span></li>`).join('')}</ul></section>`;}).join('');}).join('');}
 function saveReflection(){if(!current?.finishedAt)return;current.reflection=$('reflection').value;persist();archive();}
 function summary(){
  const final=recordTotals(current),first=recordTotals(current,'base');
  const lines=['READING STUDIO · '+titleFor(current),`Fecha: ${dated(current.startedAt)}`,`Modo: ${current.mode==='diagnostic'?'10 + 5 minutos':current.mode==='mock'?'Simulacro completo':current.mode==='untimed'?'Sin reloj':'Con reloj'}`,`Resultado final: ${final.correct}/${final.total} · Respondidas: ${final.answered}/${final.total}`,`Tiempo total: ${duration(current.finishedAt-current.startedAt)}`,'Sin equivalencia CLB · Material original, no oficial.'];
  if(current.mode==='diagnostic'){const changes=diagnosticChanges(current);lines.push(`Primera etapa: ${first.correct}/${first.total} · ${first.answered} respondidas · ${duration(current.parts[0].base.elapsedMs)}`,`Etapa adicional: ${duration(current.finishedAt-current.parts[0].extraStartedAt)}`,`Cambio neto de aciertos: ${final.correct-first.correct}`,`Pendientes contestadas: ${changes.newAnswers} · Respuestas recuperadas: ${changes.recovered} · Aciertos perdidos: ${changes.lost}`);}
  for(const p of current.parts){lines.push('',getPart(p.id).title+(p.repeated?' · REPETICIÓN':''));p.final.answers.forEach((answer,i)=>lines.push(`${i+1}: ${current.mode==='diagnostic'?letter(p.base.answers[i])+' → ':''}${letter(answer)}${p.changes[i]?` · ${p.changes[i]} cambios`:''}`));}
- lines.push('','EXPLICACIÓN DEL PROCESO',current.reflection||'Sin explicación añadida.',current.feedbackSeen?'Se consultó la corrección antes de compartir.':'Corrección no consultada.',`Prueba: ${location.origin}${location.pathname}?mode=${current.mode}${current.parts.length===1&&current.mode!=='diagnostic'?'&part='+getPart(current.parts[0].id).part:''}`);return lines.join('\n');
+ lines.push('','EXPLICACIÓN DEL PROCESO',current.reflection||'Sin explicación añadida.',current.feedbackSeen?'Se consultó la corrección antes de compartir.':'Corrección no consultada.',`Prueba: ${location.origin}${location.pathname}?mode=${current.mode}${current.mode==='original'?'&id='+encodeURIComponent(current.parts[0].id):current.parts.length===1&&current.mode!=='diagnostic'?'&part='+getPart(current.parts[0].id).part:''}`);return lines.join('\n');
 }
 function download(value,name){const blob=new Blob([JSON.stringify(value,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
 async function copySummary(){saveReflection();const text=summary();try{await navigator.clipboard.writeText(text);$('share-status').textContent='Resumen copiado. Pégalo en WhatsApp.';}catch{let area=document.getElementById('copy-fallback');if(!area){area=document.createElement('textarea');area.id='copy-fallback';$('share-status').after(area);}area.value=text;area.focus();area.select();$('share-status').textContent='Selecciona y copia este resumen.';}}
 function renderHome(){
  show('home');
  $('modules').innerHTML=READING_BANK.map((p,i)=>`<article class="module"><div class="number">0${p.part}</div><h3>${esc(p.title.split(' · ')[0])}</h3><p class="small">${p.questions.length} preguntas · ${p.minutes} minutos</p><p class="small">${p.part===1?'Email y respuesta con cinco huecos.':p.part===2?'Tabla y mensaje con tres huecos.':p.part===3?'Cuatro párrafos y opción «no se indica».':'Opiniones y comentario con cinco huecos.'}</p><div class="buttons"><button data-part="${i}" data-mode="timed">Practicar con reloj</button><button class="ghost" data-part="${i}" data-mode="untimed">Entrenar sin reloj</button></div></article>`).join('');
+ renderCatalog();
  const records=history.slice(0,30);
  $('history').innerHTML=records.length?records.map((a,i)=>{if(a.kind==='official')return `<div class="history-row"><div><strong>${esc(a.source)}</strong> <span class="tag">Registrado por ti · Oficial</span><p class="small">${dated(a.startedAt)}${a.repeated?' · Repetición':''}</p>${a.notes?`<p class="small">${esc(a.notes)}</p>`:''}</div><strong>${a.correct}/${a.total} · ${a.minutes} min</strong></div>`;const totals=recordTotals(a);return `<div class="history-row"><div><strong>${esc(titleFor(a))}</strong> <span class="tag">${a.mode==='untimed'?'Sin reloj':a.mode==='diagnostic'?'10 + 5 min':'Con reloj'}${a.parts.some(p=>p.repeated)?' · Repetición':''}</span><p class="small">${dated(a.startedAt)} · ${totals.answered}/${totals.total} respondidas</p></div><div><strong>${totals.correct}/${totals.total}</strong> <button class="ghost" data-record="${i}">Ver detalle</button></div></div>`;}).join(''):'<p class="small">Tus intentos aparecerán aquí. También puedes registrar resultados de packs oficiales.</p>';
  if(current&&!current.finishedAt){const resume=document.createElement('div');resume.className='notice';resume.innerHTML='Hay un intento guardado. Su reloj continúa. <button id="resume">Continuar intento</button>';$('history').prepend(resume);$('resume').onclick=()=>{synchronize();if(!current.finishedAt){renderExam();startClock();}};}
 }
+function renderCatalog(){
+ const needle=$('catalog-search').value.trim().toLocaleLowerCase(),filter=$('catalog-filter').value;
+ const items=ORIGINAL_BANK.filter(p=>!p.ultimate&&(filter==='all'||String(p.part)===filter)&&(!needle||(p.title+' '+p.passage.slice(0,180)).toLocaleLowerCase().includes(needle)));
+ $('catalog-count').textContent=`${items.length} de 68 ejercicios · ${ORIGINAL_BANK.filter(p=>!p.ultimate&&p.reviewed).length} con alternativas y evidencia revisadas`;
+ $('catalog').innerHTML=items.map(p=>`<article class="catalog-item"><div><span class="tag">Part ${p.part}</span> <span class="tag ${p.reviewed?'reviewed':''}">${p.reviewed?'Revisado':'Banco original'}</span><h3>${esc(p.title.replace(/^Ejercicio \d+ · Part \d+ ·?\s*/,''))}</h3><p class="small">${esc(p.title.match(/^Ejercicio \d+/)?.[0]||'')} · ${p.questions.length} preguntas · ${p.minutes} minutos${p.part!==3?' · Ejercicio corto':''}</p></div><button data-original="${esc(p.id)}">Practicar →</button></article>`).join('');
+}
 $('modules').addEventListener('click',e=>{const b=e.target.closest('[data-part]');if(b)openSetup(b.dataset.mode,Number(b.dataset.part));});
+$('catalog').addEventListener('click',e=>{const b=e.target.closest('[data-original]');if(b)openSetup('original',b.dataset.original);});
+$('catalog-search').addEventListener('input',renderCatalog);
+$('catalog-filter').addEventListener('change',renderCatalog);
+$('ultimate').onclick=()=>openSetup('ultimate');
 $('history').addEventListener('click',e=>{const b=e.target.closest('[data-record]');if(!b)return;if(current&&!current.finishedAt){alert('Termina el intento en curso antes de abrir otro resultado.');return;}current=JSON.parse(JSON.stringify(history[Number(b.dataset.record)]));persist();renderResults();});
 $('diagnostic').onclick=()=>openSetup('diagnostic');$('mock').onclick=()=>openSetup('mock');$('begin').onclick=begin;$('finish').onclick=finishManually;
 $('reflection').oninput=saveReflection;$('copy').onclick=copySummary;
@@ -152,11 +164,11 @@ $('whatsapp').onclick=()=>{saveReflection();window.open('https://wa.me/?text='+e
 $('download').onclick=()=>{saveReflection();download(current,'reading-intento-'+current.id+'.json');};
 $('export-history').onclick=()=>download({version:READING_VERSION,exportedAt:new Date().toISOString(),attempts:history},'reading-historial.json');
 $('show-review').onclick=()=>{saveReflection();current.feedbackSeen=true;persist();archive();$('review').innerHTML=reviewHtml();$('review').hidden=false;$('show-review').textContent='Corrección consultada';$('review').scrollIntoView({behavior:'smooth'});};
-$('new-attempt').onclick=()=>{const mode=current.mode,idx=READING_BANK.findIndex(p=>p.id===current.parts[0].id);openSetup(mode,Math.max(0,idx));};
+$('new-attempt').onclick=()=>{const mode=current.mode,idx=READING_BANK.findIndex(p=>p.id===current.parts[0].id);openSetup(mode,mode==='original'?current.parts[0].id:Math.max(0,idx));};
 $('official-form').onsubmit=e=>{e.preventDefault();const data=new FormData(e.target),correct=Number(data.get('correct')),total=Number(data.get('total')),minutes=Number(data.get('minutes'));if(correct>total||!Number.isInteger(correct)||!Number.isInteger(total)){ $('official-status').textContent='Los aciertos deben ser enteros entre cero y el total de preguntas.';return;}history.unshift({id:crypto.randomUUID?crypto.randomUUID():String(Date.now()),kind:'official',source:String(data.get('source')).trim(),startedAt:Date.now(),correct,total,minutes,notes:String(data.get('notes')),repeated:data.get('repeated')==='on'});write(HISTORY_KEY,history);renderHome();e.target.reset();$('official-status').textContent='Práctica guardada.';};
 document.addEventListener('visibilitychange',()=>{if(!document.hidden){synchronize();if(current&&!current.finishedAt)updateClock();}});
 window.addEventListener('beforeunload',persist);
 renderHome();
 if(current&&!current.finishedAt){synchronize();if(!current.finishedAt){renderExam();startClock();}}
-else {const params=new URLSearchParams(location.search),mode=params.get('mode'),part=Number(params.get('part')||1)-1;if(['diagnostic','mock','timed','untimed'].includes(mode))openSetup(mode,Number.isInteger(part)&&part>=0&&part<READING_BANK.length?part:0);}
+else {const params=new URLSearchParams(location.search),mode=params.get('mode'),part=Number(params.get('part')||1)-1,id=params.get('id');if(['diagnostic','mock','timed','untimed','ultimate'].includes(mode))openSetup(mode,Number.isInteger(part)&&part>=0&&part<READING_BANK.length?part:0);else if(mode==='original'&&ORIGINAL_BANK.some(p=>p.id===id))openSetup('original',id);}
 
