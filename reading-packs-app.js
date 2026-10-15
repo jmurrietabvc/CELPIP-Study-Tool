@@ -2,7 +2,7 @@
 
 const CURRENT_KEY = 'celpip-reading-packs-current-v1';
 const HISTORY_KEY = 'celpip-reading-packs-history-v1';
-const APP_VERSION = 'full-packs-1';
+const APP_VERSION = 'full-packs-2';
 const $ = id => document.getElementById(id);
 const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const read = (key, fallback) => { try { const value=JSON.parse(localStorage.getItem(key)); return value===null?fallback:value; } catch { return fallback; } };
@@ -41,7 +41,8 @@ function renderPacks(){
     const attempts=packAttempts(pack.id);
     const inProgress=current && !current.finishedAt && current.packId===pack.id;
     const status=inProgress?'EN CURSO':attempts?`USADO ${attempts} VEZ${attempts===1?'':'ES'}`:'NUEVO';
-    return `<article class="module-card ${attempts?'used-pack':''}"><p class="eyebrow">Pack ${pack.number} · ${status}</p><h3>${esc(pack.title)}</h3><p>${attempts?'Ya viste estos textos. Úsalo sólo para revisión, no para medir progreso.':'Los temas permanecen ocultos hasta comenzar.'}</p><div class="meta"><span>4 partes</span><span>${pack.questions} preguntas</span><span>${pack.minutes} min</span></div><button data-pack="${pack.id}">${inProgress?'Continuar intento →':attempts?'Revisar pack usado →':'Comenzar pack nuevo →'}</button></article>`;
+    const extra=(pack.totalQuestions||pack.questions)-pack.questions;
+    return `<article class="module-card ${attempts?'used-pack':''}"><p class="eyebrow">Pack ${pack.number} · ${status}</p><h3>${esc(pack.title)}</h3><p>${attempts?'Ya viste estos textos. Úsalo sólo para revisión, no para medir progreso.':extra?'Incluye contenido no puntuado que sólo se identifica al terminar.':'Los temas permanecen ocultos hasta comenzar.'}</p><div class="meta"><span>${pack.parts.length} bloques</span><span>${pack.questions} puntuadas${extra?` + ${extra} no puntuadas`:''}</span><span>${pack.minutes} min</span></div><button data-pack="${pack.id}">${inProgress?'Continuar intento →':attempts?'Revisar pack usado →':'Comenzar pack nuevo →'}</button></article>`;
   }).join('');
   $('pack-list').querySelectorAll('[data-pack]').forEach(button=>button.addEventListener('click',()=>openSetup(button.dataset.pack)));
 }
@@ -56,7 +57,8 @@ function openSetup(packId){
   }
   selectedPack=pack;
   $('setup-title').textContent=pack.title;
-  $('setup-facts').innerHTML=`<span>${pack.parts.length} partes</span><span>${pack.questions} preguntas</span><span>${pack.minutes} minutos</span>`;
+  const extra=(pack.totalQuestions||pack.questions)-pack.questions;
+  $('setup-facts').innerHTML=`<span>${pack.parts.length} bloques</span><span>${pack.questions} puntuadas${extra?` + ${extra} no puntuadas`:''}</span><span>${pack.minutes} minutos</span>`;
   const attempts=packAttempts(pack.id);
   $('repeat-warning').hidden=!attempts;
   $('repeat-warning').textContent='Este pack ya fue usado. Conocer los textos o las opciones invalida el resultado como medición de material nuevo.';
@@ -121,7 +123,7 @@ function renderExam(){
   if(!current || current.finishedAt) return;
   const state=current.parts[current.partIndex],part=partFor(state);
   show('exam');
-  $('mode-label').textContent=`${current.packTitle} · Parte ${current.partIndex+1} de ${current.parts.length}`;
+  $('mode-label').textContent=`${current.packTitle} · Bloque ${current.partIndex+1} de ${current.parts.length}`;
   $('exam-title').textContent=part.title;
   $('passage-panel').innerHTML=passageHtml(part);
   let previousGroup=null;
@@ -130,7 +132,7 @@ function renderExam(){
     previousGroup=question.group;
     return `${label}<fieldset class="question"><legend>${index+1}. ${esc(question.text)}</legend><div class="options">${question.options.map((option,choice)=>`<label class="choice"><input type="radio" name="q${index}" value="${choice}" ${state.answers[index]===choice?'checked':''}><span>${part.part===3?'':String.fromCharCode(65+choice)+'. '}${esc(option)}</span></label>`).join('')}</div></fieldset>`;
   }).join('');
-  $('finish').textContent=current.partIndex<current.parts.length-1?'Cerrar y pasar a la siguiente parte':'Terminar pack';
+  $('finish').textContent=current.partIndex<current.parts.length-1?'Cerrar y pasar al siguiente bloque':'Terminar pack';
   $('passage-panel').scrollTop=0; $('question-panel').scrollTop=0; window.scrollTo(0,0); updateClock();
 }
 
@@ -157,16 +159,17 @@ function closeCurrentPart(){
 }
 
 function resultData(){
-  const rows=current.parts.map((state,index)=>({part:index+1,correct:scorePart(state),answered:count(state.answers),total:state.answers.length,expired:state.expired,minutes:(state.finishedAt-state.startedAt)/60000}));
-  return {rows,correct:sum(rows.map(row=>row.correct)),answered:sum(rows.map(row=>row.answered)),total:sum(rows.map(row=>row.total))};
+  const rows=current.parts.map((state,index)=>({block:index+1,part:partFor(state).part,scored:partFor(state).scored!==false,correct:scorePart(state),answered:count(state.answers),total:state.answers.length,expired:state.expired,minutes:(state.finishedAt-state.startedAt)/60000}));
+  const scored=rows.filter(row=>row.scored),unscored=rows.filter(row=>!row.scored);
+  return {rows,unscored,correct:sum(scored.map(row=>row.correct)),answered:sum(scored.map(row=>row.answered)),total:sum(scored.map(row=>row.total)),overallAnswered:sum(rows.map(row=>row.answered)),overallTotal:sum(rows.map(row=>row.total))};
 }
 function renderResults(){
   if(!current || !current.finishedAt) return;
   const data=resultData(), omitted=data.total-data.answered;
   show('results');
   $('result-title').textContent=current.packTitle;
-  $('result-metrics').innerHTML=`<div class="metric-grid"><div><strong>${data.correct}/${data.total}</strong><span>Aciertos</span></div><div><strong>${data.answered}/${data.total}</strong><span>Respondidas</span></div><div><strong>${omitted}</strong><span>Sin responder</span></div><div><strong>43:00</strong><span>Tiempo objetivo</span></div></div><div class="part-breakdown">${data.rows.map(row=>`<span>Part ${row.part}: <strong>${row.correct}/${row.total}</strong> · ${row.answered} respondidas${row.expired?' · tiempo agotado':''}</span>`).join('')}</div>`;
-  $('interpretation').textContent=omitted?`Quedaron ${omitted} preguntas sin responder. El primer problema medible es cobertura bajo tiempo: hay que decidir antes y proteger minutos para Parts 3 y 4.`:'Terminaste las 38 preguntas. Ahora revisa si los errores vienen de localizar evidencia, interpretar alcance o descartar una opción cercana.';
+  $('result-metrics').innerHTML=`<div class="metric-grid"><div><strong>${data.correct}/${data.total}</strong><span>Aciertos puntuados</span></div><div><strong>${data.answered}/${data.total}</strong><span>Respondidas puntuadas</span></div><div><strong>${omitted}</strong><span>Sin responder</span></div><div><strong>${data.unscored.length?data.unscored[0].total:0}</strong><span>Preguntas no puntuadas</span></div></div><div class="part-breakdown">${data.rows.map(row=>`<span>Bloque ${row.block} · Part ${row.part}: ${row.scored?`<strong>${row.correct}/${row.total}</strong>`:'<strong>No puntuado</strong>'} · ${row.answered}/${row.total} respondidas${row.expired?' · tiempo agotado':''}</span>`).join('')}</div>`;
+  $('interpretation').textContent=omitted?`Quedaron ${omitted} preguntas puntuadas sin responder. Hay que decidir antes y proteger minutos para los bloques finales.`:data.unscored.length?`Terminaste toda la carga. El bloque ${data.unscored[0].block} no contó en el resultado, igual que el contenido de desarrollo que CELPIP puede incluir sin identificar durante la prueba.`:'Terminaste las 38 preguntas. Ahora revisa si los errores vienen de localizar evidencia, interpretar alcance o descartar una opción cercana.';
   $('reflection').value=current.reflection||'';
   $('review').hidden=!current.feedbackSeen;
   $('show-review').textContent=current.feedbackSeen?'Ocultar corrección':'Ver corrección y evidencia';
@@ -176,7 +179,7 @@ function renderResults(){
 function renderReview(){
   $('review').innerHTML=current.parts.map((state,partIndex)=>{
     const part=partFor(state);
-    return `<section class="review-part"><p class="eyebrow">Part ${partIndex+1}</p><h2>${esc(part.title)} · ${scorePart(state)}/${state.answers.length}</h2>${part.questions.map((q,index)=>{
+    return `<section class="review-part"><p class="eyebrow">Bloque ${partIndex+1} · Part ${part.part}</p><h2>${esc(part.title)} · ${part.scored===false?'No puntuado':`${scorePart(state)}/${state.answers.length}`}</h2>${part.questions.map((q,index)=>{
       const chosen=state.answers[index], ok=chosen===q.answer;
       return `<article class="review-item ${ok?'correct':'wrong'}"><h3>${index+1}. ${esc(q.text)}</h3><p><strong>Tu respuesta:</strong> ${chosen===null?'Sin responder':esc(q.options[chosen])}</p><p><strong>Correcta:</strong> ${esc(q.options[q.answer])}</p><p><strong>Evidencia:</strong> ${esc(q.evidence)}</p></article>`;
     }).join('')}</section>`;
@@ -184,7 +187,7 @@ function renderReview(){
 }
 function summaryText(){
   const data=resultData(), omitted=data.total-data.answered;
-  return `CELPIP READING · FULL MOCK\n${current.packTitle}\nFecha: ${dated(current.finishedAt)}\nAciertos: ${data.correct}/${data.total}\nRespondidas: ${data.answered}/${data.total}\nSin responder: ${omitted}\n${data.rows.map(row=>`Part ${row.part}: ${row.correct}/${row.total} · ${row.answered}/${row.total} respondidas${row.expired?' · tiempo agotado':''}`).join('\n')}\n\nNOTAS\n${current.reflection||'Sin notas'}\n\nMaterial propio · Sin equivalencia CLB\nhttps://jmurrietabvc.github.io/CELPIP-Study-Tool/`;
+  return `CELPIP READING · FULL MOCK\n${current.packTitle}\nFecha: ${dated(current.finishedAt)}\nAciertos puntuados: ${data.correct}/${data.total}\nRespondidas puntuadas: ${data.answered}/${data.total}\nSin responder: ${omitted}\n${data.rows.map(row=>`Bloque ${row.block} · Part ${row.part}: ${row.scored?`${row.correct}/${row.total}`:'NO PUNTUADO'} · ${row.answered}/${row.total} respondidas${row.expired?' · tiempo agotado':''}`).join('\n')}\n\nNOTAS\n${current.reflection||'Sin notas'}\n\nMaterial propio · Sin equivalencia CLB\nhttps://jmurrietabvc.github.io/CELPIP-Study-Tool/`;
 }
 function download(name,content){
   const url=URL.createObjectURL(new Blob([content],{type:'text/plain;charset=utf-8'}));
@@ -205,7 +208,7 @@ function renderHistory(){
   if(!history.length){$('history').innerHTML='<p class="empty">Todavía no hay resultados de estos packs.</p>';return;}
   $('history').innerHTML=history.slice(0,12).map(item=>{
     if(item.kind==='official') return `<article><div><strong>${esc(item.source)}</strong><span>${dated(item.finishedAt)} · oficial registrado</span></div><div><strong>${item.correct}/${item.total}</strong><span>${item.minutes} min</span></div></article>`;
-    const parts=item.parts||[], total=sum(parts.map(p=>p.answers.length)), answered=sum(parts.map(p=>count(p.answers))), correct=sum(parts.map(p=>scorePart(p)));
+    const parts=(item.parts||[]).filter(p=>partFor(p).scored!==false), total=sum(parts.map(p=>p.answers.length)), answered=sum(parts.map(p=>count(p.answers))), correct=sum(parts.map(p=>scorePart(p)));
     return `<article><div><strong>${esc(item.packTitle)}</strong><span>${dated(item.finishedAt)}${item.repeated?' · repetición':''}</span></div><div><strong>${correct}/${total}</strong><span>${answered}/${total} respondidas</span></div></article>`;
   }).join('');
 }
