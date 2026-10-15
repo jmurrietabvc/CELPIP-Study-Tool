@@ -170,6 +170,7 @@ const READING_PACKS = [
 
 for (const pack of READING_PACKS) {
   pack.questions = pack.parts.reduce((sum, part) => sum + part.questions.length, 0);
+  pack.totalQuestions = pack.questions;
   pack.minutes = pack.parts.reduce((sum, part) => sum + part.minutes, 0);
 }
 
