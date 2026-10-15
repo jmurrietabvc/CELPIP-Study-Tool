@@ -492,6 +492,74 @@ A customer`,questions:[
  ]}
 ];
 
+const UNSCORED_6={id:'pack-6-extra',part:3,title:'Reading for Information · Pool access pilot',minutes:10,source:'pack',scored:false,passage:`A
+The Lakeside pool is testing early-morning lane swimming on Tuesdays and Thursdays. The building will open at 6 a.m., but the customer-service desk will not open until its usual 8 a.m. time. Swimmers must therefore hold an active membership or buy a single-entry pass online before arriving. Cash payment and new membership registration will remain available only during staffed desk hours.
+
+B
+The accessible change room will be open during the pilot. A lift into the pool is also available, but anyone needing staff assistance with the lift must request it by 4 p.m. the previous day. The request is for assistance, not for reserving a lane. Pool staff may group requests at similar times so that the trained attendant can help several swimmers efficiently.
+
+C
+Four lanes will be available for continuous swimming, and two will be used for a coached program. A general admission pass does not include the coached session. If fewer than five people register for coaching by noon the previous day, that session may be cancelled and its lanes returned to general swimming. Registered participants will receive an email; silence should not be treated as cancellation.
+
+D
+The eight-week review will examine attendance, staffing costs and use across different times. Officials caution that a busy first week may reflect curiosity rather than sustained demand. They will also record occasions when online payment or advance assistance requirements prevented access. No attendance threshold has been set, and a successful pilot would still require funding approval before the hours become permanent.`,questions:[
+ pp('Which paragraph explains why arriving with money does not guarantee entry during the extra hours?','A','The service desk is closed, so payment must already be completed online.'),
+ pp('Which paragraph distinguishes help using equipment from reservation of swimming space?','B','The assistance request does not reserve a lane.'),
+ pp('Which paragraph states the minimum attendance required to make early hours permanent?','E','No permanent-hours threshold is stated.'),
+ pp('Which paragraph explains how low enrolment in one activity could increase space for another?','C','Cancelled coaching returns two lanes to general swimming.'),
+ pp('Which paragraph warns against treating initial popularity as lasting demand?','D','First-week curiosity may not persist.'),
+ pp('Which paragraph specifies when assistance must be requested?','B','The deadline is 4 p.m. on the previous day.'),
+ pp('Which paragraph says the absence of a message should not be interpreted as a schedule change?','C','Participants are emailed if coaching is cancelled.'),
+ pp('Which paragraph identifies access barriers as part of the evaluation rather than only attendance?','D','The review records payment and assistance barriers.'),
+ pp('Which paragraph separates entry for existing users from creation of a new membership?','A','New registration stays within staffed hours.')
+]};
+
+const UNSCORED_7={id:'pack-7-extra',part:2,title:'Reading to Apply a Diagram · Rail replacement buses',minutes:9,source:'pack',scored:false,passage:`Metro Rail will replace evening trains with buses between Central and Westhaven from November 3 to 7. Rail tickets and passes are accepted on replacement buses. Bicycle spaces are limited and cannot be reserved. A listed connection is planned, not guaranteed; passengers should allow another departure when travelling to a fixed appointment.
+
+Accessible buses operate on every route shown. A passenger needing boarding assistance may travel without advance notice, but calling before 5 p.m. helps staff position support at crowded stops.`,table:{headers:['Depart','From','To','Arrive','Connection','Notes'],rows:[['18:10','Central','Westhaven','18:55','Local 19:05','Express'],['18:30','Central','Riverside','18:55','Westhaven 19:10','All stops'],['19:10','Riverside','Westhaven','19:35','None','All stops'],['20:00','Westhaven','Central','20:45','Airport 21:00','Express'],['20:20','Westhaven','Riverside','20:45','Central 20:55','All stops'],['21:05','Riverside','Central','21:30','None','All stops']]},reply:`Hi Dana,
+
+For a direct trip from Central to Westhaven, the first listed bus leaves at [6]. Your rail pass [7]. If travelling with a bicycle, remember that [8].
+
+Metro Rail`,questions:[
+ px('Which bus allows a Riverside passenger to reach Central by 21:30?','The 21:05 all-stops departure.',['The 20:00 express.','The 20:20 Westhaven departure.','The 19:10 Riverside departure.'],'The 21:05 trip runs Riverside to Central and arrives 21:30.'),
+ px('What does the 18:30 Central departure require for travel to Westhaven?','A change at Riverside to the 19:10 bus.',['A direct express ride.','A bicycle reservation.','A new bus-only ticket.'],'It terminates at Riverside and lists the Westhaven connection.'),
+ px('Which listed trip connects with the airport service?','The 20:00 Westhaven express.',['The 18:10 Central express.','The 20:20 Westhaven all-stops bus.','The 21:05 Riverside bus.'],'It arrives Central at 20:45 for the 21:00 airport service.'),
+ px('What is true of the listed connections?','Passengers should not rely on them for a fixed-time commitment.',['They are guaranteed whenever a rail pass is used.','They wait for every delayed replacement bus.','They require advance seat reservations.'],'The notice calls them planned but not guaranteed.'),
+ px('What benefit can an advance accessibility call provide?','It helps position assistance at a crowded stop.',['It is required to board an accessible bus.','It reserves a bicycle space.','It guarantees a connection.'],'Advance notice is helpful but not mandatory.'),
+ px('Complete blank [6].','18:10',['18:30','18:55','19:10'],'The first direct express departs at 18:10.',2),
+ px('Complete blank [7].','is accepted on the replacement bus',['must be exchanged for a bus ticket','guarantees the 19:05 connection','reserves an accessible seat'],'Existing rail fares are accepted.',2),
+ px('Complete blank [8].','space is limited and cannot be reserved',['bicycles are prohibited on every route','a rail pass reserves bicycle space','only all-stops buses carry bicycles'],'The notice describes limited, unreservable bicycle capacity.',2)
+]};
+
+const UNSCORED_8={id:'pack-8-extra',part:4,title:'Reading for Viewpoints · Weekend clinic hours',minutes:13,source:'pack',scored:false,passage:`A community health centre proposes opening on Saturday mornings for a six-month pilot. Existing weekday staff would rotate into Saturday shifts and receive a weekday off, so the total number of clinical hours would remain unchanged. Saturday appointments would initially be limited to routine follow-ups and vaccinations; urgent concerns would continue through the regional service.
+
+Physician Karen Li supports the pilot because some patients repeatedly miss weekday follow-ups due to work. She wants the centre to compare completed appointments rather than bookings alone: moving an appointment to Saturday provides little benefit if patients still cannot attend. Li also warns that reducing weekday coverage could create longer waits, so access across the entire week must be measured.
+
+Patient representative Omar Reid agrees that weekend access could help but questions an online-first booking plan. The proposal reserves a small number of telephone bookings, yet their release time is not specified. Reid wants online and telephone spaces released together and wants staff to record unsuccessful booking attempts, not merely filled appointments. Otherwise, demand from people who could not enter the system would remain invisible.
+
+Nurse manager Beth Scott is concerned about continuity. Rotating days off may mean a patient’s usual nurse is unavailable on another weekday. She recommends assigning follow-ups to a care team rather than promising the same individual, and explaining that arrangement before patients select Saturday. She supports the pilot if staff workload, weekday delays and patient understanding are evaluated alongside Saturday attendance.
+
+The centre’s board has asked for a revised booking and staffing plan. No opening date has been approved.`,reply:`Dear Board,
+
+Saturday service may improve access, but the pilot should measure displacement as well as demand. Karen notes that [6]. Omar explains why [7]. Beth’s recommendation would [8]. Before setting an opening date, the centre should [9]. A credible review would [10].
+
+A patient`,questions:[
+ px('What stays constant under the proposal?','The total number of clinical hours.',['The weekday schedule for every employee.','Access to urgent Saturday care.','The availability of each patient’s usual nurse.'],'Saturday shifts replace some weekday work.'),
+ px('What concern do Karen and Beth share?','Saturday service could affect access or continuity on weekdays.',['Vaccination should be removed from the pilot.','Every patient requires the same nurse.','Filled booking totals reveal all demand.'],'Both require evaluation beyond Saturday attendance.'),
+ px('What would most directly address Omar’s objection?','Release telephone places clearly and measure failed attempts.',['Restrict all booking to the website.','Count only completed appointments.','Promise the same nurse on Saturday.'],'He identifies timing and invisible unsuccessful demand.'),
+ px('Why does Beth prefer a team model?','Rotating days off may make one usual clinician unavailable.',['Saturday care includes urgent emergencies.','It increases total clinical hours.','Online booking prevents continuity.'],'The staffing rotation changes individual availability.'),
+ px('What has the board approved so far?','Further planning without an opening date.',['Permanent Saturday operation.','The online-first plan unchanged.','Additional total clinical hours.'],'The board requested revisions only.'),
+ px('Complete blank [6].','bookings alone do not show whether access actually improved',['weekday delays are unrelated to the pilot','every missed appointment should move to Saturday','Saturday attendance measures the whole week'],'She wants completed visits and weekly access assessed.',2),
+ px('Complete blank [7].','filled appointments can hide people unable to book',['telephone booking should be eliminated','online users should receive all places first','vaccinations require urgent-care staffing'],'He wants unsuccessful attempts recorded.',2),
+ px('Complete blank [8].','set realistic continuity expectations under rotating schedules',['guarantee the same nurse every day','remove weekday days off','turn routine visits into urgent care'],'A care team accounts for individual absences.',2),
+ px('Complete blank [9].','clarify booking releases and staffing coverage',['begin before the plans are revised','measure only Saturday attendance','increase total hours automatically'],'Those operational plans remain unresolved.',2),
+ px('Complete blank [10].','combine weekend use with weekday access, workload and unmet demand',['treat every booking as a completed visit','exclude failed booking attempts','assume no weekday service is displaced'],'All viewpoints require broader evidence.',2)
+]};
+
+PACK_6.splice(2,0,UNSCORED_6);
+PACK_7.splice(1,0,UNSCORED_7);
+PACK_8.splice(4,0,UNSCORED_8);
+
 for(const pack of [
  {id:'pack-4',number:4,title:'Mock Pack 4',subtitle:'Housing, recreation, public programs and work',parts:PACK_4},
  {id:'pack-5',number:5,title:'Mock Pack 5',subtitle:'Community access, transport, health and streets',parts:PACK_5},
@@ -499,7 +567,8 @@ for(const pack of [
  {id:'pack-7',number:7,title:'Mock Pack 7',subtitle:'Building access, licensing, alerts and parks',parts:PACK_7},
  {id:'pack-8',number:8,title:'Mock Pack 8',subtitle:'Volunteering, education, housing and health',parts:PACK_8}
 ]){
- pack.questions=pack.parts.reduce((total,part)=>total+part.questions.length,0);
+ pack.questions=pack.parts.filter(part=>part.scored!==false).reduce((total,part)=>total+part.questions.length,0);
+ pack.totalQuestions=pack.parts.reduce((total,part)=>total+part.questions.length,0);
  pack.minutes=pack.parts.reduce((total,part)=>total+part.minutes,0);
  READING_PACKS.push(pack);
 }
