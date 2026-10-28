@@ -163,6 +163,32 @@ function resultData(){
   const scored=rows.filter(row=>row.scored),unscored=rows.filter(row=>!row.scored);
   return {rows,unscored,correct:sum(scored.map(row=>row.correct)),answered:sum(scored.map(row=>row.answered)),total:sum(scored.map(row=>row.total)),overallAnswered:sum(rows.map(row=>row.answered)),overallTotal:sum(rows.map(row=>row.total))};
 }
+function mistakeDetails(attempt=current){
+  if(!attempt || !Array.isArray(attempt.parts)) return '';
+  const sections=attempt.parts.map((state,partIndex)=>{
+    const part=partFor(state);
+    if(part.scored===false) return '';
+    const wrong=part.questions.map((q,index)=>({q,index,chosen:state.answers[index]})).filter(item=>item.chosen!==item.q.answer);
+    if(!wrong.length) return '';
+    const minutes=state.startedAt&&state.finishedAt?((state.finishedAt-state.startedAt)/60000).toFixed(1):'—';
+    return `\nBloque ${partIndex+1} · Part ${part.part} · ${wrong.length} error(es) · ${minutes} min\n`+wrong.map(({q,index,chosen})=>{
+      const options=q.options.map((option,choice)=>`${String.fromCharCode(65+choice)}) ${option}`).join(' | ');
+      const selected=chosen===null?'Sin responder':`${String.fromCharCode(65+chosen)}) ${q.options[chosen]}`;
+      const correct=`${String.fromCharCode(65+q.answer)}) ${q.options[q.answer]}`;
+      return `${index+1}. ${q.text}\nOpciones: ${options}\nMarcó: ${selected}\nCorrecta: ${correct}\nEvidencia: ${q.evidence}`;
+    }).join('\n\n');
+  }).filter(Boolean);
+  return sections.length?`\n\nERRORES PARA REVISIÓN${sections.join('')}\n`:'\n\nERRORES PARA REVISIÓN\nNinguno en los bloques puntuados.\n';
+}
+
+function openHistoryAttempt(id){
+  const attempt=history.find(item=>item.id===id && item.kind==='mock');
+  if(!attempt) return;
+  current=JSON.parse(JSON.stringify(attempt));
+  write(CURRENT_KEY,current);
+  renderResults();
+}
+
 function renderResults(){
   if(!current || !current.finishedAt) return;
   const data=resultData(), omitted=data.total-data.answered;
@@ -187,7 +213,7 @@ function renderReview(){
 }
 function summaryText(){
   const data=resultData(), omitted=data.total-data.answered;
-  return `CELPIP READING · FULL MOCK\n${current.packTitle}\nFecha: ${dated(current.finishedAt)}\nAciertos puntuados: ${data.correct}/${data.total}\nRespondidas puntuadas: ${data.answered}/${data.total}\nSin responder: ${omitted}\n${data.rows.map(row=>`Bloque ${row.block} · Part ${row.part}: ${row.scored?`${row.correct}/${row.total}`:'NO PUNTUADO'} · ${row.answered}/${row.total} respondidas${row.expired?' · tiempo agotado':''}`).join('\n')}\n\nNOTAS\n${current.reflection||'Sin notas'}\n\nMaterial propio · Sin equivalencia CLB\nhttps://jmurrietabvc.github.io/CELPIP-Study-Tool/`;
+  return `CELPIP READING · FULL MOCK\n${current.packTitle}\nFecha: ${dated(current.finishedAt)}\nAciertos puntuados: ${data.correct}/${data.total}\nRespondidas puntuadas: ${data.answered}/${data.total}\nSin responder: ${omitted}\n${data.rows.map(row=>`Bloque ${row.block} · Part ${row.part}: ${row.scored?`${row.correct}/${row.total}`:'NO PUNTUADO'} · ${row.answered}/${row.total} respondidas${row.expired?' · tiempo agotado':''}`).join('\n')}\n\nNOTAS\n${current.reflection||'Sin notas'}${mistakeDetails(current)}\nMaterial propio · Sin equivalencia CLB\nhttps://jmurrietabvc.github.io/CELPIP-Study-Tool/`;
 }
 function download(name,content){
   const url=URL.createObjectURL(new Blob([content],{type:'text/plain;charset=utf-8'}));
@@ -209,8 +235,9 @@ function renderHistory(){
   $('history').innerHTML=history.slice(0,12).map(item=>{
     if(item.kind==='official') return `<article><div><strong>${esc(item.source)}</strong><span>${dated(item.finishedAt)} · oficial registrado</span></div><div><strong>${item.correct}/${item.total}</strong><span>${item.minutes} min</span></div></article>`;
     const parts=(item.parts||[]).filter(p=>partFor(p).scored!==false), total=sum(parts.map(p=>p.answers.length)), answered=sum(parts.map(p=>count(p.answers))), correct=sum(parts.map(p=>scorePart(p)));
-    return `<article><div><strong>${esc(item.packTitle)}</strong><span>${dated(item.finishedAt)}${item.repeated?' · repetición':''}</span></div><div><strong>${correct}/${total}</strong><span>${answered}/${total} respondidas</span></div></article>`;
+    return `<article><div><strong>${esc(item.packTitle)}</strong><span>${dated(item.finishedAt)}${item.repeated?' · repetición':''}</span></div><div><strong>${correct}/${total}</strong><span>${answered}/${total} respondidas</span></div><button type="button" data-history-open="${esc(item.id)}">Abrir detalle</button></article>`;
   }).join('');
+  $('history').querySelectorAll('[data-history-open]').forEach(button=>button.addEventListener('click',()=>openHistoryAttempt(button.dataset.historyOpen)));
 }
 
 $('official-form').addEventListener('submit',event=>{
